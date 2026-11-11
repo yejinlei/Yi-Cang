@@ -7,6 +7,7 @@ __pycache__/
 .DS_Store
 .screenshots/
 download.log
+.trae/
 # 抓取原始 HTML 中间产物（原文已提取为 texts/*.txt，不入库）
 data/yizang/raw/
 
