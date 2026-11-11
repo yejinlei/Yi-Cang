@@ -1,0 +1,6306 @@
+[
+  {
+    "name": "一得集",
+    "file": "texts/第三编_医案医话/一得集.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "一瓢医案",
+    "file": "texts/第三编_医案医话/一瓢医案.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "一草亭目科全书",
+    "file": "texts/第三编_眼科/一草亭目科全书.txt",
+    "bian": "第三编",
+    "lei": "眼科",
+    "confidence": 0.9,
+    "matched_by": "眼科类"
+  },
+  {
+    "name": "丁甘仁医案",
+    "file": "texts/第三编_医案医话/丁甘仁医案.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "七十二症辨治方法",
+    "file": "texts/第二编_方书/七十二症辨治方法.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "万氏家传养生四要",
+    "file": "texts/第一编_养生/万氏家传养生四要.txt",
+    "bian": "第一编",
+    "lei": "养生",
+    "confidence": 0.9,
+    "matched_by": "养生类"
+  },
+  {
+    "name": "万氏秘传外科心法",
+    "file": "texts/第三编_外科/万氏秘传外科心法.txt",
+    "bian": "第三编",
+    "lei": "外科",
+    "confidence": 0.9,
+    "matched_by": "外科类"
+  },
+  {
+    "name": "万氏秘传片玉心书",
+    "file": "texts/第三编_儿科/万氏秘传片玉心书.txt",
+    "bian": "第三编",
+    "lei": "儿科",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "万病回春",
+    "file": "texts/第三编_通论/万病回春.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "三因极一病证方论",
+    "file": "texts/第二编_病因病机/三因极一病证方论.txt",
+    "bian": "第二编",
+    "lei": "病因病机",
+    "confidence": 0.9,
+    "matched_by": "病因病机类"
+  },
+  {
+    "name": "三家医案合刻",
+    "file": "texts/第三编_医案医话/三家医案合刻.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "三指禅",
+    "file": "texts/第二编_诊法/三指禅.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "三消论",
+    "file": "texts/第三编_内科/三消论.txt",
+    "bian": "第三编",
+    "lei": "内科",
+    "confidence": 0.9,
+    "matched_by": "内科类"
+  },
+  {
+    "name": "上池杂说",
+    "file": "texts/第三编_通论/上池杂说.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "专治麻痧初编",
+    "file": "texts/第三编_内科/专治麻痧初编.txt",
+    "bian": "第三编",
+    "lei": "内科",
+    "confidence": 0.9,
+    "matched_by": "内科类"
+  },
+  {
+    "name": "世医得效方",
+    "file": "texts/第二编_方书/世医得效方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "丛桂草堂医案",
+    "file": "texts/第三编_医案医话/丛桂草堂医案.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "严氏济生方",
+    "file": "texts/第二编_方书/严氏济生方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "中医蒙求",
+    "file": "texts/第一编_医史/中医蒙求.txt",
+    "bian": "第一编",
+    "lei": "医史",
+    "confidence": 0.9,
+    "matched_by": "医史类"
+  },
+  {
+    "name": "中国医籍考",
+    "file": "texts/第一编_医史/中国医籍考.txt",
+    "bian": "第一编",
+    "lei": "医史",
+    "confidence": 0.9,
+    "matched_by": "医史类"
+  },
+  {
+    "name": "中寒论辩证广注",
+    "file": "texts/第一编_伤寒金匮/中寒论辩证广注.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "中藏经",
+    "file": "texts/第三编_女科/中藏经.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "中西汇通医经精义",
+    "file": "texts/第一编_医经/中西汇通医经精义.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "医经总类"
+  },
+  {
+    "name": "中风论",
+    "file": "texts/第三编_内科/中风论.txt",
+    "bian": "第三编",
+    "lei": "内科",
+    "confidence": 0.9,
+    "matched_by": "内科类"
+  },
+  {
+    "name": "串雅内外编",
+    "file": "texts/第二编_方书/串雅内外编.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "临症验舌法",
+    "file": "texts/第二编_诊法/临症验舌法.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "临证指南医案",
+    "file": "texts/第三编_医案医话/临证指南医案.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "丹医秘授古脉法",
+    "file": "texts/第二编_诊法/丹医秘授古脉法.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "丹台玉案",
+    "file": "texts/第三编_通论/丹台玉案.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "丹溪心法",
+    "file": "texts/第三编_通论/丹溪心法.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "丹溪手镜",
+    "file": "texts/第三编_通论/丹溪手镜.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "丹溪治法心要",
+    "file": "texts/第三编_通论/丹溪治法心要.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "也是山人医案",
+    "file": "texts/第三编_医案医话/也是山人医案.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "产后十八论",
+    "file": "texts/第三编_女科/产后十八论.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "产宝",
+    "file": "texts/第三编_女科/产宝.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "产宝诸方",
+    "file": "texts/第二编_方书/产宝诸方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "产育宝庆集",
+    "file": "texts/第三编_女科/产育宝庆集.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "产鉴",
+    "file": "texts/第三编_女科/产鉴.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "仁斋直指",
+    "file": "texts/第三编_通论/仁斋直指.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "仁斋直指方论",
+    "file": "texts/第二编_方书/仁斋直指方论.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "仁术便览",
+    "file": "texts/第三编_通论/仁术便览.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "仁端录",
+    "file": "texts/第三编_儿科/仁端录.txt",
+    "bian": "第三编",
+    "lei": "儿科",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "仙传外科集验方",
+    "file": "texts/第二编_方书/仙传外科集验方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "仙授理伤续断秘方",
+    "file": "texts/第二编_方书/仙授理伤续断秘方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "仲景伤寒补亡论",
+    "file": "texts/第一编_伤寒金匮/仲景伤寒补亡论.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "仿寓意草",
+    "file": "texts/第三编_医案医话/仿寓意草.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "传信适用方",
+    "file": "texts/第二编_方书/传信适用方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "伤寒九十论",
+    "file": "texts/第一编_伤寒金匮/伤寒九十论.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒六书",
+    "file": "texts/第一编_伤寒金匮/伤寒六书.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒兼证析义",
+    "file": "texts/第一编_伤寒金匮/伤寒兼证析义.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒医诀串解",
+    "file": "texts/第一编_伤寒金匮/伤寒医诀串解.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒发微论",
+    "file": "texts/第一编_伤寒金匮/伤寒发微论.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒大白",
+    "file": "texts/第一编_伤寒金匮/伤寒大白.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒审证表",
+    "file": "texts/第一编_伤寒金匮/伤寒审证表.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒寻源",
+    "file": "texts/第一编_伤寒金匮/伤寒寻源.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒微旨论",
+    "file": "texts/第一编_伤寒金匮/伤寒微旨论.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒心境别集",
+    "file": "texts/第一编_伤寒金匮/伤寒心境别集.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒心法要诀",
+    "file": "texts/第一编_伤寒金匮/伤寒心法要诀.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒总病论",
+    "file": "texts/第一编_伤寒金匮/伤寒总病论.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒恒论",
+    "file": "texts/第一编_伤寒金匮/伤寒恒论.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒悬解",
+    "file": "texts/第一编_伤寒金匮/伤寒悬解.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒括要",
+    "file": "texts/第一编_伤寒金匮/伤寒括要.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒指掌",
+    "file": "texts/第一编_伤寒金匮/伤寒指掌.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒捷诀",
+    "file": "texts/第一编_伤寒金匮/伤寒捷诀.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒明理论",
+    "file": "texts/第一编_伤寒金匮/伤寒明理论.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒杂病论桂林古本",
+    "file": "texts/第一编_伤寒金匮/伤寒杂病论桂林古本.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒来苏集",
+    "file": "texts/第一编_伤寒金匮/伤寒来苏集.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒标本心法类萃",
+    "file": "texts/第一编_伤寒金匮/伤寒标本心法类萃.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒法祖",
+    "file": "texts/第一编_伤寒金匮/伤寒法祖.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒溯源集",
+    "file": "texts/第一编_伤寒金匮/伤寒溯源集.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒百证歌",
+    "file": "texts/第一编_伤寒金匮/伤寒百证歌.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒直格",
+    "file": "texts/第一编_伤寒金匮/伤寒直格.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒直格方",
+    "file": "texts/第一编_伤寒金匮/伤寒直格方.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒类方",
+    "file": "texts/第一编_伤寒金匮/伤寒类方.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒缵论",
+    "file": "texts/第一编_伤寒金匮/伤寒缵论.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒舌鉴",
+    "file": "texts/第一编_伤寒金匮/伤寒舌鉴.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒补例",
+    "file": "texts/第一编_伤寒金匮/伤寒补例.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒论",
+    "file": "texts/第一编_伤寒金匮/伤寒论.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒论宋版",
+    "file": "texts/第一编_伤寒金匮/伤寒论宋版.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒论条辨",
+    "file": "texts/第一编_伤寒金匮/伤寒论条辨.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒论注",
+    "file": "texts/第一编_伤寒金匮/伤寒论注.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒论注释",
+    "file": "texts/第一编_伤寒金匮/伤寒论注释.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒论类方",
+    "file": "texts/第一编_伤寒金匮/伤寒论类方.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒论纲目",
+    "file": "texts/第一编_伤寒金匮/伤寒论纲目.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒论翼",
+    "file": "texts/第一编_伤寒金匮/伤寒论翼.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒论辑义",
+    "file": "texts/第一编_伤寒金匮/伤寒论辑义.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒论辩证广注",
+    "file": "texts/第一编_伤寒金匮/伤寒论辩证广注.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒论集注",
+    "file": "texts/第一编_伤寒金匮/伤寒论集注.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒证治准绳",
+    "file": "texts/第一编_伤寒金匮/伤寒证治准绳.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒贯珠集",
+    "file": "texts/第一编_伤寒金匮/伤寒贯珠集.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒辨要笺记",
+    "file": "texts/第一编_伤寒金匮/伤寒辨要笺记.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤寒附翼",
+    "file": "texts/第一编_伤寒金匮/伤寒附翼.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "伤科大成",
+    "file": "texts/第三编_伤科/伤科大成.txt",
+    "bian": "第三编",
+    "lei": "伤科",
+    "confidence": 0.9,
+    "matched_by": "伤科类"
+  },
+  {
+    "name": "伤科方书",
+    "file": "texts/第二编_方书/伤科方书.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "伤科汇纂",
+    "file": "texts/第三编_伤科/伤科汇纂.txt",
+    "bian": "第三编",
+    "lei": "伤科",
+    "confidence": 0.9,
+    "matched_by": "伤科类"
+  },
+  {
+    "name": "伤科补要",
+    "file": "texts/第三编_伤科/伤科补要.txt",
+    "bian": "第三编",
+    "lei": "伤科",
+    "confidence": 0.9,
+    "matched_by": "伤科类"
+  },
+  {
+    "name": "何氏虚劳心传",
+    "file": "texts/第三编_内科/何氏虚劳心传.txt",
+    "bian": "第三编",
+    "lei": "内科",
+    "confidence": 0.9,
+    "matched_by": "内科类"
+  },
+  {
+    "name": "何澹安医案",
+    "file": "texts/第三编_医案医话/何澹安医案.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "余无言医案及医话",
+    "file": "texts/第三编_医案医话/余无言医案及医话.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "佛点头脉诀",
+    "file": "texts/第二编_诊法/佛点头脉诀.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "侣山堂类辩",
+    "file": "texts/第三编_通论/侣山堂类辩.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "保婴撮要",
+    "file": "texts/第三编_儿科/保婴撮要.txt",
+    "bian": "第三编",
+    "lei": "儿科",
+    "confidence": 0.9,
+    "matched_by": "儿科类"
+  },
+  {
+    "name": "保幼新编",
+    "file": "texts/第三编_儿科/保幼新编.txt",
+    "bian": "第三编",
+    "lei": "儿科",
+    "confidence": 0.9,
+    "matched_by": "儿科类"
+  },
+  {
+    "name": "修昆仑证验",
+    "file": "texts/第一编_养生/修昆仑证验.txt",
+    "bian": "第一编",
+    "lei": "养生",
+    "confidence": 0.9,
+    "matched_by": "养生类"
+  },
+  {
+    "name": "傅青主女科",
+    "file": "texts/第三编_女科/傅青主女科.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "傅青主女科歌括",
+    "file": "texts/第三编_女科/傅青主女科歌括.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "傅青主男科重编考释",
+    "file": "texts/第三编_通论/傅青主男科重编考释.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "儒门事亲",
+    "file": "texts/第三编_通论/儒门事亲.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "儿科萃精",
+    "file": "texts/第三编_儿科/儿科萃精.txt",
+    "bian": "第三编",
+    "lei": "儿科",
+    "confidence": 0.9,
+    "matched_by": "儿科类"
+  },
+  {
+    "name": "儿科要略",
+    "file": "texts/第三编_儿科/儿科要略.txt",
+    "bian": "第三编",
+    "lei": "儿科",
+    "confidence": 0.9,
+    "matched_by": "儿科类"
+  },
+  {
+    "name": "儿科醒",
+    "file": "texts/第三编_儿科/儿科醒.txt",
+    "bian": "第三编",
+    "lei": "儿科",
+    "confidence": 0.9,
+    "matched_by": "儿科类"
+  },
+  {
+    "name": "先哲医话",
+    "file": "texts/第三编_医案医话/先哲医话.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "先醒斋广笔记",
+    "file": "texts/第一编_本草/先醒斋广笔记.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "全生指迷方",
+    "file": "texts/第二编_方书/全生指迷方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "八十一难经",
+    "file": "texts/第一编_医经/八十一难经.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "难经类"
+  },
+  {
+    "name": "六因条辨",
+    "file": "texts/第三编_温病/六因条辨.txt",
+    "bian": "第三编",
+    "lei": "温病",
+    "confidence": 0.9,
+    "matched_by": "温病类"
+  },
+  {
+    "name": "兰台轨范",
+    "file": "texts/第三编_通论/兰台轨范.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "兰室秘藏",
+    "file": "texts/第三编_通论/兰室秘藏.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "养性延命录",
+    "file": "texts/第一编_养生/养性延命录.txt",
+    "bian": "第一编",
+    "lei": "养生",
+    "confidence": 0.9,
+    "matched_by": "养生类"
+  },
+  {
+    "name": "养生三要",
+    "file": "texts/第一编_养生/养生三要.txt",
+    "bian": "第一编",
+    "lei": "养生",
+    "confidence": 0.9,
+    "matched_by": "养生类"
+  },
+  {
+    "name": "养生导引法",
+    "file": "texts/第一编_养生/养生导引法.txt",
+    "bian": "第一编",
+    "lei": "养生",
+    "confidence": 0.9,
+    "matched_by": "养生类"
+  },
+  {
+    "name": "养生导引秘籍",
+    "file": "texts/第一编_养生/养生导引秘籍.txt",
+    "bian": "第一编",
+    "lei": "养生",
+    "confidence": 0.9,
+    "matched_by": "养生类"
+  },
+  {
+    "name": "养生秘旨",
+    "file": "texts/第一编_养生/养生秘旨.txt",
+    "bian": "第一编",
+    "lei": "养生",
+    "confidence": 0.9,
+    "matched_by": "养生类"
+  },
+  {
+    "name": "养生类要",
+    "file": "texts/第一编_养生/养生类要.txt",
+    "bian": "第一编",
+    "lei": "养生",
+    "confidence": 0.9,
+    "matched_by": "养生类"
+  },
+  {
+    "name": "养生肤语",
+    "file": "texts/第一编_养生/养生肤语.txt",
+    "bian": "第一编",
+    "lei": "养生",
+    "confidence": 0.9,
+    "matched_by": "养生类"
+  },
+  {
+    "name": "养生随笔",
+    "file": "texts/第一编_养生/养生随笔.txt",
+    "bian": "第一编",
+    "lei": "养生",
+    "confidence": 0.9,
+    "matched_by": "养生类"
+  },
+  {
+    "name": "养老奉亲书",
+    "file": "texts/第一编_养生/养老奉亲书.txt",
+    "bian": "第一编",
+    "lei": "养生",
+    "confidence": 0.9,
+    "matched_by": "养生类"
+  },
+  {
+    "name": "内外伤寒辩惑论",
+    "file": "texts/第一编_伤寒金匮/内外伤寒辩惑论.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "内外伤辨惑论",
+    "file": "texts/第三编_通论/内外伤辨惑论.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "内府秘传经验女科",
+    "file": "texts/第三编_女科/内府秘传经验女科.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "内科摘要",
+    "file": "texts/第三编_内科/内科摘要.txt",
+    "bian": "第三编",
+    "lei": "内科",
+    "confidence": 0.9,
+    "matched_by": "内科类"
+  },
+  {
+    "name": "内经博议",
+    "file": "texts/第一编_医经/内经博议.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "内经类"
+  },
+  {
+    "name": "内经知要",
+    "file": "texts/第一编_医经/内经知要.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "内经类"
+  },
+  {
+    "name": "内经药瀹",
+    "file": "texts/第一编_医经/内经药瀹.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "内经类"
+  },
+  {
+    "name": "内经评文",
+    "file": "texts/第一编_医经/内经评文.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "内经类"
+  },
+  {
+    "name": "冯氏锦囊秘录",
+    "file": "texts/第三编_通论/冯氏锦囊秘录.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "冷庐医话",
+    "file": "texts/第三编_医案医话/冷庐医话.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "凌临灵方",
+    "file": "texts/第二编_方书/凌临灵方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "凌门传授铜人指穴",
+    "file": "texts/第二编_针灸推拿/凌门传授铜人指穴.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "刘河间伤寒医鉴",
+    "file": "texts/第一编_伤寒金匮/刘河间伤寒医鉴.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "刘涓子鬼遗方",
+    "file": "texts/第二编_方书/刘涓子鬼遗方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "删补名医方论",
+    "file": "texts/第二编_方书/删补名医方论.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "刺灸心法要诀",
+    "file": "texts/第二编_针灸推拿/刺灸心法要诀.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "劝读十则",
+    "file": "texts/第三编_通论/劝读十则.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "包氏喉证家宝",
+    "file": "texts/第三编_咽喉口齿/包氏喉证家宝.txt",
+    "bian": "第三编",
+    "lei": "咽喉口齿",
+    "confidence": 0.9,
+    "matched_by": "咽喉口齿类"
+  },
+  {
+    "name": "医中一得",
+    "file": "texts/第三编_通论/医中一得.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医医医",
+    "file": "texts/第三编_通论/医医医.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医医十病",
+    "file": "texts/第三编_通论/医医十病.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医医小草",
+    "file": "texts/第三编_通论/医医小草.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医原",
+    "file": "texts/第三编_通论/医原.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医垒元戎",
+    "file": "texts/第三编_通论/医垒元戎.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医学三字经",
+    "file": "texts/第三编_通论/医学三字经.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医学举要",
+    "file": "texts/第三编_通论/医学举要.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医学从众录",
+    "file": "texts/第三编_通论/医学从众录.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医学传心录",
+    "file": "texts/第三编_通论/医学传心录.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医学传灯",
+    "file": "texts/第三编_通论/医学传灯.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医学入门",
+    "file": "texts/第三编_通论/医学入门.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医学发明",
+    "file": "texts/第三编_通论/医学发明.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医学启源",
+    "file": "texts/第三编_通论/医学启源.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医学妙谛",
+    "file": "texts/第三编_通论/医学妙谛.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医学实在易",
+    "file": "texts/第三编_通论/医学实在易.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医学心悟",
+    "file": "texts/第三编_通论/医学心悟.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医学指归",
+    "file": "texts/第三编_通论/医学指归.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医学摘粹",
+    "file": "texts/第三编_通论/医学摘粹.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医学正传",
+    "file": "texts/第三编_通论/医学正传.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医学源流论",
+    "file": "texts/第三编_通论/医学源流论.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医学真传",
+    "file": "texts/第三编_通论/医学真传.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医学纲目",
+    "file": "texts/第三编_通论/医学纲目.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医学衷中参西录",
+    "file": "texts/第三编_通论/医学衷中参西录.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医学见能",
+    "file": "texts/第三编_通论/医学见能.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医学读书记",
+    "file": "texts/第三编_通论/医学读书记.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医学课儿策",
+    "file": "texts/第三编_通论/医学课儿策.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医学集成",
+    "file": "texts/第三编_通论/医学集成.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医宗己任编",
+    "file": "texts/第三编_通论/医宗己任编.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医宗金鉴",
+    "file": "texts/第三编_通论/医宗金鉴.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医家秘奥之脉法解",
+    "file": "texts/第二编_诊法/医家秘奥之脉法解.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "医心方",
+    "file": "texts/第二编_方书/医心方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "医效秘传",
+    "file": "texts/第三编_通论/医效秘传.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医方歌括",
+    "file": "texts/第二编_方书/医方歌括.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "医方简义",
+    "file": "texts/第二编_方书/医方简义.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "医方考",
+    "file": "texts/第二编_方书/医方考.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "医方论",
+    "file": "texts/第二编_方书/医方论.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "医方证治汇编歌诀",
+    "file": "texts/第二编_方书/医方证治汇编歌诀.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "医方集宜",
+    "file": "texts/第二编_方书/医方集宜.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "医方集解",
+    "file": "texts/第二编_方书/医方集解.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "医旨绪余",
+    "file": "texts/第三编_通论/医旨绪余.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医暇卮言",
+    "file": "texts/第三编_通论/医暇卮言.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医林改错",
+    "file": "texts/第二编_藏象/医林改错.txt",
+    "bian": "第二编",
+    "lei": "藏象",
+    "confidence": 0.9,
+    "matched_by": "藏象类"
+  },
+  {
+    "name": "医林琐语-清-陆懋修",
+    "file": "texts/第三编_医案医话/医林琐语-清-陆懋修.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "医林琐语",
+    "file": "texts/第三编_医案医话/医林琐语.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "医案精华",
+    "file": "texts/第三编_医案医话/医案精华.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "医法圆通",
+    "file": "texts/第三编_通论/医法圆通.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "医津一筏",
+    "file": "texts/第三编_通论/医津一筏.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医源",
+    "file": "texts/第三编_通论/医源.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "医灯续焰",
+    "file": "texts/第三编_通论/医灯续焰.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医理真传",
+    "file": "texts/第三编_通论/医理真传.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医略",
+    "file": "texts/第三编_通论/医略.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医病简要",
+    "file": "texts/第三编_通论/医病简要.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医碥",
+    "file": "texts/第三编_通论/医碥.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医经原旨",
+    "file": "texts/第一编_医经/医经原旨.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "医经总类"
+  },
+  {
+    "name": "医经小学",
+    "file": "texts/第一编_医经/医经小学.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "医经总类"
+  },
+  {
+    "name": "医经溯洄集",
+    "file": "texts/第一编_医经/医经溯洄集.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "医经总类"
+  },
+  {
+    "name": "医经读",
+    "file": "texts/第一编_医经/医经读.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "医经总类"
+  },
+  {
+    "name": "医脉摘要",
+    "file": "texts/第二编_诊法/医脉摘要.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "医话",
+    "file": "texts/第三编_医案医话/医话.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "医说",
+    "file": "texts/第一编_医史/医说.txt",
+    "bian": "第一编",
+    "lei": "医史",
+    "confidence": 0.9,
+    "matched_by": "医史类"
+  },
+  {
+    "name": "医贯",
+    "file": "texts/第三编_通论/医贯.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医述",
+    "file": "texts/第三编_通论/医述.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医门法律",
+    "file": "texts/第三编_通论/医门法律.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医门补要",
+    "file": "texts/第三编_通论/医门补要.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "医闾先生集",
+    "file": "texts/第三编_通论/医闾先生集.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "医验随笔",
+    "file": "texts/第三编_医案医话/医验随笔.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "十二经补泻温凉引经药歌",
+    "file": "texts/第二编_经络骨度/十二经补泻温凉引经药歌.txt",
+    "bian": "第二编",
+    "lei": "经络骨度",
+    "confidence": 0.9,
+    "matched_by": "经络骨度类"
+  },
+  {
+    "name": "十剂表",
+    "file": "texts/第一编_本草/十剂表.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "十四经发挥",
+    "file": "texts/第二编_经络骨度/十四经发挥.txt",
+    "bian": "第二编",
+    "lei": "经络骨度",
+    "confidence": 0.9,
+    "matched_by": "经络骨度类"
+  },
+  {
+    "name": "千金宝要",
+    "file": "texts/第二编_方书/千金宝要.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "千金翼方",
+    "file": "texts/第二编_方书/千金翼方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "千金食治",
+    "file": "texts/第一编_养生/千金食治.txt",
+    "bian": "第一编",
+    "lei": "养生",
+    "confidence": 0.9,
+    "matched_by": "养生类"
+  },
+  {
+    "name": "华佗神方",
+    "file": "texts/第二编_方书/华佗神方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "博济方",
+    "file": "texts/第二编_方书/博济方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "卫济宝书",
+    "file": "texts/第三编_外科/卫济宝书.txt",
+    "bian": "第三编",
+    "lei": "外科",
+    "confidence": 0.9,
+    "matched_by": "外科类"
+  },
+  {
+    "name": "卫生宝鉴",
+    "file": "texts/第三编_通论/卫生宝鉴.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "卫生家宝产科备要",
+    "file": "texts/第三编_女科/卫生家宝产科备要.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "卫生易简方",
+    "file": "texts/第二编_方书/卫生易简方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "厘正按摩要术",
+    "file": "texts/第二编_针灸推拿/厘正按摩要术.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "推拿类"
+  },
+  {
+    "name": "原机启微",
+    "file": "texts/第三编_眼科/原机启微.txt",
+    "bian": "第三编",
+    "lei": "眼科",
+    "confidence": 0.9,
+    "matched_by": "眼科类"
+  },
+  {
+    "name": "原要论",
+    "file": "texts/第三编_通论/原要论.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "友渔斋医话",
+    "file": "texts/第三编_医案医话/友渔斋医话.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "发背对口治诀论",
+    "file": "texts/第三编_外科/发背对口治诀论.txt",
+    "bian": "第三编",
+    "lei": "外科",
+    "confidence": 0.9,
+    "matched_by": "外科类"
+  },
+  {
+    "name": "口齿类要",
+    "file": "texts/第三编_咽喉口齿/口齿类要.txt",
+    "bian": "第三编",
+    "lei": "咽喉口齿",
+    "confidence": 0.9,
+    "matched_by": "咽喉口齿类"
+  },
+  {
+    "name": "古今医彻",
+    "file": "texts/第三编_通论/古今医彻.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "古今医案按",
+    "file": "texts/第三编_医案医话/古今医案按.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "古今医统大全",
+    "file": "texts/第三编_通论/古今医统大全.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "古今医鉴",
+    "file": "texts/第三编_通论/古今医鉴.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "古今名医方论",
+    "file": "texts/第二编_方书/古今名医方论.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "古今名医汇粹",
+    "file": "texts/第三编_通论/古今名医汇粹.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "古方汇精",
+    "file": "texts/第二编_方书/古方汇精.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "古本难经阐注",
+    "file": "texts/第一编_医经/古本难经阐注.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "难经类"
+  },
+  {
+    "name": "史载之方",
+    "file": "texts/第二编_方书/史载之方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "叶选医衡",
+    "file": "texts/第三编_通论/叶选医衡.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "名医别录",
+    "file": "texts/第一编_本草/名医别录.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "名医类案",
+    "file": "texts/第三编_医案医话/名医类案.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "吴医汇讲",
+    "file": "texts/第一编_医史/吴医汇讲.txt",
+    "bian": "第一编",
+    "lei": "医史",
+    "confidence": 0.9,
+    "matched_by": "医史类"
+  },
+  {
+    "name": "吴普本草",
+    "file": "texts/第一编_本草/吴普本草.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "吴鞠通医案",
+    "file": "texts/第三编_医案医话/吴鞠通医案.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "咽喉秘集",
+    "file": "texts/第三编_咽喉口齿/咽喉秘集.txt",
+    "bian": "第三编",
+    "lei": "咽喉口齿",
+    "confidence": 0.9,
+    "matched_by": "咽喉口齿类"
+  },
+  {
+    "name": "咽喉脉证通论",
+    "file": "texts/第二编_诊法/咽喉脉证通论.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "喉科指掌",
+    "file": "texts/第三编_咽喉口齿/喉科指掌.txt",
+    "bian": "第三编",
+    "lei": "咽喉口齿",
+    "confidence": 0.9,
+    "matched_by": "咽喉口齿类"
+  },
+  {
+    "name": "喉科秘诀",
+    "file": "texts/第三编_咽喉口齿/喉科秘诀.txt",
+    "bian": "第三编",
+    "lei": "咽喉口齿",
+    "confidence": 0.9,
+    "matched_by": "咽喉口齿类"
+  },
+  {
+    "name": "喉科集腋",
+    "file": "texts/第三编_咽喉口齿/喉科集腋.txt",
+    "bian": "第三编",
+    "lei": "咽喉口齿",
+    "confidence": 0.9,
+    "matched_by": "咽喉口齿类"
+  },
+  {
+    "name": "喉舌备要秘旨",
+    "file": "texts/第三编_咽喉口齿/喉舌备要秘旨.txt",
+    "bian": "第三编",
+    "lei": "咽喉口齿",
+    "confidence": 0.9,
+    "matched_by": "咽喉口齿类"
+  },
+  {
+    "name": "四圣心源",
+    "file": "texts/第三编_通论/四圣心源.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "四诊抉微",
+    "file": "texts/第二编_诊法/四诊抉微.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "回春录",
+    "file": "texts/第三编_医案医话/回春录.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "回生集",
+    "file": "texts/第二编_方书/回生集.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "圣济总录",
+    "file": "texts/第二编_方书/圣济总录.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "圣济总录纂要",
+    "file": "texts/第二编_方书/圣济总录纂要.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "塘医话 馤塘医话",
+    "file": "texts/第三编_医案医话/塘医话 馤塘医话.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "增广和剂局方药性总论",
+    "file": "texts/第一编_本草/增广和剂局方药性总论.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "增补评注柳选医案",
+    "file": "texts/第三编_医案医话/增补评注柳选医案.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "增订医方歌诀",
+    "file": "texts/第二编_方书/增订医方歌诀.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "增订十药神书",
+    "file": "texts/第二编_方书/增订十药神书.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "增订叶评伤暑全书",
+    "file": "texts/第三编_温病/增订叶评伤暑全书.txt",
+    "bian": "第三编",
+    "lei": "温病",
+    "confidence": 0.9,
+    "matched_by": "温病类"
+  },
+  {
+    "name": "士谔医话",
+    "file": "texts/第三编_医案医话/士谔医话.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "备急千金要方",
+    "file": "texts/第二编_方书/备急千金要方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "备急灸法景宋本",
+    "file": "texts/第二编_针灸推拿/备急灸法景宋本.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "外台秘要",
+    "file": "texts/第二编_方书/外台秘要.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "外台秘要方",
+    "file": "texts/第二编_方书/外台秘要方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "外治寿世方",
+    "file": "texts/第一编_养生/外治寿世方.txt",
+    "bian": "第一编",
+    "lei": "养生",
+    "confidence": 0.9,
+    "matched_by": "养生类"
+  },
+  {
+    "name": "外科传薪集",
+    "file": "texts/第三编_外科/外科传薪集.txt",
+    "bian": "第三编",
+    "lei": "外科",
+    "confidence": 0.9,
+    "matched_by": "外科类"
+  },
+  {
+    "name": "外科全生集",
+    "file": "texts/第三编_外科/外科全生集.txt",
+    "bian": "第三编",
+    "lei": "外科",
+    "confidence": 0.9,
+    "matched_by": "外科类"
+  },
+  {
+    "name": "外科医镜",
+    "file": "texts/第三编_外科/外科医镜.txt",
+    "bian": "第三编",
+    "lei": "外科",
+    "confidence": 0.9,
+    "matched_by": "外科类"
+  },
+  {
+    "name": "外科十三方考",
+    "file": "texts/第二编_方书/外科十三方考.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "外科十法",
+    "file": "texts/第三编_外科/外科十法.txt",
+    "bian": "第三编",
+    "lei": "外科",
+    "confidence": 0.9,
+    "matched_by": "外科类"
+  },
+  {
+    "name": "外科发挥",
+    "file": "texts/第三编_外科/外科发挥.txt",
+    "bian": "第三编",
+    "lei": "外科",
+    "confidence": 0.9,
+    "matched_by": "外科类"
+  },
+  {
+    "name": "外科启玄",
+    "file": "texts/第三编_外科/外科启玄.txt",
+    "bian": "第三编",
+    "lei": "外科",
+    "confidence": 0.9,
+    "matched_by": "外科类"
+  },
+  {
+    "name": "外科大成",
+    "file": "texts/第三编_外科/外科大成.txt",
+    "bian": "第三编",
+    "lei": "外科",
+    "confidence": 0.9,
+    "matched_by": "外科类"
+  },
+  {
+    "name": "外科方外奇方",
+    "file": "texts/第二编_方书/外科方外奇方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "外科枢要",
+    "file": "texts/第三编_外科/外科枢要.txt",
+    "bian": "第三编",
+    "lei": "外科",
+    "confidence": 0.9,
+    "matched_by": "外科类"
+  },
+  {
+    "name": "外科正宗",
+    "file": "texts/第三编_外科/外科正宗.txt",
+    "bian": "第三编",
+    "lei": "外科",
+    "confidence": 0.9,
+    "matched_by": "外科类"
+  },
+  {
+    "name": "外科理例",
+    "file": "texts/第三编_外科/外科理例.txt",
+    "bian": "第三编",
+    "lei": "外科",
+    "confidence": 0.9,
+    "matched_by": "外科类"
+  },
+  {
+    "name": "外科精义",
+    "file": "texts/第三编_外科/外科精义.txt",
+    "bian": "第三编",
+    "lei": "外科",
+    "confidence": 0.9,
+    "matched_by": "外科类"
+  },
+  {
+    "name": "外科精要",
+    "file": "texts/第三编_外科/外科精要.txt",
+    "bian": "第三编",
+    "lei": "外科",
+    "confidence": 0.9,
+    "matched_by": "外科类"
+  },
+  {
+    "name": "外科证治全书",
+    "file": "texts/第三编_外科/外科证治全书.txt",
+    "bian": "第三编",
+    "lei": "外科",
+    "confidence": 0.9,
+    "matched_by": "外科类"
+  },
+  {
+    "name": "外科选要",
+    "file": "texts/第三编_外科/外科选要.txt",
+    "bian": "第三编",
+    "lei": "外科",
+    "confidence": 0.9,
+    "matched_by": "外科类"
+  },
+  {
+    "name": "外科集验方",
+    "file": "texts/第二编_方书/外科集验方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "外经微言",
+    "file": "texts/第一编_医经/外经微言.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "内经类"
+  },
+  {
+    "name": "大小诸证方论",
+    "file": "texts/第二编_方书/大小诸证方论.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "太医局诸科程文格",
+    "file": "texts/第一编_医史/太医局诸科程文格.txt",
+    "bian": "第一编",
+    "lei": "医史",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "太平圣惠方",
+    "file": "texts/第二编_方书/太平圣惠方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "太平惠民和剂局方",
+    "file": "texts/第二编_方书/太平惠民和剂局方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "奇效简便良方",
+    "file": "texts/第二编_方书/奇效简便良方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "奇效良方",
+    "file": "texts/第二编_方书/奇效良方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "奇方类编",
+    "file": "texts/第二编_方书/奇方类编.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "奇症汇",
+    "file": "texts/第三编_内科/奇症汇.txt",
+    "bian": "第三编",
+    "lei": "内科",
+    "confidence": 0.9,
+    "matched_by": "内科类"
+  },
+  {
+    "name": "奇经八脉考",
+    "file": "texts/第二编_经络骨度/奇经八脉考.txt",
+    "bian": "第二编",
+    "lei": "经络骨度",
+    "confidence": 0.9,
+    "matched_by": "经络骨度类"
+  },
+  {
+    "name": "女科切要",
+    "file": "texts/第三编_女科/女科切要.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "女科折衷纂要",
+    "file": "texts/第三编_女科/女科折衷纂要.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "女科指掌",
+    "file": "texts/第三编_女科/女科指掌.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "女科指要",
+    "file": "texts/第三编_女科/女科指要.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "女科撮要",
+    "file": "texts/第三编_女科/女科撮要.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "女科旨要",
+    "file": "texts/第三编_女科/女科旨要.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "女科百问",
+    "file": "texts/第三编_女科/女科百问.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "女科秘要",
+    "file": "texts/第三编_女科/女科秘要.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "女科精要",
+    "file": "texts/第三编_女科/女科精要.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "女科经纶",
+    "file": "texts/第三编_女科/女科经纶.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "女科要旨",
+    "file": "texts/第三编_女科/女科要旨.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "妇人大全良方",
+    "file": "texts/第二编_方书/妇人大全良方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "妇人良方集要",
+    "file": "texts/第二编_方书/妇人良方集要.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "妇科玉尺",
+    "file": "texts/第三编_女科/妇科玉尺.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "妇科百辩",
+    "file": "texts/第三编_女科/妇科百辩.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "妇科秘书",
+    "file": "texts/第三编_女科/妇科秘书.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "妙一斋医学正印种子编",
+    "file": "texts/第三编_通论/妙一斋医学正印种子编.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "婴儿论",
+    "file": "texts/第三编_儿科/婴儿论.txt",
+    "bian": "第三编",
+    "lei": "儿科",
+    "confidence": 0.9,
+    "matched_by": "儿科类"
+  },
+  {
+    "name": "婴童百问",
+    "file": "texts/第三编_儿科/婴童百问.txt",
+    "bian": "第三编",
+    "lei": "儿科",
+    "confidence": 0.9,
+    "matched_by": "儿科类"
+  },
+  {
+    "name": "婴童类萃",
+    "file": "texts/第三编_儿科/婴童类萃.txt",
+    "bian": "第三编",
+    "lei": "儿科",
+    "confidence": 0.9,
+    "matched_by": "儿科类"
+  },
+  {
+    "name": "子午流注说难",
+    "file": "texts/第二编_针灸推拿/子午流注说难.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "子午流注针经",
+    "file": "texts/第二编_针灸推拿/子午流注针经.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "存存斋医话稿",
+    "file": "texts/第三编_医案医话/存存斋医话稿.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "孙文垣医案",
+    "file": "texts/第三编_医案医话/孙文垣医案.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "孙真人海上方",
+    "file": "texts/第二编_方书/孙真人海上方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "宁坤秘笈",
+    "file": "texts/第三编_女科/宁坤秘笈.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "宜麟策",
+    "file": "texts/第三编_女科/宜麟策.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "审视瑶函",
+    "file": "texts/第三编_眼科/审视瑶函.txt",
+    "bian": "第三编",
+    "lei": "眼科",
+    "confidence": 0.9,
+    "matched_by": "眼科类"
+  },
+  {
+    "name": "客尘医话",
+    "file": "texts/第三编_医案医话/客尘医话.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "宣明方论",
+    "file": "texts/第二编_方书/宣明方论.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "家传女科经验摘奇",
+    "file": "texts/第三编_女科/家传女科经验摘奇.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "寓意草",
+    "file": "texts/第三编_医案医话/寓意草.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "察病指南",
+    "file": "texts/第二编_诊法/察病指南.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "察舌辨症新法",
+    "file": "texts/第二编_诊法/察舌辨症新法.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "对山医话",
+    "file": "texts/第三编_医案医话/对山医话.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "寿世传真",
+    "file": "texts/第一编_养生/寿世传真.txt",
+    "bian": "第一编",
+    "lei": "养生",
+    "confidence": 0.9,
+    "matched_by": "养生类"
+  },
+  {
+    "name": "寿世保元",
+    "file": "texts/第一编_养生/寿世保元.txt",
+    "bian": "第一编",
+    "lei": "养生",
+    "confidence": 0.9,
+    "matched_by": "养生类"
+  },
+  {
+    "name": "寿世青编",
+    "file": "texts/第一编_养生/寿世青编.txt",
+    "bian": "第一编",
+    "lei": "养生",
+    "confidence": 0.9,
+    "matched_by": "养生类"
+  },
+  {
+    "name": "寿亲养老新书",
+    "file": "texts/第一编_养生/寿亲养老新书.txt",
+    "bian": "第一编",
+    "lei": "养生",
+    "confidence": 0.9,
+    "matched_by": "养生类"
+  },
+  {
+    "name": "小儿卫生总微论方",
+    "file": "texts/第二编_方书/小儿卫生总微论方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "小儿推拿广意",
+    "file": "texts/第二编_针灸推拿/小儿推拿广意.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "推拿类"
+  },
+  {
+    "name": "小儿痘疹方论",
+    "file": "texts/第二编_方书/小儿痘疹方论.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "小儿药证直诀",
+    "file": "texts/第三编_儿科/小儿药证直诀.txt",
+    "bian": "第三编",
+    "lei": "儿科",
+    "confidence": 0.9,
+    "matched_by": "儿科类"
+  },
+  {
+    "name": "小品方",
+    "file": "texts/第二编_方书/小品方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "少林寺秘传十二时辰十二穴道二十四方",
+    "file": "texts/第二编_方书/少林寺秘传十二时辰十二穴道二十四方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "少林真传伤科秘方",
+    "file": "texts/第二编_方书/少林真传伤科秘方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "尚论后篇",
+    "file": "texts/第一编_伤寒金匮/尚论后篇.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "尚论篇",
+    "file": "texts/第一编_伤寒金匮/尚论篇.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "尤氏喉症指南",
+    "file": "texts/第三编_咽喉口齿/尤氏喉症指南.txt",
+    "bian": "第三编",
+    "lei": "咽喉口齿",
+    "confidence": 0.9,
+    "matched_by": "咽喉口齿类"
+  },
+  {
+    "name": "尤氏喉科秘书",
+    "file": "texts/第三编_咽喉口齿/尤氏喉科秘书.txt",
+    "bian": "第三编",
+    "lei": "咽喉口齿",
+    "confidence": 0.9,
+    "matched_by": "咽喉口齿类"
+  },
+  {
+    "name": "局方发挥",
+    "file": "texts/第二编_方书/局方发挥.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "巢氏病源补养宣导法",
+    "file": "texts/第二编_病因病机/巢氏病源补养宣导法.txt",
+    "bian": "第二编",
+    "lei": "病因病机",
+    "confidence": 0.9,
+    "matched_by": "病因病机类"
+  },
+  {
+    "name": "巢氏诸病源候总论",
+    "file": "texts/第二编_病因病机/巢氏诸病源候总论.txt",
+    "bian": "第二编",
+    "lei": "病因病机",
+    "confidence": 0.9,
+    "matched_by": "病因病机类"
+  },
+  {
+    "name": "市隐庐医学杂着",
+    "file": "texts/第三编_通论/市隐庐医学杂着.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "幼幼新书",
+    "file": "texts/第三编_儿科/幼幼新书.txt",
+    "bian": "第三编",
+    "lei": "儿科",
+    "confidence": 0.9,
+    "matched_by": "儿科类"
+  },
+  {
+    "name": "幼幼集成",
+    "file": "texts/第三编_儿科/幼幼集成.txt",
+    "bian": "第三编",
+    "lei": "儿科",
+    "confidence": 0.9,
+    "matched_by": "儿科类"
+  },
+  {
+    "name": "幼科切要",
+    "file": "texts/第三编_儿科/幼科切要.txt",
+    "bian": "第三编",
+    "lei": "儿科",
+    "confidence": 0.9,
+    "matched_by": "儿科类"
+  },
+  {
+    "name": "幼科发挥",
+    "file": "texts/第三编_儿科/幼科发挥.txt",
+    "bian": "第三编",
+    "lei": "儿科",
+    "confidence": 0.9,
+    "matched_by": "儿科类"
+  },
+  {
+    "name": "幼科折衷秘传真本",
+    "file": "texts/第三编_儿科/幼科折衷秘传真本.txt",
+    "bian": "第三编",
+    "lei": "儿科",
+    "confidence": 0.9,
+    "matched_by": "儿科类"
+  },
+  {
+    "name": "幼科指南",
+    "file": "texts/第三编_儿科/幼科指南.txt",
+    "bian": "第三编",
+    "lei": "儿科",
+    "confidence": 0.9,
+    "matched_by": "儿科类"
+  },
+  {
+    "name": "幼科推拿秘书",
+    "file": "texts/第二编_针灸推拿/幼科推拿秘书.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "推拿类"
+  },
+  {
+    "name": "幼科概论",
+    "file": "texts/第三编_儿科/幼科概论.txt",
+    "bian": "第三编",
+    "lei": "儿科",
+    "confidence": 0.9,
+    "matched_by": "儿科类"
+  },
+  {
+    "name": "幼科种痘心法要旨",
+    "file": "texts/第三编_儿科/幼科种痘心法要旨.txt",
+    "bian": "第三编",
+    "lei": "儿科",
+    "confidence": 0.9,
+    "matched_by": "儿科类"
+  },
+  {
+    "name": "幼科类萃",
+    "file": "texts/第三编_儿科/幼科类萃.txt",
+    "bian": "第三编",
+    "lei": "儿科",
+    "confidence": 0.9,
+    "matched_by": "儿科类"
+  },
+  {
+    "name": "幼科释谜",
+    "file": "texts/第三编_儿科/幼科释谜.txt",
+    "bian": "第三编",
+    "lei": "儿科",
+    "confidence": 0.9,
+    "matched_by": "儿科类"
+  },
+  {
+    "name": "幼科铁镜",
+    "file": "texts/第三编_儿科/幼科铁镜.txt",
+    "bian": "第三编",
+    "lei": "儿科",
+    "confidence": 0.9,
+    "matched_by": "儿科类"
+  },
+  {
+    "name": "广嗣五种备要",
+    "file": "texts/第三编_女科/广嗣五种备要.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "广嗣纪要",
+    "file": "texts/第三编_女科/广嗣纪要.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "广嗣要语",
+    "file": "texts/第三编_女科/广嗣要语.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "广温疫论",
+    "file": "texts/第三编_温病/广温疫论.txt",
+    "bian": "第三编",
+    "lei": "温病",
+    "confidence": 0.9,
+    "matched_by": "温病类"
+  },
+  {
+    "name": "广瘟疫论",
+    "file": "texts/第三编_温病/广瘟疫论.txt",
+    "bian": "第三编",
+    "lei": "温病",
+    "confidence": 0.9,
+    "matched_by": "温病类"
+  },
+  {
+    "name": "异授眼科",
+    "file": "texts/第三编_眼科/异授眼科.txt",
+    "bian": "第三编",
+    "lei": "眼科",
+    "confidence": 0.9,
+    "matched_by": "眼科类"
+  },
+  {
+    "name": "张卿子伤寒论",
+    "file": "texts/第一编_伤寒金匮/张卿子伤寒论.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "张氏医通",
+    "file": "texts/第三编_通论/张氏医通.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "张氏妇科",
+    "file": "texts/第三编_女科/张氏妇科.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "张畹香医案",
+    "file": "texts/第三编_医案医话/张畹香医案.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "张聿青医案",
+    "file": "texts/第三编_医案医话/张聿青医案.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "归砚录",
+    "file": "texts/第三编_医案医话/归砚录.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "形色外诊简摩",
+    "file": "texts/第二编_诊法/形色外诊简摩.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "徐批叶天士晚年方案真本",
+    "file": "texts/第二编_方书/徐批叶天士晚年方案真本.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "得配本草",
+    "file": "texts/第一编_本草/得配本草.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "御纂医宗金鉴",
+    "file": "texts/第三编_通论/御纂医宗金鉴.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "御药院方",
+    "file": "texts/第二编_方书/御药院方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "心医集",
+    "file": "texts/第三编_通论/心医集.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "急救仙方",
+    "file": "texts/第二编_方书/急救仙方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "急救便方",
+    "file": "texts/第二编_方书/急救便方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "急救广生集",
+    "file": "texts/第二编_方书/急救广生集.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "急救良方",
+    "file": "texts/第二编_方书/急救良方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "惠直堂经验方",
+    "file": "texts/第二编_方书/惠直堂经验方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "慈幼便览",
+    "file": "texts/第三编_儿科/慈幼便览.txt",
+    "bian": "第三编",
+    "lei": "儿科",
+    "confidence": 0.9,
+    "matched_by": "儿科类"
+  },
+  {
+    "name": "慈幼新书",
+    "file": "texts/第三编_儿科/慈幼新书.txt",
+    "bian": "第三编",
+    "lei": "儿科",
+    "confidence": 0.9,
+    "matched_by": "儿科类"
+  },
+  {
+    "name": "慎斋遗书",
+    "file": "texts/第三编_通论/慎斋遗书.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "慎柔五书",
+    "file": "texts/第三编_通论/慎柔五书.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "慎疾刍言",
+    "file": "texts/第三编_通论/慎疾刍言.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "成方切用",
+    "file": "texts/第二编_方书/成方切用.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "房中补益",
+    "file": "texts/第一编_养生/房中补益.txt",
+    "bian": "第一编",
+    "lei": "养生",
+    "confidence": 0.9,
+    "matched_by": "养生类"
+  },
+  {
+    "name": "扁鹊心书",
+    "file": "texts/第三编_通论/扁鹊心书.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "扁鹊神应鍼灸玉龙经",
+    "file": "texts/第二编_针灸推拿/扁鹊神应鍼灸玉龙经.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "扁鹊神应针灸玉龙经",
+    "file": "texts/第二编_针灸推拿/扁鹊神应针灸玉龙经.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "推拿抉微",
+    "file": "texts/第二编_针灸推拿/推拿抉微.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "推拿类"
+  },
+  {
+    "name": "推求师意",
+    "file": "texts/第三编_通论/推求师意.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "推篷寤语",
+    "file": "texts/第三编_通论/推篷寤语.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "摄生总要",
+    "file": "texts/第一编_养生/摄生总要.txt",
+    "bian": "第一编",
+    "lei": "养生",
+    "confidence": 0.9,
+    "matched_by": "养生类"
+  },
+  {
+    "name": "救伤秘旨",
+    "file": "texts/第三编_伤科/救伤秘旨.txt",
+    "bian": "第三编",
+    "lei": "伤科",
+    "confidence": 0.9,
+    "matched_by": "伤科类"
+  },
+  {
+    "name": "敖氏伤寒金镜录",
+    "file": "texts/第一编_伤寒金匮/敖氏伤寒金镜录.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "文堂集验方",
+    "file": "texts/第二编_方书/文堂集验方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "新修本草",
+    "file": "texts/第一编_本草/新修本草.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "方症会要",
+    "file": "texts/第二编_方书/方症会要.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "旅舍备要方",
+    "file": "texts/第二编_方书/旅舍备要方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "旧德堂医案",
+    "file": "texts/第三编_医案医话/旧德堂医案.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "时方妙用",
+    "file": "texts/第二编_方书/时方妙用.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "时方歌括",
+    "file": "texts/第二编_方书/时方歌括.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "时病论",
+    "file": "texts/第三编_温病/时病论.txt",
+    "bian": "第三编",
+    "lei": "温病",
+    "confidence": 0.9,
+    "matched_by": "温病类"
+  },
+  {
+    "name": "明医指掌",
+    "file": "texts/第三编_通论/明医指掌.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "明医杂着",
+    "file": "texts/第三编_通论/明医杂着.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "明堂灸经",
+    "file": "texts/第二编_针灸推拿/明堂灸经.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "明目至宝",
+    "file": "texts/第三编_眼科/明目至宝.txt",
+    "bian": "第三编",
+    "lei": "眼科",
+    "confidence": 0.9,
+    "matched_by": "眼科类"
+  },
+  {
+    "name": "易牙遗意",
+    "file": "texts/第一编_养生/易牙遗意.txt",
+    "bian": "第一编",
+    "lei": "养生",
+    "confidence": 0.9,
+    "matched_by": "养生类"
+  },
+  {
+    "name": "是斋百一选方",
+    "file": "texts/第二编_方书/是斋百一选方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "普济方",
+    "file": "texts/第二编_方书/普济方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "普济方四库",
+    "file": "texts/第二编_方书/普济方四库.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "普济方针灸",
+    "file": "texts/第二编_针灸推拿/普济方针灸.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "普济本事方",
+    "file": "texts/第二编_方书/普济本事方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "普济本事方续集",
+    "file": "texts/第二编_方书/普济本事方续集.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "景岳全书",
+    "file": "texts/第三编_通论/景岳全书.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "景景医话",
+    "file": "texts/第三编_医案医话/景景医话.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "曹仁伯医案论",
+    "file": "texts/第三编_医案医话/曹仁伯医案论.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "曹氏伤寒金匮发微",
+    "file": "texts/第一编_伤寒金匮/曹氏伤寒金匮发微.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "月令采奇",
+    "file": "texts/第一编_养生/月令采奇.txt",
+    "bian": "第一编",
+    "lei": "养生",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "望诊遵经",
+    "file": "texts/第二编_诊法/望诊遵经.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "未刻本叶氏医案",
+    "file": "texts/第三编_医案医话/未刻本叶氏医案.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "本事方续集",
+    "file": "texts/第二编_方书/本事方续集.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "本经疏证",
+    "file": "texts/第一编_本草/本经疏证.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "本经逢原",
+    "file": "texts/第一编_本草/本经逢原.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "本草乘雅半偈",
+    "file": "texts/第一编_本草/本草乘雅半偈.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "本草从新",
+    "file": "texts/第一编_本草/本草从新.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "本草便读",
+    "file": "texts/第一编_本草/本草便读.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "本草分经",
+    "file": "texts/第一编_本草/本草分经.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "本草品汇精要",
+    "file": "texts/第一编_本草/本草品汇精要.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "本草图经",
+    "file": "texts/第一编_本草/本草图经.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "本草备要",
+    "file": "texts/第一编_本草/本草备要.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "本草害利",
+    "file": "texts/第一编_本草/本草害利.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "本草崇原",
+    "file": "texts/第一编_本草/本草崇原.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "本草征要",
+    "file": "texts/第一编_本草/本草征要.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "本草思辨录",
+    "file": "texts/第一编_本草/本草思辨录.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "本草择要纲目",
+    "file": "texts/第一编_本草/本草择要纲目.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "本草撮要",
+    "file": "texts/第一编_本草/本草撮要.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "本草新编",
+    "file": "texts/第一编_本草/本草新编.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "本草易读",
+    "file": "texts/第一编_本草/本草易读.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "本草求真",
+    "file": "texts/第一编_本草/本草求真.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "本草简要方",
+    "file": "texts/第一编_本草/本草简要方.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "本草纲目",
+    "file": "texts/第一编_本草/本草纲目.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "本草纲目别名录",
+    "file": "texts/第一编_本草/本草纲目别名录.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "本草纲目拾遗",
+    "file": "texts/第一编_本草/本草纲目拾遗.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "本草经解",
+    "file": "texts/第一编_本草/本草经解.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "本草经集注",
+    "file": "texts/第一编_本草/本草经集注.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "本草蒙筌",
+    "file": "texts/第一编_本草/本草蒙筌.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "本草衍义",
+    "file": "texts/第一编_本草/本草衍义.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "本草述钩元",
+    "file": "texts/第一编_本草/本草述钩元.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "本草问答",
+    "file": "texts/第一编_本草/本草问答.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "杂病广要",
+    "file": "texts/第三编_内科/杂病广要.txt",
+    "bian": "第三编",
+    "lei": "内科",
+    "confidence": 0.9,
+    "matched_by": "内科类"
+  },
+  {
+    "name": "杂病治例",
+    "file": "texts/第三编_内科/杂病治例.txt",
+    "bian": "第三编",
+    "lei": "内科",
+    "confidence": 0.9,
+    "matched_by": "内科类"
+  },
+  {
+    "name": "杂病源流犀烛",
+    "file": "texts/第二编_病因病机/杂病源流犀烛.txt",
+    "bian": "第二编",
+    "lei": "病因病机",
+    "confidence": 0.9,
+    "matched_by": "病因病机类"
+  },
+  {
+    "name": "杂症会心录",
+    "file": "texts/第三编_内科/杂症会心录.txt",
+    "bian": "第三编",
+    "lei": "内科",
+    "confidence": 0.9,
+    "matched_by": "内科类"
+  },
+  {
+    "name": "杨敬斋针灸全书",
+    "file": "texts/第二编_针灸推拿/杨敬斋针灸全书.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "杨氏家藏方",
+    "file": "texts/第二编_方书/杨氏家藏方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "松峰说疫",
+    "file": "texts/第三编_温病/松峰说疫.txt",
+    "bian": "第三编",
+    "lei": "温病",
+    "confidence": 0.9,
+    "matched_by": "温病类"
+  },
+  {
+    "name": "松崖医径",
+    "file": "texts/第三编_通论/松崖医径.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "析骨分经",
+    "file": "texts/第二编_经络骨度/析骨分经.txt",
+    "bian": "第二编",
+    "lei": "经络骨度",
+    "confidence": 0.9,
+    "matched_by": "经络骨度类"
+  },
+  {
+    "name": "柳洲医话",
+    "file": "texts/第三编_医案医话/柳洲医话.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "柳选四家医案",
+    "file": "texts/第三编_医案医话/柳选四家医案.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "校注医醇剩义",
+    "file": "texts/第三编_内科/校注医醇剩义.txt",
+    "bian": "第三编",
+    "lei": "内科",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "格致余论",
+    "file": "texts/第三编_通论/格致余论.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "正体类要",
+    "file": "texts/第三编_伤科/正体类要.txt",
+    "bian": "第三编",
+    "lei": "伤科",
+    "confidence": 0.9,
+    "matched_by": "伤科类"
+  },
+  {
+    "name": "此事难知",
+    "file": "texts/第三编_通论/此事难知.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "武当淮河派丹丸膏散秘方",
+    "file": "texts/第二编_方书/武当淮河派丹丸膏散秘方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "毛对山医话",
+    "file": "texts/第三编_医案医话/毛对山医话.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "江氏伤科学",
+    "file": "texts/第三编_伤科/江氏伤科学.txt",
+    "bian": "第三编",
+    "lei": "伤科",
+    "confidence": 0.9,
+    "matched_by": "伤科类"
+  },
+  {
+    "name": "汤头歌诀",
+    "file": "texts/第二编_方书/汤头歌诀.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "汤液本草",
+    "file": "texts/第一编_本草/汤液本草.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "沈氏女科辑要",
+    "file": "texts/第三编_女科/沈氏女科辑要.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "河间伤寒心要",
+    "file": "texts/第一编_伤寒金匮/河间伤寒心要.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "注解伤寒论",
+    "file": "texts/第一编_伤寒金匮/注解伤寒论.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "洄溪医案",
+    "file": "texts/第三编_医案医话/洄溪医案.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "洗冤集录",
+    "file": "texts/第一编_医史/洗冤集录.txt",
+    "bian": "第一编",
+    "lei": "医史",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "洪氏集验方",
+    "file": "texts/第二编_方书/洪氏集验方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "活幼口议",
+    "file": "texts/第三编_儿科/活幼口议.txt",
+    "bian": "第三编",
+    "lei": "儿科",
+    "confidence": 0.9,
+    "matched_by": "儿科类"
+  },
+  {
+    "name": "活幼心书",
+    "file": "texts/第三编_儿科/活幼心书.txt",
+    "bian": "第三编",
+    "lei": "儿科",
+    "confidence": 0.9,
+    "matched_by": "儿科类"
+  },
+  {
+    "name": "活法机要",
+    "file": "texts/第三编_通论/活法机要.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "济世神验良方",
+    "file": "texts/第二编_方书/济世神验良方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "济生方",
+    "file": "texts/第二编_方书/济生方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "济生集",
+    "file": "texts/第三编_女科/济生集.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "济阴纲目",
+    "file": "texts/第三编_女科/济阴纲目.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "海药本草",
+    "file": "texts/第一编_本草/海药本草.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "温热暑疫全书",
+    "file": "texts/第三编_温病/温热暑疫全书.txt",
+    "bian": "第三编",
+    "lei": "温病",
+    "confidence": 0.9,
+    "matched_by": "温病类"
+  },
+  {
+    "name": "温热经纬",
+    "file": "texts/第三编_女科/温热经纬.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "温热论-清-顾景文",
+    "file": "texts/第三编_温病/温热论-清-顾景文.txt",
+    "bian": "第三编",
+    "lei": "温病",
+    "confidence": 0.9,
+    "matched_by": "温病类"
+  },
+  {
+    "name": "温热论",
+    "file": "texts/第三编_温病/温热论.txt",
+    "bian": "第三编",
+    "lei": "温病",
+    "confidence": 0.9,
+    "matched_by": "温病类"
+  },
+  {
+    "name": "温热逢源",
+    "file": "texts/第三编_温病/温热逢源.txt",
+    "bian": "第三编",
+    "lei": "温病",
+    "confidence": 0.9,
+    "matched_by": "温病类"
+  },
+  {
+    "name": "温疫论",
+    "file": "texts/第三编_温病/温疫论.txt",
+    "bian": "第三编",
+    "lei": "温病",
+    "confidence": 0.9,
+    "matched_by": "温病类"
+  },
+  {
+    "name": "温病指南",
+    "file": "texts/第三编_温病/温病指南.txt",
+    "bian": "第三编",
+    "lei": "温病",
+    "confidence": 0.9,
+    "matched_by": "温病类"
+  },
+  {
+    "name": "温病条辨",
+    "file": "texts/第三编_温病/温病条辨.txt",
+    "bian": "第三编",
+    "lei": "温病",
+    "confidence": 0.9,
+    "matched_by": "温病类"
+  },
+  {
+    "name": "温病正宗",
+    "file": "texts/第三编_温病/温病正宗.txt",
+    "bian": "第三编",
+    "lei": "温病",
+    "confidence": 0.9,
+    "matched_by": "温病类"
+  },
+  {
+    "name": "湖岳村叟医案",
+    "file": "texts/第三编_医案医话/湖岳村叟医案.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "湿热病篇",
+    "file": "texts/第三编_温病/湿热病篇.txt",
+    "bian": "第三编",
+    "lei": "温病",
+    "confidence": 0.9,
+    "matched_by": "温病类"
+  },
+  {
+    "name": "滇南本草",
+    "file": "texts/第一编_本草/滇南本草.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "濒湖炮炙法",
+    "file": "texts/第一编_本草/濒湖炮炙法.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "濒湖脉学",
+    "file": "texts/第二编_诊法/濒湖脉学.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "灵枢经",
+    "file": "texts/第一编_医经/灵枢经.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "内经类"
+  },
+  {
+    "name": "灵枢经脉翼",
+    "file": "texts/第一编_医经/灵枢经脉翼.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "内经类"
+  },
+  {
+    "name": "灵枢识",
+    "file": "texts/第一编_医经/灵枢识.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "内经类"
+  },
+  {
+    "name": "灵素节注类编",
+    "file": "texts/第一编_医经/灵素节注类编.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "灵枢类"
+  },
+  {
+    "name": "灵药秘方",
+    "file": "texts/第二编_针灸推拿/灵药秘方.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "灸法秘传",
+    "file": "texts/第二编_针灸推拿/灸法秘传.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "炙膏肓腧穴法",
+    "file": "texts/第二编_针灸推拿/炙膏肓腧穴法.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "炮炙全书",
+    "file": "texts/第一编_本草/炮炙全书.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "炮炙大法",
+    "file": "texts/第一编_本草/炮炙大法.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "焦氏喉科枕秘",
+    "file": "texts/第三编_咽喉口齿/焦氏喉科枕秘.txt",
+    "bian": "第三编",
+    "lei": "咽喉口齿",
+    "confidence": 0.9,
+    "matched_by": "咽喉口齿类"
+  },
+  {
+    "name": "爱月庐医案",
+    "file": "texts/第三编_医案医话/爱月庐医案.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "玉机微义",
+    "file": "texts/第三编_通论/玉机微义.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "王旭高临证医案",
+    "file": "texts/第三编_医案医话/王旭高临证医案.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "王氏医案绎注",
+    "file": "texts/第三编_医案医话/王氏医案绎注.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "珍珠囊补遗药性赋",
+    "file": "texts/第一编_本草/珍珠囊补遗药性赋.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "理瀹骈文",
+    "file": "texts/第三编_通论/理瀹骈文.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "理虚元鉴",
+    "file": "texts/第三编_内科/理虚元鉴.txt",
+    "bian": "第三编",
+    "lei": "内科",
+    "confidence": 0.9,
+    "matched_by": "内科类"
+  },
+  {
+    "name": "瑞竹堂经验方",
+    "file": "texts/第二编_方书/瑞竹堂经验方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "疠疡机要",
+    "file": "texts/第三编_内科/疠疡机要.txt",
+    "bian": "第三编",
+    "lei": "内科",
+    "confidence": 0.9,
+    "matched_by": "内科类"
+  },
+  {
+    "name": "疡医大全",
+    "file": "texts/第三编_外科/疡医大全.txt",
+    "bian": "第三编",
+    "lei": "外科",
+    "confidence": 0.9,
+    "matched_by": "外科类"
+  },
+  {
+    "name": "疡科心得集",
+    "file": "texts/第三编_外科/疡科心得集.txt",
+    "bian": "第三编",
+    "lei": "外科",
+    "confidence": 0.9,
+    "matched_by": "外科类"
+  },
+  {
+    "name": "疡科纲要",
+    "file": "texts/第三编_外科/疡科纲要.txt",
+    "bian": "第三编",
+    "lei": "外科",
+    "confidence": 0.9,
+    "matched_by": "外科类"
+  },
+  {
+    "name": "疫疹一得",
+    "file": "texts/第三编_温病/疫疹一得.txt",
+    "bian": "第三编",
+    "lei": "温病",
+    "confidence": 0.9,
+    "matched_by": "温病类"
+  },
+  {
+    "name": "疯门全书",
+    "file": "texts/第三编_内科/疯门全书.txt",
+    "bian": "第三编",
+    "lei": "内科",
+    "confidence": 0.9,
+    "matched_by": "内科类"
+  },
+  {
+    "name": "病机气宜保命集",
+    "file": "texts/第二编_病因病机/病机气宜保命集.txt",
+    "bian": "第二编",
+    "lei": "病因病机",
+    "confidence": 0.9,
+    "matched_by": "病因病机类"
+  },
+  {
+    "name": "症因脉治",
+    "file": "texts/第二编_诊法/症因脉治.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "痎疟论疏",
+    "file": "texts/第三编_内科/痎疟论疏.txt",
+    "bian": "第三编",
+    "lei": "内科",
+    "confidence": 0.9,
+    "matched_by": "内科类"
+  },
+  {
+    "name": "痧疹辑要",
+    "file": "texts/第三编_内科/痧疹辑要.txt",
+    "bian": "第三编",
+    "lei": "内科",
+    "confidence": 0.9,
+    "matched_by": "内科类"
+  },
+  {
+    "name": "痧胀玉衡",
+    "file": "texts/第三编_内科/痧胀玉衡.txt",
+    "bian": "第三编",
+    "lei": "内科",
+    "confidence": 0.9,
+    "matched_by": "内科类"
+  },
+  {
+    "name": "痰火点雪",
+    "file": "texts/第三编_内科/痰火点雪.txt",
+    "bian": "第三编",
+    "lei": "内科",
+    "confidence": 0.9,
+    "matched_by": "内科类"
+  },
+  {
+    "name": "痰疠法门",
+    "file": "texts/第三编_内科/痰疠法门.txt",
+    "bian": "第三编",
+    "lei": "内科",
+    "confidence": 0.9,
+    "matched_by": "内科类"
+  },
+  {
+    "name": "瘟疫论",
+    "file": "texts/第三编_温病/瘟疫论.txt",
+    "bian": "第三编",
+    "lei": "温病",
+    "confidence": 0.9,
+    "matched_by": "温病类"
+  },
+  {
+    "name": "瘴疟指南",
+    "file": "texts/第三编_内科/瘴疟指南.txt",
+    "bian": "第三编",
+    "lei": "内科",
+    "confidence": 0.9,
+    "matched_by": "内科类"
+  },
+  {
+    "name": "白喉全生集",
+    "file": "texts/第三编_咽喉口齿/白喉全生集.txt",
+    "bian": "第三编",
+    "lei": "咽喉口齿",
+    "confidence": 0.9,
+    "matched_by": "咽喉口齿类"
+  },
+  {
+    "name": "白喉条辨",
+    "file": "texts/第三编_咽喉口齿/白喉条辨.txt",
+    "bian": "第三编",
+    "lei": "咽喉口齿",
+    "confidence": 0.9,
+    "matched_by": "咽喉口齿类"
+  },
+  {
+    "name": "百家针灸歌赋",
+    "file": "texts/第二编_针灸推拿/百家针灸歌赋.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "皇汉医学",
+    "file": "texts/第三编_通论/皇汉医学.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "盘珠集胎产症治",
+    "file": "texts/第三编_女科/盘珠集胎产症治.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "目经大成",
+    "file": "texts/第三编_女科/目经大成.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "眉寿堂方案选存",
+    "file": "texts/第二编_方书/眉寿堂方案选存.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "眼科奇书",
+    "file": "texts/第三编_眼科/眼科奇书.txt",
+    "bian": "第三编",
+    "lei": "眼科",
+    "confidence": 0.9,
+    "matched_by": "眼科类"
+  },
+  {
+    "name": "眼科心法要诀",
+    "file": "texts/第三编_眼科/眼科心法要诀.txt",
+    "bian": "第三编",
+    "lei": "眼科",
+    "confidence": 0.9,
+    "matched_by": "眼科类"
+  },
+  {
+    "name": "眼科秘诀",
+    "file": "texts/第三编_眼科/眼科秘诀.txt",
+    "bian": "第三编",
+    "lei": "眼科",
+    "confidence": 0.9,
+    "matched_by": "眼科类"
+  },
+  {
+    "name": "眼科阐微",
+    "file": "texts/第三编_眼科/眼科阐微.txt",
+    "bian": "第三编",
+    "lei": "眼科",
+    "confidence": 0.9,
+    "matched_by": "眼科类"
+  },
+  {
+    "name": "知医必辨",
+    "file": "texts/第三编_通论/知医必辨.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "石室秘录",
+    "file": "texts/第三编_通论/石室秘录.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "石山医案",
+    "file": "texts/第三编_医案医话/石山医案.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "石药尔雅",
+    "file": "texts/第一编_本草/石药尔雅.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "研经言",
+    "file": "texts/第三编_通论/研经言.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "祝由十三科",
+    "file": "texts/第三编_通论/祝由十三科.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "神仙济世良方",
+    "file": "texts/第二编_方书/神仙济世良方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "神农本草经-清-孙星衍",
+    "file": "texts/第一编_本草/神农本草经-清-孙星衍.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "神农本草经",
+    "file": "texts/第一编_本草/神农本草经.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "神农本草经疏",
+    "file": "texts/第一编_本草/神农本草经疏.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "神农本草经百种录",
+    "file": "texts/第一编_本草/神农本草经百种录.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "神农本草经读",
+    "file": "texts/第一编_本草/神农本草经读.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "神农本草经赞",
+    "file": "texts/第一编_本草/神农本草经赞.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "神应经",
+    "file": "texts/第二编_针灸推拿/神应经.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "神灸经纶",
+    "file": "texts/第二编_针灸推拿/神灸经纶.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "种福堂公选良方",
+    "file": "texts/第二编_方书/种福堂公选良方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "秘传刘伯温家藏接骨金疮禁方",
+    "file": "texts/第二编_方书/秘传刘伯温家藏接骨金疮禁方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "秘传外科方",
+    "file": "texts/第二编_方书/秘传外科方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "秘传眼科龙木论",
+    "file": "texts/第三编_眼科/秘传眼科龙木论.txt",
+    "bian": "第三编",
+    "lei": "眼科",
+    "confidence": 0.9,
+    "matched_by": "眼科类"
+  },
+  {
+    "name": "秘传证治要诀及类方",
+    "file": "texts/第二编_方书/秘传证治要诀及类方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "秘藏膏丹丸散方剂",
+    "file": "texts/第二编_方书/秘藏膏丹丸散方剂.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "程杏轩医案",
+    "file": "texts/第三编_医案医话/程杏轩医案.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "程门雪遗稿",
+    "file": "texts/第三编_通论/程门雪遗稿.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "穴道秘书",
+    "file": "texts/第二编_针灸推拿/穴道秘书.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "竹林寺女科",
+    "file": "texts/第三编_女科/竹林寺女科.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "笔花医镜",
+    "file": "texts/第三编_通论/笔花医镜.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "简明医彀",
+    "file": "texts/第三编_通论/简明医彀.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "类经",
+    "file": "texts/第一编_医经/类经.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "内经类"
+  },
+  {
+    "name": "类经图翼",
+    "file": "texts/第一编_医经/类经图翼.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "内经类"
+  },
+  {
+    "name": "类证普济本事方",
+    "file": "texts/第二编_方书/类证普济本事方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "类证治裁",
+    "file": "texts/第三编_通论/类证治裁.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "类证活人书",
+    "file": "texts/第一编_伤寒金匮/类证活人书.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "素问入式运气论奥",
+    "file": "texts/第一编_医经/素问入式运气论奥.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "内经类"
+  },
+  {
+    "name": "素问六气玄珠密语",
+    "file": "texts/第一编_医经/素问六气玄珠密语.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "内经类"
+  },
+  {
+    "name": "素问灵枢类纂约注",
+    "file": "texts/第一编_医经/素问灵枢类纂约注.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "内经类"
+  },
+  {
+    "name": "素问玄机原病式",
+    "file": "texts/第一编_医经/素问玄机原病式.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "内经类"
+  },
+  {
+    "name": "素问病机气宜保命集",
+    "file": "texts/第一编_医经/素问病机气宜保命集.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "内经类"
+  },
+  {
+    "name": "素问经注节解",
+    "file": "texts/第一编_医经/素问经注节解.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "内经类"
+  },
+  {
+    "name": "素问要旨论",
+    "file": "texts/第一编_医经/素问要旨论.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "内经类"
+  },
+  {
+    "name": "素问识",
+    "file": "texts/第一编_医经/素问识.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "内经类"
+  },
+  {
+    "name": "经效产宝",
+    "file": "texts/第三编_女科/经效产宝.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "经方实验录",
+    "file": "texts/第二编_方书/经方实验录.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "经穴汇解",
+    "file": "texts/第二编_针灸推拿/经穴汇解.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "经络全书",
+    "file": "texts/第二编_经络骨度/经络全书.txt",
+    "bian": "第二编",
+    "lei": "经络骨度",
+    "confidence": 0.9,
+    "matched_by": "经络骨度类"
+  },
+  {
+    "name": "经络汇编",
+    "file": "texts/第二编_经络骨度/经络汇编.txt",
+    "bian": "第二编",
+    "lei": "经络骨度",
+    "confidence": 0.9,
+    "matched_by": "经络骨度类"
+  },
+  {
+    "name": "经络考",
+    "file": "texts/第二编_经络骨度/经络考.txt",
+    "bian": "第二编",
+    "lei": "经络骨度",
+    "confidence": 0.9,
+    "matched_by": "经络骨度类"
+  },
+  {
+    "name": "经验丹方汇编",
+    "file": "texts/第二编_方书/经验丹方汇编.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "经验奇方",
+    "file": "texts/第二编_方书/经验奇方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "经验麻科",
+    "file": "texts/第三编_女科/经验麻科.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "绛囊撮要",
+    "file": "texts/第二编_方书/绛囊撮要.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "绛雪园古方选注",
+    "file": "texts/第二编_方书/绛雪园古方选注.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "续医说",
+    "file": "texts/第一编_医史/续医说.txt",
+    "bian": "第一编",
+    "lei": "医史",
+    "confidence": 0.9,
+    "matched_by": "医史类"
+  },
+  {
+    "name": "续名医类案",
+    "file": "texts/第三编_医案医话/续名医类案.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "罗氏会约医镜",
+    "file": "texts/第三编_通论/罗氏会约医镜.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "肘后备急方",
+    "file": "texts/第二编_方书/肘后备急方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "肯堂医论",
+    "file": "texts/第三编_通论/肯堂医论.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "胎产心法",
+    "file": "texts/第三编_女科/胎产心法.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "胎产指南",
+    "file": "texts/第三编_女科/胎产指南.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "胎产秘书",
+    "file": "texts/第三编_女科/胎产秘书.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "脉因证治",
+    "file": "texts/第二编_诊法/脉因证治.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "脉学阐微",
+    "file": "texts/第二编_诊法/脉学阐微.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "脉理求真",
+    "file": "texts/第二编_诊法/脉理求真.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "脉症治方",
+    "file": "texts/第二编_诊法/脉症治方.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "脉确",
+    "file": "texts/第二编_诊法/脉确.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "脉经",
+    "file": "texts/第二编_诊法/脉经.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "脉诀",
+    "file": "texts/第二编_诊法/脉诀.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "脉诀乳海",
+    "file": "texts/第二编_诊法/脉诀乳海.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "脉诀刊误",
+    "file": "texts/第二编_诊法/脉诀刊误.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "脉诀指掌病式图说",
+    "file": "texts/第二编_诊法/脉诀指掌病式图说.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "脉诀汇辨",
+    "file": "texts/第二编_诊法/脉诀汇辨.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "脉诀考证",
+    "file": "texts/第二编_诊法/脉诀考证.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "脉诀阐微",
+    "file": "texts/第二编_诊法/脉诀阐微.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "脉象口诀歌",
+    "file": "texts/第二编_诊法/脉象口诀歌.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "脉象统类",
+    "file": "texts/第二编_诊法/脉象统类.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "脏腑虚实标本用药式",
+    "file": "texts/第一编_本草/脏腑虚实标本用药式.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "脚气治法总要",
+    "file": "texts/第三编_内科/脚气治法总要.txt",
+    "bian": "第三编",
+    "lei": "内科",
+    "confidence": 0.9,
+    "matched_by": "内科类"
+  },
+  {
+    "name": "脾胃论",
+    "file": "texts/第三编_通论/脾胃论.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "舌鉴辨正",
+    "file": "texts/第二编_诊法/舌鉴辨正.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "花韵楼医案",
+    "file": "texts/第三编_医案医话/花韵楼医案.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "苏沈良方",
+    "file": "texts/第二编_方书/苏沈良方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "药征",
+    "file": "texts/第一编_本草/药征.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "药征续编",
+    "file": "texts/第一编_本草/药征续编.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "药性切用",
+    "file": "texts/第一编_本草/药性切用.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "药性歌括四百味",
+    "file": "texts/第一编_本草/药性歌括四百味.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "药性赋",
+    "file": "texts/第一编_本草/药性赋.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "药症忌宜",
+    "file": "texts/第一编_本草/药症忌宜.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "药笼小品",
+    "file": "texts/第一编_本草/药笼小品.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "药鉴",
+    "file": "texts/第一编_本草/药鉴.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "薛氏医案",
+    "file": "texts/第三编_医案医话/薛氏医案.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "虚损启微",
+    "file": "texts/第三编_内科/虚损启微.txt",
+    "bian": "第三编",
+    "lei": "内科",
+    "confidence": 0.9,
+    "matched_by": "内科类"
+  },
+  {
+    "name": "蠢子医",
+    "file": "texts/第三编_通论/蠢子医.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "血证论",
+    "file": "texts/第三编_内科/血证论.txt",
+    "bian": "第三编",
+    "lei": "内科",
+    "confidence": 0.9,
+    "matched_by": "内科类"
+  },
+  {
+    "name": "褚氏遗书",
+    "file": "texts/第三编_通论/褚氏遗书.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "西方子明堂灸经",
+    "file": "texts/第二编_针灸推拿/西方子明堂灸经.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "要药分剂",
+    "file": "texts/第一编_本草/要药分剂.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "解围元薮",
+    "file": "texts/第三编_内科/解围元薮.txt",
+    "bian": "第三编",
+    "lei": "内科",
+    "confidence": 0.9,
+    "matched_by": "内科类"
+  },
+  {
+    "name": "订正仲景全书伤寒论注",
+    "file": "texts/第一编_伤寒金匮/订正仲景全书伤寒论注.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "订正仲景全书金匮要略注",
+    "file": "texts/第一编_伤寒金匮/订正仲景全书金匮要略注.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "订正太素脉秘诀",
+    "file": "texts/第一编_医经/订正太素脉秘诀.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "黄帝内经太素"
+  },
+  {
+    "name": "许氏医案",
+    "file": "texts/第三编_医案医话/许氏医案.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "证治准绳",
+    "file": "texts/第三编_通论/证治准绳.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "证治准绳伤寒",
+    "file": "texts/第一编_伤寒金匮/证治准绳伤寒.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "证治准绳女科",
+    "file": "texts/第三编_女科/证治准绳女科.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "证治准绳幼科",
+    "file": "texts/第三编_儿科/证治准绳幼科.txt",
+    "bian": "第三编",
+    "lei": "儿科",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "证治准绳杂病",
+    "file": "texts/第三编_通论/证治准绳杂病.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "证治准绳疡医",
+    "file": "texts/第三编_外科/证治准绳疡医.txt",
+    "bian": "第三编",
+    "lei": "外科",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "证治准绳类方",
+    "file": "texts/第二编_方书/证治准绳类方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "证治心传",
+    "file": "texts/第三编_通论/证治心传.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "证治汇补",
+    "file": "texts/第三编_通论/证治汇补.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "证类本草",
+    "file": "texts/第一编_本草/证类本草.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "评注产科心法",
+    "file": "texts/第三编_女科/评注产科心法.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "评琴书屋医略",
+    "file": "texts/第三编_通论/评琴书屋医略.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "诊余举隅录",
+    "file": "texts/第二编_诊法/诊余举隅录.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "诊宗三昧",
+    "file": "texts/第二编_诊法/诊宗三昧.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "诊家枢要",
+    "file": "texts/第二编_诊法/诊家枢要.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "诊家正眼",
+    "file": "texts/第二编_诊法/诊家正眼.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "诊脉三十二辨",
+    "file": "texts/第二编_诊法/诊脉三十二辨.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "诚求集",
+    "file": "texts/第三编_儿科/诚求集.txt",
+    "bian": "第三编",
+    "lei": "儿科",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "诸病主病诗",
+    "file": "texts/第三编_通论/诸病主病诗.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "诸病源候论",
+    "file": "texts/第二编_病因病机/诸病源候论.txt",
+    "bian": "第二编",
+    "lei": "病因病机",
+    "confidence": 0.9,
+    "matched_by": "病因病机类"
+  },
+  {
+    "name": "读医随笔",
+    "file": "texts/第三编_通论/读医随笔.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "读素问钞",
+    "file": "texts/第一编_医经/读素问钞.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "内经类"
+  },
+  {
+    "name": "质疑录",
+    "file": "texts/第三编_通论/质疑录.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "赤水元珠",
+    "file": "texts/第三编_通论/赤水元珠.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "走马急疳真方",
+    "file": "texts/第二编_方书/走马急疳真方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "跌打损伤回生集",
+    "file": "texts/第二编_方书/跌打损伤回生集.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "跌打损伤方",
+    "file": "texts/第二编_方书/跌打损伤方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "跌打秘方",
+    "file": "texts/第二编_方书/跌打秘方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "跌损妙方",
+    "file": "texts/第二编_方书/跌损妙方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "轩岐救正论",
+    "file": "texts/第三编_通论/轩岐救正论.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "辅行诀脏腑用药法要",
+    "file": "texts/第一编_本草/辅行诀脏腑用药法要.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "辨症汇编",
+    "file": "texts/第三编_丛书/辨症汇编.txt",
+    "bian": "第三编",
+    "lei": "丛书",
+    "confidence": 0.9,
+    "matched_by": "丛书类"
+  },
+  {
+    "name": "辨症玉函",
+    "file": "texts/第三编_通论/辨症玉函.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "辨证奇闻",
+    "file": "texts/第三编_通论/辨证奇闻.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "辨证录",
+    "file": "texts/第三编_通论/辨证录.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "达生编",
+    "file": "texts/第三编_女科/达生编.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "运气要诀",
+    "file": "texts/第二编_运气/运气要诀.txt",
+    "bian": "第二编",
+    "lei": "运气",
+    "confidence": 0.9,
+    "matched_by": "运气类"
+  },
+  {
+    "name": "退思集类方歌注",
+    "file": "texts/第二编_方书/退思集类方歌注.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "遵生八笺",
+    "file": "texts/第一编_养生/遵生八笺.txt",
+    "bian": "第一编",
+    "lei": "养生",
+    "confidence": 0.9,
+    "matched_by": "养生类"
+  },
+  {
+    "name": "邯郸遗稿",
+    "file": "texts/第三编_女科/邯郸遗稿.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "邵兰荪医案",
+    "file": "texts/第三编_医案医话/邵兰荪医案.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "醉花窗医案",
+    "file": "texts/第三编_医案医话/醉花窗医案.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "重广补注黄帝内经素问",
+    "file": "texts/第一编_医经/重广补注黄帝内经素问.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "内经类"
+  },
+  {
+    "name": "重庆堂随笔",
+    "file": "texts/第三编_通论/重庆堂随笔.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "重楼玉钥",
+    "file": "texts/第三编_咽喉口齿/重楼玉钥.txt",
+    "bian": "第三编",
+    "lei": "咽喉口齿",
+    "confidence": 0.9,
+    "matched_by": "咽喉口齿类"
+  },
+  {
+    "name": "重楼玉钥续编",
+    "file": "texts/第三编_咽喉口齿/重楼玉钥续编.txt",
+    "bian": "第三编",
+    "lei": "咽喉口齿",
+    "confidence": 0.9,
+    "matched_by": "咽喉口齿类"
+  },
+  {
+    "name": "重订产孕集",
+    "file": "texts/第三编_女科/重订产孕集.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "重订囊秘喉书",
+    "file": "texts/第三编_咽喉口齿/重订囊秘喉书.txt",
+    "bian": "第三编",
+    "lei": "咽喉口齿",
+    "confidence": 0.9,
+    "matched_by": "咽喉口齿类"
+  },
+  {
+    "name": "重订广温热论",
+    "file": "texts/第三编_温病/重订广温热论.txt",
+    "bian": "第三编",
+    "lei": "温病",
+    "confidence": 0.9,
+    "matched_by": "温病类"
+  },
+  {
+    "name": "重订灵兰要览",
+    "file": "texts/第三编_通论/重订灵兰要览.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "重订诊家直诀",
+    "file": "texts/第二编_诊法/重订诊家直诀.txt",
+    "bian": "第二编",
+    "lei": "诊法",
+    "confidence": 0.9,
+    "matched_by": "诊法类"
+  },
+  {
+    "name": "重订通俗伤寒论",
+    "file": "texts/第一编_伤寒金匮/重订通俗伤寒论.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "金匮方歌括",
+    "file": "texts/第一编_伤寒金匮/金匮方歌括.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "金匮玉函经二注",
+    "file": "texts/第一编_伤寒金匮/金匮玉函经二注.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "金匮玉函要略辑义",
+    "file": "texts/第一编_伤寒金匮/金匮玉函要略辑义.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "金匮玉函要略述义",
+    "file": "texts/第一编_伤寒金匮/金匮玉函要略述义.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "金匮翼",
+    "file": "texts/第一编_伤寒金匮/金匮翼.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "金匮要略心典",
+    "file": "texts/第一编_伤寒金匮/金匮要略心典.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "金匮要略方论",
+    "file": "texts/第一编_伤寒金匮/金匮要略方论.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "金匮要略浅注",
+    "file": "texts/第一编_伤寒金匮/金匮要略浅注.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "金匮要略论注",
+    "file": "texts/第一编_伤寒金匮/金匮要略论注.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "金匮钩玄",
+    "file": "texts/第一编_伤寒金匮/金匮钩玄.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "金疮秘传禁方",
+    "file": "texts/第二编_方书/金疮秘传禁方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "金疮跌打接骨药性秘书",
+    "file": "texts/第一编_本草/金疮跌打接骨药性秘书.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "金针秘传",
+    "file": "texts/第二编_针灸推拿/金针秘传.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "鍼灸甲乙经",
+    "file": "texts/第三编_女科/鍼灸甲乙经.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "鍼灸资生经",
+    "file": "texts/第三编_女科/鍼灸资生经.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "鍼灸问对",
+    "file": "texts/第二编_针灸推拿/鍼灸问对.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "针灸大全",
+    "file": "texts/第二编_针灸推拿/针灸大全.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "针灸大成",
+    "file": "texts/第二编_针灸推拿/针灸大成.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "针灸易学",
+    "file": "texts/第二编_针灸推拿/针灸易学.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "针灸甲乙经",
+    "file": "texts/第二编_针灸推拿/针灸甲乙经.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "针灸神书",
+    "file": "texts/第二编_针灸推拿/针灸神书.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "针灸素难要旨",
+    "file": "texts/第二编_针灸推拿/针灸素难要旨.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "针灸聚英",
+    "file": "texts/第二编_针灸推拿/针灸聚英.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "针灸节要",
+    "file": "texts/第二编_针灸推拿/针灸节要.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "针灸资生经",
+    "file": "texts/第二编_针灸推拿/针灸资生经.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "针灸逢源",
+    "file": "texts/第二编_针灸推拿/针灸逢源.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "针灸问对",
+    "file": "texts/第二编_针灸推拿/针灸问对.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "针灸集成",
+    "file": "texts/第二编_针灸推拿/针灸集成.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "针经指南",
+    "file": "texts/第二编_针灸推拿/针经指南.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "针经节要",
+    "file": "texts/第二编_针灸推拿/针经节要.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "针邪密要",
+    "file": "texts/第二编_针灸推拿/针邪密要.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "钱氏秘传产科方书名试验录",
+    "file": "texts/第二编_方书/钱氏秘传产科方书名试验录.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "铜人鍼灸经",
+    "file": "texts/第二编_针灸推拿/铜人鍼灸经.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "铜人针灸经",
+    "file": "texts/第二编_针灸推拿/铜人针灸经.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "银海指南",
+    "file": "texts/第三编_眼科/银海指南.txt",
+    "bian": "第三编",
+    "lei": "眼科",
+    "confidence": 0.9,
+    "matched_by": "眼科类"
+  },
+  {
+    "name": "银海精微",
+    "file": "texts/第三编_眼科/银海精微.txt",
+    "bian": "第三编",
+    "lei": "眼科",
+    "confidence": 0.9,
+    "matched_by": "眼科类"
+  },
+  {
+    "name": "长沙方歌括",
+    "file": "texts/第一编_伤寒金匮/长沙方歌括.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "长沙类"
+  },
+  {
+    "name": "长沙药解",
+    "file": "texts/第一编_伤寒金匮/长沙药解.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "长沙类"
+  },
+  {
+    "name": "阴证略例",
+    "file": "texts/第三编_通论/阴证略例.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "陆地仙经",
+    "file": "texts/第一编_养生/陆地仙经.txt",
+    "bian": "第一编",
+    "lei": "养生",
+    "confidence": 0.9,
+    "matched_by": "养生类"
+  },
+  {
+    "name": "陈氏幼科秘诀",
+    "file": "texts/第三编_儿科/陈氏幼科秘诀.txt",
+    "bian": "第三编",
+    "lei": "儿科",
+    "confidence": 0.9,
+    "matched_by": "儿科类"
+  },
+  {
+    "name": "陈莘田外科方案",
+    "file": "texts/第二编_方书/陈莘田外科方案.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "陈莲舫先生医案",
+    "file": "texts/第三编_医案医话/陈莲舫先生医案.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "随息居重订霍乱论",
+    "file": "texts/第三编_内科/随息居重订霍乱论.txt",
+    "bian": "第三编",
+    "lei": "内科",
+    "confidence": 0.9,
+    "matched_by": "内科类"
+  },
+  {
+    "name": "难经古义",
+    "file": "texts/第一编_医经/难经古义.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "难经类"
+  },
+  {
+    "name": "难经本义",
+    "file": "texts/第一编_医经/难经本义.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "难经类"
+  },
+  {
+    "name": "难经正义",
+    "file": "texts/第一编_医经/难经正义.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "难经类"
+  },
+  {
+    "name": "难经经释",
+    "file": "texts/第一编_医经/难经经释.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "难经类"
+  },
+  {
+    "name": "难经集注",
+    "file": "texts/第一编_医经/难经集注.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "难经类"
+  },
+  {
+    "name": "集验方",
+    "file": "texts/第二编_方书/集验方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "集验背疽方",
+    "file": "texts/第二编_方书/集验背疽方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "雷公炮制药性解",
+    "file": "texts/第一编_本草/雷公炮制药性解.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "雷公炮炙论",
+    "file": "texts/第一编_本草/雷公炮炙论.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "青囊秘诀",
+    "file": "texts/第三编_外科/青囊秘诀.txt",
+    "bian": "第三编",
+    "lei": "外科",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "韩氏医通",
+    "file": "texts/第三编_通论/韩氏医通.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "顾松园医镜",
+    "file": "texts/第三编_通论/顾松园医镜.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.9,
+    "matched_by": "通论类"
+  },
+  {
+    "name": "颅囟经",
+    "file": "texts/第三编_女科/颅囟经.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "颅顖经",
+    "file": "texts/第三编_女科/颅顖经.txt",
+    "bian": "第三编",
+    "lei": "女科",
+    "confidence": 0.9,
+    "matched_by": "女科类"
+  },
+  {
+    "name": "风劳臌膈四大证治",
+    "file": "texts/第三编_内科/风劳臌膈四大证治.txt",
+    "bian": "第三编",
+    "lei": "内科",
+    "confidence": 0.9,
+    "matched_by": "内科类"
+  },
+  {
+    "name": "食疗方",
+    "file": "texts/第一编_本草/食疗方.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "食鉴本草",
+    "file": "texts/第一编_本草/食鉴本草.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "饮膳正要",
+    "file": "texts/第一编_本草/饮膳正要.txt",
+    "bian": "第一编",
+    "lei": "本草",
+    "confidence": 0.9,
+    "matched_by": "本草类"
+  },
+  {
+    "name": "饮食须知",
+    "file": "texts/第一编_养生/饮食须知.txt",
+    "bian": "第一编",
+    "lei": "养生",
+    "confidence": 0.9,
+    "matched_by": "养生类"
+  },
+  {
+    "name": "马培之医案",
+    "file": "texts/第三编_医案医话/马培之医案.txt",
+    "bian": "第三编",
+    "lei": "医案医话",
+    "confidence": 0.9,
+    "matched_by": "医案医话类"
+  },
+  {
+    "name": "马王堆帛书五十二病方",
+    "file": "texts/第二编_方书/马王堆帛书五十二病方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "验方家秘",
+    "file": "texts/第二编_方书/验方家秘.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "验方新编",
+    "file": "texts/第二编_方书/验方新编.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "高注金匮要略",
+    "file": "texts/第一编_伤寒金匮/高注金匮要略.txt",
+    "bian": "第一编",
+    "lei": "伤寒金匮",
+    "confidence": 0.9,
+    "matched_by": "伤寒金匮类"
+  },
+  {
+    "name": "鬻婴提要说",
+    "file": "texts/第三编_儿科/鬻婴提要说.txt",
+    "bian": "第三编",
+    "lei": "儿科",
+    "confidence": 0.9,
+    "matched_by": "儿科类"
+  },
+  {
+    "name": "鬼门十三针",
+    "file": "texts/第二编_针灸推拿/鬼门十三针.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "鲁府禁方",
+    "file": "texts/第二编_方书/鲁府禁方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "鲙残篇",
+    "file": "texts/第三编_通论/鲙残篇.txt",
+    "bian": "第三编",
+    "lei": "通论",
+    "confidence": 0.95,
+    "matched_by": "人工精确映射"
+  },
+  {
+    "name": "鸡峰普济方",
+    "file": "texts/第二编_方书/鸡峰普济方.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "麻疹备要方论",
+    "file": "texts/第二编_方书/麻疹备要方论.txt",
+    "bian": "第二编",
+    "lei": "方书",
+    "confidence": 0.9,
+    "matched_by": "方书类"
+  },
+  {
+    "name": "麻疹阐注",
+    "file": "texts/第三编_儿科/麻疹阐注.txt",
+    "bian": "第三编",
+    "lei": "儿科",
+    "confidence": 0.9,
+    "matched_by": "儿科类"
+  },
+  {
+    "name": "麻科活人全书",
+    "file": "texts/第三编_儿科/麻科活人全书.txt",
+    "bian": "第三编",
+    "lei": "儿科",
+    "confidence": 0.9,
+    "matched_by": "儿科类"
+  },
+  {
+    "name": "黄帝内经太素",
+    "file": "texts/第一编_医经/黄帝内经太素.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "黄帝内经太素"
+  },
+  {
+    "name": "黄帝内经灵枢",
+    "file": "texts/第一编_医经/黄帝内经灵枢.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "内经类"
+  },
+  {
+    "name": "黄帝内经灵枢集注",
+    "file": "texts/第一编_医经/黄帝内经灵枢集注.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "内经类"
+  },
+  {
+    "name": "黄帝内经素问-战国-佚名",
+    "file": "texts/第一编_医经/黄帝内经素问-战国-佚名.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "内经类"
+  },
+  {
+    "name": "黄帝内经素问",
+    "file": "texts/第一编_医经/黄帝内经素问.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "内经类"
+  },
+  {
+    "name": "黄帝内经素问校义",
+    "file": "texts/第一编_医经/黄帝内经素问校义.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "内经类"
+  },
+  {
+    "name": "黄帝内经素问遗篇",
+    "file": "texts/第一编_医经/黄帝内经素问遗篇.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "内经类"
+  },
+  {
+    "name": "黄帝内经素问集注",
+    "file": "texts/第一编_医经/黄帝内经素问集注.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "内经类"
+  },
+  {
+    "name": "黄帝明堂灸经",
+    "file": "texts/第二编_针灸推拿/黄帝明堂灸经.txt",
+    "bian": "第二编",
+    "lei": "针灸推拿",
+    "confidence": 0.9,
+    "matched_by": "针灸推拿类"
+  },
+  {
+    "name": "黄帝素问宣明论方",
+    "file": "texts/第一编_医经/黄帝素问宣明论方.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "内经类"
+  },
+  {
+    "name": "黄帝素问直解",
+    "file": "texts/第一编_医经/黄帝素问直解.txt",
+    "bian": "第一编",
+    "lei": "医经",
+    "confidence": 0.9,
+    "matched_by": "内经类"
+  },
+  {
+    "name": "黄庭内景五藏六府图",
+    "file": "texts/第一编_养生/黄庭内景五藏六府图.txt",
+    "bian": "第一编",
+    "lei": "养生",
+    "confidence": 0.9,
+    "matched_by": "养生类"
+  }
+]

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>医藏本体论 · 中华医藏七层知识本体</title>
+<style>
+  body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;margin:0;background:#0d1117;color:#e6edf3;line-height:1.7}
+  .wrap{max-width:900px;margin:0 auto;padding:60px 24px}
+  h1{font-size:2.4em;margin:0 0 8px;background:linear-gradient(90deg,#4ade80,#38bdf8);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .sub{color:#8b949e;margin-bottom:40px;font-size:1.05em}
+  .card{background:#161b22;border:1px solid #30363d;border-radius:12px;padding:24px;margin-bottom:20px;transition:border-color .2s}
+  .card:hover{border-color:#4ade80}
+  .card a{color:#e6edf3;text-decoration:none}
+  .card h2{margin:0 0 8px;font-size:1.3em;color:#4ade80}
+  .card p{margin:0;color:#8b949e}
+  .tag{display:inline-block;background:rgba(74,222,128,.12);color:#4ade80;border:1px solid rgba(74,222,128,.3);border-radius:20px;padding:2px 12px;font-size:.85em;margin:0 6px 6px 0}
+  .meta{color:#6e7681;font-size:.9em;margin-top:40px;border-top:1px solid #30363d;padding-top:16px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>医藏本体论</h1>
+  <div class="sub">对齐《中华医藏》四编二十八类 · 兼容 W3C OWL 2 DL · 七层嵌套金字塔知识本体</div>
+
+  <div class="card"><a href="data/ontology/yizang_tree.html">
+    <h2>七层嵌套金字塔 · 交互原型</h2>
+    <p>D3.js 分层树：BFO → 四大根类 → 四编二十八类 → 788 部医书 → 篇章 → 知识元 → 条文异文，点击下钻、面包屑导航、右侧详情。</p>
+  </a></div>
+
+  <div class="card"><a href="data/yizang/categories.json">
+    <h2>四编二十八类分类标注（L3）</h2>
+    <p>788 部殆知阁医书全部归入 28 类，0 部兜底，含归类置信度与匹配规则。</p>
+  </a></div>
+
+  <div class="card"><a href="data/yizang/index.json">
+    <h2>788 部医书完整索引（L4）</h2>
+    <p>每部书名、文件路径、字节数、字符数、汉字数，附《中华医藏》2289 种官方书目框架。</p>
+  </a></div>
+
+  <div class="card"><a href="data/ontology/yizang_meta_ontology.jsonld">
+    <h2>L1/L2 OWL 元类定义（JSON-LD）</h2>
+    <p>BFO 持续/瞬时实体 + 四大根类 + 理论/诊疗/资源细分，15 对象属性 + 16 数据属性，owl:imports BFO。</p>
+  </a></div>
+
+  <div class="card"><a href="docs/ontology_spec.md">
+    <h2>最终实现蓝图（Spec）</h2>
+    <p>整体层级总图、对象/数据属性全展开表、七层约束红线、落地映射。</p>
+  </a></div>
+
+  <div>
+    <span class="tag">四编</span><span class="tag">二十八类</span><span class="tag">788 部原文</span><span class="tag">OWL 2 DL</span><span class="tag">JSON-LD</span><span class="tag">七层金字塔</span>
+  </div>
+
+  <div class="meta">参照佛学本体论 / 易经本体论范式 · 殆知阁医藏文本 · 构建日期 2026-11-12</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,7094 @@
+[
+  {
+    "name": "一得集",
+    "file": "texts/第三编_医案医话/一得集.txt",
+    "raw_file": "raw/一得集.html",
+    "size_bytes": 127430,
+    "raw_size": 139948,
+    "chars": 42840,
+    "hanzi": 35198
+  },
+  {
+    "name": "一瓢医案",
+    "file": "texts/第三编_医案医话/一瓢医案.txt",
+    "raw_file": "raw/一瓢医案.html",
+    "size_bytes": 25666,
+    "raw_size": 34674,
+    "chars": 8690,
+    "hanzi": 6854
+  },
+  {
+    "name": "一草亭目科全书",
+    "file": "texts/第三编_眼科/一草亭目科全书.txt",
+    "raw_file": "raw/一草亭目科全书.html",
+    "size_bytes": 47370,
+    "raw_size": 58365,
+    "chars": 16230,
+    "hanzi": 12533
+  },
+  {
+    "name": "丁甘仁医案",
+    "file": "texts/第三编_医案医话/丁甘仁医案.txt",
+    "raw_file": "raw/丁甘仁医案.html",
+    "size_bytes": 400683,
+    "raw_size": 432964,
+    "chars": 139503,
+    "hanzi": 100982
+  },
+  {
+    "name": "七十二症辨治方法",
+    "file": "texts/第二编_方书/七十二症辨治方法.txt",
+    "raw_file": "raw/七十二症辨治方法.html",
+    "size_bytes": 39067,
+    "raw_size": 50773,
+    "chars": 13477,
+    "hanzi": 10901
+  },
+  {
+    "name": "万氏家传养生四要",
+    "file": "texts/第一编_养生/万氏家传养生四要.txt",
+    "raw_file": "raw/万氏家传养生四要.html",
+    "size_bytes": 15209,
+    "raw_size": 23206,
+    "chars": 5153,
+    "hanzi": 4129
+  },
+  {
+    "name": "万氏秘传外科心法",
+    "file": "texts/第三编_外科/万氏秘传外科心法.txt",
+    "raw_file": "raw/万氏秘传外科心法.html",
+    "size_bytes": 107748,
+    "raw_size": 129627,
+    "chars": 37190,
+    "hanzi": 27335
+  },
+  {
+    "name": "万氏秘传片玉心书",
+    "file": "texts/第三编_儿科/万氏秘传片玉心书.txt",
+    "raw_file": "raw/万氏秘传片玉心书.html",
+    "size_bytes": 166581,
+    "raw_size": 193813,
+    "chars": 57687,
+    "hanzi": 44110
+  },
+  {
+    "name": "万病回春",
+    "file": "texts/第三编_通论/万病回春.txt",
+    "raw_file": "raw/万病回春.html",
+    "size_bytes": 845794,
+    "raw_size": 932991,
+    "chars": 292620,
+    "hanzi": 217638
+  },
+  {
+    "name": "三因极一病证方论",
+    "file": "texts/第二编_病因病机/三因极一病证方论.txt",
+    "raw_file": "raw/三因极一病证方论.html",
+    "size_bytes": 586462,
+    "raw_size": 650552,
+    "chars": 204902,
+    "hanzi": 154091
+  },
+  {
+    "name": "三家医案合刻",
+    "file": "texts/第三编_医案医话/三家医案合刻.txt",
+    "raw_file": "raw/三家医案合刻.html",
+    "size_bytes": 108385,
+    "raw_size": 121229,
+    "chars": 37953,
+    "hanzi": 30143
+  },
+  {
+    "name": "三指禅",
+    "file": "texts/第二编_诊法/三指禅.txt",
+    "raw_file": "raw/三指禅.html",
+    "size_bytes": 170496,
+    "raw_size": 183019,
+    "chars": 57271,
+    "hanzi": 45087
+  },
+  {
+    "name": "三消论",
+    "file": "texts/第三编_内科/三消论.txt",
+    "raw_file": "raw/三消论.html",
+    "size_bytes": 25350,
+    "raw_size": 33358,
+    "chars": 8538,
+    "hanzi": 6831
+  },
+  {
+    "name": "上池杂说",
+    "file": "texts/第三编_通论/上池杂说.txt",
+    "raw_file": "raw/上池杂说.html",
+    "size_bytes": 22950,
+    "raw_size": 31381,
+    "chars": 7848,
+    "hanzi": 6183
+  },
+  {
+    "name": "专治麻痧初编",
+    "file": "texts/第三编_内科/专治麻痧初编.txt",
+    "raw_file": "raw/专治麻痧初编.html",
+    "size_bytes": 241203,
+    "raw_size": 261843,
+    "chars": 81463,
+    "hanzi": 67674
+  },
+  {
+    "name": "世医得效方",
+    "file": "texts/第二编_方书/世医得效方.txt",
+    "raw_file": "raw/世医得效方.html",
+    "size_bytes": 1003029,
+    "raw_size": 1110312,
+    "chars": 346167,
+    "hanzi": 259535
+  },
+  {
+    "name": "丛桂草堂医案",
+    "file": "texts/第三编_医案医话/丛桂草堂医案.txt",
+    "raw_file": "raw/丛桂草堂医案.html",
+    "size_bytes": 89521,
+    "raw_size": 99062,
+    "chars": 30019,
+    "hanzi": 24731
+  },
+  {
+    "name": "严氏济生方",
+    "file": "texts/第二编_方书/严氏济生方.txt",
+    "raw_file": "raw/严氏济生方.html",
+    "size_bytes": 256484,
+    "raw_size": 295922,
+    "chars": 89158,
+    "hanzi": 65006
+  },
+  {
+    "name": "中医蒙求",
+    "file": "texts/第一编_医史/中医蒙求.txt",
+    "raw_file": "raw/中医蒙求.html",
+    "size_bytes": 3184,
+    "raw_size": 11736,
+    "chars": 1130,
+    "hanzi": 822
+  },
+  {
+    "name": "中国医籍考",
+    "file": "texts/第一编_医史/中国医籍考.txt",
+    "raw_file": "raw/中国医籍考.html",
+    "size_bytes": 1956598,
+    "raw_size": 2030263,
+    "chars": 658710,
+    "hanzi": 542411
+  },
+  {
+    "name": "中寒论辩证广注",
+    "file": "texts/第一编_伤寒金匮/中寒论辩证广注.txt",
+    "raw_file": "raw/中寒论辩证广注.html",
+    "size_bytes": 164206,
+    "raw_size": 179603,
+    "chars": 55436,
+    "hanzi": 45013
+  },
+  {
+    "name": "中藏经",
+    "file": "texts/第三编_女科/中藏经.txt",
+    "raw_file": "raw/中藏经.html",
+    "size_bytes": 95497,
+    "raw_size": 109324,
+    "chars": 32441,
+    "hanzi": 25229
+  },
+  {
+    "name": "中西汇通医经精义",
+    "file": "texts/第一编_医经/中西汇通医经精义.txt",
+    "raw_file": "raw/中西汇通医经精义.html",
+    "size_bytes": 181782,
+    "raw_size": 200775,
+    "chars": 61346,
+    "hanzi": 50887
+  },
+  {
+    "name": "中风论",
+    "file": "texts/第三编_内科/中风论.txt",
+    "raw_file": "raw/中风论.html",
+    "size_bytes": 60520,
+    "raw_size": 69152,
+    "chars": 20244,
+    "hanzi": 16692
+  },
+  {
+    "name": "串雅内外编",
+    "file": "texts/第二编_方书/串雅内外编.txt",
+    "raw_file": "raw/串雅内外编.html",
+    "size_bytes": 160315,
+    "raw_size": 188730,
+    "chars": 55125,
+    "hanzi": 42723
+  },
+  {
+    "name": "临症验舌法",
+    "file": "texts/第二编_诊法/临症验舌法.txt",
+    "raw_file": "raw/临症验舌法.html",
+    "size_bytes": 44039,
+    "raw_size": 54700,
+    "chars": 15149,
+    "hanzi": 11611
+  },
+  {
+    "name": "临证指南医案",
+    "file": "texts/第三编_医案医话/临证指南医案.txt",
+    "raw_file": "raw/临证指南医案.html",
+    "size_bytes": 939743,
+    "raw_size": 1006032,
+    "chars": 329539,
+    "hanzi": 254115
+  },
+  {
+    "name": "丹医秘授古脉法",
+    "file": "texts/第二编_诊法/丹医秘授古脉法.txt",
+    "raw_file": "raw/丹医秘授古脉法.html",
+    "size_bytes": 24432,
+    "raw_size": 33746,
+    "chars": 8284,
+    "hanzi": 6613
+  },
+  {
+    "name": "丹台玉案",
+    "file": "texts/第三编_通论/丹台玉案.txt",
+    "raw_file": "raw/丹台玉案.html",
+    "size_bytes": 440809,
+    "raw_size": 483464,
+    "chars": 153945,
+    "hanzi": 117922
+  },
+  {
+    "name": "丹溪心法",
+    "file": "texts/第三编_通论/丹溪心法.txt",
+    "raw_file": "raw/丹溪心法.html",
+    "size_bytes": 446321,
+    "raw_size": 480605,
+    "chars": 155607,
+    "hanzi": 115903
+  },
+  {
+    "name": "丹溪手镜",
+    "file": "texts/第三编_通论/丹溪手镜.txt",
+    "raw_file": "raw/丹溪手镜.html",
+    "size_bytes": 264430,
+    "raw_size": 302003,
+    "chars": 92478,
+    "hanzi": 68094
+  },
+  {
+    "name": "丹溪治法心要",
+    "file": "texts/第三编_通论/丹溪治法心要.txt",
+    "raw_file": "raw/丹溪治法心要.html",
+    "size_bytes": 275385,
+    "raw_size": 288911,
+    "chars": 93609,
+    "hanzi": 72482
+  },
+  {
+    "name": "也是山人医案",
+    "file": "texts/第三编_医案医话/也是山人医案.txt",
+    "raw_file": "raw/也是山人医案.html",
+    "size_bytes": 109231,
+    "raw_size": 126505,
+    "chars": 38717,
+    "hanzi": 26150
+  },
+  {
+    "name": "产后十八论",
+    "file": "texts/第三编_女科/产后十八论.txt",
+    "raw_file": "raw/产后十八论.html",
+    "size_bytes": 5706,
+    "raw_size": 13242,
+    "chars": 1930,
+    "hanzi": 1543
+  },
+  {
+    "name": "产宝",
+    "file": "texts/第三编_女科/产宝.txt",
+    "raw_file": "raw/产宝.html",
+    "size_bytes": 30190,
+    "raw_size": 39350,
+    "chars": 10320,
+    "hanzi": 8154
+  },
+  {
+    "name": "产宝诸方",
+    "file": "texts/第二编_方书/产宝诸方.txt",
+    "raw_file": "raw/产宝诸方.html",
+    "size_bytes": 25807,
+    "raw_size": 34980,
+    "chars": 8693,
+    "hanzi": 7460
+  },
+  {
+    "name": "产育宝庆集",
+    "file": "texts/第三编_女科/产育宝庆集.txt",
+    "raw_file": "raw/产育宝庆集.html",
+    "size_bytes": 50701,
+    "raw_size": 60861,
+    "chars": 17030,
+    "hanzi": 15296
+  },
+  {
+    "name": "产鉴",
+    "file": "texts/第三编_女科/产鉴.txt",
+    "raw_file": "raw/产鉴.html",
+    "size_bytes": 65824,
+    "raw_size": 77084,
+    "chars": 23094,
+    "hanzi": 17232
+  },
+  {
+    "name": "仁斋直指",
+    "file": "texts/第三编_通论/仁斋直指.txt",
+    "raw_file": "raw/仁斋直指.html",
+    "size_bytes": 1073167,
+    "raw_size": 1165546,
+    "chars": 361350,
+    "hanzi": 308138
+  },
+  {
+    "name": "仁斋直指方论",
+    "file": "texts/第二编_方书/仁斋直指方论.txt",
+    "raw_file": "raw/仁斋直指方论.html",
+    "size_bytes": 232878,
+    "raw_size": 254849,
+    "chars": 79947,
+    "hanzi": 61267
+  },
+  {
+    "name": "仁术便览",
+    "file": "texts/第三编_通论/仁术便览.txt",
+    "raw_file": "raw/仁术便览.html",
+    "size_bytes": 396593,
+    "raw_size": 458485,
+    "chars": 140545,
+    "hanzi": 97903
+  },
+  {
+    "name": "仁端录",
+    "file": "texts/第三编_儿科/仁端录.txt",
+    "raw_file": "raw/仁端录.html",
+    "size_bytes": 495083,
+    "raw_size": 532914,
+    "chars": 166345,
+    "hanzi": 154726
+  },
+  {
+    "name": "仙传外科集验方",
+    "file": "texts/第二编_方书/仙传外科集验方.txt",
+    "raw_file": "raw/仙传外科集验方.html",
+    "size_bytes": 73184,
+    "raw_size": 85175,
+    "chars": 25056,
+    "hanzi": 19642
+  },
+  {
+    "name": "仙授理伤续断秘方",
+    "file": "texts/第二编_方书/仙授理伤续断秘方.txt",
+    "raw_file": "raw/仙授理伤续断秘方.html",
+    "size_bytes": 28035,
+    "raw_size": 37750,
+    "chars": 9478,
+    "hanzi": 7371
+  },
+  {
+    "name": "仲景伤寒补亡论",
+    "file": "texts/第一编_伤寒金匮/仲景伤寒补亡论.txt",
+    "raw_file": "raw/仲景伤寒补亡论.html",
+    "size_bytes": 388616,
+    "raw_size": 420052,
+    "chars": 131248,
+    "hanzi": 104173
+  },
+  {
+    "name": "仿寓意草",
+    "file": "texts/第三编_医案医话/仿寓意草.txt",
+    "raw_file": "raw/仿寓意草.html",
+    "size_bytes": 120347,
+    "raw_size": 128098,
+    "chars": 40177,
+    "hanzi": 34439
+  },
+  {
+    "name": "传信适用方",
+    "file": "texts/第二编_方书/传信适用方.txt",
+    "raw_file": "raw/传信适用方.html",
+    "size_bytes": 109018,
+    "raw_size": 124350,
+    "chars": 36682,
+    "hanzi": 33150
+  },
+  {
+    "name": "伤寒九十论",
+    "file": "texts/第一编_伤寒金匮/伤寒九十论.txt",
+    "raw_file": "raw/伤寒九十论.html",
+    "size_bytes": 72302,
+    "raw_size": 83715,
+    "chars": 24398,
+    "hanzi": 19537
+  },
+  {
+    "name": "伤寒六书",
+    "file": "texts/第一编_伤寒金匮/伤寒六书.txt",
+    "raw_file": "raw/伤寒六书.html",
+    "size_bytes": 304580,
+    "raw_size": 328727,
+    "chars": 102939,
+    "hanzi": 82454
+  },
+  {
+    "name": "伤寒兼证析义",
+    "file": "texts/第一编_伤寒金匮/伤寒兼证析义.txt",
+    "raw_file": "raw/伤寒兼证析义.html",
+    "size_bytes": 203718,
+    "raw_size": 213939,
+    "chars": 68128,
+    "hanzi": 58109
+  },
+  {
+    "name": "伤寒医诀串解",
+    "file": "texts/第一编_伤寒金匮/伤寒医诀串解.txt",
+    "raw_file": "raw/伤寒医诀串解.html",
+    "size_bytes": 93020,
+    "raw_size": 103289,
+    "chars": 31224,
+    "hanzi": 26174
+  },
+  {
+    "name": "伤寒发微论",
+    "file": "texts/第一编_伤寒金匮/伤寒发微论.txt",
+    "raw_file": "raw/伤寒发微论.html",
+    "size_bytes": 28424,
+    "raw_size": 37831,
+    "chars": 9636,
+    "hanzi": 7615
+  },
+  {
+    "name": "伤寒大白",
+    "file": "texts/第一编_伤寒金匮/伤寒大白.txt",
+    "raw_file": "raw/伤寒大白.html",
+    "size_bytes": 352669,
+    "raw_size": 379606,
+    "chars": 119969,
+    "hanzi": 96720
+  },
+  {
+    "name": "伤寒审证表",
+    "file": "texts/第一编_伤寒金匮/伤寒审证表.txt",
+    "raw_file": "raw/伤寒审证表.html",
+    "size_bytes": 56215,
+    "raw_size": 63708,
+    "chars": 19139,
+    "hanzi": 17788
+  },
+  {
+    "name": "伤寒寻源",
+    "file": "texts/第一编_伤寒金匮/伤寒寻源.txt",
+    "raw_file": "raw/伤寒寻源.html",
+    "size_bytes": 246867,
+    "raw_size": 267933,
+    "chars": 83157,
+    "hanzi": 68808
+  },
+  {
+    "name": "伤寒微旨论",
+    "file": "texts/第一编_伤寒金匮/伤寒微旨论.txt",
+    "raw_file": "raw/伤寒微旨论.html",
+    "size_bytes": 57436,
+    "raw_size": 66707,
+    "chars": 19229,
+    "hanzi": 18278
+  },
+  {
+    "name": "伤寒心境别集",
+    "file": "texts/第一编_伤寒金匮/伤寒心境别集.txt",
+    "raw_file": "raw/伤寒心境别集.html",
+    "size_bytes": 3711,
+    "raw_size": 11104,
+    "chars": 1244,
+    "hanzi": 1071
+  },
+  {
+    "name": "伤寒心法要诀",
+    "file": "texts/第一编_伤寒金匮/伤寒心法要诀.txt",
+    "raw_file": "raw/伤寒心法要诀.html",
+    "size_bytes": 97744,
+    "raw_size": 110409,
+    "chars": 33012,
+    "hanzi": 26867
+  },
+  {
+    "name": "伤寒总病论",
+    "file": "texts/第一编_伤寒金匮/伤寒总病论.txt",
+    "raw_file": "raw/伤寒总病论.html",
+    "size_bytes": 207288,
+    "raw_size": 232548,
+    "chars": 70995,
+    "hanzi": 52474
+  },
+  {
+    "name": "伤寒恒论",
+    "file": "texts/第一编_伤寒金匮/伤寒恒论.txt",
+    "raw_file": "raw/伤寒恒论.html",
+    "size_bytes": 460338,
+    "raw_size": 489207,
+    "chars": 154813,
+    "hanzi": 123812
+  },
+  {
+    "name": "伤寒悬解",
+    "file": "texts/第一编_伤寒金匮/伤寒悬解.txt",
+    "raw_file": "raw/伤寒悬解.html",
+    "size_bytes": 240781,
+    "raw_size": 263285,
+    "chars": 81453,
+    "hanzi": 75554
+  },
+  {
+    "name": "伤寒括要",
+    "file": "texts/第一编_伤寒金匮/伤寒括要.txt",
+    "raw_file": "raw/伤寒括要.html",
+    "size_bytes": 188099,
+    "raw_size": 209260,
+    "chars": 64149,
+    "hanzi": 51209
+  },
+  {
+    "name": "伤寒指掌",
+    "file": "texts/第一编_伤寒金匮/伤寒指掌.txt",
+    "raw_file": "raw/伤寒指掌.html",
+    "size_bytes": 375034,
+    "raw_size": 408653,
+    "chars": 126922,
+    "hanzi": 101290
+  },
+  {
+    "name": "伤寒捷诀",
+    "file": "texts/第一编_伤寒金匮/伤寒捷诀.txt",
+    "raw_file": "raw/伤寒捷诀.html",
+    "size_bytes": 59871,
+    "raw_size": 70868,
+    "chars": 20229,
+    "hanzi": 16764
+  },
+  {
+    "name": "伤寒明理论",
+    "file": "texts/第一编_伤寒金匮/伤寒明理论.txt",
+    "raw_file": "raw/伤寒明理论.html",
+    "size_bytes": 122044,
+    "raw_size": 134495,
+    "chars": 41124,
+    "hanzi": 33597
+  },
+  {
+    "name": "伤寒杂病论桂林古本",
+    "file": "texts/第一编_伤寒金匮/伤寒杂病论桂林古本.txt",
+    "raw_file": "raw/伤寒杂病论桂林古本.html",
+    "size_bytes": 253704,
+    "raw_size": 286951,
+    "chars": 87465,
+    "hanzi": 67123
+  },
+  {
+    "name": "伤寒来苏集",
+    "file": "texts/第一编_伤寒金匮/伤寒来苏集.txt",
+    "raw_file": "raw/伤寒来苏集.html",
+    "size_bytes": 314422,
+    "raw_size": 328102,
+    "chars": 105860,
+    "hanzi": 87087
+  },
+  {
+    "name": "伤寒标本心法类萃",
+    "file": "texts/第一编_伤寒金匮/伤寒标本心法类萃.txt",
+    "raw_file": "raw/伤寒标本心法类萃.html",
+    "size_bytes": 45644,
+    "raw_size": 56352,
+    "chars": 15628,
+    "hanzi": 11807
+  },
+  {
+    "name": "伤寒法祖",
+    "file": "texts/第一编_伤寒金匮/伤寒法祖.txt",
+    "raw_file": "raw/伤寒法祖.html",
+    "size_bytes": 122554,
+    "raw_size": 133397,
+    "chars": 41090,
+    "hanzi": 34487
+  },
+  {
+    "name": "伤寒溯源集",
+    "file": "texts/第一编_伤寒金匮/伤寒溯源集.txt",
+    "raw_file": "raw/伤寒溯源集.html",
+    "size_bytes": 757724,
+    "raw_size": 804088,
+    "chars": 255556,
+    "hanzi": 212829
+  },
+  {
+    "name": "伤寒百证歌",
+    "file": "texts/第一编_伤寒金匮/伤寒百证歌.txt",
+    "raw_file": "raw/伤寒百证歌.html",
+    "size_bytes": 108541,
+    "raw_size": 121197,
+    "chars": 36627,
+    "hanzi": 28903
+  },
+  {
+    "name": "伤寒直格",
+    "file": "texts/第一编_伤寒金匮/伤寒直格.txt",
+    "raw_file": "raw/伤寒直格.html",
+    "size_bytes": 111243,
+    "raw_size": 125139,
+    "chars": 37652,
+    "hanzi": 29947
+  },
+  {
+    "name": "伤寒直格方",
+    "file": "texts/第一编_伤寒金匮/伤寒直格方.txt",
+    "raw_file": "raw/伤寒直格方.html",
+    "size_bytes": 131812,
+    "raw_size": 145665,
+    "chars": 44212,
+    "hanzi": 41540
+  },
+  {
+    "name": "伤寒类方",
+    "file": "texts/第一编_伤寒金匮/伤寒类方.txt",
+    "raw_file": "raw/伤寒类方.html",
+    "size_bytes": 114591,
+    "raw_size": 127405,
+    "chars": 38436,
+    "hanzi": 34861
+  },
+  {
+    "name": "伤寒缵论",
+    "file": "texts/第一编_伤寒金匮/伤寒缵论.txt",
+    "raw_file": "raw/伤寒缵论.html",
+    "size_bytes": 312458,
+    "raw_size": 340435,
+    "chars": 105822,
+    "hanzi": 89484
+  },
+  {
+    "name": "伤寒舌鉴",
+    "file": "texts/第一编_伤寒金匮/伤寒舌鉴.txt",
+    "raw_file": "raw/伤寒舌鉴.html",
+    "size_bytes": 26031,
+    "raw_size": 34910,
+    "chars": 8795,
+    "hanzi": 7157
+  },
+  {
+    "name": "伤寒补例",
+    "file": "texts/第一编_伤寒金匮/伤寒补例.txt",
+    "raw_file": "raw/伤寒补例.html",
+    "size_bytes": 54551,
+    "raw_size": 63645,
+    "chars": 18333,
+    "hanzi": 15327
+  },
+  {
+    "name": "伤寒论",
+    "file": "texts/第一编_伤寒金匮/伤寒论.txt",
+    "raw_file": "raw/伤寒论.html",
+    "size_bytes": 103858,
+    "raw_size": 119472,
+    "chars": 35536,
+    "hanzi": 25696
+  },
+  {
+    "name": "伤寒论宋版",
+    "file": "texts/第一编_伤寒金匮/伤寒论宋版.txt",
+    "raw_file": "raw/伤寒论宋版.html",
+    "size_bytes": 127750,
+    "raw_size": 144795,
+    "chars": 43612,
+    "hanzi": 33627
+  },
+  {
+    "name": "伤寒论条辨",
+    "file": "texts/第一编_伤寒金匮/伤寒论条辨.txt",
+    "raw_file": "raw/伤寒论条辨.html",
+    "size_bytes": 445581,
+    "raw_size": 481849,
+    "chars": 150789,
+    "hanzi": 119509
+  },
+  {
+    "name": "伤寒论注",
+    "file": "texts/第一编_伤寒金匮/伤寒论注.txt",
+    "raw_file": "raw/伤寒论注.html",
+    "size_bytes": 320165,
+    "raw_size": 343061,
+    "chars": 107927,
+    "hanzi": 87630
+  },
+  {
+    "name": "伤寒论注释",
+    "file": "texts/第一编_伤寒金匮/伤寒论注释.txt",
+    "raw_file": "raw/伤寒论注释.html",
+    "size_bytes": 375247,
+    "raw_size": 388696,
+    "chars": 125376,
+    "hanzi": 120791
+  },
+  {
+    "name": "伤寒论类方",
+    "file": "texts/第一编_伤寒金匮/伤寒论类方.txt",
+    "raw_file": "raw/伤寒论类方.html",
+    "size_bytes": 132585,
+    "raw_size": 148559,
+    "chars": 45107,
+    "hanzi": 34777
+  },
+  {
+    "name": "伤寒论纲目",
+    "file": "texts/第一编_伤寒金匮/伤寒论纲目.txt",
+    "raw_file": "raw/伤寒论纲目.html",
+    "size_bytes": 956220,
+    "raw_size": 1017272,
+    "chars": 322321,
+    "hanzi": 258487
+  },
+  {
+    "name": "伤寒论翼",
+    "file": "texts/第一编_伤寒金匮/伤寒论翼.txt",
+    "raw_file": "raw/伤寒论翼.html",
+    "size_bytes": 125809,
+    "raw_size": 135054,
+    "chars": 42098,
+    "hanzi": 35343
+  },
+  {
+    "name": "伤寒论辑义",
+    "file": "texts/第一编_伤寒金匮/伤寒论辑义.txt",
+    "raw_file": "raw/伤寒论辑义.html",
+    "size_bytes": 757873,
+    "raw_size": 803587,
+    "chars": 255551,
+    "hanzi": 202199
+  },
+  {
+    "name": "伤寒论辩证广注",
+    "file": "texts/第一编_伤寒金匮/伤寒论辩证广注.txt",
+    "raw_file": "raw/伤寒论辩证广注.html",
+    "size_bytes": 695389,
+    "raw_size": 737223,
+    "chars": 234689,
+    "hanzi": 190631
+  },
+  {
+    "name": "伤寒论集注",
+    "file": "texts/第一编_伤寒金匮/伤寒论集注.txt",
+    "raw_file": "raw/伤寒论集注.html",
+    "size_bytes": 934622,
+    "raw_size": 969602,
+    "chars": 313753,
+    "hanzi": 262628
+  },
+  {
+    "name": "伤寒证治准绳",
+    "file": "texts/第一编_伤寒金匮/伤寒证治准绳.txt",
+    "raw_file": "raw/伤寒证治准绳.html",
+    "size_bytes": 876418,
+    "raw_size": 894577,
+    "chars": 295810,
+    "hanzi": 283287
+  },
+  {
+    "name": "伤寒贯珠集",
+    "file": "texts/第一编_伤寒金匮/伤寒贯珠集.txt",
+    "raw_file": "raw/伤寒贯珠集.html",
+    "size_bytes": 267949,
+    "raw_size": 292037,
+    "chars": 90668,
+    "hanzi": 73047
+  },
+  {
+    "name": "伤寒辨要笺记",
+    "file": "texts/第一编_伤寒金匮/伤寒辨要笺记.txt",
+    "raw_file": "raw/伤寒辨要笺记.html",
+    "size_bytes": 30076,
+    "raw_size": 38191,
+    "chars": 10088,
+    "hanzi": 8387
+  },
+  {
+    "name": "伤寒附翼",
+    "file": "texts/第一编_伤寒金匮/伤寒附翼.txt",
+    "raw_file": "raw/伤寒附翼.html",
+    "size_bytes": 135283,
+    "raw_size": 144275,
+    "chars": 45404,
+    "hanzi": 38379
+  },
+  {
+    "name": "伤科大成",
+    "file": "texts/第三编_伤科/伤科大成.txt",
+    "raw_file": "raw/伤科大成.html",
+    "size_bytes": 38742,
+    "raw_size": 48278,
+    "chars": 13391,
+    "hanzi": 10338
+  },
+  {
+    "name": "伤科方书",
+    "file": "texts/第二编_方书/伤科方书.txt",
+    "raw_file": "raw/伤科方书.html",
+    "size_bytes": 32051,
+    "raw_size": 41514,
+    "chars": 11625,
+    "hanzi": 8122
+  },
+  {
+    "name": "伤科汇纂",
+    "file": "texts/第三编_伤科/伤科汇纂.txt",
+    "raw_file": "raw/伤科汇纂.html",
+    "size_bytes": 109244,
+    "raw_size": 122194,
+    "chars": 36849,
+    "hanzi": 29473
+  },
+  {
+    "name": "伤科补要",
+    "file": "texts/第三编_伤科/伤科补要.txt",
+    "raw_file": "raw/伤科补要.html",
+    "size_bytes": 49395,
+    "raw_size": 58370,
+    "chars": 16583,
+    "hanzi": 13547
+  },
+  {
+    "name": "何氏虚劳心传",
+    "file": "texts/第三编_内科/何氏虚劳心传.txt",
+    "raw_file": "raw/何氏虚劳心传.html",
+    "size_bytes": 69508,
+    "raw_size": 78447,
+    "chars": 23374,
+    "hanzi": 18833
+  },
+  {
+    "name": "何澹安医案",
+    "file": "texts/第三编_医案医话/何澹安医案.txt",
+    "raw_file": "raw/何澹安医案.html",
+    "size_bytes": 41256,
+    "raw_size": 51405,
+    "chars": 15166,
+    "hanzi": 11018
+  },
+  {
+    "name": "余无言医案及医话",
+    "file": "texts/第三编_医案医话/余无言医案及医话.txt",
+    "raw_file": "raw/余无言医案及医话.html",
+    "size_bytes": 199478,
+    "raw_size": 213880,
+    "chars": 67364,
+    "hanzi": 56030
+  },
+  {
+    "name": "佛点头脉诀",
+    "file": "texts/第二编_诊法/佛点头脉诀.txt",
+    "raw_file": "raw/佛点头脉诀.html",
+    "size_bytes": 8103,
+    "raw_size": 16764,
+    "chars": 2793,
+    "hanzi": 2178
+  },
+  {
+    "name": "侣山堂类辩",
+    "file": "texts/第三编_通论/侣山堂类辩.txt",
+    "raw_file": "raw/侣山堂类辩.html",
+    "size_bytes": 143219,
+    "raw_size": 154848,
+    "chars": 48093,
+    "hanzi": 39234
+  },
+  {
+    "name": "保婴撮要",
+    "file": "texts/第三编_儿科/保婴撮要.txt",
+    "raw_file": "raw/保婴撮要.html",
+    "size_bytes": 868297,
+    "raw_size": 942339,
+    "chars": 295681,
+    "hanzi": 235231
+  },
+  {
+    "name": "保幼新编",
+    "file": "texts/第三编_儿科/保幼新编.txt",
+    "raw_file": "raw/保幼新编.html",
+    "size_bytes": 103387,
+    "raw_size": 121586,
+    "chars": 35129,
+    "hanzi": 26096
+  },
+  {
+    "name": "修昆仑证验",
+    "file": "texts/第一编_养生/修昆仑证验.txt",
+    "raw_file": "raw/修昆仑证验.html",
+    "size_bytes": 40017,
+    "raw_size": 47887,
+    "chars": 13422,
+    "hanzi": 11125
+  },
+  {
+    "name": "傅青主女科",
+    "file": "texts/第三编_女科/傅青主女科.txt",
+    "raw_file": "raw/傅青主女科.html",
+    "size_bytes": 125359,
+    "raw_size": 137741,
+    "chars": 42129,
+    "hanzi": 34410
+  },
+  {
+    "name": "傅青主女科歌括",
+    "file": "texts/第三编_女科/傅青主女科歌括.txt",
+    "raw_file": "raw/傅青主女科歌括.html",
+    "size_bytes": 213173,
+    "raw_size": 229372,
+    "chars": 72260,
+    "hanzi": 58091
+  },
+  {
+    "name": "傅青主男科重编考释",
+    "file": "texts/第三编_通论/傅青主男科重编考释.txt",
+    "raw_file": "raw/傅青主男科重编考释.html",
+    "size_bytes": 232937,
+    "raw_size": 261442,
+    "chars": 79361,
+    "hanzi": 60465
+  },
+  {
+    "name": "儒门事亲",
+    "file": "texts/第三编_通论/儒门事亲.txt",
+    "raw_file": "raw/儒门事亲.html",
+    "size_bytes": 525865,
+    "raw_size": 570131,
+    "chars": 178760,
+    "hanzi": 139513
+  },
+  {
+    "name": "儿科萃精",
+    "file": "texts/第三编_儿科/儿科萃精.txt",
+    "raw_file": "raw/儿科萃精.html",
+    "size_bytes": 277710,
+    "raw_size": 303707,
+    "chars": 94296,
+    "hanzi": 74512
+  },
+  {
+    "name": "儿科要略",
+    "file": "texts/第三编_儿科/儿科要略.txt",
+    "raw_file": "raw/儿科要略.html",
+    "size_bytes": 361559,
+    "raw_size": 388932,
+    "chars": 124203,
+    "hanzi": 97220
+  },
+  {
+    "name": "儿科醒",
+    "file": "texts/第三编_儿科/儿科醒.txt",
+    "raw_file": "raw/儿科醒.html",
+    "size_bytes": 103756,
+    "raw_size": 117000,
+    "chars": 35532,
+    "hanzi": 28065
+  },
+  {
+    "name": "先哲医话",
+    "file": "texts/第三编_医案医话/先哲医话.txt",
+    "raw_file": "raw/先哲医话.html",
+    "size_bytes": 192168,
+    "raw_size": 208210,
+    "chars": 65023,
+    "hanzi": 53412
+  },
+  {
+    "name": "先醒斋广笔记",
+    "file": "texts/第一编_本草/先醒斋广笔记.txt",
+    "raw_file": "raw/先醒斋广笔记.html",
+    "size_bytes": 264775,
+    "raw_size": 284215,
+    "chars": 88777,
+    "hanzi": 80112
+  },
+  {
+    "name": "全生指迷方",
+    "file": "texts/第二编_方书/全生指迷方.txt",
+    "raw_file": "raw/全生指迷方.html",
+    "size_bytes": 80190,
+    "raw_size": 93495,
+    "chars": 27490,
+    "hanzi": 20762
+  },
+  {
+    "name": "八十一难经",
+    "file": "texts/第一编_医经/八十一难经.txt",
+    "raw_file": "raw/八十一难经.html",
+    "size_bytes": 49009,
+    "raw_size": 59813,
+    "chars": 16577,
+    "hanzi": 13198
+  },
+  {
+    "name": "六因条辨",
+    "file": "texts/第三编_温病/六因条辨.txt",
+    "raw_file": "raw/六因条辨.html",
+    "size_bytes": 152984,
+    "raw_size": 169136,
+    "chars": 51758,
+    "hanzi": 41249
+  },
+  {
+    "name": "兰台轨范",
+    "file": "texts/第三编_通论/兰台轨范.txt",
+    "raw_file": "raw/兰台轨范.html",
+    "size_bytes": 363131,
+    "raw_size": 392392,
+    "chars": 121986,
+    "hanzi": 107721
+  },
+  {
+    "name": "兰室秘藏",
+    "file": "texts/第三编_通论/兰室秘藏.txt",
+    "raw_file": "raw/兰室秘藏.html",
+    "size_bytes": 152753,
+    "raw_size": 169994,
+    "chars": 55711,
+    "hanzi": 47316
+  },
+  {
+    "name": "养性延命录",
+    "file": "texts/第一编_养生/养性延命录.txt",
+    "raw_file": "raw/养性延命录.html",
+    "size_bytes": 39231,
+    "raw_size": 47662,
+    "chars": 13161,
+    "hanzi": 10578
+  },
+  {
+    "name": "养生三要",
+    "file": "texts/第一编_养生/养生三要.txt",
+    "raw_file": "raw/养生三要.html",
+    "size_bytes": 80564,
+    "raw_size": 91925,
+    "chars": 27174,
+    "hanzi": 22097
+  },
+  {
+    "name": "养生导引法",
+    "file": "texts/第一编_养生/养生导引法.txt",
+    "raw_file": "raw/养生导引法.html",
+    "size_bytes": 158795,
+    "raw_size": 173774,
+    "chars": 53481,
+    "hanzi": 42673
+  },
+  {
+    "name": "养生导引秘籍",
+    "file": "texts/第一编_养生/养生导引秘籍.txt",
+    "raw_file": "raw/养生导引秘籍.html",
+    "size_bytes": 289262,
+    "raw_size": 313127,
+    "chars": 97529,
+    "hanzi": 77862
+  },
+  {
+    "name": "养生秘旨",
+    "file": "texts/第一编_养生/养生秘旨.txt",
+    "raw_file": "raw/养生秘旨.html",
+    "size_bytes": 38170,
+    "raw_size": 46931,
+    "chars": 12842,
+    "hanzi": 10611
+  },
+  {
+    "name": "养生类要",
+    "file": "texts/第一编_养生/养生类要.txt",
+    "raw_file": "raw/养生类要.html",
+    "size_bytes": 199441,
+    "raw_size": 219261,
+    "chars": 68403,
+    "hanzi": 60438
+  },
+  {
+    "name": "养生肤语",
+    "file": "texts/第一编_养生/养生肤语.txt",
+    "raw_file": "raw/养生肤语.html",
+    "size_bytes": 19813,
+    "raw_size": 27708,
+    "chars": 6653,
+    "hanzi": 5474
+  },
+  {
+    "name": "养生随笔",
+    "file": "texts/第一编_养生/养生随笔.txt",
+    "raw_file": "raw/养生随笔.html",
+    "size_bytes": 128266,
+    "raw_size": 139642,
+    "chars": 43036,
+    "hanzi": 33079
+  },
+  {
+    "name": "养老奉亲书",
+    "file": "texts/第一编_养生/养老奉亲书.txt",
+    "raw_file": "raw/养老奉亲书.html",
+    "size_bytes": 97112,
+    "raw_size": 115695,
+    "chars": 33074,
+    "hanzi": 23965
+  },
+  {
+    "name": "内外伤寒辩惑论",
+    "file": "texts/第一编_伤寒金匮/内外伤寒辩惑论.txt",
+    "raw_file": "raw/内外伤寒辩惑论.html",
+    "size_bytes": 61729,
+    "raw_size": 71182,
+    "chars": 20683,
+    "hanzi": 19201
+  },
+  {
+    "name": "内外伤辨惑论",
+    "file": "texts/第三编_通论/内外伤辨惑论.txt",
+    "raw_file": "raw/内外伤辨惑论.html",
+    "size_bytes": 73328,
+    "raw_size": 85530,
+    "chars": 24976,
+    "hanzi": 19535
+  },
+  {
+    "name": "内府秘传经验女科",
+    "file": "texts/第三编_女科/内府秘传经验女科.txt",
+    "raw_file": "raw/内府秘传经验女科.html",
+    "size_bytes": 40335,
+    "raw_size": 50384,
+    "chars": 13899,
+    "hanzi": 10556
+  },
+  {
+    "name": "内科摘要",
+    "file": "texts/第三编_内科/内科摘要.txt",
+    "raw_file": "raw/内科摘要.html",
+    "size_bytes": 104876,
+    "raw_size": 115968,
+    "chars": 35598,
+    "hanzi": 28193
+  },
+  {
+    "name": "内经博议",
+    "file": "texts/第一编_医经/内经博议.txt",
+    "raw_file": "raw/内经博议.html",
+    "size_bytes": 255549,
+    "raw_size": 271798,
+    "chars": 85883,
+    "hanzi": 71623
+  },
+  {
+    "name": "内经知要",
+    "file": "texts/第一编_医经/内经知要.txt",
+    "raw_file": "raw/内经知要.html",
+    "size_bytes": 204365,
+    "raw_size": 215362,
+    "chars": 68523,
+    "hanzi": 55015
+  },
+  {
+    "name": "内经药瀹",
+    "file": "texts/第一编_医经/内经药瀹.txt",
+    "raw_file": "raw/内经药瀹.html",
+    "size_bytes": 348649,
+    "raw_size": 356247,
+    "chars": 116425,
+    "hanzi": 115854
+  },
+  {
+    "name": "内经评文",
+    "file": "texts/第一编_医经/内经评文.txt",
+    "raw_file": "raw/内经评文.html",
+    "size_bytes": 279109,
+    "raw_size": 295815,
+    "chars": 94001,
+    "hanzi": 76615
+  },
+  {
+    "name": "冯氏锦囊秘录",
+    "file": "texts/第三编_通论/冯氏锦囊秘录.txt",
+    "raw_file": "raw/冯氏锦囊秘录.html",
+    "size_bytes": 3135643,
+    "raw_size": 3281758,
+    "chars": 1059599,
+    "hanzi": 857265
+  },
+  {
+    "name": "冷庐医话",
+    "file": "texts/第三编_医案医话/冷庐医话.txt",
+    "raw_file": "raw/冷庐医话.html",
+    "size_bytes": 294766,
+    "raw_size": 309643,
+    "chars": 98896,
+    "hanzi": 80755
+  },
+  {
+    "name": "凌临灵方",
+    "file": "texts/第二编_方书/凌临灵方.txt",
+    "raw_file": "raw/凌临灵方.html",
+    "size_bytes": 54250,
+    "raw_size": 66094,
+    "chars": 19335,
+    "hanzi": 14808
+  },
+  {
+    "name": "凌门传授铜人指穴",
+    "file": "texts/第二编_针灸推拿/凌门传授铜人指穴.txt",
+    "raw_file": "raw/凌门传授铜人指穴.html",
+    "size_bytes": 67122,
+    "raw_size": 76394,
+    "chars": 23101,
+    "hanzi": 21771
+  },
+  {
+    "name": "刘河间伤寒医鉴",
+    "file": "texts/第一编_伤寒金匮/刘河间伤寒医鉴.txt",
+    "raw_file": "raw/刘河间伤寒医鉴.html",
+    "size_bytes": 28421,
+    "raw_size": 35911,
+    "chars": 9513,
+    "hanzi": 7738
+  },
+  {
+    "name": "刘涓子鬼遗方",
+    "file": "texts/第二编_方书/刘涓子鬼遗方.txt",
+    "raw_file": "raw/刘涓子鬼遗方.html",
+    "size_bytes": 63082,
+    "raw_size": 74747,
+    "chars": 22218,
+    "hanzi": 16228
+  },
+  {
+    "name": "删补名医方论",
+    "file": "texts/第二编_方书/删补名医方论.txt",
+    "raw_file": "raw/删补名医方论.html",
+    "size_bytes": 228936,
+    "raw_size": 245385,
+    "chars": 77692,
+    "hanzi": 61928
+  },
+  {
+    "name": "刺灸心法要诀",
+    "file": "texts/第二编_针灸推拿/刺灸心法要诀.txt",
+    "raw_file": "raw/刺灸心法要诀.html",
+    "size_bytes": 185766,
+    "raw_size": 206912,
+    "chars": 63418,
+    "hanzi": 50453
+  },
+  {
+    "name": "劝读十则",
+    "file": "texts/第三编_通论/劝读十则.txt",
+    "raw_file": "raw/劝读十则.html",
+    "size_bytes": 6160,
+    "raw_size": 13390,
+    "chars": 2062,
+    "hanzi": 1746
+  },
+  {
+    "name": "包氏喉证家宝",
+    "file": "texts/第三编_咽喉口齿/包氏喉证家宝.txt",
+    "raw_file": "raw/包氏喉证家宝.html",
+    "size_bytes": 37220,
+    "raw_size": 46512,
+    "chars": 12628,
+    "hanzi": 9867
+  },
+  {
+    "name": "医中一得",
+    "file": "texts/第三编_通论/医中一得.txt",
+    "raw_file": "raw/医中一得.html",
+    "size_bytes": 56858,
+    "raw_size": 64747,
+    "chars": 19071,
+    "hanzi": 16298
+  },
+  {
+    "name": "医医医",
+    "file": "texts/第三编_通论/医医医.txt",
+    "raw_file": "raw/医医医.html",
+    "size_bytes": 68079,
+    "raw_size": 75778,
+    "chars": 22749,
+    "hanzi": 19386
+  },
+  {
+    "name": "医医十病",
+    "file": "texts/第三编_通论/医医十病.txt",
+    "raw_file": "raw/医医十病.html",
+    "size_bytes": 28309,
+    "raw_size": 35711,
+    "chars": 9459,
+    "hanzi": 7999
+  },
+  {
+    "name": "医医小草",
+    "file": "texts/第三编_通论/医医小草.txt",
+    "raw_file": "raw/医医小草.html",
+    "size_bytes": 50685,
+    "raw_size": 59455,
+    "chars": 17007,
+    "hanzi": 13925
+  },
+  {
+    "name": "医原",
+    "file": "texts/第三编_通论/医原.txt",
+    "raw_file": "raw/医原.html",
+    "size_bytes": 276571,
+    "raw_size": 286579,
+    "chars": 92500,
+    "hanzi": 75490
+  },
+  {
+    "name": "医垒元戎",
+    "file": "texts/第三编_通论/医垒元戎.txt",
+    "raw_file": "raw/医垒元戎.html",
+    "size_bytes": 430199,
+    "raw_size": 471918,
+    "chars": 144861,
+    "hanzi": 126898
+  },
+  {
+    "name": "医学三字经",
+    "file": "texts/第三编_通论/医学三字经.txt",
+    "raw_file": "raw/医学三字经.html",
+    "size_bytes": 145641,
+    "raw_size": 164199,
+    "chars": 50816,
+    "hanzi": 38757
+  },
+  {
+    "name": "医学举要",
+    "file": "texts/第三编_通论/医学举要.txt",
+    "raw_file": "raw/医学举要.html",
+    "size_bytes": 22128,
+    "raw_size": 29937,
+    "chars": 7419,
+    "hanzi": 6240
+  },
+  {
+    "name": "医学从众录",
+    "file": "texts/第三编_通论/医学从众录.txt",
+    "raw_file": "raw/医学从众录.html",
+    "size_bytes": 228026,
+    "raw_size": 253639,
+    "chars": 77956,
+    "hanzi": 60223
+  },
+  {
+    "name": "医学传心录",
+    "file": "texts/第三编_通论/医学传心录.txt",
+    "raw_file": "raw/医学传心录.html",
+    "size_bytes": 130252,
+    "raw_size": 147550,
+    "chars": 45973,
+    "hanzi": 32908
+  },
+  {
+    "name": "医学传灯",
+    "file": "texts/第三编_通论/医学传灯.txt",
+    "raw_file": "raw/医学传灯.html",
+    "size_bytes": 85814,
+    "raw_size": 97722,
+    "chars": 29700,
+    "hanzi": 23837
+  },
+  {
+    "name": "医学入门",
+    "file": "texts/第三编_通论/医学入门.txt",
+    "raw_file": "raw/医学入门.html",
+    "size_bytes": 2528601,
+    "raw_size": 2646728,
+    "chars": 853580,
+    "hanzi": 681147
+  },
+  {
+    "name": "医学发明",
+    "file": "texts/第三编_通论/医学发明.txt",
+    "raw_file": "raw/医学发明.html",
+    "size_bytes": 74957,
+    "raw_size": 86363,
+    "chars": 25243,
+    "hanzi": 19651
+  },
+  {
+    "name": "医学启源",
+    "file": "texts/第三编_通论/医学启源.txt",
+    "raw_file": "raw/医学启源.html",
+    "size_bytes": 166753,
+    "raw_size": 184507,
+    "chars": 56676,
+    "hanzi": 41209
+  },
+  {
+    "name": "医学妙谛",
+    "file": "texts/第三编_通论/医学妙谛.txt",
+    "raw_file": "raw/医学妙谛.html",
+    "size_bytes": 121787,
+    "raw_size": 135537,
+    "chars": 43251,
+    "hanzi": 34133
+  },
+  {
+    "name": "医学实在易",
+    "file": "texts/第三编_通论/医学实在易.txt",
+    "raw_file": "raw/医学实在易.html",
+    "size_bytes": 287570,
+    "raw_size": 310561,
+    "chars": 97978,
+    "hanzi": 76109
+  },
+  {
+    "name": "医学心悟",
+    "file": "texts/第三编_通论/医学心悟.txt",
+    "raw_file": "raw/医学心悟.html",
+    "size_bytes": 429686,
+    "raw_size": 471479,
+    "chars": 146676,
+    "hanzi": 114115
+  },
+  {
+    "name": "医学指归",
+    "file": "texts/第三编_通论/医学指归.txt",
+    "raw_file": "raw/医学指归.html",
+    "size_bytes": 111125,
+    "raw_size": 126847,
+    "chars": 37758,
+    "hanzi": 28912
+  },
+  {
+    "name": "医学摘粹",
+    "file": "texts/第三编_通论/医学摘粹.txt",
+    "raw_file": "raw/医学摘粹.html",
+    "size_bytes": 449289,
+    "raw_size": 491305,
+    "chars": 153950,
+    "hanzi": 120086
+  },
+  {
+    "name": "医学正传",
+    "file": "texts/第三编_通论/医学正传.txt",
+    "raw_file": "raw/医学正传.html",
+    "size_bytes": 922638,
+    "raw_size": 1009410,
+    "chars": 318015,
+    "hanzi": 240114
+  },
+  {
+    "name": "医学源流论",
+    "file": "texts/第三编_通论/医学源流论.txt",
+    "raw_file": "raw/医学源流论.html",
+    "size_bytes": 148069,
+    "raw_size": 159285,
+    "chars": 49613,
+    "hanzi": 41371
+  },
+  {
+    "name": "医学真传",
+    "file": "texts/第三编_通论/医学真传.txt",
+    "raw_file": "raw/医学真传.html",
+    "size_bytes": 106639,
+    "raw_size": 116063,
+    "chars": 35724,
+    "hanzi": 29099
+  },
+  {
+    "name": "医学纲目",
+    "file": "texts/第三编_通论/医学纲目.txt",
+    "raw_file": "raw/医学纲目.html",
+    "size_bytes": 3545407,
+    "raw_size": 3760502,
+    "chars": 1194647,
+    "hanzi": 928896
+  },
+  {
+    "name": "医学衷中参西录",
+    "file": "texts/第三编_通论/医学衷中参西录.txt",
+    "raw_file": "raw/医学衷中参西录.html",
+    "size_bytes": 1671177,
+    "raw_size": 1744071,
+    "chars": 564344,
+    "hanzi": 465143
+  },
+  {
+    "name": "医学见能",
+    "file": "texts/第三编_通论/医学见能.txt",
+    "raw_file": "raw/医学见能.html",
+    "size_bytes": 126238,
+    "raw_size": 149128,
+    "chars": 44566,
+    "hanzi": 30561
+  },
+  {
+    "name": "医学读书记",
+    "file": "texts/第三编_通论/医学读书记.txt",
+    "raw_file": "raw/医学读书记.html",
+    "size_bytes": 88086,
+    "raw_size": 99348,
+    "chars": 29736,
+    "hanzi": 24118
+  },
+  {
+    "name": "医学课儿策",
+    "file": "texts/第三编_通论/医学课儿策.txt",
+    "raw_file": "raw/医学课儿策.html",
+    "size_bytes": 80032,
+    "raw_size": 87745,
+    "chars": 26768,
+    "hanzi": 22237
+  },
+  {
+    "name": "医学集成",
+    "file": "texts/第三编_通论/医学集成.txt",
+    "raw_file": "raw/医学集成.html",
+    "size_bytes": 357236,
+    "raw_size": 399571,
+    "chars": 121410,
+    "hanzi": 92212
+  },
+  {
+    "name": "医宗己任编",
+    "file": "texts/第三编_通论/医宗己任编.txt",
+    "raw_file": "raw/医宗己任编.html",
+    "size_bytes": 288022,
+    "raw_size": 311392,
+    "chars": 97852,
+    "hanzi": 78415
+  },
+  {
+    "name": "医宗金鉴",
+    "file": "texts/第三编_通论/医宗金鉴.txt",
+    "raw_file": "raw/医宗金鉴.html",
+    "size_bytes": 3145858,
+    "raw_size": 3387071,
+    "chars": 1072428,
+    "hanzi": 854112
+  },
+  {
+    "name": "医家秘奥之脉法解",
+    "file": "texts/第二编_诊法/医家秘奥之脉法解.txt",
+    "raw_file": "raw/医家秘奥之脉法解.html",
+    "size_bytes": 80772,
+    "raw_size": 89478,
+    "chars": 27048,
+    "hanzi": 22496
+  },
+  {
+    "name": "医心方",
+    "file": "texts/第二编_方书/医心方.txt",
+    "raw_file": "raw/医心方.html",
+    "size_bytes": 1396368,
+    "raw_size": 1539815,
+    "chars": 478905,
+    "hanzi": 352772
+  },
+  {
+    "name": "医效秘传",
+    "file": "texts/第三编_通论/医效秘传.txt",
+    "raw_file": "raw/医效秘传.html",
+    "size_bytes": 128364,
+    "raw_size": 142243,
+    "chars": 43614,
+    "hanzi": 35318
+  },
+  {
+    "name": "医方歌括",
+    "file": "texts/第二编_方书/医方歌括.txt",
+    "raw_file": "raw/医方歌括.html",
+    "size_bytes": 12612,
+    "raw_size": 20705,
+    "chars": 4273,
+    "hanzi": 3037
+  },
+  {
+    "name": "医方简义",
+    "file": "texts/第二编_方书/医方简义.txt",
+    "raw_file": "raw/医方简义.html",
+    "size_bytes": 146615,
+    "raw_size": 176993,
+    "chars": 51445,
+    "hanzi": 37259
+  },
+  {
+    "name": "医方考",
+    "file": "texts/第二编_方书/医方考.txt",
+    "raw_file": "raw/医方考.html",
+    "size_bytes": 476805,
+    "raw_size": 528438,
+    "chars": 163849,
+    "hanzi": 125612
+  },
+  {
+    "name": "医方论",
+    "file": "texts/第二编_方书/医方论.txt",
+    "raw_file": "raw/医方论.html",
+    "size_bytes": 127814,
+    "raw_size": 150794,
+    "chars": 44924,
+    "hanzi": 34092
+  },
+  {
+    "name": "医方证治汇编歌诀",
+    "file": "texts/第二编_方书/医方证治汇编歌诀.txt",
+    "raw_file": "raw/医方证治汇编歌诀.html",
+    "size_bytes": 39028,
+    "raw_size": 47256,
+    "chars": 13116,
+    "hanzi": 9896
+  },
+  {
+    "name": "医方集宜",
+    "file": "texts/第二编_方书/医方集宜.txt",
+    "raw_file": "raw/医方集宜.html",
+    "size_bytes": 523251,
+    "raw_size": 596047,
+    "chars": 187095,
+    "hanzi": 155938
+  },
+  {
+    "name": "医方集解",
+    "file": "texts/第二编_方书/医方集解.txt",
+    "raw_file": "raw/医方集解.html",
+    "size_bytes": 519298,
+    "raw_size": 550496,
+    "chars": 176097,
+    "hanzi": 139202
+  },
+  {
+    "name": "医旨绪余",
+    "file": "texts/第三编_通论/医旨绪余.txt",
+    "raw_file": "raw/医旨绪余.html",
+    "size_bytes": 203313,
+    "raw_size": 217455,
+    "chars": 68677,
+    "hanzi": 54905
+  },
+  {
+    "name": "医暇卮言",
+    "file": "texts/第三编_通论/医暇卮言.txt",
+    "raw_file": "raw/医暇卮言.html",
+    "size_bytes": 107378,
+    "raw_size": 118339,
+    "chars": 36129,
+    "hanzi": 29636
+  },
+  {
+    "name": "医林改错",
+    "file": "texts/第二编_藏象/医林改错.txt",
+    "raw_file": "raw/医林改错.html",
+    "size_bytes": 86955,
+    "raw_size": 98759,
+    "chars": 29297,
+    "hanzi": 24233
+  },
+  {
+    "name": "医林琐语-清-陆懋修",
+    "file": "texts/第三编_医案医话/医林琐语-清-陆懋修.txt",
+    "raw_file": "raw/医林琐语-清-陆懋修.html",
+    "size_bytes": 25396,
+    "raw_size": 34239,
+    "chars": 8589,
+    "hanzi": 6907
+  },
+  {
+    "name": "医林琐语",
+    "file": "texts/第三编_医案医话/医林琐语.txt",
+    "raw_file": "raw/医林琐语.html",
+    "size_bytes": 25397,
+    "raw_size": 34507,
+    "chars": 8590,
+    "hanzi": 6907
+  },
+  {
+    "name": "医案精华",
+    "file": "texts/第三编_医案医话/医案精华.txt",
+    "raw_file": "raw/医案精华.html",
+    "size_bytes": 157231,
+    "raw_size": 171133,
+    "chars": 54275,
+    "hanzi": 43896
+  },
+  {
+    "name": "医法圆通",
+    "file": "texts/第三编_通论/医法圆通.txt",
+    "raw_file": "raw/医法圆通.html",
+    "size_bytes": 249236,
+    "raw_size": 266638,
+    "chars": 84151,
+    "hanzi": 68465
+  },
+  {
+    "name": "医津一筏",
+    "file": "texts/第三编_通论/医津一筏.txt",
+    "raw_file": "raw/医津一筏.html",
+    "size_bytes": 54014,
+    "raw_size": 63383,
+    "chars": 18190,
+    "hanzi": 15241
+  },
+  {
+    "name": "医源",
+    "file": "texts/第三编_通论/医源.txt",
+    "raw_file": "raw/医源.html",
+    "size_bytes": 81907,
+    "raw_size": 90071,
+    "chars": 27389,
+    "hanzi": 23481
+  },
+  {
+    "name": "医灯续焰",
+    "file": "texts/第三编_通论/医灯续焰.txt",
+    "raw_file": "raw/医灯续焰.html",
+    "size_bytes": 660964,
+    "raw_size": 709790,
+    "chars": 225574,
+    "hanzi": 173965
+  },
+  {
+    "name": "医理真传",
+    "file": "texts/第三编_通论/医理真传.txt",
+    "raw_file": "raw/医理真传.html",
+    "size_bytes": 226525,
+    "raw_size": 241373,
+    "chars": 76038,
+    "hanzi": 62680
+  },
+  {
+    "name": "医略",
+    "file": "texts/第三编_通论/医略.txt",
+    "raw_file": "raw/医略.html",
+    "size_bytes": 212176,
+    "raw_size": 221861,
+    "chars": 72180,
+    "hanzi": 57228
+  },
+  {
+    "name": "医病简要",
+    "file": "texts/第三编_通论/医病简要.txt",
+    "raw_file": "raw/医病简要.html",
+    "size_bytes": 39688,
+    "raw_size": 47439,
+    "chars": 13304,
+    "hanzi": 10868
+  },
+  {
+    "name": "医碥",
+    "file": "texts/第三编_通论/医碥.txt",
+    "raw_file": "raw/医碥.html",
+    "size_bytes": 946967,
+    "raw_size": 1009159,
+    "chars": 324343,
+    "hanzi": 242558
+  },
+  {
+    "name": "医经原旨",
+    "file": "texts/第一编_医经/医经原旨.txt",
+    "raw_file": "raw/医经原旨.html",
+    "size_bytes": 824886,
+    "raw_size": 842482,
+    "chars": 276334,
+    "hanzi": 220276
+  },
+  {
+    "name": "医经小学",
+    "file": "texts/第一编_医经/医经小学.txt",
+    "raw_file": "raw/医经小学.html",
+    "size_bytes": 175610,
+    "raw_size": 198718,
+    "chars": 60312,
+    "hanzi": 47864
+  },
+  {
+    "name": "医经溯洄集",
+    "file": "texts/第一编_医经/医经溯洄集.txt",
+    "raw_file": "raw/医经溯洄集.html",
+    "size_bytes": 98602,
+    "raw_size": 107869,
+    "chars": 33036,
+    "hanzi": 27685
+  },
+  {
+    "name": "医经读",
+    "file": "texts/第一编_医经/医经读.txt",
+    "raw_file": "raw/医经读.html",
+    "size_bytes": 74339,
+    "raw_size": 82702,
+    "chars": 24929,
+    "hanzi": 24062
+  },
+  {
+    "name": "医脉摘要",
+    "file": "texts/第二编_诊法/医脉摘要.txt",
+    "raw_file": "raw/医脉摘要.html",
+    "size_bytes": 104101,
+    "raw_size": 117136,
+    "chars": 35869,
+    "hanzi": 28202
+  },
+  {
+    "name": "医话",
+    "file": "texts/第三编_医案医话/医话.txt",
+    "raw_file": "raw/医话.html",
+    "size_bytes": 71354,
+    "raw_size": 79477,
+    "chars": 23882,
+    "hanzi": 20190
+  },
+  {
+    "name": "医说",
+    "file": "texts/第一编_医史/医说.txt",
+    "raw_file": "raw/医说.html",
+    "size_bytes": 364136,
+    "raw_size": 401963,
+    "chars": 124410,
+    "hanzi": 116150
+  },
+  {
+    "name": "医贯",
+    "file": "texts/第三编_通论/医贯.txt",
+    "raw_file": "raw/医贯.html",
+    "size_bytes": 237302,
+    "raw_size": 254677,
+    "chars": 80080,
+    "hanzi": 65976
+  },
+  {
+    "name": "医述",
+    "file": "texts/第三编_通论/医述.txt",
+    "raw_file": "raw/医述.html",
+    "size_bytes": 2349016,
+    "raw_size": 2430219,
+    "chars": 788606,
+    "hanzi": 634119
+  },
+  {
+    "name": "医门法律",
+    "file": "texts/第三编_通论/医门法律.txt",
+    "raw_file": "raw/医门法律.html",
+    "size_bytes": 679286,
+    "raw_size": 714799,
+    "chars": 230433,
+    "hanzi": 179642
+  },
+  {
+    "name": "医门补要",
+    "file": "texts/第三编_通论/医门补要.txt",
+    "raw_file": "raw/医门补要.html",
+    "size_bytes": 169338,
+    "raw_size": 189826,
+    "chars": 57761,
+    "hanzi": 45627
+  },
+  {
+    "name": "医闾先生集",
+    "file": "texts/第三编_通论/医闾先生集.txt",
+    "raw_file": "raw/医闾先生集.html",
+    "size_bytes": 195642,
+    "raw_size": 210610,
+    "chars": 65730,
+    "hanzi": 64043
+  },
+  {
+    "name": "医验随笔",
+    "file": "texts/第三编_医案医话/医验随笔.txt",
+    "raw_file": "raw/医验随笔.html",
+    "size_bytes": 67729,
+    "raw_size": 76405,
+    "chars": 22707,
+    "hanzi": 18815
+  },
+  {
+    "name": "十二经补泻温凉引经药歌",
+    "file": "texts/第二编_经络骨度/十二经补泻温凉引经药歌.txt",
+    "raw_file": "raw/十二经补泻温凉引经药歌.html",
+    "size_bytes": 3186,
+    "raw_size": 10694,
+    "chars": 1078,
+    "hanzi": 894
+  },
+  {
+    "name": "十剂表",
+    "file": "texts/第一编_本草/十剂表.txt",
+    "raw_file": "raw/十剂表.html",
+    "size_bytes": 31411,
+    "raw_size": 39813,
+    "chars": 11077,
+    "hanzi": 9923
+  },
+  {
+    "name": "十四经发挥",
+    "file": "texts/第二编_经络骨度/十四经发挥.txt",
+    "raw_file": "raw/十四经发挥.html",
+    "size_bytes": 75249,
+    "raw_size": 83716,
+    "chars": 25313,
+    "hanzi": 20519
+  },
+  {
+    "name": "千金宝要",
+    "file": "texts/第二编_方书/千金宝要.txt",
+    "raw_file": "raw/千金宝要.html",
+    "size_bytes": 114971,
+    "raw_size": 135378,
+    "chars": 39261,
+    "hanzi": 30019
+  },
+  {
+    "name": "千金翼方",
+    "file": "texts/第二编_方书/千金翼方.txt",
+    "raw_file": "raw/千金翼方.html",
+    "size_bytes": 1211778,
+    "raw_size": 1346667,
+    "chars": 420362,
+    "hanzi": 312203
+  },
+  {
+    "name": "千金食治",
+    "file": "texts/第一编_养生/千金食治.txt",
+    "raw_file": "raw/千金食治.html",
+    "size_bytes": 51887,
+    "raw_size": 61311,
+    "chars": 17493,
+    "hanzi": 13038
+  },
+  {
+    "name": "华佗神方",
+    "file": "texts/第二编_方书/华佗神方.txt",
+    "raw_file": "raw/华佗神方.html",
+    "size_bytes": 412958,
+    "raw_size": 464387,
+    "chars": 143677,
+    "hanzi": 111476
+  },
+  {
+    "name": "博济方",
+    "file": "texts/第二编_方书/博济方.txt",
+    "raw_file": "raw/博济方.html",
+    "size_bytes": 212968,
+    "raw_size": 238528,
+    "chars": 73566,
+    "hanzi": 54961
+  },
+  {
+    "name": "卫济宝书",
+    "file": "texts/第三编_外科/卫济宝书.txt",
+    "raw_file": "raw/卫济宝书.html",
+    "size_bytes": 35085,
+    "raw_size": 45636,
+    "chars": 12051,
+    "hanzi": 9241
+  },
+  {
+    "name": "卫生宝鉴",
+    "file": "texts/第三编_通论/卫生宝鉴.txt",
+    "raw_file": "raw/卫生宝鉴.html",
+    "size_bytes": 556989,
+    "raw_size": 612774,
+    "chars": 192019,
+    "hanzi": 143991
+  },
+  {
+    "name": "卫生家宝产科备要",
+    "file": "texts/第三编_女科/卫生家宝产科备要.txt",
+    "raw_file": "raw/卫生家宝产科备要.html",
+    "size_bytes": 70239,
+    "raw_size": 82674,
+    "chars": 23735,
+    "hanzi": 18104
+  },
+  {
+    "name": "卫生易简方",
+    "file": "texts/第二编_方书/卫生易简方.txt",
+    "raw_file": "raw/卫生易简方.html",
+    "size_bytes": 479473,
+    "raw_size": 528686,
+    "chars": 165321,
+    "hanzi": 130351
+  },
+  {
+    "name": "厘正按摩要术",
+    "file": "texts/第二编_针灸推拿/厘正按摩要术.txt",
+    "raw_file": "raw/厘正按摩要术.html",
+    "size_bytes": 178710,
+    "raw_size": 191982,
+    "chars": 62129,
+    "hanzi": 47704
+  },
+  {
+    "name": "原机启微",
+    "file": "texts/第三编_眼科/原机启微.txt",
+    "raw_file": "raw/原机启微.html",
+    "size_bytes": 116169,
+    "raw_size": 131551,
+    "chars": 39956,
+    "hanzi": 30642
+  },
+  {
+    "name": "原要论",
+    "file": "texts/第三编_通论/原要论.txt",
+    "raw_file": "raw/原要论.html",
+    "size_bytes": 53720,
+    "raw_size": 65594,
+    "chars": 18884,
+    "hanzi": 13469
+  },
+  {
+    "name": "友渔斋医话",
+    "file": "texts/第三编_医案医话/友渔斋医话.txt",
+    "raw_file": "raw/友渔斋医话.html",
+    "size_bytes": 285131,
+    "raw_size": 305980,
+    "chars": 97052,
+    "hanzi": 75523
+  },
+  {
+    "name": "发背对口治诀论",
+    "file": "texts/第三编_外科/发背对口治诀论.txt",
+    "raw_file": "raw/发背对口治诀论.html",
+    "size_bytes": 27184,
+    "raw_size": 35468,
+    "chars": 9128,
+    "hanzi": 7118
+  },
+  {
+    "name": "口齿类要",
+    "file": "texts/第三编_咽喉口齿/口齿类要.txt",
+    "raw_file": "raw/口齿类要.html",
+    "size_bytes": 41496,
+    "raw_size": 51367,
+    "chars": 14314,
+    "hanzi": 11008
+  },
+  {
+    "name": "古今医彻",
+    "file": "texts/第三编_通论/古今医彻.txt",
+    "raw_file": "raw/古今医彻.html",
+    "size_bytes": 225039,
+    "raw_size": 247779,
+    "chars": 77047,
+    "hanzi": 60648
+  },
+  {
+    "name": "古今医案按",
+    "file": "texts/第三编_医案医话/古今医案按.txt",
+    "raw_file": "raw/古今医案按.html",
+    "size_bytes": 847378,
+    "raw_size": 885962,
+    "chars": 284664,
+    "hanzi": 233561
+  },
+  {
+    "name": "古今医统大全",
+    "file": "texts/第三编_通论/古今医统大全.txt",
+    "raw_file": "raw/古今医统大全.html",
+    "size_bytes": 4841534,
+    "raw_size": 5148478,
+    "chars": 1651719,
+    "hanzi": 1288458
+  },
+  {
+    "name": "古今医鉴",
+    "file": "texts/第三编_通论/古今医鉴.txt",
+    "raw_file": "raw/古今医鉴.html",
+    "size_bytes": 864265,
+    "raw_size": 928403,
+    "chars": 298253,
+    "hanzi": 223549
+  },
+  {
+    "name": "古今名医方论",
+    "file": "texts/第二编_方书/古今名医方论.txt",
+    "raw_file": "raw/古今名医方论.html",
+    "size_bytes": 100107,
+    "raw_size": 117473,
+    "chars": 34487,
+    "hanzi": 26451
+  },
+  {
+    "name": "古今名医汇粹",
+    "file": "texts/第三编_通论/古今名医汇粹.txt",
+    "raw_file": "raw/古今名医汇粹.html",
+    "size_bytes": 575275,
+    "raw_size": 602155,
+    "chars": 193136,
+    "hanzi": 157922
+  },
+  {
+    "name": "古方汇精",
+    "file": "texts/第二编_方书/古方汇精.txt",
+    "raw_file": "raw/古方汇精.html",
+    "size_bytes": 145311,
+    "raw_size": 174037,
+    "chars": 49751,
+    "hanzi": 37377
+  },
+  {
+    "name": "古本难经阐注",
+    "file": "texts/第一编_医经/古本难经阐注.txt",
+    "raw_file": "raw/古本难经阐注.html",
+    "size_bytes": 133176,
+    "raw_size": 146748,
+    "chars": 44800,
+    "hanzi": 36657
+  },
+  {
+    "name": "史载之方",
+    "file": "texts/第二编_方书/史载之方.txt",
+    "raw_file": "raw/史载之方.html",
+    "size_bytes": 128270,
+    "raw_size": 141780,
+    "chars": 43444,
+    "hanzi": 34589
+  },
+  {
+    "name": "叶选医衡",
+    "file": "texts/第三编_通论/叶选医衡.txt",
+    "raw_file": "raw/叶选医衡.html",
+    "size_bytes": 191056,
+    "raw_size": 201708,
+    "chars": 63936,
+    "hanzi": 53479
+  },
+  {
+    "name": "名医别录",
+    "file": "texts/第一编_本草/名医别录.txt",
+    "raw_file": "raw/名医别录.html",
+    "size_bytes": 185594,
+    "raw_size": 224312,
+    "chars": 64279,
+    "hanzi": 44482
+  },
+  {
+    "name": "名医类案",
+    "file": "texts/第三编_医案医话/名医类案.txt",
+    "raw_file": "raw/名医类案.html",
+    "size_bytes": 908720,
+    "raw_size": 939973,
+    "chars": 303935,
+    "hanzi": 295580
+  },
+  {
+    "name": "吴医汇讲",
+    "file": "texts/第一编_医史/吴医汇讲.txt",
+    "raw_file": "raw/吴医汇讲.html",
+    "size_bytes": 213417,
+    "raw_size": 227604,
+    "chars": 71687,
+    "hanzi": 58345
+  },
+  {
+    "name": "吴普本草",
+    "file": "texts/第一编_本草/吴普本草.txt",
+    "raw_file": "raw/吴普本草.html",
+    "size_bytes": 38106,
+    "raw_size": 55238,
+    "chars": 13334,
+    "hanzi": 8859
+  },
+  {
+    "name": "吴鞠通医案",
+    "file": "texts/第三编_医案医话/吴鞠通医案.txt",
+    "raw_file": "raw/吴鞠通医案.html",
+    "size_bytes": 419125,
+    "raw_size": 462797,
+    "chars": 147791,
+    "hanzi": 103683
+  },
+  {
+    "name": "咽喉秘集",
+    "file": "texts/第三编_咽喉口齿/咽喉秘集.txt",
+    "raw_file": "raw/咽喉秘集.html",
+    "size_bytes": 45915,
+    "raw_size": 55099,
+    "chars": 15412,
+    "hanzi": 12461
+  },
+  {
+    "name": "咽喉脉证通论",
+    "file": "texts/第二编_诊法/咽喉脉证通论.txt",
+    "raw_file": "raw/咽喉脉证通论.html",
+    "size_bytes": 33752,
+    "raw_size": 42331,
+    "chars": 11516,
+    "hanzi": 9079
+  },
+  {
+    "name": "喉科指掌",
+    "file": "texts/第三编_咽喉口齿/喉科指掌.txt",
+    "raw_file": "raw/喉科指掌.html",
+    "size_bytes": 47620,
+    "raw_size": 59068,
+    "chars": 16524,
+    "hanzi": 12287
+  },
+  {
+    "name": "喉科秘诀",
+    "file": "texts/第三编_咽喉口齿/喉科秘诀.txt",
+    "raw_file": "raw/喉科秘诀.html",
+    "size_bytes": 32581,
+    "raw_size": 42253,
+    "chars": 11249,
+    "hanzi": 8348
+  },
+  {
+    "name": "喉科集腋",
+    "file": "texts/第三编_咽喉口齿/喉科集腋.txt",
+    "raw_file": "raw/喉科集腋.html",
+    "size_bytes": 104196,
+    "raw_size": 114377,
+    "chars": 35390,
+    "hanzi": 33385
+  },
+  {
+    "name": "喉舌备要秘旨",
+    "file": "texts/第三编_咽喉口齿/喉舌备要秘旨.txt",
+    "raw_file": "raw/喉舌备要秘旨.html",
+    "size_bytes": 69145,
+    "raw_size": 83462,
+    "chars": 23851,
+    "hanzi": 18104
+  },
+  {
+    "name": "四圣心源",
+    "file": "texts/第三编_通论/四圣心源.txt",
+    "raw_file": "raw/四圣心源.html",
+    "size_bytes": 244956,
+    "raw_size": 266388,
+    "chars": 83818,
+    "hanzi": 65457
+  },
+  {
+    "name": "四诊抉微",
+    "file": "texts/第二编_诊法/四诊抉微.txt",
+    "raw_file": "raw/四诊抉微.html",
+    "size_bytes": 310372,
+    "raw_size": 339908,
+    "chars": 104842,
+    "hanzi": 82917
+  },
+  {
+    "name": "回春录",
+    "file": "texts/第三编_医案医话/回春录.txt",
+    "raw_file": "raw/回春录.html",
+    "size_bytes": 314023,
+    "raw_size": 331714,
+    "chars": 107146,
+    "hanzi": 83116
+  },
+  {
+    "name": "回生集",
+    "file": "texts/第二编_方书/回生集.txt",
+    "raw_file": "raw/回生集.html",
+    "size_bytes": 126422,
+    "raw_size": 153190,
+    "chars": 43982,
+    "hanzi": 33042
+  },
+  {
+    "name": "圣济总录",
+    "file": "texts/第二编_方书/圣济总录.txt",
+    "raw_file": "raw/圣济总录.html",
+    "size_bytes": 6127117,
+    "raw_size": 6379729,
+    "chars": 2110521,
+    "hanzi": 1620690
+  },
+  {
+    "name": "圣济总录纂要",
+    "file": "texts/第二编_方书/圣济总录纂要.txt",
+    "raw_file": "raw/圣济总录纂要.html",
+    "size_bytes": 812431,
+    "raw_size": 898292,
+    "chars": 274144,
+    "hanzi": 232520
+  },
+  {
+    "name": "塘医话 馤塘医话",
+    "file": "texts/第三编_医案医话/塘医话 馤塘医话.txt",
+    "raw_file": "raw/塘医话 馤塘医话.html",
+    "size_bytes": 58061,
+    "raw_size": 66526,
+    "chars": 19485,
+    "hanzi": 16118
+  },
+  {
+    "name": "增广和剂局方药性总论",
+    "file": "texts/第一编_本草/增广和剂局方药性总论.txt",
+    "raw_file": "raw/增广和剂局方药性总论.html",
+    "size_bytes": 190308,
+    "raw_size": 213794,
+    "chars": 64624,
+    "hanzi": 47533
+  },
+  {
+    "name": "增补评注柳选医案",
+    "file": "texts/第三编_医案医话/增补评注柳选医案.txt",
+    "raw_file": "raw/增补评注柳选医案.html",
+    "size_bytes": 244165,
+    "raw_size": 276161,
+    "chars": 84606,
+    "hanzi": 65968
+  },
+  {
+    "name": "增订医方歌诀",
+    "file": "texts/第二编_方书/增订医方歌诀.txt",
+    "raw_file": "raw/增订医方歌诀.html",
+    "size_bytes": 8484,
+    "raw_size": 15927,
+    "chars": 2844,
+    "hanzi": 2224
+  },
+  {
+    "name": "增订十药神书",
+    "file": "texts/第二编_方书/增订十药神书.txt",
+    "raw_file": "raw/增订十药神书.html",
+    "size_bytes": 31818,
+    "raw_size": 40383,
+    "chars": 10756,
+    "hanzi": 8713
+  },
+  {
+    "name": "增订叶评伤暑全书",
+    "file": "texts/第三编_温病/增订叶评伤暑全书.txt",
+    "raw_file": "raw/增订叶评伤暑全书.html",
+    "size_bytes": 172677,
+    "raw_size": 189122,
+    "chars": 58533,
+    "hanzi": 46869
+  },
+  {
+    "name": "士谔医话",
+    "file": "texts/第三编_医案医话/士谔医话.txt",
+    "raw_file": "raw/士谔医话.html",
+    "size_bytes": 308954,
+    "raw_size": 324988,
+    "chars": 104092,
+    "hanzi": 86939
+  },
+  {
+    "name": "备急千金要方",
+    "file": "texts/第二编_方书/备急千金要方.txt",
+    "raw_file": "raw/备急千金要方.html",
+    "size_bytes": 1601919,
+    "raw_size": 1731817,
+    "chars": 556907,
+    "hanzi": 425999
+  },
+  {
+    "name": "备急灸法景宋本",
+    "file": "texts/第二编_针灸推拿/备急灸法景宋本.txt",
+    "raw_file": "raw/备急灸法景宋本.html",
+    "size_bytes": 40694,
+    "raw_size": 50015,
+    "chars": 13694,
+    "hanzi": 11358
+  },
+  {
+    "name": "外台秘要",
+    "file": "texts/第二编_方书/外台秘要.txt",
+    "raw_file": "raw/外台秘要.html",
+    "size_bytes": 2264620,
+    "raw_size": 2490421,
+    "chars": 784032,
+    "hanzi": 594327
+  },
+  {
+    "name": "外台秘要方",
+    "file": "texts/第二编_方书/外台秘要方.txt",
+    "raw_file": "raw/外台秘要方.html",
+    "size_bytes": 2249533,
+    "raw_size": 2433676,
+    "chars": 757349,
+    "hanzi": 652705
+  },
+  {
+    "name": "外治寿世方",
+    "file": "texts/第一编_养生/外治寿世方.txt",
+    "raw_file": "raw/外治寿世方.html",
+    "size_bytes": 207212,
+    "raw_size": 246066,
+    "chars": 74320,
+    "hanzi": 55511
+  },
+  {
+    "name": "外科传薪集",
+    "file": "texts/第三编_外科/外科传薪集.txt",
+    "raw_file": "raw/外科传薪集.html",
+    "size_bytes": 60414,
+    "raw_size": 73093,
+    "chars": 20504,
+    "hanzi": 14957
+  },
+  {
+    "name": "外科全生集",
+    "file": "texts/第三编_外科/外科全生集.txt",
+    "raw_file": "raw/外科全生集.html",
+    "size_bytes": 157176,
+    "raw_size": 179603,
+    "chars": 53519,
+    "hanzi": 42208
+  },
+  {
+    "name": "外科医镜",
+    "file": "texts/第三编_外科/外科医镜.txt",
+    "raw_file": "raw/外科医镜.html",
+    "size_bytes": 42944,
+    "raw_size": 53458,
+    "chars": 14524,
+    "hanzi": 10884
+  },
+  {
+    "name": "外科十三方考",
+    "file": "texts/第二编_方书/外科十三方考.txt",
+    "raw_file": "raw/外科十三方考.html",
+    "size_bytes": 90553,
+    "raw_size": 101475,
+    "chars": 30769,
+    "hanzi": 24710
+  },
+  {
+    "name": "外科十法",
+    "file": "texts/第三编_外科/外科十法.txt",
+    "raw_file": "raw/外科十法.html",
+    "size_bytes": 41714,
+    "raw_size": 54332,
+    "chars": 14468,
+    "hanzi": 10943
+  },
+  {
+    "name": "外科发挥",
+    "file": "texts/第三编_外科/外科发挥.txt",
+    "raw_file": "raw/外科发挥.html",
+    "size_bytes": 197099,
+    "raw_size": 222475,
+    "chars": 66865,
+    "hanzi": 52048
+  },
+  {
+    "name": "外科启玄",
+    "file": "texts/第三编_外科/外科启玄.txt",
+    "raw_file": "raw/外科启玄.html",
+    "size_bytes": 442783,
+    "raw_size": 493643,
+    "chars": 152647,
+    "hanzi": 121631
+  },
+  {
+    "name": "外科大成",
+    "file": "texts/第三编_外科/外科大成.txt",
+    "raw_file": "raw/外科大成.html",
+    "size_bytes": 509519,
+    "raw_size": 567653,
+    "chars": 176279,
+    "hanzi": 134845
+  },
+  {
+    "name": "外科方外奇方",
+    "file": "texts/第二编_方书/外科方外奇方.txt",
+    "raw_file": "raw/外科方外奇方.html",
+    "size_bytes": 116148,
+    "raw_size": 129165,
+    "chars": 40978,
+    "hanzi": 30017
+  },
+  {
+    "name": "外科枢要",
+    "file": "texts/第三编_外科/外科枢要.txt",
+    "raw_file": "raw/外科枢要.html",
+    "size_bytes": 190900,
+    "raw_size": 210460,
+    "chars": 65140,
+    "hanzi": 50873
+  },
+  {
+    "name": "外科正宗",
+    "file": "texts/第三编_外科/外科正宗.txt",
+    "raw_file": "raw/外科正宗.html",
+    "size_bytes": 462552,
+    "raw_size": 491121,
+    "chars": 158501,
+    "hanzi": 128538
+  },
+  {
+    "name": "外科理例",
+    "file": "texts/第三编_外科/外科理例.txt",
+    "raw_file": "raw/外科理例.html",
+    "size_bytes": 411359,
+    "raw_size": 453952,
+    "chars": 141029,
+    "hanzi": 108834
+  },
+  {
+    "name": "外科精义",
+    "file": "texts/第三编_外科/外科精义.txt",
+    "raw_file": "raw/外科精义.html",
+    "size_bytes": 111268,
+    "raw_size": 127700,
+    "chars": 38270,
+    "hanzi": 29328
+  },
+  {
+    "name": "外科精要",
+    "file": "texts/第三编_外科/外科精要.txt",
+    "raw_file": "raw/外科精要.html",
+    "size_bytes": 116136,
+    "raw_size": 131075,
+    "chars": 39270,
+    "hanzi": 31497
+  },
+  {
+    "name": "外科证治全书",
+    "file": "texts/第三编_外科/外科证治全书.txt",
+    "raw_file": "raw/外科证治全书.html",
+    "size_bytes": 326320,
+    "raw_size": 367248,
+    "chars": 112058,
+    "hanzi": 85834
+  },
+  {
+    "name": "外科选要",
+    "file": "texts/第三编_外科/外科选要.txt",
+    "raw_file": "raw/外科选要.html",
+    "size_bytes": 101864,
+    "raw_size": 114336,
+    "chars": 34364,
+    "hanzi": 28018
+  },
+  {
+    "name": "外科集验方",
+    "file": "texts/第二编_方书/外科集验方.txt",
+    "raw_file": "raw/外科集验方.html",
+    "size_bytes": 132948,
+    "raw_size": 150440,
+    "chars": 46212,
+    "hanzi": 35221
+  },
+  {
+    "name": "外经微言",
+    "file": "texts/第一编_医经/外经微言.txt",
+    "raw_file": "raw/外经微言.html",
+    "size_bytes": 162613,
+    "raw_size": 173028,
+    "chars": 54759,
+    "hanzi": 45755
+  },
+  {
+    "name": "大小诸证方论",
+    "file": "texts/第二编_方书/大小诸证方论.txt",
+    "raw_file": "raw/大小诸证方论.html",
+    "size_bytes": 103681,
+    "raw_size": 119055,
+    "chars": 36177,
+    "hanzi": 26056
+  },
+  {
+    "name": "太医局诸科程文格",
+    "file": "texts/第一编_医史/太医局诸科程文格.txt",
+    "raw_file": "raw/太医局诸科程文格.html",
+    "size_bytes": 204050,
+    "raw_size": 214298,
+    "chars": 68150,
+    "hanzi": 67235
+  },
+  {
+    "name": "太平圣惠方",
+    "file": "texts/第二编_方书/太平圣惠方.txt",
+    "raw_file": "raw/太平圣惠方.html",
+    "size_bytes": 5044353,
+    "raw_size": 5486144,
+    "chars": 1746205,
+    "hanzi": 1293241
+  },
+  {
+    "name": "太平惠民和剂局方",
+    "file": "texts/第二编_方书/太平惠民和剂局方.txt",
+    "raw_file": "raw/太平惠民和剂局方.html",
+    "size_bytes": 524100,
+    "raw_size": 562330,
+    "chars": 178951,
+    "hanzi": 136404
+  },
+  {
+    "name": "奇效简便良方",
+    "file": "texts/第二编_方书/奇效简便良方.txt",
+    "raw_file": "raw/奇效简便良方.html",
+    "size_bytes": 248384,
+    "raw_size": 313018,
+    "chars": 86501,
+    "hanzi": 64017
+  },
+  {
+    "name": "奇效良方",
+    "file": "texts/第二编_方书/奇效良方.txt",
+    "raw_file": "raw/奇效良方.html",
+    "size_bytes": 2527558,
+    "raw_size": 2820836,
+    "chars": 878689,
+    "hanzi": 650644
+  },
+  {
+    "name": "奇方类编",
+    "file": "texts/第二编_方书/奇方类编.txt",
+    "raw_file": "raw/奇方类编.html",
+    "size_bytes": 201887,
+    "raw_size": 241440,
+    "chars": 70850,
+    "hanzi": 53217
+  },
+  {
+    "name": "奇症汇",
+    "file": "texts/第三编_内科/奇症汇.txt",
+    "raw_file": "raw/奇症汇.html",
+    "size_bytes": 230438,
+    "raw_size": 246444,
+    "chars": 77899,
+    "hanzi": 62759
+  },
+  {
+    "name": "奇经八脉考",
+    "file": "texts/第二编_经络骨度/奇经八脉考.txt",
+    "raw_file": "raw/奇经八脉考.html",
+    "size_bytes": 45864,
+    "raw_size": 55490,
+    "chars": 15434,
+    "hanzi": 12378
+  },
+  {
+    "name": "女科切要",
+    "file": "texts/第三编_女科/女科切要.txt",
+    "raw_file": "raw/女科切要.html",
+    "size_bytes": 126335,
+    "raw_size": 143910,
+    "chars": 43025,
+    "hanzi": 34012
+  },
+  {
+    "name": "女科折衷纂要",
+    "file": "texts/第三编_女科/女科折衷纂要.txt",
+    "raw_file": "raw/女科折衷纂要.html",
+    "size_bytes": 103023,
+    "raw_size": 114236,
+    "chars": 34837,
+    "hanzi": 28670
+  },
+  {
+    "name": "女科指掌",
+    "file": "texts/第三编_女科/女科指掌.txt",
+    "raw_file": "raw/女科指掌.html",
+    "size_bytes": 110566,
+    "raw_size": 129525,
+    "chars": 37683,
+    "hanzi": 29624
+  },
+  {
+    "name": "女科指要",
+    "file": "texts/第三编_女科/女科指要.txt",
+    "raw_file": "raw/女科指要.html",
+    "size_bytes": 55333,
+    "raw_size": 67225,
+    "chars": 18993,
+    "hanzi": 14771
+  },
+  {
+    "name": "女科撮要",
+    "file": "texts/第三编_女科/女科撮要.txt",
+    "raw_file": "raw/女科撮要.html",
+    "size_bytes": 117240,
+    "raw_size": 131910,
+    "chars": 39608,
+    "hanzi": 31671
+  },
+  {
+    "name": "女科旨要",
+    "file": "texts/第三编_女科/女科旨要.txt",
+    "raw_file": "raw/女科旨要.html",
+    "size_bytes": 32839,
+    "raw_size": 42728,
+    "chars": 12129,
+    "hanzi": 8798
+  },
+  {
+    "name": "女科百问",
+    "file": "texts/第三编_女科/女科百问.txt",
+    "raw_file": "raw/女科百问.html",
+    "size_bytes": 149703,
+    "raw_size": 168816,
+    "chars": 53332,
+    "hanzi": 40362
+  },
+  {
+    "name": "女科秘要",
+    "file": "texts/第三编_女科/女科秘要.txt",
+    "raw_file": "raw/女科秘要.html",
+    "size_bytes": 103066,
+    "raw_size": 122992,
+    "chars": 37396,
+    "hanzi": 28169
+  },
+  {
+    "name": "女科精要",
+    "file": "texts/第三编_女科/女科精要.txt",
+    "raw_file": "raw/女科精要.html",
+    "size_bytes": 194540,
+    "raw_size": 210021,
+    "chars": 65674,
+    "hanzi": 53207
+  },
+  {
+    "name": "女科经纶",
+    "file": "texts/第三编_女科/女科经纶.txt",
+    "raw_file": "raw/女科经纶.html",
+    "size_bytes": 409063,
+    "raw_size": 444911,
+    "chars": 138219,
+    "hanzi": 112342
+  },
+  {
+    "name": "女科要旨",
+    "file": "texts/第三编_女科/女科要旨.txt",
+    "raw_file": "raw/女科要旨.html",
+    "size_bytes": 138793,
+    "raw_size": 150629,
+    "chars": 46777,
+    "hanzi": 37297
+  },
+  {
+    "name": "妇人大全良方",
+    "file": "texts/第二编_方书/妇人大全良方.txt",
+    "raw_file": "raw/妇人大全良方.html",
+    "size_bytes": 755630,
+    "raw_size": 844170,
+    "chars": 261874,
+    "hanzi": 196293
+  },
+  {
+    "name": "妇人良方集要",
+    "file": "texts/第二编_方书/妇人良方集要.txt",
+    "raw_file": "raw/妇人良方集要.html",
+    "size_bytes": 613538,
+    "raw_size": 676063,
+    "chars": 209152,
+    "hanzi": 163828
+  },
+  {
+    "name": "妇科玉尺",
+    "file": "texts/第三编_女科/妇科玉尺.txt",
+    "raw_file": "raw/妇科玉尺.html",
+    "size_bytes": 254956,
+    "raw_size": 278730,
+    "chars": 88114,
+    "hanzi": 68001
+  },
+  {
+    "name": "妇科百辩",
+    "file": "texts/第三编_女科/妇科百辩.txt",
+    "raw_file": "raw/妇科百辩.html",
+    "size_bytes": 54765,
+    "raw_size": 66541,
+    "chars": 18659,
+    "hanzi": 15374
+  },
+  {
+    "name": "妇科秘书",
+    "file": "texts/第三编_女科/妇科秘书.txt",
+    "raw_file": "raw/妇科秘书.html",
+    "size_bytes": 122215,
+    "raw_size": 136760,
+    "chars": 41189,
+    "hanzi": 32872
+  },
+  {
+    "name": "妙一斋医学正印种子编",
+    "file": "texts/第三编_通论/妙一斋医学正印种子编.txt",
+    "raw_file": "raw/妙一斋医学正印种子编.html",
+    "size_bytes": 56693,
+    "raw_size": 65803,
+    "chars": 19003,
+    "hanzi": 15651
+  },
+  {
+    "name": "婴儿论",
+    "file": "texts/第三编_儿科/婴儿论.txt",
+    "raw_file": "raw/婴儿论.html",
+    "size_bytes": 130566,
+    "raw_size": 147852,
+    "chars": 44856,
+    "hanzi": 33606
+  },
+  {
+    "name": "婴童百问",
+    "file": "texts/第三编_儿科/婴童百问.txt",
+    "raw_file": "raw/婴童百问.html",
+    "size_bytes": 305885,
+    "raw_size": 342070,
+    "chars": 103921,
+    "hanzi": 80795
+  },
+  {
+    "name": "婴童类萃",
+    "file": "texts/第三编_儿科/婴童类萃.txt",
+    "raw_file": "raw/婴童类萃.html",
+    "size_bytes": 231194,
+    "raw_size": 261699,
+    "chars": 81062,
+    "hanzi": 58577
+  },
+  {
+    "name": "子午流注说难",
+    "file": "texts/第二编_针灸推拿/子午流注说难.txt",
+    "raw_file": "raw/子午流注说难.html",
+    "size_bytes": 82816,
+    "raw_size": 97468,
+    "chars": 28342,
+    "hanzi": 22178
+  },
+  {
+    "name": "子午流注针经",
+    "file": "texts/第二编_针灸推拿/子午流注针经.txt",
+    "raw_file": "raw/子午流注针经.html",
+    "size_bytes": 48281,
+    "raw_size": 57940,
+    "chars": 16515,
+    "hanzi": 13198
+  },
+  {
+    "name": "存存斋医话稿",
+    "file": "texts/第三编_医案医话/存存斋医话稿.txt",
+    "raw_file": "raw/存存斋医话稿.html",
+    "size_bytes": 127548,
+    "raw_size": 138355,
+    "chars": 42816,
+    "hanzi": 35447
+  },
+  {
+    "name": "孙文垣医案",
+    "file": "texts/第三编_医案医话/孙文垣医案.txt",
+    "raw_file": "raw/孙文垣医案.html",
+    "size_bytes": 394813,
+    "raw_size": 416486,
+    "chars": 132657,
+    "hanzi": 108060
+  },
+  {
+    "name": "孙真人海上方",
+    "file": "texts/第二编_方书/孙真人海上方.txt",
+    "raw_file": "raw/孙真人海上方.html",
+    "size_bytes": 15037,
+    "raw_size": 25252,
+    "chars": 5197,
+    "hanzi": 4101
+  },
+  {
+    "name": "宁坤秘笈",
+    "file": "texts/第三编_女科/宁坤秘笈.txt",
+    "raw_file": "raw/宁坤秘笈.html",
+    "size_bytes": 90629,
+    "raw_size": 104829,
+    "chars": 31273,
+    "hanzi": 24131
+  },
+  {
+    "name": "宜麟策",
+    "file": "texts/第三编_女科/宜麟策.txt",
+    "raw_file": "raw/宜麟策.html",
+    "size_bytes": 52445,
+    "raw_size": 61442,
+    "chars": 17639,
+    "hanzi": 14417
+  },
+  {
+    "name": "审视瑶函",
+    "file": "texts/第三编_眼科/审视瑶函.txt",
+    "raw_file": "raw/审视瑶函.html",
+    "size_bytes": 422669,
+    "raw_size": 454610,
+    "chars": 144773,
+    "hanzi": 113857
+  },
+  {
+    "name": "客尘医话",
+    "file": "texts/第三编_医案医话/客尘医话.txt",
+    "raw_file": "raw/客尘医话.html",
+    "size_bytes": 50210,
+    "raw_size": 60008,
+    "chars": 17242,
+    "hanzi": 13097
+  },
+  {
+    "name": "宣明方论",
+    "file": "texts/第二编_方书/宣明方论.txt",
+    "raw_file": "raw/宣明方论.html",
+    "size_bytes": 164023,
+    "raw_size": 181878,
+    "chars": 55128,
+    "hanzi": 48872
+  },
+  {
+    "name": "家传女科经验摘奇",
+    "file": "texts/第三编_女科/家传女科经验摘奇.txt",
+    "raw_file": "raw/家传女科经验摘奇.html",
+    "size_bytes": 58963,
+    "raw_size": 69937,
+    "chars": 20333,
+    "hanzi": 15309
+  },
+  {
+    "name": "寓意草",
+    "file": "texts/第三编_医案医话/寓意草.txt",
+    "raw_file": "raw/寓意草.html",
+    "size_bytes": 210504,
+    "raw_size": 223931,
+    "chars": 70604,
+    "hanzi": 59318
+  },
+  {
+    "name": "察病指南",
+    "file": "texts/第二编_诊法/察病指南.txt",
+    "raw_file": "raw/察病指南.html",
+    "size_bytes": 58243,
+    "raw_size": 72504,
+    "chars": 19891,
+    "hanzi": 15397
+  },
+  {
+    "name": "察舌辨症新法",
+    "file": "texts/第二编_诊法/察舌辨症新法.txt",
+    "raw_file": "raw/察舌辨症新法.html",
+    "size_bytes": 11730,
+    "raw_size": 19679,
+    "chars": 3958,
+    "hanzi": 3259
+  },
+  {
+    "name": "对山医话",
+    "file": "texts/第三编_医案医话/对山医话.txt",
+    "raw_file": "raw/对山医话.html",
+    "size_bytes": 88996,
+    "raw_size": 97699,
+    "chars": 29783,
+    "hanzi": 24637
+  },
+  {
+    "name": "寿世传真",
+    "file": "texts/第一编_养生/寿世传真.txt",
+    "raw_file": "raw/寿世传真.html",
+    "size_bytes": 91665,
+    "raw_size": 110419,
+    "chars": 31789,
+    "hanzi": 23394
+  },
+  {
+    "name": "寿世保元",
+    "file": "texts/第一编_养生/寿世保元.txt",
+    "raw_file": "raw/寿世保元.html",
+    "size_bytes": 1172965,
+    "raw_size": 1290326,
+    "chars": 404869,
+    "hanzi": 305944
+  },
+  {
+    "name": "寿世青编",
+    "file": "texts/第一编_养生/寿世青编.txt",
+    "raw_file": "raw/寿世青编.html",
+    "size_bytes": 97892,
+    "raw_size": 114275,
+    "chars": 33487,
+    "hanzi": 26051
+  },
+  {
+    "name": "寿亲养老新书",
+    "file": "texts/第一编_养生/寿亲养老新书.txt",
+    "raw_file": "raw/寿亲养老新书.html",
+    "size_bytes": 223322,
+    "raw_size": 250226,
+    "chars": 75612,
+    "hanzi": 68747
+  },
+  {
+    "name": "小儿卫生总微论方",
+    "file": "texts/第二编_方书/小儿卫生总微论方.txt",
+    "raw_file": "raw/小儿卫生总微论方.html",
+    "size_bytes": 602209,
+    "raw_size": 678881,
+    "chars": 208255,
+    "hanzi": 157071
+  },
+  {
+    "name": "小儿推拿广意",
+    "file": "texts/第二编_针灸推拿/小儿推拿广意.txt",
+    "raw_file": "raw/小儿推拿广意.html",
+    "size_bytes": 119976,
+    "raw_size": 139144,
+    "chars": 40714,
+    "hanzi": 32450
+  },
+  {
+    "name": "小儿痘疹方论",
+    "file": "texts/第二编_方书/小儿痘疹方论.txt",
+    "raw_file": "raw/小儿痘疹方论.html",
+    "size_bytes": 59853,
+    "raw_size": 70437,
+    "chars": 20512,
+    "hanzi": 16202
+  },
+  {
+    "name": "小儿药证直诀",
+    "file": "texts/第三编_儿科/小儿药证直诀.txt",
+    "raw_file": "raw/小儿药证直诀.html",
+    "size_bytes": 98451,
+    "raw_size": 115524,
+    "chars": 33423,
+    "hanzi": 25159
+  },
+  {
+    "name": "小品方",
+    "file": "texts/第二编_方书/小品方.txt",
+    "raw_file": "raw/小品方.html",
+    "size_bytes": 217471,
+    "raw_size": 247845,
+    "chars": 74961,
+    "hanzi": 55966
+  },
+  {
+    "name": "少林寺秘传十二时辰十二穴道二十四方",
+    "file": "texts/第二编_方书/少林寺秘传十二时辰十二穴道二十四方.txt",
+    "raw_file": "raw/少林寺秘传十二时辰十二穴道二十四方.html",
+    "size_bytes": 19829,
+    "raw_size": 28819,
+    "chars": 7191,
+    "hanzi": 4864
+  },
+  {
+    "name": "少林真传伤科秘方",
+    "file": "texts/第二编_方书/少林真传伤科秘方.txt",
+    "raw_file": "raw/少林真传伤科秘方.html",
+    "size_bytes": 40032,
+    "raw_size": 50297,
+    "chars": 14076,
+    "hanzi": 10450
+  },
+  {
+    "name": "尚论后篇",
+    "file": "texts/第一编_伤寒金匮/尚论后篇.txt",
+    "raw_file": "raw/尚论后篇.html",
+    "size_bytes": 232105,
+    "raw_size": 240501,
+    "chars": 77549,
+    "hanzi": 64331
+  },
+  {
+    "name": "尚论篇",
+    "file": "texts/第一编_伤寒金匮/尚论篇.txt",
+    "raw_file": "raw/尚论篇.html",
+    "size_bytes": 485179,
+    "raw_size": 503477,
+    "chars": 162500,
+    "hanzi": 144359
+  },
+  {
+    "name": "尤氏喉症指南",
+    "file": "texts/第三编_咽喉口齿/尤氏喉症指南.txt",
+    "raw_file": "raw/尤氏喉症指南.html",
+    "size_bytes": 41600,
+    "raw_size": 51694,
+    "chars": 14340,
+    "hanzi": 10976
+  },
+  {
+    "name": "尤氏喉科秘书",
+    "file": "texts/第三编_咽喉口齿/尤氏喉科秘书.txt",
+    "raw_file": "raw/尤氏喉科秘书.html",
+    "size_bytes": 31797,
+    "raw_size": 41913,
+    "chars": 10923,
+    "hanzi": 8457
+  },
+  {
+    "name": "局方发挥",
+    "file": "texts/第二编_方书/局方发挥.txt",
+    "raw_file": "raw/局方发挥.html",
+    "size_bytes": 44977,
+    "raw_size": 52542,
+    "chars": 15013,
+    "hanzi": 12446
+  },
+  {
+    "name": "巢氏病源补养宣导法",
+    "file": "texts/第二编_病因病机/巢氏病源补养宣导法.txt",
+    "raw_file": "raw/巢氏病源补养宣导法.html",
+    "size_bytes": 67727,
+    "raw_size": 80639,
+    "chars": 22873,
+    "hanzi": 18407
+  },
+  {
+    "name": "巢氏诸病源候总论",
+    "file": "texts/第二编_病因病机/巢氏诸病源候总论.txt",
+    "raw_file": "raw/巢氏诸病源候总论.html",
+    "size_bytes": 532926,
+    "raw_size": 573531,
+    "chars": 179069,
+    "hanzi": 172352
+  },
+  {
+    "name": "市隐庐医学杂着",
+    "file": "texts/第三编_通论/市隐庐医学杂着.txt",
+    "raw_file": "raw/市隐庐医学杂着.html",
+    "size_bytes": 47904,
+    "raw_size": 55855,
+    "chars": 16072,
+    "hanzi": 13206
+  },
+  {
+    "name": "幼幼新书",
+    "file": "texts/第三编_儿科/幼幼新书.txt",
+    "raw_file": "raw/幼幼新书.html",
+    "size_bytes": 2792987,
+    "raw_size": 2970132,
+    "chars": 961981,
+    "hanzi": 722492
+  },
+  {
+    "name": "幼幼集成",
+    "file": "texts/第三编_儿科/幼幼集成.txt",
+    "raw_file": "raw/幼幼集成.html",
+    "size_bytes": 565262,
+    "raw_size": 603413,
+    "chars": 192059,
+    "hanzi": 154552
+  },
+  {
+    "name": "幼科切要",
+    "file": "texts/第三编_儿科/幼科切要.txt",
+    "raw_file": "raw/幼科切要.html",
+    "size_bytes": 75300,
+    "raw_size": 90833,
+    "chars": 26460,
+    "hanzi": 19629
+  },
+  {
+    "name": "幼科发挥",
+    "file": "texts/第三编_儿科/幼科发挥.txt",
+    "raw_file": "raw/幼科发挥.html",
+    "size_bytes": 198908,
+    "raw_size": 220231,
+    "chars": 68250,
+    "hanzi": 53771
+  },
+  {
+    "name": "幼科折衷秘传真本",
+    "file": "texts/第三编_儿科/幼科折衷秘传真本.txt",
+    "raw_file": "raw/幼科折衷秘传真本.html",
+    "size_bytes": 99716,
+    "raw_size": 110034,
+    "chars": 33382,
+    "hanzi": 27873
+  },
+  {
+    "name": "幼科指南",
+    "file": "texts/第三编_儿科/幼科指南.txt",
+    "raw_file": "raw/幼科指南.html",
+    "size_bytes": 104092,
+    "raw_size": 116361,
+    "chars": 35006,
+    "hanzi": 27205
+  },
+  {
+    "name": "幼科推拿秘书",
+    "file": "texts/第二编_针灸推拿/幼科推拿秘书.txt",
+    "raw_file": "raw/幼科推拿秘书.html",
+    "size_bytes": 100992,
+    "raw_size": 115316,
+    "chars": 34250,
+    "hanzi": 27410
+  },
+  {
+    "name": "幼科概论",
+    "file": "texts/第三编_儿科/幼科概论.txt",
+    "raw_file": "raw/幼科概论.html",
+    "size_bytes": 113874,
+    "raw_size": 122931,
+    "chars": 38060,
+    "hanzi": 32115
+  },
+  {
+    "name": "幼科种痘心法要旨",
+    "file": "texts/第三编_儿科/幼科种痘心法要旨.txt",
+    "raw_file": "raw/幼科种痘心法要旨.html",
+    "size_bytes": 13494,
+    "raw_size": 21294,
+    "chars": 4556,
+    "hanzi": 3729
+  },
+  {
+    "name": "幼科类萃",
+    "file": "texts/第三编_儿科/幼科类萃.txt",
+    "raw_file": "raw/幼科类萃.html",
+    "size_bytes": 226088,
+    "raw_size": 245449,
+    "chars": 76009,
+    "hanzi": 71464
+  },
+  {
+    "name": "幼科释谜",
+    "file": "texts/第三编_儿科/幼科释谜.txt",
+    "raw_file": "raw/幼科释谜.html",
+    "size_bytes": 280433,
+    "raw_size": 305932,
+    "chars": 96401,
+    "hanzi": 74505
+  },
+  {
+    "name": "幼科铁镜",
+    "file": "texts/第三编_儿科/幼科铁镜.txt",
+    "raw_file": "raw/幼科铁镜.html",
+    "size_bytes": 117764,
+    "raw_size": 134494,
+    "chars": 40078,
+    "hanzi": 32284
+  },
+  {
+    "name": "广嗣五种备要",
+    "file": "texts/第三编_女科/广嗣五种备要.txt",
+    "raw_file": "raw/广嗣五种备要.html",
+    "size_bytes": 7231,
+    "raw_size": 14543,
+    "chars": 2419,
+    "hanzi": 2003
+  },
+  {
+    "name": "广嗣纪要",
+    "file": "texts/第三编_女科/广嗣纪要.txt",
+    "raw_file": "raw/广嗣纪要.html",
+    "size_bytes": 71654,
+    "raw_size": 81767,
+    "chars": 24066,
+    "hanzi": 19446
+  },
+  {
+    "name": "广嗣要语",
+    "file": "texts/第三编_女科/广嗣要语.txt",
+    "raw_file": "raw/广嗣要语.html",
+    "size_bytes": 54490,
+    "raw_size": 64311,
+    "chars": 18316,
+    "hanzi": 14927
+  },
+  {
+    "name": "广温疫论",
+    "file": "texts/第三编_温病/广温疫论.txt",
+    "raw_file": "raw/广温疫论.html",
+    "size_bytes": 111008,
+    "raw_size": 119708,
+    "chars": 37448,
+    "hanzi": 30440
+  },
+  {
+    "name": "广瘟疫论",
+    "file": "texts/第三编_温病/广瘟疫论.txt",
+    "raw_file": "raw/广瘟疫论.html",
+    "size_bytes": 111923,
+    "raw_size": 125554,
+    "chars": 37999,
+    "hanzi": 30217
+  },
+  {
+    "name": "异授眼科",
+    "file": "texts/第三编_眼科/异授眼科.txt",
+    "raw_file": "raw/异授眼科.html",
+    "size_bytes": 62792,
+    "raw_size": 77357,
+    "chars": 21854,
+    "hanzi": 16330
+  },
+  {
+    "name": "张卿子伤寒论",
+    "file": "texts/第一编_伤寒金匮/张卿子伤寒论.txt",
+    "raw_file": "raw/张卿子伤寒论.html",
+    "size_bytes": 391789,
+    "raw_size": 430967,
+    "chars": 132919,
+    "hanzi": 104344
+  },
+  {
+    "name": "张氏医通",
+    "file": "texts/第三编_通论/张氏医通.txt",
+    "raw_file": "raw/张氏医通.html",
+    "size_bytes": 1886335,
+    "raw_size": 2002473,
+    "chars": 641621,
+    "hanzi": 508976
+  },
+  {
+    "name": "张氏妇科",
+    "file": "texts/第三编_女科/张氏妇科.txt",
+    "raw_file": "raw/张氏妇科.html",
+    "size_bytes": 26041,
+    "raw_size": 34857,
+    "chars": 8787,
+    "hanzi": 7043
+  },
+  {
+    "name": "张畹香医案",
+    "file": "texts/第三编_医案医话/张畹香医案.txt",
+    "raw_file": "raw/张畹香医案.html",
+    "size_bytes": 81223,
+    "raw_size": 93744,
+    "chars": 28707,
+    "hanzi": 19460
+  },
+  {
+    "name": "张聿青医案",
+    "file": "texts/第三编_医案医话/张聿青医案.txt",
+    "raw_file": "raw/张聿青医案.html",
+    "size_bytes": 906925,
+    "raw_size": 970100,
+    "chars": 318999,
+    "hanzi": 234238
+  },
+  {
+    "name": "归砚录",
+    "file": "texts/第三编_医案医话/归砚录.txt",
+    "raw_file": "raw/归砚录.html",
+    "size_bytes": 181098,
+    "raw_size": 192007,
+    "chars": 60691,
+    "hanzi": 50169
+  },
+  {
+    "name": "形色外诊简摩",
+    "file": "texts/第二编_诊法/形色外诊简摩.txt",
+    "raw_file": "raw/形色外诊简摩.html",
+    "size_bytes": 205356,
+    "raw_size": 222094,
+    "chars": 69207,
+    "hanzi": 54817
+  },
+  {
+    "name": "徐批叶天士晚年方案真本",
+    "file": "texts/第二编_方书/徐批叶天士晚年方案真本.txt",
+    "raw_file": "raw/徐批叶天士晚年方案真本.html",
+    "size_bytes": 166614,
+    "raw_size": 181838,
+    "chars": 58824,
+    "hanzi": 46374
+  },
+  {
+    "name": "得配本草",
+    "file": "texts/第一编_本草/得配本草.txt",
+    "raw_file": "raw/得配本草.html",
+    "size_bytes": 334046,
+    "raw_size": 380282,
+    "chars": 113972,
+    "hanzi": 84275
+  },
+  {
+    "name": "御纂医宗金鉴",
+    "file": "texts/第三编_通论/御纂医宗金鉴.txt",
+    "raw_file": "raw/御纂医宗金鉴.html",
+    "size_bytes": 2813383,
+    "raw_size": 3058878,
+    "chars": 948249,
+    "hanzi": 854874
+  },
+  {
+    "name": "御药院方",
+    "file": "texts/第二编_方书/御药院方.txt",
+    "raw_file": "raw/御药院方.html",
+    "size_bytes": 467758,
+    "raw_size": 531989,
+    "chars": 159380,
+    "hanzi": 115256
+  },
+  {
+    "name": "心医集",
+    "file": "texts/第三编_通论/心医集.txt",
+    "raw_file": "raw/心医集.html",
+    "size_bytes": 108295,
+    "raw_size": 118836,
+    "chars": 36649,
+    "hanzi": 29430
+  },
+  {
+    "name": "急救仙方",
+    "file": "texts/第二编_方书/急救仙方.txt",
+    "raw_file": "raw/急救仙方.html",
+    "size_bytes": 49706,
+    "raw_size": 62244,
+    "chars": 16775,
+    "hanzi": 14230
+  },
+  {
+    "name": "急救便方",
+    "file": "texts/第二编_方书/急救便方.txt",
+    "raw_file": "raw/急救便方.html",
+    "size_bytes": 45505,
+    "raw_size": 57142,
+    "chars": 15411,
+    "hanzi": 12502
+  },
+  {
+    "name": "急救广生集",
+    "file": "texts/第二编_方书/急救广生集.txt",
+    "raw_file": "raw/急救广生集.html",
+    "size_bytes": 407016,
+    "raw_size": 450168,
+    "chars": 138622,
+    "hanzi": 104470
+  },
+  {
+    "name": "急救良方",
+    "file": "texts/第二编_方书/急救良方.txt",
+    "raw_file": "raw/急救良方.html",
+    "size_bytes": 111908,
+    "raw_size": 130239,
+    "chars": 38718,
+    "hanzi": 30229
+  },
+  {
+    "name": "惠直堂经验方",
+    "file": "texts/第二编_方书/惠直堂经验方.txt",
+    "raw_file": "raw/惠直堂经验方.html",
+    "size_bytes": 238488,
+    "raw_size": 289623,
+    "chars": 84092,
+    "hanzi": 60850
+  },
+  {
+    "name": "慈幼便览",
+    "file": "texts/第三编_儿科/慈幼便览.txt",
+    "raw_file": "raw/慈幼便览.html",
+    "size_bytes": 107631,
+    "raw_size": 121095,
+    "chars": 36457,
+    "hanzi": 29111
+  },
+  {
+    "name": "慈幼新书",
+    "file": "texts/第三编_儿科/慈幼新书.txt",
+    "raw_file": "raw/慈幼新书.html",
+    "size_bytes": 91185,
+    "raw_size": 106498,
+    "chars": 30913,
+    "hanzi": 24470
+  },
+  {
+    "name": "慎斋遗书",
+    "file": "texts/第三编_通论/慎斋遗书.txt",
+    "raw_file": "raw/慎斋遗书.html",
+    "size_bytes": 318792,
+    "raw_size": 329261,
+    "chars": 106434,
+    "hanzi": 88050
+  },
+  {
+    "name": "慎柔五书",
+    "file": "texts/第三编_通论/慎柔五书.txt",
+    "raw_file": "raw/慎柔五书.html",
+    "size_bytes": 130680,
+    "raw_size": 142606,
+    "chars": 43992,
+    "hanzi": 35487
+  },
+  {
+    "name": "慎疾刍言",
+    "file": "texts/第三编_通论/慎疾刍言.txt",
+    "raw_file": "raw/慎疾刍言.html",
+    "size_bytes": 34132,
+    "raw_size": 42269,
+    "chars": 11450,
+    "hanzi": 9519
+  },
+  {
+    "name": "成方切用",
+    "file": "texts/第二编_方书/成方切用.txt",
+    "raw_file": "raw/成方切用.html",
+    "size_bytes": 481583,
+    "raw_size": 520748,
+    "chars": 165479,
+    "hanzi": 128534
+  },
+  {
+    "name": "房中补益",
+    "file": "texts/第一编_养生/房中补益.txt",
+    "raw_file": "raw/房中补益.html",
+    "size_bytes": 9202,
+    "raw_size": 16628,
+    "chars": 3080,
+    "hanzi": 2471
+  },
+  {
+    "name": "扁鹊心书",
+    "file": "texts/第三编_通论/扁鹊心书.txt",
+    "raw_file": "raw/扁鹊心书.html",
+    "size_bytes": 170352,
+    "raw_size": 190418,
+    "chars": 57874,
+    "hanzi": 45802
+  },
+  {
+    "name": "扁鹊神应鍼灸玉龙经",
+    "file": "texts/第二编_针灸推拿/扁鹊神应鍼灸玉龙经.txt",
+    "raw_file": "raw/扁鹊神应鍼灸玉龙经.html",
+    "size_bytes": 64388,
+    "raw_size": 78189,
+    "chars": 21746,
+    "hanzi": 19842
+  },
+  {
+    "name": "扁鹊神应针灸玉龙经",
+    "file": "texts/第二编_针灸推拿/扁鹊神应针灸玉龙经.txt",
+    "raw_file": "raw/扁鹊神应针灸玉龙经.html",
+    "size_bytes": 74273,
+    "raw_size": 91474,
+    "chars": 25575,
+    "hanzi": 19481
+  },
+  {
+    "name": "推拿抉微",
+    "file": "texts/第二编_针灸推拿/推拿抉微.txt",
+    "raw_file": "raw/推拿抉微.html",
+    "size_bytes": 364149,
+    "raw_size": 391609,
+    "chars": 123749,
+    "hanzi": 98688
+  },
+  {
+    "name": "推求师意",
+    "file": "texts/第三编_通论/推求师意.txt",
+    "raw_file": "raw/推求师意.html",
+    "size_bytes": 84790,
+    "raw_size": 94682,
+    "chars": 28456,
+    "hanzi": 23571
+  },
+  {
+    "name": "推篷寤语",
+    "file": "texts/第三编_通论/推篷寤语.txt",
+    "raw_file": "raw/推篷寤语.html",
+    "size_bytes": 32569,
+    "raw_size": 40752,
+    "chars": 10911,
+    "hanzi": 9246
+  },
+  {
+    "name": "摄生总要",
+    "file": "texts/第一编_养生/摄生总要.txt",
+    "raw_file": "raw/摄生总要.html",
+    "size_bytes": 188183,
+    "raw_size": 204881,
+    "chars": 63297,
+    "hanzi": 51489
+  },
+  {
+    "name": "救伤秘旨",
+    "file": "texts/第三编_伤科/救伤秘旨.txt",
+    "raw_file": "raw/救伤秘旨.html",
+    "size_bytes": 88522,
+    "raw_size": 101849,
+    "chars": 30178,
+    "hanzi": 24081
+  },
+  {
+    "name": "敖氏伤寒金镜录",
+    "file": "texts/第一编_伤寒金匮/敖氏伤寒金镜录.txt",
+    "raw_file": "raw/敖氏伤寒金镜录.html",
+    "size_bytes": 61812,
+    "raw_size": 72007,
+    "chars": 20878,
+    "hanzi": 16973
+  },
+  {
+    "name": "文堂集验方",
+    "file": "texts/第二编_方书/文堂集验方.txt",
+    "raw_file": "raw/文堂集验方.html",
+    "size_bytes": 310448,
+    "raw_size": 336689,
+    "chars": 106068,
+    "hanzi": 79594
+  },
+  {
+    "name": "新修本草",
+    "file": "texts/第一编_本草/新修本草.txt",
+    "raw_file": "raw/新修本草.html",
+    "size_bytes": 494721,
+    "raw_size": 562065,
+    "chars": 169238,
+    "hanzi": 122221
+  },
+  {
+    "name": "方症会要",
+    "file": "texts/第二编_方书/方症会要.txt",
+    "raw_file": "raw/方症会要.html",
+    "size_bytes": 180947,
+    "raw_size": 200157,
+    "chars": 61087,
+    "hanzi": 53629
+  },
+  {
+    "name": "旅舍备要方",
+    "file": "texts/第二编_方书/旅舍备要方.txt",
+    "raw_file": "raw/旅舍备要方.html",
+    "size_bytes": 16274,
+    "raw_size": 24913,
+    "chars": 5486,
+    "hanzi": 4800
+  },
+  {
+    "name": "旧德堂医案",
+    "file": "texts/第三编_医案医话/旧德堂医案.txt",
+    "raw_file": "raw/旧德堂医案.html",
+    "size_bytes": 56318,
+    "raw_size": 64307,
+    "chars": 18826,
+    "hanzi": 16046
+  },
+  {
+    "name": "时方妙用",
+    "file": "texts/第二编_方书/时方妙用.txt",
+    "raw_file": "raw/时方妙用.html",
+    "size_bytes": 157918,
+    "raw_size": 177208,
+    "chars": 53642,
+    "hanzi": 42544
+  },
+  {
+    "name": "时方歌括",
+    "file": "texts/第二编_方书/时方歌括.txt",
+    "raw_file": "raw/时方歌括.html",
+    "size_bytes": 105274,
+    "raw_size": 120472,
+    "chars": 35640,
+    "hanzi": 29014
+  },
+  {
+    "name": "时病论",
+    "file": "texts/第三编_温病/时病论.txt",
+    "raw_file": "raw/时病论.html",
+    "size_bytes": 263040,
+    "raw_size": 282323,
+    "chars": 89114,
+    "hanzi": 71098
+  },
+  {
+    "name": "明医指掌",
+    "file": "texts/第三编_通论/明医指掌.txt",
+    "raw_file": "raw/明医指掌.html",
+    "size_bytes": 529833,
+    "raw_size": 580976,
+    "chars": 182225,
+    "hanzi": 134137
+  },
+  {
+    "name": "明医杂着",
+    "file": "texts/第三编_通论/明医杂着.txt",
+    "raw_file": "raw/明医杂着.html",
+    "size_bytes": 330425,
+    "raw_size": 355919,
+    "chars": 112514,
+    "hanzi": 88462
+  },
+  {
+    "name": "明堂灸经",
+    "file": "texts/第二编_针灸推拿/明堂灸经.txt",
+    "raw_file": "raw/明堂灸经.html",
+    "size_bytes": 65112,
+    "raw_size": 75595,
+    "chars": 21848,
+    "hanzi": 21124
+  },
+  {
+    "name": "明目至宝",
+    "file": "texts/第三编_眼科/明目至宝.txt",
+    "raw_file": "raw/明目至宝.html",
+    "size_bytes": 149060,
+    "raw_size": 179239,
+    "chars": 52714,
+    "hanzi": 38814
+  },
+  {
+    "name": "易牙遗意",
+    "file": "texts/第一编_养生/易牙遗意.txt",
+    "raw_file": "raw/易牙遗意.html",
+    "size_bytes": 34518,
+    "raw_size": 43969,
+    "chars": 11692,
+    "hanzi": 10713
+  },
+  {
+    "name": "是斋百一选方",
+    "file": "texts/第二编_方书/是斋百一选方.txt",
+    "raw_file": "raw/是斋百一选方.html",
+    "size_bytes": 384771,
+    "raw_size": 434787,
+    "chars": 132866,
+    "hanzi": 101762
+  },
+  {
+    "name": "普济方",
+    "file": "texts/第二编_方书/普济方.txt",
+    "raw_file": "raw/普济方.html",
+    "size_bytes": 13888104,
+    "raw_size": 15882827,
+    "chars": 4750328,
+    "hanzi": 3578602
+  },
+  {
+    "name": "普济方四库",
+    "file": "texts/第二编_方书/普济方四库.txt",
+    "raw_file": "raw/普济方四库.html",
+    "size_bytes": 20944377,
+    "raw_size": 22357575,
+    "chars": 7041334,
+    "hanzi": 6152198
+  },
+  {
+    "name": "普济方针灸",
+    "file": "texts/第二编_针灸推拿/普济方针灸.txt",
+    "raw_file": "raw/普济方针灸.html",
+    "size_bytes": 1031899,
+    "raw_size": 1098503,
+    "chars": 351781,
+    "hanzi": 276542
+  },
+  {
+    "name": "普济本事方",
+    "file": "texts/第二编_方书/普济本事方.txt",
+    "raw_file": "raw/普济本事方.html",
+    "size_bytes": 191131,
+    "raw_size": 219534,
+    "chars": 66057,
+    "hanzi": 48952
+  },
+  {
+    "name": "普济本事方续集",
+    "file": "texts/第二编_方书/普济本事方续集.txt",
+    "raw_file": "raw/普济本事方续集.html",
+    "size_bytes": 86478,
+    "raw_size": 104241,
+    "chars": 29564,
+    "hanzi": 23880
+  },
+  {
+    "name": "景岳全书",
+    "file": "texts/第三编_通论/景岳全书.txt",
+    "raw_file": "raw/景岳全书.html",
+    "size_bytes": 3201046,
+    "raw_size": 3384667,
+    "chars": 1078106,
+    "hanzi": 860648
+  },
+  {
+    "name": "景景医话",
+    "file": "texts/第三编_医案医话/景景医话.txt",
+    "raw_file": "raw/景景医话.html",
+    "size_bytes": 75302,
+    "raw_size": 85427,
+    "chars": 25524,
+    "hanzi": 20930
+  },
+  {
+    "name": "曹仁伯医案论",
+    "file": "texts/第三编_医案医话/曹仁伯医案论.txt",
+    "raw_file": "raw/曹仁伯医案论.html",
+    "size_bytes": 39941,
+    "raw_size": 48660,
+    "chars": 13651,
+    "hanzi": 11104
+  },
+  {
+    "name": "曹氏伤寒金匮发微",
+    "file": "texts/第一编_伤寒金匮/曹氏伤寒金匮发微.txt",
+    "raw_file": "raw/曹氏伤寒金匮发微.html",
+    "size_bytes": 831870,
+    "raw_size": 857389,
+    "chars": 278144,
+    "hanzi": 236937
+  },
+  {
+    "name": "月令采奇",
+    "file": "texts/第一编_养生/月令采奇.txt",
+    "raw_file": "raw/月令采奇.html",
+    "size_bytes": 506964,
+    "raw_size": 521989,
+    "chars": 169731,
+    "hanzi": 136969
+  },
+  {
+    "name": "望诊遵经",
+    "file": "texts/第二编_诊法/望诊遵经.txt",
+    "raw_file": "raw/望诊遵经.html",
+    "size_bytes": 228350,
+    "raw_size": 242446,
+    "chars": 76726,
+    "hanzi": 62516
+  },
+  {
+    "name": "未刻本叶氏医案",
+    "file": "texts/第三编_医案医话/未刻本叶氏医案.txt",
+    "raw_file": "raw/未刻本叶氏医案.html",
+    "size_bytes": 123198,
+    "raw_size": 148093,
+    "chars": 45542,
+    "hanzi": 33147
+  },
+  {
+    "name": "本事方续集",
+    "file": "texts/第二编_方书/本事方续集.txt",
+    "raw_file": "raw/本事方续集.html",
+    "size_bytes": 86453,
+    "raw_size": 104170,
+    "chars": 29555,
+    "hanzi": 23875
+  },
+  {
+    "name": "本经疏证",
+    "file": "texts/第一编_本草/本经疏证.txt",
+    "raw_file": "raw/本经疏证.html",
+    "size_bytes": 1435995,
+    "raw_size": 1488630,
+    "chars": 482153,
+    "hanzi": 384669
+  },
+  {
+    "name": "本经逢原",
+    "file": "texts/第一编_本草/本经逢原.txt",
+    "raw_file": "raw/本经逢原.html",
+    "size_bytes": 545262,
+    "raw_size": 599406,
+    "chars": 184994,
+    "hanzi": 148648
+  },
+  {
+    "name": "本草乘雅半偈",
+    "file": "texts/第一编_本草/本草乘雅半偈.txt",
+    "raw_file": "raw/本草乘雅半偈.html",
+    "size_bytes": 827806,
+    "raw_size": 870111,
+    "chars": 279026,
+    "hanzi": 220178
+  },
+  {
+    "name": "本草从新",
+    "file": "texts/第一编_本草/本草从新.txt",
+    "raw_file": "raw/本草从新.html",
+    "size_bytes": 530412,
+    "raw_size": 574421,
+    "chars": 179424,
+    "hanzi": 137549
+  },
+  {
+    "name": "本草便读",
+    "file": "texts/第一编_本草/本草便读.txt",
+    "raw_file": "raw/本草便读.html",
+    "size_bytes": 249140,
+    "raw_size": 275261,
+    "chars": 84266,
+    "hanzi": 67750
+  },
+  {
+    "name": "本草分经",
+    "file": "texts/第一编_本草/本草分经.txt",
+    "raw_file": "raw/本草分经.html",
+    "size_bytes": 156053,
+    "raw_size": 207191,
+    "chars": 54723,
+    "hanzi": 38556
+  },
+  {
+    "name": "本草品汇精要",
+    "file": "texts/第一编_本草/本草品汇精要.txt",
+    "raw_file": "raw/本草品汇精要.html",
+    "size_bytes": 1850180,
+    "raw_size": 1907156,
+    "chars": 629612,
+    "hanzi": 538441
+  },
+  {
+    "name": "本草图经",
+    "file": "texts/第一编_本草/本草图经.txt",
+    "raw_file": "raw/本草图经.html",
+    "size_bytes": 822501,
+    "raw_size": 858420,
+    "chars": 278175,
+    "hanzi": 219786
+  },
+  {
+    "name": "本草备要",
+    "file": "texts/第一编_本草/本草备要.txt",
+    "raw_file": "raw/本草备要.html",
+    "size_bytes": 416996,
+    "raw_size": 448945,
+    "chars": 140762,
+    "hanzi": 108930
+  },
+  {
+    "name": "本草害利",
+    "file": "texts/第一编_本草/本草害利.txt",
+    "raw_file": "raw/本草害利.html",
+    "size_bytes": 184845,
+    "raw_size": 211370,
+    "chars": 62847,
+    "hanzi": 47781
+  },
+  {
+    "name": "本草崇原",
+    "file": "texts/第一编_本草/本草崇原.txt",
+    "raw_file": "raw/本草崇原.html",
+    "size_bytes": 289465,
+    "raw_size": 310768,
+    "chars": 97543,
+    "hanzi": 78009
+  },
+  {
+    "name": "本草征要",
+    "file": "texts/第一编_本草/本草征要.txt",
+    "raw_file": "raw/本草征要.html",
+    "size_bytes": 248206,
+    "raw_size": 289468,
+    "chars": 85484,
+    "hanzi": 63216
+  },
+  {
+    "name": "本草思辨录",
+    "file": "texts/第一编_本草/本草思辨录.txt",
+    "raw_file": "raw/本草思辨录.html",
+    "size_bytes": 305969,
+    "raw_size": 320412,
+    "chars": 102579,
+    "hanzi": 88143
+  },
+  {
+    "name": "本草择要纲目",
+    "file": "texts/第一编_本草/本草择要纲目.txt",
+    "raw_file": "raw/本草择要纲目.html",
+    "size_bytes": 204526,
+    "raw_size": 232253,
+    "chars": 69638,
+    "hanzi": 54622
+  },
+  {
+    "name": "本草撮要",
+    "file": "texts/第一编_本草/本草撮要.txt",
+    "raw_file": "raw/本草撮要.html",
+    "size_bytes": 180579,
+    "raw_size": 211234,
+    "chars": 61727,
+    "hanzi": 47877
+  },
+  {
+    "name": "本草新编",
+    "file": "texts/第一编_本草/本草新编.txt",
+    "raw_file": "raw/本草新编.html",
+    "size_bytes": 600560,
+    "raw_size": 629980,
+    "chars": 201662,
+    "hanzi": 166609
+  },
+  {
+    "name": "本草易读",
+    "file": "texts/第一编_本草/本草易读.txt",
+    "raw_file": "raw/本草易读.html",
+    "size_bytes": 668281,
+    "raw_size": 782138,
+    "chars": 230503,
+    "hanzi": 162276
+  },
+  {
+    "name": "本草求真",
+    "file": "texts/第一编_本草/本草求真.txt",
+    "raw_file": "raw/本草求真.html",
+    "size_bytes": 802455,
+    "raw_size": 842184,
+    "chars": 271579,
+    "hanzi": 220544
+  },
+  {
+    "name": "本草简要方",
+    "file": "texts/第一编_本草/本草简要方.txt",
+    "raw_file": "raw/本草简要方.html",
+    "size_bytes": 458292,
+    "raw_size": 490531,
+    "chars": 155220,
+    "hanzi": 123073
+  },
+  {
+    "name": "本草纲目",
+    "file": "texts/第一编_本草/本草纲目.txt",
+    "raw_file": "raw/本草纲目.html",
+    "size_bytes": 131659,
+    "raw_size": 1044917,
+    "chars": 55229,
+    "hanzi": 27072
+  },
+  {
+    "name": "本草纲目别名录",
+    "file": "texts/第一编_本草/本草纲目别名录.txt",
+    "raw_file": "raw/本草纲目别名录.html",
+    "size_bytes": 40980,
+    "raw_size": 57053,
+    "chars": 15761,
+    "hanzi": 9894
+  },
+  {
+    "name": "本草纲目拾遗",
+    "file": "texts/第一编_本草/本草纲目拾遗.txt",
+    "raw_file": "raw/本草纲目拾遗.html",
+    "size_bytes": 736192,
+    "raw_size": 794389,
+    "chars": 249750,
+    "hanzi": 199332
+  },
+  {
+    "name": "本草经解",
+    "file": "texts/第一编_本草/本草经解.txt",
+    "raw_file": "raw/本草经解.html",
+    "size_bytes": 222447,
+    "raw_size": 244089,
+    "chars": 75029,
+    "hanzi": 58926
+  },
+  {
+    "name": "本草经集注",
+    "file": "texts/第一编_本草/本草经集注.txt",
+    "raw_file": "raw/本草经集注.html",
+    "size_bytes": 387764,
+    "raw_size": 434124,
+    "chars": 132760,
+    "hanzi": 97376
+  },
+  {
+    "name": "本草蒙筌",
+    "file": "texts/第一编_本草/本草蒙筌.txt",
+    "raw_file": "raw/本草蒙筌.html",
+    "size_bytes": 465547,
+    "raw_size": 516716,
+    "chars": 158229,
+    "hanzi": 122315
+  },
+  {
+    "name": "本草衍义",
+    "file": "texts/第一编_本草/本草衍义.txt",
+    "raw_file": "raw/本草衍义.html",
+    "size_bytes": 182328,
+    "raw_size": 206323,
+    "chars": 61896,
+    "hanzi": 48600
+  },
+  {
+    "name": "本草述钩元",
+    "file": "texts/第一编_本草/本草述钩元.txt",
+    "raw_file": "raw/本草述钩元.html",
+    "size_bytes": 1151717,
+    "raw_size": 1224170,
+    "chars": 389919,
+    "hanzi": 315406
+  },
+  {
+    "name": "本草问答",
+    "file": "texts/第一编_本草/本草问答.txt",
+    "raw_file": "raw/本草问答.html",
+    "size_bytes": 116307,
+    "raw_size": 125268,
+    "chars": 38917,
+    "hanzi": 32811
+  },
+  {
+    "name": "杂病广要",
+    "file": "texts/第三编_内科/杂病广要.txt",
+    "raw_file": "raw/杂病广要.html",
+    "size_bytes": 2208873,
+    "raw_size": 2241516,
+    "chars": 737420,
+    "hanzi": 584886
+  },
+  {
+    "name": "杂病治例",
+    "file": "texts/第三编_内科/杂病治例.txt",
+    "raw_file": "raw/杂病治例.html",
+    "size_bytes": 63086,
+    "raw_size": 78040,
+    "chars": 22815,
+    "hanzi": 15954
+  },
+  {
+    "name": "杂病源流犀烛",
+    "file": "texts/第二编_病因病机/杂病源流犀烛.txt",
+    "raw_file": "raw/杂病源流犀烛.html",
+    "size_bytes": 1682224,
+    "raw_size": 1694626,
+    "chars": 614787,
+    "hanzi": 452495
+  },
+  {
+    "name": "杂症会心录",
+    "file": "texts/第三编_内科/杂症会心录.txt",
+    "raw_file": "raw/杂症会心录.html",
+    "size_bytes": 178366,
+    "raw_size": 199056,
+    "chars": 60278,
+    "hanzi": 47754
+  },
+  {
+    "name": "杨敬斋针灸全书",
+    "file": "texts/第二编_针灸推拿/杨敬斋针灸全书.txt",
+    "raw_file": "raw/杨敬斋针灸全书.html",
+    "size_bytes": 85289,
+    "raw_size": 94636,
+    "chars": 29466,
+    "hanzi": 27424
+  },
+  {
+    "name": "杨氏家藏方",
+    "file": "texts/第二编_方书/杨氏家藏方.txt",
+    "raw_file": "raw/杨氏家藏方.html",
+    "size_bytes": 407040,
+    "raw_size": 471486,
+    "chars": 142176,
+    "hanzi": 103596
+  },
+  {
+    "name": "松峰说疫",
+    "file": "texts/第三编_温病/松峰说疫.txt",
+    "raw_file": "raw/松峰说疫.html",
+    "size_bytes": 303660,
+    "raw_size": 331059,
+    "chars": 103510,
+    "hanzi": 81170
+  },
+  {
+    "name": "松崖医径",
+    "file": "texts/第三编_通论/松崖医径.txt",
+    "raw_file": "raw/松崖医径.html",
+    "size_bytes": 207669,
+    "raw_size": 236447,
+    "chars": 70539,
+    "hanzi": 52256
+  },
+  {
+    "name": "析骨分经",
+    "file": "texts/第二编_经络骨度/析骨分经.txt",
+    "raw_file": "raw/析骨分经.html",
+    "size_bytes": 7812,
+    "raw_size": 17272,
+    "chars": 2850,
+    "hanzi": 2296
+  },
+  {
+    "name": "柳洲医话",
+    "file": "texts/第三编_医案医话/柳洲医话.txt",
+    "raw_file": "raw/柳洲医话.html",
+    "size_bytes": 30555,
+    "raw_size": 40133,
+    "chars": 10349,
+    "hanzi": 8282
+  },
+  {
+    "name": "柳选四家医案",
+    "file": "texts/第三编_医案医话/柳选四家医案.txt",
+    "raw_file": "raw/柳选四家医案.html",
+    "size_bytes": 243489,
+    "raw_size": 261789,
+    "chars": 86080,
+    "hanzi": 65961
+  },
+  {
+    "name": "校注医醇剩义",
+    "file": "texts/第三编_内科/校注医醇剩义.txt",
+    "raw_file": "raw/校注医醇剩义.html",
+    "size_bytes": 240433,
+    "raw_size": 274986,
+    "chars": 84465,
+    "hanzi": 59001
+  },
+  {
+    "name": "格致余论",
+    "file": "texts/第三编_通论/格致余论.txt",
+    "raw_file": "raw/格致余论.html",
+    "size_bytes": 68400,
+    "raw_size": 76601,
+    "chars": 22837,
+    "hanzi": 22640
+  },
+  {
+    "name": "正体类要",
+    "file": "texts/第三编_伤科/正体类要.txt",
+    "raw_file": "raw/正体类要.html",
+    "size_bytes": 68623,
+    "raw_size": 81851,
+    "chars": 23509,
+    "hanzi": 18210
+  },
+  {
+    "name": "此事难知",
+    "file": "texts/第三编_通论/此事难知.txt",
+    "raw_file": "raw/此事难知.html",
+    "size_bytes": 101966,
+    "raw_size": 118064,
+    "chars": 34812,
+    "hanzi": 28296
+  },
+  {
+    "name": "武当淮河派丹丸膏散秘方",
+    "file": "texts/第二编_方书/武当淮河派丹丸膏散秘方.txt",
+    "raw_file": "raw/武当淮河派丹丸膏散秘方.html",
+    "size_bytes": 5664,
+    "raw_size": 13020,
+    "chars": 1976,
+    "hanzi": 1530
+  },
+  {
+    "name": "毛对山医话",
+    "file": "texts/第三编_医案医话/毛对山医话.txt",
+    "raw_file": "raw/毛对山医话.html",
+    "size_bytes": 71295,
+    "raw_size": 79479,
+    "chars": 23861,
+    "hanzi": 20177
+  },
+  {
+    "name": "江氏伤科学",
+    "file": "texts/第三编_伤科/江氏伤科学.txt",
+    "raw_file": "raw/江氏伤科学.html",
+    "size_bytes": 29885,
+    "raw_size": 40375,
+    "chars": 10307,
+    "hanzi": 7857
+  },
+  {
+    "name": "汤头歌诀",
+    "file": "texts/第二编_方书/汤头歌诀.txt",
+    "raw_file": "raw/汤头歌诀.html",
+    "size_bytes": 114641,
+    "raw_size": 129802,
+    "chars": 38781,
+    "hanzi": 29052
+  },
+  {
+    "name": "汤液本草",
+    "file": "texts/第一编_本草/汤液本草.txt",
+    "raw_file": "raw/汤液本草.html",
+    "size_bytes": 182799,
+    "raw_size": 211521,
+    "chars": 62326,
+    "hanzi": 45196
+  },
+  {
+    "name": "沈氏女科辑要",
+    "file": "texts/第三编_女科/沈氏女科辑要.txt",
+    "raw_file": "raw/沈氏女科辑要.html",
+    "size_bytes": 123594,
+    "raw_size": 135980,
+    "chars": 41660,
+    "hanzi": 33590
+  },
+  {
+    "name": "河间伤寒心要",
+    "file": "texts/第一编_伤寒金匮/河间伤寒心要.txt",
+    "raw_file": "raw/河间伤寒心要.html",
+    "size_bytes": 12664,
+    "raw_size": 21344,
+    "chars": 4364,
+    "hanzi": 3260
+  },
+  {
+    "name": "注解伤寒论",
+    "file": "texts/第一编_伤寒金匮/注解伤寒论.txt",
+    "raw_file": "raw/注解伤寒论.html",
+    "size_bytes": 356423,
+    "raw_size": 384565,
+    "chars": 120470,
+    "hanzi": 92495
+  },
+  {
+    "name": "洄溪医案",
+    "file": "texts/第三编_医案医话/洄溪医案.txt",
+    "raw_file": "raw/洄溪医案.html",
+    "size_bytes": 82953,
+    "raw_size": 92117,
+    "chars": 27835,
+    "hanzi": 23020
+  },
+  {
+    "name": "洗冤集录",
+    "file": "texts/第一编_医史/洗冤集录.txt",
+    "raw_file": "raw/洗冤集录.html",
+    "size_bytes": 86619,
+    "raw_size": 98966,
+    "chars": 29537,
+    "hanzi": 23786
+  },
+  {
+    "name": "洪氏集验方",
+    "file": "texts/第二编_方书/洪氏集验方.txt",
+    "raw_file": "raw/洪氏集验方.html",
+    "size_bytes": 82368,
+    "raw_size": 98158,
+    "chars": 28345,
+    "hanzi": 21112
+  },
+  {
+    "name": "活幼口议",
+    "file": "texts/第三编_儿科/活幼口议.txt",
+    "raw_file": "raw/活幼口议.html",
+    "size_bytes": 208207,
+    "raw_size": 225143,
+    "chars": 70642,
+    "hanzi": 66549
+  },
+  {
+    "name": "活幼心书",
+    "file": "texts/第三编_儿科/活幼心书.txt",
+    "raw_file": "raw/活幼心书.html",
+    "size_bytes": 235046,
+    "raw_size": 257930,
+    "chars": 80121,
+    "hanzi": 63176
+  },
+  {
+    "name": "活法机要",
+    "file": "texts/第三编_通论/活法机要.txt",
+    "raw_file": "raw/活法机要.html",
+    "size_bytes": 39966,
+    "raw_size": 51546,
+    "chars": 13588,
+    "hanzi": 10179
+  },
+  {
+    "name": "济世神验良方",
+    "file": "texts/第二编_方书/济世神验良方.txt",
+    "raw_file": "raw/济世神验良方.html",
+    "size_bytes": 191561,
+    "raw_size": 209725,
+    "chars": 65815,
+    "hanzi": 51851
+  },
+  {
+    "name": "济生方",
+    "file": "texts/第二编_方书/济生方.txt",
+    "raw_file": "raw/济生方.html",
+    "size_bytes": 128587,
+    "raw_size": 142946,
+    "chars": 43173,
+    "hanzi": 38011
+  },
+  {
+    "name": "济生集",
+    "file": "texts/第三编_女科/济生集.txt",
+    "raw_file": "raw/济生集.html",
+    "size_bytes": 73173,
+    "raw_size": 85181,
+    "chars": 24801,
+    "hanzi": 19982
+  },
+  {
+    "name": "济阴纲目",
+    "file": "texts/第三编_女科/济阴纲目.txt",
+    "raw_file": "raw/济阴纲目.html",
+    "size_bytes": 861104,
+    "raw_size": 930483,
+    "chars": 291460,
+    "hanzi": 229452
+  },
+  {
+    "name": "海药本草",
+    "file": "texts/第一编_本草/海药本草.txt",
+    "raw_file": "raw/海药本草.html",
+    "size_bytes": 41055,
+    "raw_size": 51241,
+    "chars": 14599,
+    "hanzi": 9607
+  },
+  {
+    "name": "温热暑疫全书",
+    "file": "texts/第三编_温病/温热暑疫全书.txt",
+    "raw_file": "raw/温热暑疫全书.html",
+    "size_bytes": 147769,
+    "raw_size": 163803,
+    "chars": 50234,
+    "hanzi": 40091
+  },
+  {
+    "name": "温热经纬",
+    "file": "texts/第三编_女科/温热经纬.txt",
+    "raw_file": "raw/温热经纬.html",
+    "size_bytes": 400903,
+    "raw_size": 424867,
+    "chars": 135094,
+    "hanzi": 108870
+  },
+  {
+    "name": "温热论-清-顾景文",
+    "file": "texts/第三编_温病/温热论-清-顾景文.txt",
+    "raw_file": "raw/温热论-清-顾景文.html",
+    "size_bytes": 19778,
+    "raw_size": 27308,
+    "chars": 6672,
+    "hanzi": 5476
+  },
+  {
+    "name": "温热论",
+    "file": "texts/第三编_温病/温热论.txt",
+    "raw_file": "raw/温热论.html",
+    "size_bytes": 14519,
+    "raw_size": 22464,
+    "chars": 4894,
+    "hanzi": 4028
+  },
+  {
+    "name": "温热逢源",
+    "file": "texts/第三编_温病/温热逢源.txt",
+    "raw_file": "raw/温热逢源.html",
+    "size_bytes": 134616,
+    "raw_size": 146845,
+    "chars": 45210,
+    "hanzi": 37456
+  },
+  {
+    "name": "温疫论",
+    "file": "texts/第三编_温病/温疫论.txt",
+    "raw_file": "raw/温疫论.html",
+    "size_bytes": 122692,
+    "raw_size": 135358,
+    "chars": 41358,
+    "hanzi": 33738
+  },
+  {
+    "name": "温病指南",
+    "file": "texts/第三编_温病/温病指南.txt",
+    "raw_file": "raw/温病指南.html",
+    "size_bytes": 56510,
+    "raw_size": 68508,
+    "chars": 19500,
+    "hanzi": 14873
+  },
+  {
+    "name": "温病条辨",
+    "file": "texts/第三编_温病/温病条辨.txt",
+    "raw_file": "raw/温病条辨.html",
+    "size_bytes": 352799,
+    "raw_size": 376970,
+    "chars": 119386,
+    "hanzi": 95525
+  },
+  {
+    "name": "温病正宗",
+    "file": "texts/第三编_温病/温病正宗.txt",
+    "raw_file": "raw/温病正宗.html",
+    "size_bytes": 254424,
+    "raw_size": 270757,
+    "chars": 85678,
+    "hanzi": 69173
+  },
+  {
+    "name": "湖岳村叟医案",
+    "file": "texts/第三编_医案医话/湖岳村叟医案.txt",
+    "raw_file": "raw/湖岳村叟医案.html",
+    "size_bytes": 248816,
+    "raw_size": 265477,
+    "chars": 86064,
+    "hanzi": 66136
+  },
+  {
+    "name": "湿热病篇",
+    "file": "texts/第三编_温病/湿热病篇.txt",
+    "raw_file": "raw/湿热病篇.html",
+    "size_bytes": 29659,
+    "raw_size": 37609,
+    "chars": 9996,
+    "hanzi": 8321
+  },
+  {
+    "name": "滇南本草",
+    "file": "texts/第一编_本草/滇南本草.txt",
+    "raw_file": "raw/滇南本草.html",
+    "size_bytes": 240368,
+    "raw_size": 279153,
+    "chars": 82868,
+    "hanzi": 59606
+  },
+  {
+    "name": "濒湖炮炙法",
+    "file": "texts/第一编_本草/濒湖炮炙法.txt",
+    "raw_file": "raw/濒湖炮炙法.html",
+    "size_bytes": 68347,
+    "raw_size": 86854,
+    "chars": 23879,
+    "hanzi": 17409
+  },
+  {
+    "name": "濒湖脉学",
+    "file": "texts/第二编_诊法/濒湖脉学.txt",
+    "raw_file": "raw/濒湖脉学.html",
+    "size_bytes": 34989,
+    "raw_size": 43946,
+    "chars": 12187,
+    "hanzi": 9480
+  },
+  {
+    "name": "灵枢经",
+    "file": "texts/第一编_医经/灵枢经.txt",
+    "raw_file": "raw/灵枢经.html",
+    "size_bytes": 249119,
+    "raw_size": 267894,
+    "chars": 83804,
+    "hanzi": 67032
+  },
+  {
+    "name": "灵枢经脉翼",
+    "file": "texts/第一编_医经/灵枢经脉翼.txt",
+    "raw_file": "raw/灵枢经脉翼.html",
+    "size_bytes": 69774,
+    "raw_size": 79081,
+    "chars": 23816,
+    "hanzi": 22575
+  },
+  {
+    "name": "灵枢识",
+    "file": "texts/第一编_医经/灵枢识.txt",
+    "raw_file": "raw/灵枢识.html",
+    "size_bytes": 689268,
+    "raw_size": 738157,
+    "chars": 234968,
+    "hanzi": 186187
+  },
+  {
+    "name": "灵素节注类编",
+    "file": "texts/第一编_医经/灵素节注类编.txt",
+    "raw_file": "raw/灵素节注类编.html",
+    "size_bytes": 807652,
+    "raw_size": 846931,
+    "chars": 271749,
+    "hanzi": 220636
+  },
+  {
+    "name": "灵药秘方",
+    "file": "texts/第二编_针灸推拿/灵药秘方.txt",
+    "raw_file": "raw/灵药秘方.html",
+    "size_bytes": 48961,
+    "raw_size": 57341,
+    "chars": 16435,
+    "hanzi": 13721
+  },
+  {
+    "name": "灸法秘传",
+    "file": "texts/第二编_针灸推拿/灸法秘传.txt",
+    "raw_file": "raw/灸法秘传.html",
+    "size_bytes": 40699,
+    "raw_size": 53407,
+    "chars": 13975,
+    "hanzi": 10311
+  },
+  {
+    "name": "炙膏肓腧穴法",
+    "file": "texts/第二编_针灸推拿/炙膏肓腧穴法.txt",
+    "raw_file": "raw/炙膏肓腧穴法.html",
+    "size_bytes": 13720,
+    "raw_size": 21506,
+    "chars": 4622,
+    "hanzi": 3871
+  },
+  {
+    "name": "炮炙全书",
+    "file": "texts/第一编_本草/炮炙全书.txt",
+    "raw_file": "raw/炮炙全书.html",
+    "size_bytes": 103847,
+    "raw_size": 128524,
+    "chars": 35797,
+    "hanzi": 26716
+  },
+  {
+    "name": "炮炙大法",
+    "file": "texts/第一编_本草/炮炙大法.txt",
+    "raw_file": "raw/炮炙大法.html",
+    "size_bytes": 81171,
+    "raw_size": 102696,
+    "chars": 28269,
+    "hanzi": 24299
+  },
+  {
+    "name": "焦氏喉科枕秘",
+    "file": "texts/第三编_咽喉口齿/焦氏喉科枕秘.txt",
+    "raw_file": "raw/焦氏喉科枕秘.html",
+    "size_bytes": 74785,
+    "raw_size": 87692,
+    "chars": 25909,
+    "hanzi": 20042
+  },
+  {
+    "name": "爱月庐医案",
+    "file": "texts/第三编_医案医话/爱月庐医案.txt",
+    "raw_file": "raw/爱月庐医案.html",
+    "size_bytes": 43411,
+    "raw_size": 52274,
+    "chars": 14595,
+    "hanzi": 12342
+  },
+  {
+    "name": "玉机微义",
+    "file": "texts/第三编_通论/玉机微义.txt",
+    "raw_file": "raw/玉机微义.html",
+    "size_bytes": 837230,
+    "raw_size": 868660,
+    "chars": 291932,
+    "hanzi": 269720
+  },
+  {
+    "name": "王旭高临证医案",
+    "file": "texts/第三编_医案医话/王旭高临证医案.txt",
+    "raw_file": "raw/王旭高临证医案.html",
+    "size_bytes": 315787,
+    "raw_size": 340062,
+    "chars": 110960,
+    "hanzi": 85720
+  },
+  {
+    "name": "王氏医案绎注",
+    "file": "texts/第三编_医案医话/王氏医案绎注.txt",
+    "raw_file": "raw/王氏医案绎注.html",
+    "size_bytes": 448239,
+    "raw_size": 462472,
+    "chars": 150697,
+    "hanzi": 127139
+  },
+  {
+    "name": "珍珠囊补遗药性赋",
+    "file": "texts/第一编_本草/珍珠囊补遗药性赋.txt",
+    "raw_file": "raw/珍珠囊补遗药性赋.html",
+    "size_bytes": 105109,
+    "raw_size": 122678,
+    "chars": 35741,
+    "hanzi": 28228
+  },
+  {
+    "name": "理瀹骈文",
+    "file": "texts/第三编_通论/理瀹骈文.txt",
+    "raw_file": "raw/理瀹骈文.html",
+    "size_bytes": 133388,
+    "raw_size": 143511,
+    "chars": 45970,
+    "hanzi": 39825
+  },
+  {
+    "name": "理虚元鉴",
+    "file": "texts/第三编_内科/理虚元鉴.txt",
+    "raw_file": "raw/理虚元鉴.html",
+    "size_bytes": 55782,
+    "raw_size": 65233,
+    "chars": 18794,
+    "hanzi": 15237
+  },
+  {
+    "name": "瑞竹堂经验方",
+    "file": "texts/第二编_方书/瑞竹堂经验方.txt",
+    "raw_file": "raw/瑞竹堂经验方.html",
+    "size_bytes": 110471,
+    "raw_size": 134557,
+    "chars": 38660,
+    "hanzi": 27893
+  },
+  {
+    "name": "疠疡机要",
+    "file": "texts/第三编_内科/疠疡机要.txt",
+    "raw_file": "raw/疠疡机要.html",
+    "size_bytes": 82315,
+    "raw_size": 94309,
+    "chars": 28305,
+    "hanzi": 22180
+  },
+  {
+    "name": "疡医大全",
+    "file": "texts/第三编_外科/疡医大全.txt",
+    "raw_file": "raw/疡医大全.html",
+    "size_bytes": 2750982,
+    "raw_size": 2869254,
+    "chars": 935744,
+    "hanzi": 742455
+  },
+  {
+    "name": "疡科心得集",
+    "file": "texts/第三编_外科/疡科心得集.txt",
+    "raw_file": "raw/疡科心得集.html",
+    "size_bytes": 238341,
+    "raw_size": 260477,
+    "chars": 80576,
+    "hanzi": 64978
+  },
+  {
+    "name": "疡科纲要",
+    "file": "texts/第三编_外科/疡科纲要.txt",
+    "raw_file": "raw/疡科纲要.html",
+    "size_bytes": 144075,
+    "raw_size": 157560,
+    "chars": 48727,
+    "hanzi": 40145
+  },
+  {
+    "name": "疫疹一得",
+    "file": "texts/第三编_温病/疫疹一得.txt",
+    "raw_file": "raw/疫疹一得.html",
+    "size_bytes": 88153,
+    "raw_size": 103326,
+    "chars": 30031,
+    "hanzi": 23257
+  },
+  {
+    "name": "疯门全书",
+    "file": "texts/第三编_内科/疯门全书.txt",
+    "raw_file": "raw/疯门全书.html",
+    "size_bytes": 108404,
+    "raw_size": 124561,
+    "chars": 37796,
+    "hanzi": 28589
+  },
+  {
+    "name": "病机气宜保命集",
+    "file": "texts/第二编_病因病机/病机气宜保命集.txt",
+    "raw_file": "raw/病机气宜保命集.html",
+    "size_bytes": 167921,
+    "raw_size": 182153,
+    "chars": 56285,
+    "hanzi": 51866
+  },
+  {
+    "name": "症因脉治",
+    "file": "texts/第二编_诊法/症因脉治.txt",
+    "raw_file": "raw/症因脉治.html",
+    "size_bytes": 464946,
+    "raw_size": 527171,
+    "chars": 159000,
+    "hanzi": 125001
+  },
+  {
+    "name": "痎疟论疏",
+    "file": "texts/第三编_内科/痎疟论疏.txt",
+    "raw_file": "raw/痎疟论疏.html",
+    "size_bytes": 60393,
+    "raw_size": 70768,
+    "chars": 20261,
+    "hanzi": 19193
+  },
+  {
+    "name": "痧疹辑要",
+    "file": "texts/第三编_内科/痧疹辑要.txt",
+    "raw_file": "raw/痧疹辑要.html",
+    "size_bytes": 194217,
+    "raw_size": 211761,
+    "chars": 65403,
+    "hanzi": 52733
+  },
+  {
+    "name": "痧胀玉衡",
+    "file": "texts/第三编_内科/痧胀玉衡.txt",
+    "raw_file": "raw/痧胀玉衡.html",
+    "size_bytes": 191539,
+    "raw_size": 209961,
+    "chars": 64957,
+    "hanzi": 52161
+  },
+  {
+    "name": "痰火点雪",
+    "file": "texts/第三编_内科/痰火点雪.txt",
+    "raw_file": "raw/痰火点雪.html",
+    "size_bytes": 207142,
+    "raw_size": 227535,
+    "chars": 70306,
+    "hanzi": 55303
+  },
+  {
+    "name": "痰疠法门",
+    "file": "texts/第三编_内科/痰疠法门.txt",
+    "raw_file": "raw/痰疠法门.html",
+    "size_bytes": 21676,
+    "raw_size": 30099,
+    "chars": 7484,
+    "hanzi": 5880
+  },
+  {
+    "name": "瘟疫论",
+    "file": "texts/第三编_温病/瘟疫论.txt",
+    "raw_file": "raw/瘟疫论.html",
+    "size_bytes": 104562,
+    "raw_size": 115045,
+    "chars": 34997,
+    "hanzi": 33787
+  },
+  {
+    "name": "瘴疟指南",
+    "file": "texts/第三编_内科/瘴疟指南.txt",
+    "raw_file": "raw/瘴疟指南.html",
+    "size_bytes": 108902,
+    "raw_size": 126271,
+    "chars": 37238,
+    "hanzi": 29351
+  },
+  {
+    "name": "白喉全生集",
+    "file": "texts/第三编_咽喉口齿/白喉全生集.txt",
+    "raw_file": "raw/白喉全生集.html",
+    "size_bytes": 35939,
+    "raw_size": 45167,
+    "chars": 12327,
+    "hanzi": 9465
+  },
+  {
+    "name": "白喉条辨",
+    "file": "texts/第三编_咽喉口齿/白喉条辨.txt",
+    "raw_file": "raw/白喉条辨.html",
+    "size_bytes": 40095,
+    "raw_size": 49234,
+    "chars": 13543,
+    "hanzi": 11463
+  },
+  {
+    "name": "百家针灸歌赋",
+    "file": "texts/第二编_针灸推拿/百家针灸歌赋.txt",
+    "raw_file": "raw/百家针灸歌赋.html",
+    "size_bytes": 62945,
+    "raw_size": 75681,
+    "chars": 21415,
+    "hanzi": 17216
+  },
+  {
+    "name": "皇汉医学",
+    "file": "texts/第三编_通论/皇汉医学.txt",
+    "raw_file": "raw/皇汉医学.html",
+    "size_bytes": 1344996,
+    "raw_size": 1413066,
+    "chars": 454494,
+    "hanzi": 361582
+  },
+  {
+    "name": "盘珠集胎产症治",
+    "file": "texts/第三编_女科/盘珠集胎产症治.txt",
+    "raw_file": "raw/盘珠集胎产症治.html",
+    "size_bytes": 96991,
+    "raw_size": 112876,
+    "chars": 33047,
+    "hanzi": 24885
+  },
+  {
+    "name": "目经大成",
+    "file": "texts/第三编_女科/目经大成.txt",
+    "raw_file": "raw/目经大成.html",
+    "size_bytes": 532262,
+    "raw_size": 564515,
+    "chars": 180394,
+    "hanzi": 145199
+  },
+  {
+    "name": "眉寿堂方案选存",
+    "file": "texts/第二编_方书/眉寿堂方案选存.txt",
+    "raw_file": "raw/眉寿堂方案选存.html",
+    "size_bytes": 126229,
+    "raw_size": 141059,
+    "chars": 44477,
+    "hanzi": 34736
+  },
+  {
+    "name": "眼科奇书",
+    "file": "texts/第三编_眼科/眼科奇书.txt",
+    "raw_file": "raw/眼科奇书.html",
+    "size_bytes": 40347,
+    "raw_size": 50746,
+    "chars": 13769,
+    "hanzi": 10815
+  },
+  {
+    "name": "眼科心法要诀",
+    "file": "texts/第三编_眼科/眼科心法要诀.txt",
+    "raw_file": "raw/眼科心法要诀.html",
+    "size_bytes": 75197,
+    "raw_size": 90130,
+    "chars": 26165,
+    "hanzi": 19472
+  },
+  {
+    "name": "眼科秘诀",
+    "file": "texts/第三编_眼科/眼科秘诀.txt",
+    "raw_file": "raw/眼科秘诀.html",
+    "size_bytes": 33321,
+    "raw_size": 42660,
+    "chars": 11351,
+    "hanzi": 8931
+  },
+  {
+    "name": "眼科阐微",
+    "file": "texts/第三编_眼科/眼科阐微.txt",
+    "raw_file": "raw/眼科阐微.html",
+    "size_bytes": 110227,
+    "raw_size": 130364,
+    "chars": 38335,
+    "hanzi": 28767
+  },
+  {
+    "name": "知医必辨",
+    "file": "texts/第三编_通论/知医必辨.txt",
+    "raw_file": "raw/知医必辨.html",
+    "size_bytes": 76587,
+    "raw_size": 84790,
+    "chars": 25905,
+    "hanzi": 21435
+  },
+  {
+    "name": "石室秘录",
+    "file": "texts/第三编_通论/石室秘录.txt",
+    "raw_file": "raw/石室秘录.html",
+    "size_bytes": 553198,
+    "raw_size": 577417,
+    "chars": 185677,
+    "hanzi": 152960
+  },
+  {
+    "name": "石山医案",
+    "file": "texts/第三编_医案医话/石山医案.txt",
+    "raw_file": "raw/石山医案.html",
+    "size_bytes": 151877,
+    "raw_size": 160705,
+    "chars": 50704,
+    "hanzi": 50199
+  },
+  {
+    "name": "石药尔雅",
+    "file": "texts/第一编_本草/石药尔雅.txt",
+    "raw_file": "raw/石药尔雅.html",
+    "size_bytes": 19217,
+    "raw_size": 26561,
+    "chars": 6413,
+    "hanzi": 6028
+  },
+  {
+    "name": "研经言",
+    "file": "texts/第三编_通论/研经言.txt",
+    "raw_file": "raw/研经言.html",
+    "size_bytes": 187295,
+    "raw_size": 201442,
+    "chars": 63036,
+    "hanzi": 50523
+  },
+  {
+    "name": "祝由十三科",
+    "file": "texts/第三编_通论/祝由十三科.txt",
+    "raw_file": "raw/祝由十三科.html",
+    "size_bytes": 72760,
+    "raw_size": 83892,
+    "chars": 24502,
+    "hanzi": 19607
+  },
+  {
+    "name": "神仙济世良方",
+    "file": "texts/第二编_方书/神仙济世良方.txt",
+    "raw_file": "raw/神仙济世良方.html",
+    "size_bytes": 105811,
+    "raw_size": 121309,
+    "chars": 36337,
+    "hanzi": 29799
+  },
+  {
+    "name": "神农本草经-清-孙星衍",
+    "file": "texts/第一编_本草/神农本草经-清-孙星衍.txt",
+    "raw_file": "raw/神农本草经-清-孙星衍.html",
+    "size_bytes": 248290,
+    "raw_size": 280904,
+    "chars": 85312,
+    "hanzi": 57025
+  },
+  {
+    "name": "神农本草经",
+    "file": "texts/第一编_本草/神农本草经.txt",
+    "raw_file": "raw/神农本草经.html",
+    "size_bytes": 54282,
+    "raw_size": 65446,
+    "chars": 18338,
+    "hanzi": 13821
+  },
+  {
+    "name": "神农本草经疏",
+    "file": "texts/第一编_本草/神农本草经疏.txt",
+    "raw_file": "raw/神农本草经疏.html",
+    "size_bytes": 920598,
+    "raw_size": 964049,
+    "chars": 308417,
+    "hanzi": 289962
+  },
+  {
+    "name": "神农本草经百种录",
+    "file": "texts/第一编_本草/神农本草经百种录.txt",
+    "raw_file": "raw/神农本草经百种录.html",
+    "size_bytes": 68360,
+    "raw_size": 80670,
+    "chars": 23104,
+    "hanzi": 18685
+  },
+  {
+    "name": "神农本草经读",
+    "file": "texts/第一编_本草/神农本草经读.txt",
+    "raw_file": "raw/神农本草经读.html",
+    "size_bytes": 133115,
+    "raw_size": 148088,
+    "chars": 44920,
+    "hanzi": 35460
+  },
+  {
+    "name": "神农本草经赞",
+    "file": "texts/第一编_本草/神农本草经赞.txt",
+    "raw_file": "raw/神农本草经赞.html",
+    "size_bytes": 251395,
+    "raw_size": 282027,
+    "chars": 85725,
+    "hanzi": 65514
+  },
+  {
+    "name": "神应经",
+    "file": "texts/第二编_针灸推拿/神应经.txt",
+    "raw_file": "raw/神应经.html",
+    "size_bytes": 59355,
+    "raw_size": 70775,
+    "chars": 21117,
+    "hanzi": 16155
+  },
+  {
+    "name": "神灸经纶",
+    "file": "texts/第二编_针灸推拿/神灸经纶.txt",
+    "raw_file": "raw/神灸经纶.html",
+    "size_bytes": 200357,
+    "raw_size": 211543,
+    "chars": 68841,
+    "hanzi": 65322
+  },
+  {
+    "name": "种福堂公选良方",
+    "file": "texts/第二编_方书/种福堂公选良方.txt",
+    "raw_file": "raw/种福堂公选良方.html",
+    "size_bytes": 185422,
+    "raw_size": 207005,
+    "chars": 64486,
+    "hanzi": 49540
+  },
+  {
+    "name": "秘传刘伯温家藏接骨金疮禁方",
+    "file": "texts/第二编_方书/秘传刘伯温家藏接骨金疮禁方.txt",
+    "raw_file": "raw/秘传刘伯温家藏接骨金疮禁方.html",
+    "size_bytes": 41330,
+    "raw_size": 52523,
+    "chars": 14200,
+    "hanzi": 11277
+  },
+  {
+    "name": "秘传外科方",
+    "file": "texts/第二编_方书/秘传外科方.txt",
+    "raw_file": "raw/秘传外科方.html",
+    "size_bytes": 88988,
+    "raw_size": 103489,
+    "chars": 30318,
+    "hanzi": 23652
+  },
+  {
+    "name": "秘传眼科龙木论",
+    "file": "texts/第三编_眼科/秘传眼科龙木论.txt",
+    "raw_file": "raw/秘传眼科龙木论.html",
+    "size_bytes": 177941,
+    "raw_size": 199964,
+    "chars": 62015,
+    "hanzi": 48192
+  },
+  {
+    "name": "秘传证治要诀及类方",
+    "file": "texts/第二编_方书/秘传证治要诀及类方.txt",
+    "raw_file": "raw/秘传证治要诀及类方.html",
+    "size_bytes": 263309,
+    "raw_size": 293760,
+    "chars": 90891,
+    "hanzi": 69536
+  },
+  {
+    "name": "秘藏膏丹丸散方剂",
+    "file": "texts/第二编_方书/秘藏膏丹丸散方剂.txt",
+    "raw_file": "raw/秘藏膏丹丸散方剂.html",
+    "size_bytes": 149651,
+    "raw_size": 174120,
+    "chars": 50933,
+    "hanzi": 36298
+  },
+  {
+    "name": "程杏轩医案",
+    "file": "texts/第三编_医案医话/程杏轩医案.txt",
+    "raw_file": "raw/程杏轩医案.html",
+    "size_bytes": 256025,
+    "raw_size": 271867,
+    "chars": 86021,
+    "hanzi": 70854
+  },
+  {
+    "name": "程门雪遗稿",
+    "file": "texts/第三编_通论/程门雪遗稿.txt",
+    "raw_file": "raw/程门雪遗稿.html",
+    "size_bytes": 49623,
+    "raw_size": 57353,
+    "chars": 16609,
+    "hanzi": 13891
+  },
+  {
+    "name": "穴道秘书",
+    "file": "texts/第二编_针灸推拿/穴道秘书.txt",
+    "raw_file": "raw/穴道秘书.html",
+    "size_bytes": 7015,
+    "raw_size": 14486,
+    "chars": 2365,
+    "hanzi": 1884
+  },
+  {
+    "name": "竹林寺女科",
+    "file": "texts/第三编_女科/竹林寺女科.txt",
+    "raw_file": "raw/竹林寺女科.html",
+    "size_bytes": 36084,
+    "raw_size": 49802,
+    "chars": 12454,
+    "hanzi": 9949
+  },
+  {
+    "name": "笔花医镜",
+    "file": "texts/第三编_通论/笔花医镜.txt",
+    "raw_file": "raw/笔花医镜.html",
+    "size_bytes": 118637,
+    "raw_size": 138165,
+    "chars": 40425,
+    "hanzi": 31439
+  },
+  {
+    "name": "简明医彀",
+    "file": "texts/第三编_通论/简明医彀.txt",
+    "raw_file": "raw/简明医彀.html",
+    "size_bytes": 740011,
+    "raw_size": 804230,
+    "chars": 256847,
+    "hanzi": 189785
+  },
+  {
+    "name": "类经",
+    "file": "texts/第一编_医经/类经.txt",
+    "raw_file": "raw/类经.html",
+    "size_bytes": 2272839,
+    "raw_size": 2332887,
+    "chars": 763206,
+    "hanzi": 609586
+  },
+  {
+    "name": "类经图翼",
+    "file": "texts/第一编_医经/类经图翼.txt",
+    "raw_file": "raw/类经图翼.html",
+    "size_bytes": 542105,
+    "raw_size": 582601,
+    "chars": 184435,
+    "hanzi": 145541
+  },
+  {
+    "name": "类证普济本事方",
+    "file": "texts/第二编_方书/类证普济本事方.txt",
+    "raw_file": "raw/类证普济本事方.html",
+    "size_bytes": 144487,
+    "raw_size": 161361,
+    "chars": 48580,
+    "hanzi": 44367
+  },
+  {
+    "name": "类证治裁",
+    "file": "texts/第三编_通论/类证治裁.txt",
+    "raw_file": "raw/类证治裁.html",
+    "size_bytes": 1110120,
+    "raw_size": 1180134,
+    "chars": 385374,
+    "hanzi": 286777
+  },
+  {
+    "name": "类证活人书",
+    "file": "texts/第一编_伤寒金匮/类证活人书.txt",
+    "raw_file": "raw/类证活人书.html",
+    "size_bytes": 323117,
+    "raw_size": 347165,
+    "chars": 109761,
+    "hanzi": 85324
+  },
+  {
+    "name": "素问入式运气论奥",
+    "file": "texts/第一编_医经/素问入式运气论奥.txt",
+    "raw_file": "raw/素问入式运气论奥.html",
+    "size_bytes": 114962,
+    "raw_size": 129752,
+    "chars": 38636,
+    "hanzi": 37469
+  },
+  {
+    "name": "素问六气玄珠密语",
+    "file": "texts/第一编_医经/素问六气玄珠密语.txt",
+    "raw_file": "raw/素问六气玄珠密语.html",
+    "size_bytes": 240234,
+    "raw_size": 249958,
+    "chars": 80402,
+    "hanzi": 78821
+  },
+  {
+    "name": "素问灵枢类纂约注",
+    "file": "texts/第一编_医经/素问灵枢类纂约注.txt",
+    "raw_file": "raw/素问灵枢类纂约注.html",
+    "size_bytes": 297253,
+    "raw_size": 313726,
+    "chars": 99861,
+    "hanzi": 75947
+  },
+  {
+    "name": "素问玄机原病式",
+    "file": "texts/第一编_医经/素问玄机原病式.txt",
+    "raw_file": "raw/素问玄机原病式.html",
+    "size_bytes": 89306,
+    "raw_size": 100049,
+    "chars": 30028,
+    "hanzi": 24125
+  },
+  {
+    "name": "素问病机气宜保命集",
+    "file": "texts/第一编_医经/素问病机气宜保命集.txt",
+    "raw_file": "raw/素问病机气宜保命集.html",
+    "size_bytes": 207589,
+    "raw_size": 232435,
+    "chars": 71041,
+    "hanzi": 55513
+  },
+  {
+    "name": "素问经注节解",
+    "file": "texts/第一编_医经/素问经注节解.txt",
+    "raw_file": "raw/素问经注节解.html",
+    "size_bytes": 1075878,
+    "raw_size": 1102875,
+    "chars": 360742,
+    "hanzi": 286898
+  },
+  {
+    "name": "素问要旨论",
+    "file": "texts/第一编_医经/素问要旨论.txt",
+    "raw_file": "raw/素问要旨论.html",
+    "size_bytes": 229348,
+    "raw_size": 243283,
+    "chars": 77096,
+    "hanzi": 62221
+  },
+  {
+    "name": "素问识",
+    "file": "texts/第一编_医经/素问识.txt",
+    "raw_file": "raw/素问识.html",
+    "size_bytes": 703580,
+    "raw_size": 756945,
+    "chars": 240214,
+    "hanzi": 186817
+  },
+  {
+    "name": "经效产宝",
+    "file": "texts/第三编_女科/经效产宝.txt",
+    "raw_file": "raw/经效产宝.html",
+    "size_bytes": 74574,
+    "raw_size": 83812,
+    "chars": 24984,
+    "hanzi": 19026
+  },
+  {
+    "name": "经方实验录",
+    "file": "texts/第二编_方书/经方实验录.txt",
+    "raw_file": "raw/经方实验录.html",
+    "size_bytes": 287499,
+    "raw_size": 302779,
+    "chars": 96345,
+    "hanzi": 81426
+  },
+  {
+    "name": "经穴汇解",
+    "file": "texts/第二编_针灸推拿/经穴汇解.txt",
+    "raw_file": "raw/经穴汇解.html",
+    "size_bytes": 310721,
+    "raw_size": 336723,
+    "chars": 105443,
+    "hanzi": 79767
+  },
+  {
+    "name": "经络全书",
+    "file": "texts/第二编_经络骨度/经络全书.txt",
+    "raw_file": "raw/经络全书.html",
+    "size_bytes": 238885,
+    "raw_size": 251994,
+    "chars": 80373,
+    "hanzi": 62701
+  },
+  {
+    "name": "经络汇编",
+    "file": "texts/第二编_经络骨度/经络汇编.txt",
+    "raw_file": "raw/经络汇编.html",
+    "size_bytes": 81129,
+    "raw_size": 92076,
+    "chars": 27389,
+    "hanzi": 22274
+  },
+  {
+    "name": "经络考",
+    "file": "texts/第二编_经络骨度/经络考.txt",
+    "raw_file": "raw/经络考.html",
+    "size_bytes": 71085,
+    "raw_size": 81347,
+    "chars": 24032,
+    "hanzi": 19272
+  },
+  {
+    "name": "经验丹方汇编",
+    "file": "texts/第二编_方书/经验丹方汇编.txt",
+    "raw_file": "raw/经验丹方汇编.html",
+    "size_bytes": 170932,
+    "raw_size": 190457,
+    "chars": 58616,
+    "hanzi": 45419
+  },
+  {
+    "name": "经验奇方",
+    "file": "texts/第二编_方书/经验奇方.txt",
+    "raw_file": "raw/经验奇方.html",
+    "size_bytes": 49724,
+    "raw_size": 63767,
+    "chars": 17402,
+    "hanzi": 13161
+  },
+  {
+    "name": "经验麻科",
+    "file": "texts/第三编_女科/经验麻科.txt",
+    "raw_file": "raw/经验麻科.html",
+    "size_bytes": 74346,
+    "raw_size": 86915,
+    "chars": 25120,
+    "hanzi": 19872
+  },
+  {
+    "name": "绛囊撮要",
+    "file": "texts/第二编_方书/绛囊撮要.txt",
+    "raw_file": "raw/绛囊撮要.html",
+    "size_bytes": 58927,
+    "raw_size": 77185,
+    "chars": 20797,
+    "hanzi": 15130
+  },
+  {
+    "name": "绛雪园古方选注",
+    "file": "texts/第二编_方书/绛雪园古方选注.txt",
+    "raw_file": "raw/绛雪园古方选注.html",
+    "size_bytes": 434013,
+    "raw_size": 472671,
+    "chars": 147237,
+    "hanzi": 127231
+  },
+  {
+    "name": "续医说",
+    "file": "texts/第一编_医史/续医说.txt",
+    "raw_file": "raw/续医说.html",
+    "size_bytes": 108168,
+    "raw_size": 123062,
+    "chars": 36756,
+    "hanzi": 34765
+  },
+  {
+    "name": "续名医类案",
+    "file": "texts/第三编_医案医话/续名医类案.txt",
+    "raw_file": "raw/续名医类案.html",
+    "size_bytes": 2797617,
+    "raw_size": 2892787,
+    "chars": 939160,
+    "hanzi": 758063
+  },
+  {
+    "name": "罗氏会约医镜",
+    "file": "texts/第三编_通论/罗氏会约医镜.txt",
+    "raw_file": "raw/罗氏会约医镜.html",
+    "size_bytes": 1111246,
+    "raw_size": 1214854,
+    "chars": 375898,
+    "hanzi": 279306
+  },
+  {
+    "name": "肘后备急方",
+    "file": "texts/第二编_方书/肘后备急方.txt",
+    "raw_file": "raw/肘后备急方.html",
+    "size_bytes": 319028,
+    "raw_size": 360826,
+    "chars": 108880,
+    "hanzi": 81589
+  },
+  {
+    "name": "肯堂医论",
+    "file": "texts/第三编_通论/肯堂医论.txt",
+    "raw_file": "raw/肯堂医论.html",
+    "size_bytes": 68078,
+    "raw_size": 77516,
+    "chars": 22868,
+    "hanzi": 18464
+  },
+  {
+    "name": "胎产心法",
+    "file": "texts/第三编_女科/胎产心法.txt",
+    "raw_file": "raw/胎产心法.html",
+    "size_bytes": 367540,
+    "raw_size": 401321,
+    "chars": 124349,
+    "hanzi": 98423
+  },
+  {
+    "name": "胎产指南",
+    "file": "texts/第三编_女科/胎产指南.txt",
+    "raw_file": "raw/胎产指南.html",
+    "size_bytes": 163055,
+    "raw_size": 185100,
+    "chars": 55543,
+    "hanzi": 42466
+  },
+  {
+    "name": "胎产秘书",
+    "file": "texts/第三编_女科/胎产秘书.txt",
+    "raw_file": "raw/胎产秘书.html",
+    "size_bytes": 80151,
+    "raw_size": 94367,
+    "chars": 27294,
+    "hanzi": 21031
+  },
+  {
+    "name": "脉因证治",
+    "file": "texts/第二编_诊法/脉因证治.txt",
+    "raw_file": "raw/脉因证治.html",
+    "size_bytes": 220571,
+    "raw_size": 248458,
+    "chars": 77249,
+    "hanzi": 55659
+  },
+  {
+    "name": "脉学阐微",
+    "file": "texts/第二编_诊法/脉学阐微.txt",
+    "raw_file": "raw/脉学阐微.html",
+    "size_bytes": 40750,
+    "raw_size": 49246,
+    "chars": 13665,
+    "hanzi": 11385
+  },
+  {
+    "name": "脉理求真",
+    "file": "texts/第二编_诊法/脉理求真.txt",
+    "raw_file": "raw/脉理求真.html",
+    "size_bytes": 113511,
+    "raw_size": 125124,
+    "chars": 38209,
+    "hanzi": 31007
+  },
+  {
+    "name": "脉症治方",
+    "file": "texts/第二编_诊法/脉症治方.txt",
+    "raw_file": "raw/脉症治方.html",
+    "size_bytes": 293815,
+    "raw_size": 318788,
+    "chars": 99121,
+    "hanzi": 75352
+  },
+  {
+    "name": "脉确",
+    "file": "texts/第二编_诊法/脉确.txt",
+    "raw_file": "raw/脉确.html",
+    "size_bytes": 61304,
+    "raw_size": 71890,
+    "chars": 20652,
+    "hanzi": 16512
+  },
+  {
+    "name": "脉经",
+    "file": "texts/第二编_诊法/脉经.txt",
+    "raw_file": "raw/脉经.html",
+    "size_bytes": 276800,
+    "raw_size": 300344,
+    "chars": 93810,
+    "hanzi": 72112
+  },
+  {
+    "name": "脉诀",
+    "file": "texts/第二编_诊法/脉诀.txt",
+    "raw_file": "raw/脉诀.html",
+    "size_bytes": 10314,
+    "raw_size": 18226,
+    "chars": 3484,
+    "hanzi": 2728
+  },
+  {
+    "name": "脉诀乳海",
+    "file": "texts/第二编_诊法/脉诀乳海.txt",
+    "raw_file": "raw/脉诀乳海.html",
+    "size_bytes": 315449,
+    "raw_size": 342974,
+    "chars": 106469,
+    "hanzi": 86599
+  },
+  {
+    "name": "脉诀刊误",
+    "file": "texts/第二编_诊法/脉诀刊误.txt",
+    "raw_file": "raw/脉诀刊误.html",
+    "size_bytes": 169534,
+    "raw_size": 188389,
+    "chars": 57256,
+    "hanzi": 46183
+  },
+  {
+    "name": "脉诀指掌病式图说",
+    "file": "texts/第二编_诊法/脉诀指掌病式图说.txt",
+    "raw_file": "raw/脉诀指掌病式图说.html",
+    "size_bytes": 38729,
+    "raw_size": 48880,
+    "chars": 13205,
+    "hanzi": 10502
+  },
+  {
+    "name": "脉诀汇辨",
+    "file": "texts/第二编_诊法/脉诀汇辨.txt",
+    "raw_file": "raw/脉诀汇辨.html",
+    "size_bytes": 307049,
+    "raw_size": 326982,
+    "chars": 103503,
+    "hanzi": 83105
+  },
+  {
+    "name": "脉诀考证",
+    "file": "texts/第二编_诊法/脉诀考证.txt",
+    "raw_file": "raw/脉诀考证.html",
+    "size_bytes": 7828,
+    "raw_size": 15070,
+    "chars": 2626,
+    "hanzi": 2159
+  },
+  {
+    "name": "脉诀阐微",
+    "file": "texts/第二编_诊法/脉诀阐微.txt",
+    "raw_file": "raw/脉诀阐微.html",
+    "size_bytes": 40739,
+    "raw_size": 49234,
+    "chars": 13664,
+    "hanzi": 11384
+  },
+  {
+    "name": "脉象口诀歌",
+    "file": "texts/第二编_诊法/脉象口诀歌.txt",
+    "raw_file": "raw/脉象口诀歌.html",
+    "size_bytes": 3969,
+    "raw_size": 11348,
+    "chars": 1341,
+    "hanzi": 1074
+  },
+  {
+    "name": "脉象统类",
+    "file": "texts/第二编_诊法/脉象统类.txt",
+    "raw_file": "raw/脉象统类.html",
+    "size_bytes": 23230,
+    "raw_size": 32828,
+    "chars": 7906,
+    "hanzi": 5848
+  },
+  {
+    "name": "脏腑虚实标本用药式",
+    "file": "texts/第一编_本草/脏腑虚实标本用药式.txt",
+    "raw_file": "raw/脏腑虚实标本用药式.html",
+    "size_bytes": 19277,
+    "raw_size": 29206,
+    "chars": 6921,
+    "hanzi": 4850
+  },
+  {
+    "name": "脚气治法总要",
+    "file": "texts/第三编_内科/脚气治法总要.txt",
+    "raw_file": "raw/脚气治法总要.html",
+    "size_bytes": 60579,
+    "raw_size": 70497,
+    "chars": 20326,
+    "hanzi": 18876
+  },
+  {
+    "name": "脾胃论",
+    "file": "texts/第三编_通论/脾胃论.txt",
+    "raw_file": "raw/脾胃论.html",
+    "size_bytes": 130869,
+    "raw_size": 140702,
+    "chars": 44917,
+    "hanzi": 35034
+  },
+  {
+    "name": "舌鉴辨正",
+    "file": "texts/第二编_诊法/舌鉴辨正.txt",
+    "raw_file": "raw/舌鉴辨正.html",
+    "size_bytes": 62461,
+    "raw_size": 71306,
+    "chars": 21189,
+    "hanzi": 20445
+  },
+  {
+    "name": "花韵楼医案",
+    "file": "texts/第三编_医案医话/花韵楼医案.txt",
+    "raw_file": "raw/花韵楼医案.html",
+    "size_bytes": 48167,
+    "raw_size": 60314,
+    "chars": 17079,
+    "hanzi": 11973
+  },
+  {
+    "name": "苏沈良方",
+    "file": "texts/第二编_方书/苏沈良方.txt",
+    "raw_file": "raw/苏沈良方.html",
+    "size_bytes": 165038,
+    "raw_size": 183469,
+    "chars": 56242,
+    "hanzi": 44387
+  },
+  {
+    "name": "药征",
+    "file": "texts/第一编_本草/药征.txt",
+    "raw_file": "raw/药征.html",
+    "size_bytes": 100116,
+    "raw_size": 117132,
+    "chars": 34183,
+    "hanzi": 26754
+  },
+  {
+    "name": "药征续编",
+    "file": "texts/第一编_本草/药征续编.txt",
+    "raw_file": "raw/药征续编.html",
+    "size_bytes": 95479,
+    "raw_size": 111851,
+    "chars": 32514,
+    "hanzi": 25653
+  },
+  {
+    "name": "药性切用",
+    "file": "texts/第一编_本草/药性切用.txt",
+    "raw_file": "raw/药性切用.html",
+    "size_bytes": 123398,
+    "raw_size": 155150,
+    "chars": 42702,
+    "hanzi": 31596
+  },
+  {
+    "name": "药性歌括四百味",
+    "file": "texts/第一编_本草/药性歌括四百味.txt",
+    "raw_file": "raw/药性歌括四百味.html",
+    "size_bytes": 34826,
+    "raw_size": 46121,
+    "chars": 11858,
+    "hanzi": 8460
+  },
+  {
+    "name": "药性赋",
+    "file": "texts/第一编_本草/药性赋.txt",
+    "raw_file": "raw/药性赋.html",
+    "size_bytes": 8608,
+    "raw_size": 15762,
+    "chars": 2886,
+    "hanzi": 2463
+  },
+  {
+    "name": "药症忌宜",
+    "file": "texts/第一编_本草/药症忌宜.txt",
+    "raw_file": "raw/药症忌宜.html",
+    "size_bytes": 51177,
+    "raw_size": 64955,
+    "chars": 19013,
+    "hanzi": 13304
+  },
+  {
+    "name": "药笼小品",
+    "file": "texts/第一编_本草/药笼小品.txt",
+    "raw_file": "raw/药笼小品.html",
+    "size_bytes": 58194,
+    "raw_size": 81054,
+    "chars": 20354,
+    "hanzi": 14549
+  },
+  {
+    "name": "药鉴",
+    "file": "texts/第一编_本草/药鉴.txt",
+    "raw_file": "raw/药鉴.html",
+    "size_bytes": 127426,
+    "raw_size": 141934,
+    "chars": 42990,
+    "hanzi": 35060
+  },
+  {
+    "name": "薛氏医案",
+    "file": "texts/第三编_医案医话/薛氏医案.txt",
+    "raw_file": "raw/薛氏医案.html",
+    "size_bytes": 2616910,
+    "raw_size": 2778017,
+    "chars": 878919,
+    "hanzi": 815799
+  },
+  {
+    "name": "虚损启微",
+    "file": "texts/第三编_内科/虚损启微.txt",
+    "raw_file": "raw/虚损启微.html",
+    "size_bytes": 73247,
+    "raw_size": 85293,
+    "chars": 24907,
+    "hanzi": 19224
+  },
+  {
+    "name": "蠢子医",
+    "file": "texts/第三编_通论/蠢子医.txt",
+    "raw_file": "raw/蠢子医.html",
+    "size_bytes": 311370,
+    "raw_size": 361921,
+    "chars": 106468,
+    "hanzi": 83379
+  },
+  {
+    "name": "血证论",
+    "file": "texts/第三编_内科/血证论.txt",
+    "raw_file": "raw/血证论.html",
+    "size_bytes": 337731,
+    "raw_size": 358912,
+    "chars": 113593,
+    "hanzi": 92948
+  },
+  {
+    "name": "褚氏遗书",
+    "file": "texts/第三编_通论/褚氏遗书.txt",
+    "raw_file": "raw/褚氏遗书.html",
+    "size_bytes": 14809,
+    "raw_size": 22733,
+    "chars": 4971,
+    "hanzi": 4098
+  },
+  {
+    "name": "西方子明堂灸经",
+    "file": "texts/第二编_针灸推拿/西方子明堂灸经.txt",
+    "raw_file": "raw/西方子明堂灸经.html",
+    "size_bytes": 93798,
+    "raw_size": 113256,
+    "chars": 32321,
+    "hanzi": 24492
+  },
+  {
+    "name": "要药分剂",
+    "file": "texts/第一编_本草/要药分剂.txt",
+    "raw_file": "raw/要药分剂.html",
+    "size_bytes": 254958,
+    "raw_size": 293829,
+    "chars": 87280,
+    "hanzi": 64016
+  },
+  {
+    "name": "解围元薮",
+    "file": "texts/第三编_内科/解围元薮.txt",
+    "raw_file": "raw/解围元薮.html",
+    "size_bytes": 167039,
+    "raw_size": 181943,
+    "chars": 59307,
+    "hanzi": 46397
+  },
+  {
+    "name": "订正仲景全书伤寒论注",
+    "file": "texts/第一编_伤寒金匮/订正仲景全书伤寒论注.txt",
+    "raw_file": "raw/订正仲景全书伤寒论注.html",
+    "size_bytes": 728550,
+    "raw_size": 770305,
+    "chars": 245493,
+    "hanzi": 196872
+  },
+  {
+    "name": "订正仲景全书金匮要略注",
+    "file": "texts/第一编_伤寒金匮/订正仲景全书金匮要略注.txt",
+    "raw_file": "raw/订正仲景全书金匮要略注.html",
+    "size_bytes": 411773,
+    "raw_size": 448700,
+    "chars": 139706,
+    "hanzi": 108135
+  },
+  {
+    "name": "订正太素脉秘诀",
+    "file": "texts/第一编_医经/订正太素脉秘诀.txt",
+    "raw_file": "raw/订正太素脉秘诀.html",
+    "size_bytes": 133403,
+    "raw_size": 152269,
+    "chars": 45477,
+    "hanzi": 35979
+  },
+  {
+    "name": "许氏医案",
+    "file": "texts/第三编_医案医话/许氏医案.txt",
+    "raw_file": "raw/许氏医案.html",
+    "size_bytes": 26751,
+    "raw_size": 34358,
+    "chars": 8949,
+    "hanzi": 7470
+  },
+  {
+    "name": "证治准绳",
+    "file": "texts/第三编_通论/证治准绳.txt",
+    "raw_file": "raw/证治准绳.html",
+    "size_bytes": 6343994,
+    "raw_size": 6621479,
+    "chars": 2126285,
+    "hanzi": 1950392
+  },
+  {
+    "name": "证治准绳伤寒",
+    "file": "texts/第一编_伤寒金匮/证治准绳伤寒.txt",
+    "raw_file": "raw/证治准绳伤寒.html",
+    "size_bytes": 876197,
+    "raw_size": 894134,
+    "chars": 295626,
+    "hanzi": 283268
+  },
+  {
+    "name": "证治准绳女科",
+    "file": "texts/第三编_女科/证治准绳女科.txt",
+    "raw_file": "raw/证治准绳女科.html",
+    "size_bytes": 1038870,
+    "raw_size": 1118807,
+    "chars": 357552,
+    "hanzi": 270639
+  },
+  {
+    "name": "证治准绳幼科",
+    "file": "texts/第三编_儿科/证治准绳幼科.txt",
+    "raw_file": "raw/证治准绳幼科.html",
+    "size_bytes": 1745446,
+    "raw_size": 1870531,
+    "chars": 600370,
+    "hanzi": 456409
+  },
+  {
+    "name": "证治准绳杂病",
+    "file": "texts/第三编_通论/证治准绳杂病.txt",
+    "raw_file": "raw/证治准绳杂病.html",
+    "size_bytes": 1223839,
+    "raw_size": 1253179,
+    "chars": 410160,
+    "hanzi": 336020
+  },
+  {
+    "name": "证治准绳疡医",
+    "file": "texts/第三编_外科/证治准绳疡医.txt",
+    "raw_file": "raw/证治准绳疡医.html",
+    "size_bytes": 1145630,
+    "raw_size": 1219295,
+    "chars": 393925,
+    "hanzi": 303036
+  },
+  {
+    "name": "证治准绳类方",
+    "file": "texts/第二编_方书/证治准绳类方.txt",
+    "raw_file": "raw/证治准绳类方.html",
+    "size_bytes": 1264812,
+    "raw_size": 1390681,
+    "chars": 445048,
+    "hanzi": 315333
+  },
+  {
+    "name": "证治心传",
+    "file": "texts/第三编_通论/证治心传.txt",
+    "raw_file": "raw/证治心传.html",
+    "size_bytes": 46064,
+    "raw_size": 54061,
+    "chars": 15433,
+    "hanzi": 12740
+  },
+  {
+    "name": "证治汇补",
+    "file": "texts/第三编_通论/证治汇补.txt",
+    "raw_file": "raw/证治汇补.html",
+    "size_bytes": 539160,
+    "raw_size": 585808,
+    "chars": 185252,
+    "hanzi": 141233
+  },
+  {
+    "name": "证类本草",
+    "file": "texts/第一编_本草/证类本草.txt",
+    "raw_file": "raw/证类本草.html",
+    "size_bytes": 2419938,
+    "raw_size": 2561279,
+    "chars": 818924,
+    "hanzi": 634699
+  },
+  {
+    "name": "评注产科心法",
+    "file": "texts/第三编_女科/评注产科心法.txt",
+    "raw_file": "raw/评注产科心法.html",
+    "size_bytes": 99176,
+    "raw_size": 113396,
+    "chars": 33695,
+    "hanzi": 26495
+  },
+  {
+    "name": "评琴书屋医略",
+    "file": "texts/第三编_通论/评琴书屋医略.txt",
+    "raw_file": "raw/评琴书屋医略.html",
+    "size_bytes": 82253,
+    "raw_size": 92409,
+    "chars": 28131,
+    "hanzi": 22776
+  },
+  {
+    "name": "诊余举隅录",
+    "file": "texts/第二编_诊法/诊余举隅录.txt",
+    "raw_file": "raw/诊余举隅录.html",
+    "size_bytes": 102878,
+    "raw_size": 111920,
+    "chars": 34423,
+    "hanzi": 28501
+  },
+  {
+    "name": "诊宗三昧",
+    "file": "texts/第二编_诊法/诊宗三昧.txt",
+    "raw_file": "raw/诊宗三昧.html",
+    "size_bytes": 113197,
+    "raw_size": 123190,
+    "chars": 37953,
+    "hanzi": 31681
+  },
+  {
+    "name": "诊家枢要",
+    "file": "texts/第二编_诊法/诊家枢要.txt",
+    "raw_file": "raw/诊家枢要.html",
+    "size_bytes": 40342,
+    "raw_size": 49631,
+    "chars": 13592,
+    "hanzi": 10853
+  },
+  {
+    "name": "诊家正眼",
+    "file": "texts/第二编_诊法/诊家正眼.txt",
+    "raw_file": "raw/诊家正眼.html",
+    "size_bytes": 139793,
+    "raw_size": 153713,
+    "chars": 47062,
+    "hanzi": 37088
+  },
+  {
+    "name": "诊脉三十二辨",
+    "file": "texts/第二编_诊法/诊脉三十二辨.txt",
+    "raw_file": "raw/诊脉三十二辨.html",
+    "size_bytes": 50003,
+    "raw_size": 59625,
+    "chars": 16863,
+    "hanzi": 13811
+  },
+  {
+    "name": "诚求集",
+    "file": "texts/第三编_儿科/诚求集.txt",
+    "raw_file": "raw/诚求集.html",
+    "size_bytes": 110846,
+    "raw_size": 122809,
+    "chars": 37420,
+    "hanzi": 30089
+  },
+  {
+    "name": "诸病主病诗",
+    "file": "texts/第三编_通论/诸病主病诗.txt",
+    "raw_file": "raw/诸病主病诗.html",
+    "size_bytes": 26762,
+    "raw_size": 35374,
+    "chars": 9016,
+    "hanzi": 7176
+  },
+  {
+    "name": "诸病源候论",
+    "file": "texts/第二编_病因病机/诸病源候论.txt",
+    "raw_file": "raw/诸病源候论.html",
+    "size_bytes": 757662,
+    "raw_size": 835313,
+    "chars": 257322,
+    "hanzi": 201518
+  },
+  {
+    "name": "读医随笔",
+    "file": "texts/第三编_通论/读医随笔.txt",
+    "raw_file": "raw/读医随笔.html",
+    "size_bytes": 353321,
+    "raw_size": 367840,
+    "chars": 118688,
+    "hanzi": 98083
+  },
+  {
+    "name": "读素问钞",
+    "file": "texts/第一编_医经/读素问钞.txt",
+    "raw_file": "raw/读素问钞.html",
+    "size_bytes": 357598,
+    "raw_size": 366746,
+    "chars": 119548,
+    "hanzi": 114435
+  },
+  {
+    "name": "质疑录",
+    "file": "texts/第三编_通论/质疑录.txt",
+    "raw_file": "raw/质疑录.html",
+    "size_bytes": 59428,
+    "raw_size": 67879,
+    "chars": 19905,
+    "hanzi": 16501
+  },
+  {
+    "name": "赤水元珠",
+    "file": "texts/第三编_通论/赤水元珠.txt",
+    "raw_file": "raw/赤水元珠.html",
+    "size_bytes": 1730194,
+    "raw_size": 1849000,
+    "chars": 581472,
+    "hanzi": 526223
+  },
+  {
+    "name": "走马急疳真方",
+    "file": "texts/第二编_方书/走马急疳真方.txt",
+    "raw_file": "raw/走马急疳真方.html",
+    "size_bytes": 12028,
+    "raw_size": 20443,
+    "chars": 4160,
+    "hanzi": 3202
+  },
+  {
+    "name": "跌打损伤回生集",
+    "file": "texts/第二编_方书/跌打损伤回生集.txt",
+    "raw_file": "raw/跌打损伤回生集.html",
+    "size_bytes": 142730,
+    "raw_size": 159093,
+    "chars": 48196,
+    "hanzi": 36034
+  },
+  {
+    "name": "跌打损伤方",
+    "file": "texts/第二编_方书/跌打损伤方.txt",
+    "raw_file": "raw/跌打损伤方.html",
+    "size_bytes": 11915,
+    "raw_size": 19292,
+    "chars": 3991,
+    "hanzi": 3168
+  },
+  {
+    "name": "跌打秘方",
+    "file": "texts/第二编_方书/跌打秘方.txt",
+    "raw_file": "raw/跌打秘方.html",
+    "size_bytes": 15893,
+    "raw_size": 24027,
+    "chars": 5363,
+    "hanzi": 4423
+  },
+  {
+    "name": "跌损妙方",
+    "file": "texts/第二编_方书/跌损妙方.txt",
+    "raw_file": "raw/跌损妙方.html",
+    "size_bytes": 41973,
+    "raw_size": 53490,
+    "chars": 14272,
+    "hanzi": 11544
+  },
+  {
+    "name": "轩岐救正论",
+    "file": "texts/第三编_通论/轩岐救正论.txt",
+    "raw_file": "raw/轩岐救正论.html",
+    "size_bytes": 300584,
+    "raw_size": 316956,
+    "chars": 101184,
+    "hanzi": 86685
+  },
+  {
+    "name": "辅行诀脏腑用药法要",
+    "file": "texts/第一编_本草/辅行诀脏腑用药法要.txt",
+    "raw_file": "raw/辅行诀脏腑用药法要.html",
+    "size_bytes": 25917,
+    "raw_size": 35775,
+    "chars": 8844,
+    "hanzi": 6603
+  },
+  {
+    "name": "辨症汇编",
+    "file": "texts/第三编_丛书/辨症汇编.txt",
+    "raw_file": "raw/辨症汇编.html",
+    "size_bytes": 22152,
+    "raw_size": 33228,
+    "chars": 7669,
+    "hanzi": 6077
+  },
+  {
+    "name": "辨症玉函",
+    "file": "texts/第三编_通论/辨症玉函.txt",
+    "raw_file": "raw/辨症玉函.html",
+    "size_bytes": 130079,
+    "raw_size": 142463,
+    "chars": 44385,
+    "hanzi": 39940
+  },
+  {
+    "name": "辨证奇闻",
+    "file": "texts/第三编_通论/辨证奇闻.txt",
+    "raw_file": "raw/辨证奇闻.html",
+    "size_bytes": 674742,
+    "raw_size": 689101,
+    "chars": 225251,
+    "hanzi": 184834
+  },
+  {
+    "name": "辨证录",
+    "file": "texts/第三编_通论/辨证录.txt",
+    "raw_file": "raw/辨证录.html",
+    "size_bytes": 1102281,
+    "raw_size": 1159544,
+    "chars": 377169,
+    "hanzi": 297783
+  },
+  {
+    "name": "达生编",
+    "file": "texts/第三编_女科/达生编.txt",
+    "raw_file": "raw/达生编.html",
+    "size_bytes": 85165,
+    "raw_size": 97184,
+    "chars": 28813,
+    "hanzi": 23242
+  },
+  {
+    "name": "运气要诀",
+    "file": "texts/第二编_运气/运气要诀.txt",
+    "raw_file": "raw/运气要诀.html",
+    "size_bytes": 53445,
+    "raw_size": 62380,
+    "chars": 17943,
+    "hanzi": 14721
+  },
+  {
+    "name": "退思集类方歌注",
+    "file": "texts/第二编_方书/退思集类方歌注.txt",
+    "raw_file": "raw/退思集类方歌注.html",
+    "size_bytes": 205659,
+    "raw_size": 226080,
+    "chars": 70185,
+    "hanzi": 54302
+  },
+  {
+    "name": "遵生八笺",
+    "file": "texts/第一编_养生/遵生八笺.txt",
+    "raw_file": "raw/遵生八笺.html",
+    "size_bytes": 1151525,
+    "raw_size": 1245939,
+    "chars": 389939,
+    "hanzi": 304529
+  },
+  {
+    "name": "邯郸遗稿",
+    "file": "texts/第三编_女科/邯郸遗稿.txt",
+    "raw_file": "raw/邯郸遗稿.html",
+    "size_bytes": 94673,
+    "raw_size": 110339,
+    "chars": 32093,
+    "hanzi": 25602
+  },
+  {
+    "name": "邵兰荪医案",
+    "file": "texts/第三编_医案医话/邵兰荪医案.txt",
+    "raw_file": "raw/邵兰荪医案.html",
+    "size_bytes": 158948,
+    "raw_size": 179375,
+    "chars": 55778,
+    "hanzi": 38808
+  },
+  {
+    "name": "醉花窗医案",
+    "file": "texts/第三编_医案医话/醉花窗医案.txt",
+    "raw_file": "raw/醉花窗医案.html",
+    "size_bytes": 128143,
+    "raw_size": 138219,
+    "chars": 42931,
+    "hanzi": 35526
+  },
+  {
+    "name": "重广补注黄帝内经素问",
+    "file": "texts/第一编_医经/重广补注黄帝内经素问.txt",
+    "raw_file": "raw/重广补注黄帝内经素问.html",
+    "size_bytes": 333975,
+    "raw_size": 345435,
+    "chars": 111818,
+    "hanzi": 91206
+  },
+  {
+    "name": "重庆堂随笔",
+    "file": "texts/第三编_通论/重庆堂随笔.txt",
+    "raw_file": "raw/重庆堂随笔.html",
+    "size_bytes": 197044,
+    "raw_size": 210038,
+    "chars": 66257,
+    "hanzi": 54577
+  },
+  {
+    "name": "重楼玉钥",
+    "file": "texts/第三编_咽喉口齿/重楼玉钥.txt",
+    "raw_file": "raw/重楼玉钥.html",
+    "size_bytes": 103642,
+    "raw_size": 119697,
+    "chars": 35418,
+    "hanzi": 28584
+  },
+  {
+    "name": "重楼玉钥续编",
+    "file": "texts/第三编_咽喉口齿/重楼玉钥续编.txt",
+    "raw_file": "raw/重楼玉钥续编.html",
+    "size_bytes": 126846,
+    "raw_size": 139021,
+    "chars": 42786,
+    "hanzi": 34914
+  },
+  {
+    "name": "重订产孕集",
+    "file": "texts/第三编_女科/重订产孕集.txt",
+    "raw_file": "raw/重订产孕集.html",
+    "size_bytes": 88679,
+    "raw_size": 100572,
+    "chars": 29849,
+    "hanzi": 24283
+  },
+  {
+    "name": "重订囊秘喉书",
+    "file": "texts/第三编_咽喉口齿/重订囊秘喉书.txt",
+    "raw_file": "raw/重订囊秘喉书.html",
+    "size_bytes": 75809,
+    "raw_size": 91150,
+    "chars": 26051,
+    "hanzi": 19562
+  },
+  {
+    "name": "重订广温热论",
+    "file": "texts/第三编_温病/重订广温热论.txt",
+    "raw_file": "raw/重订广温热论.html",
+    "size_bytes": 414028,
+    "raw_size": 433857,
+    "chars": 140622,
+    "hanzi": 111676
+  },
+  {
+    "name": "重订灵兰要览",
+    "file": "texts/第三编_通论/重订灵兰要览.txt",
+    "raw_file": "raw/重订灵兰要览.html",
+    "size_bytes": 83711,
+    "raw_size": 93508,
+    "chars": 28229,
+    "hanzi": 23031
+  },
+  {
+    "name": "重订诊家直诀",
+    "file": "texts/第二编_诊法/重订诊家直诀.txt",
+    "raw_file": "raw/重订诊家直诀.html",
+    "size_bytes": 55653,
+    "raw_size": 70801,
+    "chars": 19059,
+    "hanzi": 14572
+  },
+  {
+    "name": "重订通俗伤寒论",
+    "file": "texts/第一编_伤寒金匮/重订通俗伤寒论.txt",
+    "raw_file": "raw/重订通俗伤寒论.html",
+    "size_bytes": 1067603,
+    "raw_size": 1105306,
+    "chars": 359004,
+    "hanzi": 290641
+  },
+  {
+    "name": "金匮方歌括",
+    "file": "texts/第一编_伤寒金匮/金匮方歌括.txt",
+    "raw_file": "raw/金匮方歌括.html",
+    "size_bytes": 138790,
+    "raw_size": 162604,
+    "chars": 47906,
+    "hanzi": 36407
+  },
+  {
+    "name": "金匮玉函经二注",
+    "file": "texts/第一编_伤寒金匮/金匮玉函经二注.txt",
+    "raw_file": "raw/金匮玉函经二注.html",
+    "size_bytes": 371295,
+    "raw_size": 398675,
+    "chars": 125603,
+    "hanzi": 100589
+  },
+  {
+    "name": "金匮玉函要略辑义",
+    "file": "texts/第一编_伤寒金匮/金匮玉函要略辑义.txt",
+    "raw_file": "raw/金匮玉函要略辑义.html",
+    "size_bytes": 667819,
+    "raw_size": 724248,
+    "chars": 226709,
+    "hanzi": 175766
+  },
+  {
+    "name": "金匮玉函要略述义",
+    "file": "texts/第一编_伤寒金匮/金匮玉函要略述义.txt",
+    "raw_file": "raw/金匮玉函要略述义.html",
+    "size_bytes": 187495,
+    "raw_size": 208749,
+    "chars": 63539,
+    "hanzi": 49708
+  },
+  {
+    "name": "金匮翼",
+    "file": "texts/第一编_伤寒金匮/金匮翼.txt",
+    "raw_file": "raw/金匮翼.html",
+    "size_bytes": 394378,
+    "raw_size": 429839,
+    "chars": 135353,
+    "hanzi": 103755
+  },
+  {
+    "name": "金匮要略心典",
+    "file": "texts/第一编_伤寒金匮/金匮要略心典.txt",
+    "raw_file": "raw/金匮要略心典.html",
+    "size_bytes": 246498,
+    "raw_size": 270769,
+    "chars": 83798,
+    "hanzi": 66403
+  },
+  {
+    "name": "金匮要略方论",
+    "file": "texts/第一编_伤寒金匮/金匮要略方论.txt",
+    "raw_file": "raw/金匮要略方论.html",
+    "size_bytes": 121044,
+    "raw_size": 141225,
+    "chars": 41726,
+    "hanzi": 30200
+  },
+  {
+    "name": "金匮要略浅注",
+    "file": "texts/第一编_伤寒金匮/金匮要略浅注.txt",
+    "raw_file": "raw/金匮要略浅注.html",
+    "size_bytes": 388719,
+    "raw_size": 420042,
+    "chars": 131717,
+    "hanzi": 102185
+  },
+  {
+    "name": "金匮要略论注",
+    "file": "texts/第一编_伤寒金匮/金匮要略论注.txt",
+    "raw_file": "raw/金匮要略论注.html",
+    "size_bytes": 331018,
+    "raw_size": 351699,
+    "chars": 110927,
+    "hanzi": 105862
+  },
+  {
+    "name": "金匮钩玄",
+    "file": "texts/第一编_伤寒金匮/金匮钩玄.txt",
+    "raw_file": "raw/金匮钩玄.html",
+    "size_bytes": 93711,
+    "raw_size": 112546,
+    "chars": 32315,
+    "hanzi": 24264
+  },
+  {
+    "name": "金疮秘传禁方",
+    "file": "texts/第二编_方书/金疮秘传禁方.txt",
+    "raw_file": "raw/金疮秘传禁方.html",
+    "size_bytes": 14166,
+    "raw_size": 22401,
+    "chars": 4790,
+    "hanzi": 4021
+  },
+  {
+    "name": "金疮跌打接骨药性秘书",
+    "file": "texts/第一编_本草/金疮跌打接骨药性秘书.txt",
+    "raw_file": "raw/金疮跌打接骨药性秘书.html",
+    "size_bytes": 28973,
+    "raw_size": 36890,
+    "chars": 9715,
+    "hanzi": 8192
+  },
+  {
+    "name": "金针秘传",
+    "file": "texts/第二编_针灸推拿/金针秘传.txt",
+    "raw_file": "raw/金针秘传.html",
+    "size_bytes": 273109,
+    "raw_size": 293091,
+    "chars": 92284,
+    "hanzi": 73050
+  },
+  {
+    "name": "鍼灸甲乙经",
+    "file": "texts/第三编_女科/鍼灸甲乙经.txt",
+    "raw_file": "raw/鍼灸甲乙经.html",
+    "size_bytes": 367719,
+    "raw_size": 384681,
+    "chars": 123006,
+    "hanzi": 117505
+  },
+  {
+    "name": "鍼灸资生经",
+    "file": "texts/第三编_女科/鍼灸资生经.txt",
+    "raw_file": "raw/鍼灸资生经.html",
+    "size_bytes": 364977,
+    "raw_size": 381948,
+    "chars": 122119,
+    "hanzi": 108934
+  },
+  {
+    "name": "鍼灸问对",
+    "file": "texts/第二编_针灸推拿/鍼灸问对.txt",
+    "raw_file": "raw/鍼灸问对.html",
+    "size_bytes": 132626,
+    "raw_size": 141746,
+    "chars": 44310,
+    "hanzi": 43155
+  },
+  {
+    "name": "针灸大全",
+    "file": "texts/第二编_针灸推拿/针灸大全.txt",
+    "raw_file": "raw/针灸大全.html",
+    "size_bytes": 116181,
+    "raw_size": 132918,
+    "chars": 39989,
+    "hanzi": 32254
+  },
+  {
+    "name": "针灸大成",
+    "file": "texts/第二编_针灸推拿/针灸大成.txt",
+    "raw_file": "raw/针灸大成.html",
+    "size_bytes": 745712,
+    "raw_size": 793781,
+    "chars": 254168,
+    "hanzi": 199043
+  },
+  {
+    "name": "针灸易学",
+    "file": "texts/第二编_针灸推拿/针灸易学.txt",
+    "raw_file": "raw/针灸易学.html",
+    "size_bytes": 82077,
+    "raw_size": 96869,
+    "chars": 28418,
+    "hanzi": 20758
+  },
+  {
+    "name": "针灸甲乙经",
+    "file": "texts/第二编_针灸推拿/针灸甲乙经.txt",
+    "raw_file": "raw/针灸甲乙经.html",
+    "size_bytes": 416245,
+    "raw_size": 438773,
+    "chars": 140355,
+    "hanzi": 111086
+  },
+  {
+    "name": "针灸神书",
+    "file": "texts/第二编_针灸推拿/针灸神书.txt",
+    "raw_file": "raw/针灸神书.html",
+    "size_bytes": 156442,
+    "raw_size": 182474,
+    "chars": 53746,
+    "hanzi": 42988
+  },
+  {
+    "name": "针灸素难要旨",
+    "file": "texts/第二编_针灸推拿/针灸素难要旨.txt",
+    "raw_file": "raw/针灸素难要旨.html",
+    "size_bytes": 174991,
+    "raw_size": 188152,
+    "chars": 58928,
+    "hanzi": 48188
+  },
+  {
+    "name": "针灸聚英",
+    "file": "texts/第二编_针灸推拿/针灸聚英.txt",
+    "raw_file": "raw/针灸聚英.html",
+    "size_bytes": 357120,
+    "raw_size": 392918,
+    "chars": 122066,
+    "hanzi": 95768
+  },
+  {
+    "name": "针灸节要",
+    "file": "texts/第二编_针灸推拿/针灸节要.txt",
+    "raw_file": "raw/针灸节要.html",
+    "size_bytes": 172621,
+    "raw_size": 182707,
+    "chars": 57897,
+    "hanzi": 47959
+  },
+  {
+    "name": "针灸资生经",
+    "file": "texts/第二编_针灸推拿/针灸资生经.txt",
+    "raw_file": "raw/针灸资生经.html",
+    "size_bytes": 423110,
+    "raw_size": 452754,
+    "chars": 143190,
+    "hanzi": 106908
+  },
+  {
+    "name": "针灸逢源",
+    "file": "texts/第二编_针灸推拿/针灸逢源.txt",
+    "raw_file": "raw/针灸逢源.html",
+    "size_bytes": 593786,
+    "raw_size": 626074,
+    "chars": 207360,
+    "hanzi": 168902
+  },
+  {
+    "name": "针灸问对",
+    "file": "texts/第二编_针灸推拿/针灸问对.txt",
+    "raw_file": "raw/针灸问对.html",
+    "size_bytes": 140071,
+    "raw_size": 153074,
+    "chars": 47183,
+    "hanzi": 38108
+  },
+  {
+    "name": "针灸集成",
+    "file": "texts/第二编_针灸推拿/针灸集成.txt",
+    "raw_file": "raw/针灸集成.html",
+    "size_bytes": 372047,
+    "raw_size": 387989,
+    "chars": 129323,
+    "hanzi": 119025
+  },
+  {
+    "name": "针经指南",
+    "file": "texts/第二编_针灸推拿/针经指南.txt",
+    "raw_file": "raw/针经指南.html",
+    "size_bytes": 39337,
+    "raw_size": 48266,
+    "chars": 13451,
+    "hanzi": 10938
+  },
+  {
+    "name": "针经节要",
+    "file": "texts/第二编_针灸推拿/针经节要.txt",
+    "raw_file": "raw/针经节要.html",
+    "size_bytes": 20355,
+    "raw_size": 28330,
+    "chars": 7017,
+    "hanzi": 6538
+  },
+  {
+    "name": "针邪密要",
+    "file": "texts/第二编_针灸推拿/针邪密要.txt",
+    "raw_file": "raw/针邪密要.html",
+    "size_bytes": 1810,
+    "raw_size": 8942,
+    "chars": 608,
+    "hanzi": 490
+  },
+  {
+    "name": "钱氏秘传产科方书名试验录",
+    "file": "texts/第二编_方书/钱氏秘传产科方书名试验录.txt",
+    "raw_file": "raw/钱氏秘传产科方书名试验录.html",
+    "size_bytes": 20971,
+    "raw_size": 29521,
+    "chars": 7069,
+    "hanzi": 5541
+  },
+  {
+    "name": "铜人鍼灸经",
+    "file": "texts/第二编_针灸推拿/铜人鍼灸经.txt",
+    "raw_file": "raw/铜人鍼灸经.html",
+    "size_bytes": 44582,
+    "raw_size": 53783,
+    "chars": 14957,
+    "hanzi": 14426
+  },
+  {
+    "name": "铜人针灸经",
+    "file": "texts/第二编_针灸推拿/铜人针灸经.txt",
+    "raw_file": "raw/铜人针灸经.html",
+    "size_bytes": 64513,
+    "raw_size": 74427,
+    "chars": 21749,
+    "hanzi": 16399
+  },
+  {
+    "name": "银海指南",
+    "file": "texts/第三编_眼科/银海指南.txt",
+    "raw_file": "raw/银海指南.html",
+    "size_bytes": 207221,
+    "raw_size": 225916,
+    "chars": 71840,
+    "hanzi": 55915
+  },
+  {
+    "name": "银海精微",
+    "file": "texts/第三编_眼科/银海精微.txt",
+    "raw_file": "raw/银海精微.html",
+    "size_bytes": 171895,
+    "raw_size": 193616,
+    "chars": 60181,
+    "hanzi": 46251
+  },
+  {
+    "name": "长沙方歌括",
+    "file": "texts/第一编_伤寒金匮/长沙方歌括.txt",
+    "raw_file": "raw/长沙方歌括.html",
+    "size_bytes": 147674,
+    "raw_size": 165858,
+    "chars": 50288,
+    "hanzi": 40253
+  },
+  {
+    "name": "长沙药解",
+    "file": "texts/第一编_伤寒金匮/长沙药解.txt",
+    "raw_file": "raw/长沙药解.html",
+    "size_bytes": 260006,
+    "raw_size": 283119,
+    "chars": 87967,
+    "hanzi": 69404
+  },
+  {
+    "name": "阴证略例",
+    "file": "texts/第三编_通论/阴证略例.txt",
+    "raw_file": "raw/阴证略例.html",
+    "size_bytes": 106512,
+    "raw_size": 121327,
+    "chars": 35980,
+    "hanzi": 28666
+  },
+  {
+    "name": "陆地仙经",
+    "file": "texts/第一编_养生/陆地仙经.txt",
+    "raw_file": "raw/陆地仙经.html",
+    "size_bytes": 29879,
+    "raw_size": 38332,
+    "chars": 10071,
+    "hanzi": 8226
+  },
+  {
+    "name": "陈氏幼科秘诀",
+    "file": "texts/第三编_儿科/陈氏幼科秘诀.txt",
+    "raw_file": "raw/陈氏幼科秘诀.html",
+    "size_bytes": 44143,
+    "raw_size": 54096,
+    "chars": 14887,
+    "hanzi": 11475
+  },
+  {
+    "name": "陈莘田外科方案",
+    "file": "texts/第二编_方书/陈莘田外科方案.txt",
+    "raw_file": "raw/陈莘田外科方案.html",
+    "size_bytes": 251395,
+    "raw_size": 278298,
+    "chars": 85119,
+    "hanzi": 71112
+  },
+  {
+    "name": "陈莲舫先生医案",
+    "file": "texts/第三编_医案医话/陈莲舫先生医案.txt",
+    "raw_file": "raw/陈莲舫先生医案.html",
+    "size_bytes": 135174,
+    "raw_size": 154527,
+    "chars": 46187,
+    "hanzi": 37568
+  },
+  {
+    "name": "随息居重订霍乱论",
+    "file": "texts/第三编_内科/随息居重订霍乱论.txt",
+    "raw_file": "raw/随息居重订霍乱论.html",
+    "size_bytes": 181529,
+    "raw_size": 198029,
+    "chars": 61381,
+    "hanzi": 48806
+  },
+  {
+    "name": "难经古义",
+    "file": "texts/第一编_医经/难经古义.txt",
+    "raw_file": "raw/难经古义.html",
+    "size_bytes": 155378,
+    "raw_size": 168004,
+    "chars": 52170,
+    "hanzi": 41415
+  },
+  {
+    "name": "难经本义",
+    "file": "texts/第一编_医经/难经本义.txt",
+    "raw_file": "raw/难经本义.html",
+    "size_bytes": 51534,
+    "raw_size": 60960,
+    "chars": 17416,
+    "hanzi": 13827
+  },
+  {
+    "name": "难经正义",
+    "file": "texts/第一编_医经/难经正义.txt",
+    "raw_file": "raw/难经正义.html",
+    "size_bytes": 252885,
+    "raw_size": 268067,
+    "chars": 84890,
+    "hanzi": 69507
+  },
+  {
+    "name": "难经经释",
+    "file": "texts/第一编_医经/难经经释.txt",
+    "raw_file": "raw/难经经释.html",
+    "size_bytes": 112599,
+    "raw_size": 122585,
+    "chars": 37763,
+    "hanzi": 28661
+  },
+  {
+    "name": "难经集注",
+    "file": "texts/第一编_医经/难经集注.txt",
+    "raw_file": "raw/难经集注.html",
+    "size_bytes": 223579,
+    "raw_size": 246015,
+    "chars": 75507,
+    "hanzi": 60014
+  },
+  {
+    "name": "集验方",
+    "file": "texts/第二编_方书/集验方.txt",
+    "raw_file": "raw/集验方.html",
+    "size_bytes": 201106,
+    "raw_size": 229827,
+    "chars": 69380,
+    "hanzi": 49979
+  },
+  {
+    "name": "集验背疽方",
+    "file": "texts/第二编_方书/集验背疽方.txt",
+    "raw_file": "raw/集验背疽方.html",
+    "size_bytes": 29896,
+    "raw_size": 37971,
+    "chars": 10133,
+    "hanzi": 8047
+  },
+  {
+    "name": "雷公炮制药性解",
+    "file": "texts/第一编_本草/雷公炮制药性解.txt",
+    "raw_file": "raw/雷公炮制药性解.html",
+    "size_bytes": 198359,
+    "raw_size": 222123,
+    "chars": 67191,
+    "hanzi": 52814
+  },
+  {
+    "name": "雷公炮炙论",
+    "file": "texts/第一编_本草/雷公炮炙论.txt",
+    "raw_file": "raw/雷公炮炙论.html",
+    "size_bytes": 80370,
+    "raw_size": 99550,
+    "chars": 27602,
+    "hanzi": 20651
+  },
+  {
+    "name": "青囊秘诀",
+    "file": "texts/第三编_外科/青囊秘诀.txt",
+    "raw_file": "raw/青囊秘诀.html",
+    "size_bytes": 101885,
+    "raw_size": 116854,
+    "chars": 34783,
+    "hanzi": 27392
+  },
+  {
+    "name": "韩氏医通",
+    "file": "texts/第三编_通论/韩氏医通.txt",
+    "raw_file": "raw/韩氏医通.html",
+    "size_bytes": 44480,
+    "raw_size": 53862,
+    "chars": 15072,
+    "hanzi": 11951
+  },
+  {
+    "name": "顾松园医镜",
+    "file": "texts/第三编_通论/顾松园医镜.txt",
+    "raw_file": "raw/顾松园医镜.html",
+    "size_bytes": 862311,
+    "raw_size": 893438,
+    "chars": 290153,
+    "hanzi": 228576
+  },
+  {
+    "name": "颅囟经",
+    "file": "texts/第三编_女科/颅囟经.txt",
+    "raw_file": "raw/颅囟经.html",
+    "size_bytes": 27354,
+    "raw_size": 38103,
+    "chars": 9334,
+    "hanzi": 6820
+  },
+  {
+    "name": "颅顖经",
+    "file": "texts/第三编_女科/颅顖经.txt",
+    "raw_file": "raw/颅顖经.html",
+    "size_bytes": 19634,
+    "raw_size": 28728,
+    "chars": 6627,
+    "hanzi": 5689
+  },
+  {
+    "name": "风劳臌膈四大证治",
+    "file": "texts/第三编_内科/风劳臌膈四大证治.txt",
+    "raw_file": "raw/风劳臌膈四大证治.html",
+    "size_bytes": 221595,
+    "raw_size": 231980,
+    "chars": 74077,
+    "hanzi": 59138
+  },
+  {
+    "name": "食疗方",
+    "file": "texts/第一编_本草/食疗方.txt",
+    "raw_file": "raw/食疗方.html",
+    "size_bytes": 16553,
+    "raw_size": 26948,
+    "chars": 5752,
+    "hanzi": 3950
+  },
+  {
+    "name": "食鉴本草",
+    "file": "texts/第一编_本草/食鉴本草.txt",
+    "raw_file": "raw/食鉴本草.html",
+    "size_bytes": 35964,
+    "raw_size": 48119,
+    "chars": 12342,
+    "hanzi": 9229
+  },
+  {
+    "name": "饮膳正要",
+    "file": "texts/第一编_本草/饮膳正要.txt",
+    "raw_file": "raw/饮膳正要.html",
+    "size_bytes": 122767,
+    "raw_size": 151498,
+    "chars": 42609,
+    "hanzi": 30572
+  },
+  {
+    "name": "饮食须知",
+    "file": "texts/第一编_养生/饮食须知.txt",
+    "raw_file": "raw/饮食须知.html",
+    "size_bytes": 89659,
+    "raw_size": 102259,
+    "chars": 30581,
+    "hanzi": 24020
+  },
+  {
+    "name": "马培之医案",
+    "file": "texts/第三编_医案医话/马培之医案.txt",
+    "raw_file": "raw/马培之医案.html",
+    "size_bytes": 53356,
+    "raw_size": 65411,
+    "chars": 19238,
+    "hanzi": 13988
+  },
+  {
+    "name": "马王堆帛书五十二病方",
+    "file": "texts/第二编_方书/马王堆帛书五十二病方.txt",
+    "raw_file": "raw/马王堆帛书五十二病方.html",
+    "size_bytes": 49053,
+    "raw_size": 59746,
+    "chars": 17103,
+    "hanzi": 9178
+  },
+  {
+    "name": "验方家秘",
+    "file": "texts/第二编_方书/验方家秘.txt",
+    "raw_file": "raw/验方家秘.html",
+    "size_bytes": 274480,
+    "raw_size": 293050,
+    "chars": 95440,
+    "hanzi": 78909
+  },
+  {
+    "name": "验方新编",
+    "file": "texts/第二编_方书/验方新编.txt",
+    "raw_file": "raw/验方新编.html",
+    "size_bytes": 1939836,
+    "raw_size": 2123294,
+    "chars": 657336,
+    "hanzi": 520637
+  },
+  {
+    "name": "高注金匮要略",
+    "file": "texts/第一编_伤寒金匮/高注金匮要略.txt",
+    "raw_file": "raw/高注金匮要略.html",
+    "size_bytes": 549619,
+    "raw_size": 575702,
+    "chars": 185249,
+    "hanzi": 153249
+  },
+  {
+    "name": "鬻婴提要说",
+    "file": "texts/第三编_儿科/鬻婴提要说.txt",
+    "raw_file": "raw/鬻婴提要说.html",
+    "size_bytes": 24765,
+    "raw_size": 32223,
+    "chars": 8270,
+    "hanzi": 6697
+  },
+  {
+    "name": "鬼门十三针",
+    "file": "texts/第二编_针灸推拿/鬼门十三针.txt",
+    "raw_file": "raw/鬼门十三针.html",
+    "size_bytes": 1827,
+    "raw_size": 9035,
+    "chars": 617,
+    "hanzi": 494
+  },
+  {
+    "name": "鲁府禁方",
+    "file": "texts/第二编_方书/鲁府禁方.txt",
+    "raw_file": "raw/鲁府禁方.html",
+    "size_bytes": 176642,
+    "raw_size": 208315,
+    "chars": 60392,
+    "hanzi": 44354
+  },
+  {
+    "name": "鲙残篇",
+    "file": "texts/第三编_通论/鲙残篇.txt",
+    "raw_file": "raw/鲙残篇.html",
+    "size_bytes": 50290,
+    "raw_size": 58558,
+    "chars": 16844,
+    "hanzi": 14224
+  },
+  {
+    "name": "鸡峰普济方",
+    "file": "texts/第二编_方书/鸡峰普济方.txt",
+    "raw_file": "raw/鸡峰普济方.html",
+    "size_bytes": 696916,
+    "raw_size": 792577,
+    "chars": 245800,
+    "hanzi": 204658
+  },
+  {
+    "name": "麻疹备要方论",
+    "file": "texts/第二编_方书/麻疹备要方论.txt",
+    "raw_file": "raw/麻疹备要方论.html",
+    "size_bytes": 40466,
+    "raw_size": 50873,
+    "chars": 13686,
+    "hanzi": 10746
+  },
+  {
+    "name": "麻疹阐注",
+    "file": "texts/第三编_儿科/麻疹阐注.txt",
+    "raw_file": "raw/麻疹阐注.html",
+    "size_bytes": 61416,
+    "raw_size": 72187,
+    "chars": 20834,
+    "hanzi": 16517
+  },
+  {
+    "name": "麻科活人全书",
+    "file": "texts/第三编_儿科/麻科活人全书.txt",
+    "raw_file": "raw/麻科活人全书.html",
+    "size_bytes": 313546,
+    "raw_size": 343605,
+    "chars": 105920,
+    "hanzi": 82517
+  },
+  {
+    "name": "黄帝内经太素",
+    "file": "texts/第一编_医经/黄帝内经太素.txt",
+    "raw_file": "raw/黄帝内经太素.html",
+    "size_bytes": 1254794,
+    "raw_size": 1282074,
+    "chars": 421027,
+    "hanzi": 329093
+  },
+  {
+    "name": "黄帝内经灵枢",
+    "file": "texts/第一编_医经/黄帝内经灵枢.txt",
+    "raw_file": "raw/黄帝内经灵枢.html",
+    "size_bytes": 242458,
+    "raw_size": 258886,
+    "chars": 81376,
+    "hanzi": 65260
+  },
+  {
+    "name": "黄帝内经灵枢集注",
+    "file": "texts/第一编_医经/黄帝内经灵枢集注.txt",
+    "raw_file": "raw/黄帝内经灵枢集注.html",
+    "size_bytes": 875798,
+    "raw_size": 922026,
+    "chars": 295056,
+    "hanzi": 242612
+  },
+  {
+    "name": "黄帝内经素问-战国-佚名",
+    "file": "texts/第一编_医经/黄帝内经素问-战国-佚名.txt",
+    "raw_file": "raw/黄帝内经素问-战国-佚名.html",
+    "size_bytes": 307360,
+    "raw_size": 336630,
+    "chars": 103914,
+    "hanzi": 81343
+  },
+  {
+    "name": "黄帝内经素问",
+    "file": "texts/第一编_医经/黄帝内经素问.txt",
+    "raw_file": "raw/黄帝内经素问.html",
+    "size_bytes": 1239028,
+    "raw_size": 1259787,
+    "chars": 414378,
+    "hanzi": 377995
+  },
+  {
+    "name": "黄帝内经素问校义",
+    "file": "texts/第一编_医经/黄帝内经素问校义.txt",
+    "raw_file": "raw/黄帝内经素问校义.html",
+    "size_bytes": 35201,
+    "raw_size": 42544,
+    "chars": 11809,
+    "hanzi": 11553
+  },
+  {
+    "name": "黄帝内经素问遗篇",
+    "file": "texts/第一编_医经/黄帝内经素问遗篇.txt",
+    "raw_file": "raw/黄帝内经素问遗篇.html",
+    "size_bytes": 54575,
+    "raw_size": 62194,
+    "chars": 18225,
+    "hanzi": 18153
+  },
+  {
+    "name": "黄帝内经素问集注",
+    "file": "texts/第一编_医经/黄帝内经素问集注.txt",
+    "raw_file": "raw/黄帝内经素问集注.html",
+    "size_bytes": 1353905,
+    "raw_size": 1393953,
+    "chars": 454351,
+    "hanzi": 369866
+  },
+  {
+    "name": "黄帝明堂灸经",
+    "file": "texts/第二编_针灸推拿/黄帝明堂灸经.txt",
+    "raw_file": "raw/黄帝明堂灸经.html",
+    "size_bytes": 46961,
+    "raw_size": 58668,
+    "chars": 16127,
+    "hanzi": 12570
+  },
+  {
+    "name": "黄帝素问宣明论方",
+    "file": "texts/第一编_医经/黄帝素问宣明论方.txt",
+    "raw_file": "raw/黄帝素问宣明论方.html",
+    "size_bytes": 197238,
+    "raw_size": 222886,
+    "chars": 68557,
+    "hanzi": 50075
+  },
+  {
+    "name": "黄帝素问直解",
+    "file": "texts/第一编_医经/黄帝素问直解.txt",
+    "raw_file": "raw/黄帝素问直解.html",
+    "size_bytes": 1279342,
+    "raw_size": 1373614,
+    "chars": 432593,
+    "hanzi": 343276
+  },
+  {
+    "name": "黄庭内景五藏六府图",
+    "file": "texts/第一编_养生/黄庭内景五藏六府图.txt",
+    "raw_file": "raw/黄庭内景五藏六府图.html",
+    "size_bytes": 26700,
+    "raw_size": 34684,
+    "chars": 8950,
+    "hanzi": 7161
+  }
+]

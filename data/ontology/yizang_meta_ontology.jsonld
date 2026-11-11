@@ -1,0 +1,539 @@
+{
+  "@context": {
+    "yizang": "http://example.org/yizang-ontology#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dc": "http://purl.org/dc/elements/1.1/"
+  },
+  "@graph": [
+    {
+      "@id": "yizang:YizangOntology",
+      "@type": "owl:Ontology",
+      "rdfs:label": "医藏本体论",
+      "owl:versionIRI": "yizang:yizang-ontology",
+      "owl:imports": [
+        {
+          "@id": "http://purl.obolibrary.org/obo/bfo.owl"
+        }
+      ],
+      "dc:description": "对齐《中华医藏》四编二十八类，兼容 OWL 2 DL 的医藏本体元类定义（L1/L2）"
+    },
+    {
+      "@id": "yizang:Continuant",
+      "@type": "owl:Class",
+      "rdfs:label": "持续实体"
+    },
+    {
+      "@id": "yizang:Occurrent",
+      "@type": "owl:Class",
+      "rdfs:label": "瞬时实体"
+    },
+    {
+      "@id": "yizang:MedicalCanon",
+      "@type": "owl:Class",
+      "rdfs:label": "医藏典籍类",
+      "rdfs:subClassOf": {
+        "@id": "yizang:Continuant"
+      }
+    },
+    {
+      "@id": "yizang:TCMConcept",
+      "@type": "owl:Class",
+      "rdfs:label": "理论概念类",
+      "rdfs:subClassOf": {
+        "@id": "yizang:Continuant"
+      }
+    },
+    {
+      "@id": "yizang:DiagnosisTreatment",
+      "@type": "owl:Class",
+      "rdfs:label": "诊疗过程类",
+      "rdfs:subClassOf": {
+        "@id": "yizang:Continuant"
+      }
+    },
+    {
+      "@id": "yizang:ResourceEntity",
+      "@type": "owl:Class",
+      "rdfs:label": "实体资源类",
+      "rdfs:subClassOf": {
+        "@id": "yizang:Continuant"
+      }
+    },
+    {
+      "@id": "yizang:YinYang",
+      "@type": "owl:Class",
+      "rdfs:label": "阴阳类",
+      "rdfs:subClassOf": {
+        "@id": "yizang:TCMConcept"
+      }
+    },
+    {
+      "@id": "yizang:WuXing",
+      "@type": "owl:Class",
+      "rdfs:label": "五行类",
+      "rdfs:subClassOf": {
+        "@id": "yizang:TCMConcept"
+      }
+    },
+    {
+      "@id": "yizang:ZangXiang",
+      "@type": "owl:Class",
+      "rdfs:label": "藏象类",
+      "rdfs:subClassOf": {
+        "@id": "yizang:TCMConcept"
+      }
+    },
+    {
+      "@id": "yizang:JingLuo",
+      "@type": "owl:Class",
+      "rdfs:label": "经络类",
+      "rdfs:subClassOf": {
+        "@id": "yizang:TCMConcept"
+      }
+    },
+    {
+      "@id": "yizang:QiXueJinYe",
+      "@type": "owl:Class",
+      "rdfs:label": "气血津液类",
+      "rdfs:subClassOf": {
+        "@id": "yizang:TCMConcept"
+      }
+    },
+    {
+      "@id": "yizang:YunQi",
+      "@type": "owl:Class",
+      "rdfs:label": "运气类",
+      "rdfs:subClassOf": {
+        "@id": "yizang:TCMConcept"
+      }
+    },
+    {
+      "@id": "yizang:Disease",
+      "@type": "owl:Class",
+      "rdfs:label": "病证类",
+      "rdfs:subClassOf": {
+        "@id": "yizang:DiagnosisTreatment"
+      }
+    },
+    {
+      "@id": "yizang:Symptom",
+      "@type": "owl:Class",
+      "rdfs:label": "症状类",
+      "rdfs:subClassOf": {
+        "@id": "yizang:DiagnosisTreatment"
+      }
+    },
+    {
+      "@id": "yizang:SyndromePattern",
+      "@type": "owl:Class",
+      "rdfs:label": "证候类",
+      "rdfs:subClassOf": {
+        "@id": "yizang:DiagnosisTreatment"
+      }
+    },
+    {
+      "@id": "yizang:TreatmentMethod",
+      "@type": "owl:Class",
+      "rdfs:label": "治法类",
+      "rdfs:subClassOf": {
+        "@id": "yizang:DiagnosisTreatment"
+      }
+    },
+    {
+      "@id": "yizang:Formula",
+      "@type": "owl:Class",
+      "rdfs:label": "方剂类",
+      "rdfs:subClassOf": {
+        "@id": "yizang:DiagnosisTreatment"
+      }
+    },
+    {
+      "@id": "yizang:Herb",
+      "@type": "owl:Class",
+      "rdfs:label": "中药类",
+      "rdfs:subClassOf": {
+        "@id": "yizang:DiagnosisTreatment"
+      }
+    },
+    {
+      "@id": "yizang:Physician",
+      "@type": "owl:Class",
+      "rdfs:label": "医家类",
+      "rdfs:subClassOf": {
+        "@id": "yizang:ResourceEntity"
+      }
+    },
+    {
+      "@id": "yizang:Edition",
+      "@type": "owl:Class",
+      "rdfs:label": "版本类",
+      "rdfs:subClassOf": {
+        "@id": "yizang:ResourceEntity"
+      }
+    },
+    {
+      "@id": "yizang:CollectionInstitution",
+      "@type": "owl:Class",
+      "rdfs:label": "馆藏机构类",
+      "rdfs:subClassOf": {
+        "@id": "yizang:ResourceEntity"
+      }
+    },
+    {
+      "@id": "yizang:belongsToYizangCategory",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "属于医藏类目",
+      "rdfs:domain": {
+        "@id": "yizang:MedicalCanon"
+      },
+      "rdfs:range": {
+        "@id": "yizang:MedicalCanon"
+      },
+      "rdfs:subPropertyOf": {
+        "@id": "owl:FunctionalProperty"
+      }
+    },
+    {
+      "@id": "yizang:citesYizangBook",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "引用前代典籍",
+      "rdfs:domain": {
+        "@id": "yizang:MedicalCanon"
+      },
+      "rdfs:range": {
+        "@id": "yizang:MedicalCanon"
+      },
+      "rdfs:subPropertyOf": {
+        "@id": "owl:TransitiveProperty"
+      }
+    },
+    {
+      "@id": "yizang:hasChapter",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "包含篇章卷次",
+      "rdfs:domain": {
+        "@id": "yizang:MedicalCanon"
+      },
+      "rdfs:range": {
+        "@id": "yizang:Continuant"
+      }
+    },
+    {
+      "@id": "yizang:containsKnowledgeUnit",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "篇章包含知识元",
+      "rdfs:domain": {
+        "@id": "yizang:Continuant"
+      },
+      "rdfs:range": {
+        "@id": "yizang:Continuant"
+      }
+    },
+    {
+      "@id": "yizang:hasVariantText",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "篇章包含条文异文",
+      "rdfs:domain": {
+        "@id": "yizang:Continuant"
+      },
+      "rdfs:range": {
+        "@id": "yizang:Continuant"
+      }
+    },
+    {
+      "@id": "yizang:engenders",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "五行相生",
+      "rdfs:domain": {
+        "@id": "yizang:WuXing"
+      },
+      "rdfs:range": {
+        "@id": "yizang:WuXing"
+      },
+      "rdfs:subPropertyOf": {
+        "@id": "owl:TransitiveProperty"
+      }
+    },
+    {
+      "@id": "yizang:restrains",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "五行相克",
+      "rdfs:domain": {
+        "@id": "yizang:WuXing"
+      },
+      "rdfs:range": {
+        "@id": "yizang:WuXing"
+      },
+      "rdfs:subPropertyOf": {
+        "@id": "owl:TransitiveProperty"
+      }
+    },
+    {
+      "@id": "yizang:hasSymptom",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "证候有症状",
+      "rdfs:domain": {
+        "@id": "yizang:SyndromePattern"
+      },
+      "rdfs:range": {
+        "@id": "yizang:Symptom"
+      }
+    },
+    {
+      "@id": "yizang:composedOf",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "方剂由中药组成",
+      "rdfs:domain": {
+        "@id": "yizang:Formula"
+      },
+      "rdfs:range": {
+        "@id": "yizang:Herb"
+      }
+    },
+    {
+      "@id": "yizang:treats",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "方剂治疗病证",
+      "rdfs:domain": {
+        "@id": "yizang:Formula"
+      },
+      "rdfs:range": {
+        "@id": "yizang:Disease"
+      }
+    },
+    {
+      "@id": "yizang:hasTropism",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "中药归经",
+      "rdfs:domain": {
+        "@id": "yizang:Herb"
+      },
+      "rdfs:range": {
+        "@id": "yizang:JingLuo"
+      }
+    },
+    {
+      "@id": "yizang:appliedTo",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "治法应用于证候",
+      "rdfs:domain": {
+        "@id": "yizang:TreatmentMethod"
+      },
+      "rdfs:range": {
+        "@id": "yizang:SyndromePattern"
+      }
+    },
+    {
+      "@id": "yizang:hasAuthor",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "典籍有作者",
+      "rdfs:domain": {
+        "@id": "yizang:MedicalCanon"
+      },
+      "rdfs:range": {
+        "@id": "yizang:Physician"
+      }
+    },
+    {
+      "@id": "yizang:hasVersion",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "典籍有版本",
+      "rdfs:domain": {
+        "@id": "yizang:MedicalCanon"
+      },
+      "rdfs:range": {
+        "@id": "yizang:Edition"
+      }
+    },
+    {
+      "@id": "yizang:heldBy",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": "版本藏于机构",
+      "rdfs:domain": {
+        "@id": "yizang:Edition"
+      },
+      "rdfs:range": {
+        "@id": "yizang:CollectionInstitution"
+      }
+    },
+    {
+      "@id": "yizang:bookTitle",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "规范书名",
+      "rdfs:domain": {
+        "@id": "yizang:MedicalCanon"
+      },
+      "rdfs:range": {
+        "@id": "xsd:string"
+      }
+    },
+    {
+      "@id": "yizang:completionYear",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "成书年代",
+      "rdfs:domain": {
+        "@id": "yizang:MedicalCanon"
+      },
+      "rdfs:range": {
+        "@id": "xsd:date"
+      }
+    },
+    {
+      "@id": "yizang:versionDetail",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "版本源流",
+      "rdfs:domain": {
+        "@id": "yizang:MedicalCanon"
+      },
+      "rdfs:range": {
+        "@id": "xsd:string"
+      }
+    },
+    {
+      "@id": "yizang:collectionPlace",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "馆藏位置",
+      "rdfs:domain": {
+        "@id": "yizang:MedicalCanon"
+      },
+      "rdfs:range": {
+        "@id": "xsd:string"
+      }
+    },
+    {
+      "@id": "yizang:conceptDefinition",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "概念定义",
+      "rdfs:domain": {
+        "@id": "yizang:TCMConcept"
+      },
+      "rdfs:range": {
+        "@id": "xsd:string"
+      }
+    },
+    {
+      "@id": "yizang:sourceChapter",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "出处篇章",
+      "rdfs:domain": {
+        "@id": "yizang:TCMConcept"
+      },
+      "rdfs:range": {
+        "@id": "xsd:string"
+      }
+    },
+    {
+      "@id": "yizang:herbNature",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "四气",
+      "rdfs:domain": {
+        "@id": "yizang:Herb"
+      },
+      "rdfs:range": {
+        "@id": "xsd:string"
+      }
+    },
+    {
+      "@id": "yizang:herbFlavor",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "五味",
+      "rdfs:domain": {
+        "@id": "yizang:Herb"
+      },
+      "rdfs:range": {
+        "@id": "xsd:string"
+      }
+    },
+    {
+      "@id": "yizang:dosageRange",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "剂量范围",
+      "rdfs:domain": {
+        "@id": "yizang:Herb"
+      },
+      "rdfs:range": {
+        "@id": "xsd:string"
+      }
+    },
+    {
+      "@id": "yizang:formulaComposition",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "组成简述",
+      "rdfs:domain": {
+        "@id": "yizang:Formula"
+      },
+      "rdfs:range": {
+        "@id": "xsd:string"
+      }
+    },
+    {
+      "@id": "yizang:variantMap",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "异体字映射",
+      "rdfs:domain": {
+        "@id": "yizang:Continuant"
+      },
+      "rdfs:range": {
+        "@id": "xsd:string"
+      }
+    },
+    {
+      "@id": "yizang:phoneticNote",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "生僻字注音",
+      "rdfs:domain": {
+        "@id": "yizang:Continuant"
+      },
+      "rdfs:range": {
+        "@id": "xsd:string"
+      }
+    },
+    {
+      "@id": "yizang:semanticNote",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "语义差异说明",
+      "rdfs:domain": {
+        "@id": "yizang:Continuant"
+      },
+      "rdfs:range": {
+        "@id": "xsd:string"
+      }
+    },
+    {
+      "@id": "yizang:vernacular",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "白话翻译",
+      "rdfs:domain": {
+        "@id": "yizang:Continuant"
+      },
+      "rdfs:range": {
+        "@id": "xsd:string"
+      }
+    },
+    {
+      "@id": "yizang:collationNote",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "校勘记录",
+      "rdfs:domain": {
+        "@id": "yizang:Continuant"
+      },
+      "rdfs:range": {
+        "@id": "xsd:string"
+      }
+    },
+    {
+      "@id": "yizang:sourcePosition",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:label": "页码卷次定位",
+      "rdfs:domain": {
+        "@id": "yizang:Continuant"
+      },
+      "rdfs:range": {
+        "@id": "xsd:string"
+      }
+    }
+  ]
+}
