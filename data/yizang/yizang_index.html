@@ -154,11 +154,15 @@
   .reader-body{flex:1;overflow:auto;padding:14px 16px;font-family:var(--font-serif);font-size:14px;line-height:2;color:var(--ink-2);}
   pre.reader-full{white-space:pre-wrap;word-break:break-word;font-family:var(--font-serif);font-size:14px;line-height:2;color:var(--ink-2);margin:0;}
   .reader-full mark{background:rgba(217,74,74,.35);color:#fff;padding:0 2px;border-radius:2px;}
+  .reader-full mark.cur{background:var(--gold);color:var(--space-deep);box-shadow:0 0 8px rgba(212,176,121,.6);}
   .reader-search{display:flex;gap:6px;padding:8px 16px;border-bottom:1px solid var(--line);flex-shrink:0;}
   .reader-search input{flex:1;background:var(--space);border:1px solid var(--line-strong);border-radius:var(--radius);color:var(--ink);padding:6px 10px;font-size:13px;outline:none;font-family:var(--font-sans);transition:border-color .2s;}
   .reader-search input:focus{border-color:var(--gold);}
   .reader-search .btn{display:inline-block;padding:6px 14px;border-radius:4px;font-size:12px;letter-spacing:1px;cursor:pointer;border:1px solid var(--line-strong);background:transparent;color:var(--gold);transition:all .2s;font-family:var(--font-serif);}
   .reader-search .btn:hover{background:rgba(212,176,121,.12);color:var(--gold-bright);border-color:var(--gold);}
+  .reader-search .btn:disabled{opacity:.4;cursor:default;background:transparent;color:var(--ink-3);border-color:var(--line);}
+  .reader-search .rnav{display:flex;gap:6px;align-items:center;}
+  .reader-search .rcount{color:var(--ink-3);font-size:11px;font-family:var(--font-sans);letter-spacing:1px;white-space:nowrap;}
 
   /* ===== 页脚 ===== */
   .footer{border-top:1px solid var(--line);padding:20px 40px;text-align:center;color:var(--ink-3);font-size:12px;letter-spacing:2px;font-family:var(--font-sans);}
@@ -233,7 +237,13 @@
   </div>
   <div class="reader-search">
     <input type="text" id="readerSearch" placeholder="在原文中检索关键词…" autocomplete="off">
-    <button class="btn" id="readerSearchBtn" onclick="doReaderSearch()">检 索</button>
+    <div class="rnav">
+      <button class="btn" id="readerSearchBtn" onclick="doReaderSearch()">检 索</button>
+      <button class="btn" id="readerPrevBtn" onclick="readerNav(-1)" title="上一处命中" disabled>▲</button>
+      <button class="btn" id="readerNextBtn" onclick="readerNav(1)" title="下一处命中" disabled>▼</button>
+      <button class="btn" id="readerClearBtn" onclick="readerClear()" title="清除高亮" disabled>清除</button>
+      <span class="rcount" id="readerCount"></span>
+    </div>
   </div>
   <div class="reader-body" id="readerBody"></div>
 </div>
@@ -362,6 +372,20 @@ function render(reset) {
 
 // ---- 原文阅读抽屉（参照 Buddhist 原文库，按需 fetch）----
 const readerEl = document.getElementById('reader');
+// 原文检索状态：命中集合 + 当前命中索引
+let curHits = [];     // 命中标记元素数组
+let curHitIdx = -1;   // 当前命中索引（-1 = 无）
+function resetReaderSearchUI() {
+  curHits = []; curHitIdx = -1;
+  const pc = document.getElementById('readerPrevBtn');
+  const nc = document.getElementById('readerNextBtn');
+  const cc = document.getElementById('readerClearBtn');
+  const rc = document.getElementById('readerCount');
+  if (pc) pc.disabled = true;
+  if (nc) nc.disabled = true;
+  if (cc) cc.disabled = true;
+  if (rc) rc.textContent = '';
+}
 function openReader(bookName, file, lei) {
   curPath = file; curTxt = null;
   const titleEl = document.getElementById('readerTitle');
@@ -371,25 +395,29 @@ function openReader(bookName, file, lei) {
   metaEl.textContent = lei ? ` · ${lei}` : '';
   bodyEl.innerHTML = '<div style="color:var(--ink-3);font-size:13px;">正在加载原文…</div>';
   readerEl.style.display = 'flex';
+  resetReaderSearchUI();
   fetch(file).then(r => r.text()).then(txt => {
     curTxt = txt;
     const html = txt.replace(/</g, '&lt;').replace(/>/g, '&gt;');
     bodyEl.innerHTML = `<pre class="reader-full">${html}</pre>`;
   }).catch(err => { bodyEl.innerHTML = `<div style="color:var(--ink-3);font-size:13px;">原文加载失败：${err.message}</div>`; });
 }
-function hideReader() { readerEl.style.display = 'none'; curTxt = null; }
+function hideReader() { readerEl.style.display = 'none'; curTxt = null; resetReaderSearchUI(); }
 
-// 原文内检索：高亮命中关键词（indexOf 逐次替换，最多 200 处）
+// 原文内检索：indexOf 逐次替换高亮（最多 2000 处，保护性能），支持命中计数 + 跨命中导航
+const MAX_HITS = 2000;
 function doReaderSearch() {
   const q = document.getElementById('readerSearch').value.trim();
-  if (!q || !curTxt) return;
+  const bodyEl = document.getElementById('readerBody');
+  if (!q) return;
+  if (!curTxt) { bodyEl.innerHTML = '<div style="color:var(--ink-3);font-size:13px;">原文尚未加载完成，请稍候。</div>'; return; }
   let html = curTxt.replace(/</g, '&lt;').replace(/>/g, '&gt;');
   let remaining = html, acc = '';
   let lower = remaining.toLowerCase();
   const needle = q.toLowerCase();
   let idx = lower.indexOf(needle);
   let guard = 0; let found = false;
-  while (idx !== -1 && guard < 200) {
+  while (idx !== -1 && guard < MAX_HITS) {
     acc += remaining.slice(0, idx) + '<mark>' + remaining.slice(idx, idx + q.length) + '</mark>';
     remaining = remaining.slice(idx + q.length);
     lower = remaining.toLowerCase();
@@ -397,11 +425,51 @@ function doReaderSearch() {
     guard++; found = true;
   }
   acc += remaining;
-  const bodyEl = document.getElementById('readerBody');
   bodyEl.innerHTML = `<pre class="reader-full">${acc}</pre>`;
-  if (!found) bodyEl.innerHTML += `<div style="color:var(--ink-3);font-size:13px;margin-top:10px;">原文中未检索到「${q}」。</div>`;
-  const mark = bodyEl.querySelector('mark');
-  if (mark && typeof mark.scrollIntoView === 'function') { mark.scrollIntoView({ block: 'center' }); }
+  if (!found) {
+    bodyEl.innerHTML += `<div style="color:var(--ink-3);font-size:13px;margin-top:10px;">原文中未检索到「${q}」。</div>`;
+  }
+  // 收集命中并更新导航
+  curHits = Array.from(bodyEl.querySelectorAll('mark'));
+  curHitIdx = -1;
+  const rc = document.getElementById('readerCount');
+  const pc = document.getElementById('readerPrevBtn');
+  const nc = document.getElementById('readerNextBtn');
+  const cc = document.getElementById('readerClearBtn');
+  if (curHits.length) {
+    rc.textContent = `命中 ${curHits.length}${curHits.length >= MAX_HITS ? '+' : ''} 处`;
+    if (pc) pc.disabled = false;
+    if (nc) nc.disabled = false;
+    if (cc) cc.disabled = false;
+    readerNav(1); // 跳转首个命中
+  } else {
+    rc.textContent = '';
+    if (pc) pc.disabled = true;
+    if (nc) nc.disabled = true;
+    if (cc) cc.disabled = true;
+  }
+}
+
+// 跨命中导航：delta=1 下一处，delta=-1 上一处
+function readerNav(delta) {
+  if (!curHits.length) return;
+  const n = curHits.length;
+  curHitIdx = ((curHitIdx + delta) % n + n) % n;
+  // 标亮当前命中
+  curHits.forEach((m, i) => { if (i === curHitIdx) m.classList.add('cur'); else m.classList.remove('cur'); });
+  const mark = curHits[curHitIdx];
+  if (mark && typeof mark.scrollIntoView === 'function') mark.scrollIntoView({ block: 'center' });
+  const rc = document.getElementById('readerCount');
+  if (rc) rc.textContent = `命中 ${n}${n >= MAX_HITS ? '+' : ''} 处 · 第 ${curHitIdx + 1}/${n} 处`;
+}
+
+// 清除高亮：恢复纯原文（仅清空 mark，不重新 fetch）
+function readerClear() {
+  if (!curTxt) return;
+  const bodyEl = document.getElementById('readerBody');
+  const html = curTxt.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  bodyEl.innerHTML = `<pre class="reader-full">${html}</pre>`;
+  resetReaderSearchUI();
 }
 
 // 搜索防抖
