@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>医书索引 · 788 部医书完整索引（L4）</title>
+<style>
+  /* ===== 设计系统：深空蓝 + 星象金（与站内项目统一）===== */
+  :root{
+    --gutter:40px;
+    --space:#060f1f; --space-2:#0a1628; --space-3:#0f1f3a;
+    --space-card:rgba(18,34,64,.78); --space-card-solid:#132544; --space-deep:#050b18;
+    --line:rgba(180,200,230,.18); --line-strong:rgba(200,215,240,.35); --line-soft:rgba(150,175,210,.1);
+    --shadow:0 4px 24px rgba(0,0,0,.45); --shadow-lg:0 12px 48px rgba(0,0,0,.6);
+    --ink:#e8edf5; --ink-2:#c8d3e5; --ink-3:#8a97ae; --ink-dim:#6a778e;
+    --zhu:#d94a4a; --zhu-deep:#b53232; --zhu-soft:#e87b72;
+    --gold:#d4b079; --gold-bright:#efd5a4; --gold-deep:#a88648;
+    --silver:#c8d0dd; --jade:#7bbfa6; --ice:#7aa8d4; --violet:#a888c8; --amber:#e0a060;
+    --radius:6px; --radius-lg:10px;
+    --font-serif:'Songti SC','STSong','SimSun','Noto Serif CJK SC','Source Han Serif SC','Noto Serif SC',serif;
+    --font-sans:'PingFang SC','Microsoft YaHei','Hiragino Sans GB','Noto Sans CJK SC',sans-serif;
+    --font-kai:'STKaiti','KaiTi','Kaiti SC',serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html,body{height:100%;}
+  body{
+    font-family:var(--font-serif);
+    background:var(--space-2); color:var(--ink);
+    line-height:1.9; font-size:16px; -webkit-font-smoothing:antialiased;
+    color-scheme:dark; position:relative; overflow-x:hidden;
+  }
+  body::before{
+    content:"";position:fixed;inset:0;z-index:-2;pointer-events:none;
+    background:
+      radial-gradient(ellipse 1200px 800px at 75% 35%, rgba(60,90,150,.35) 0%, transparent 55%),
+      radial-gradient(ellipse 900px 700px at 20% 75%, rgba(120,60,100,.18) 0%, transparent 55%),
+      radial-gradient(circle at 50% 50%, #0a1628 0%, #060f1f 100%);
+  }
+  body::after{
+    content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+    background-image:
+      radial-gradient(1px 1px at 13% 22%, rgba(255,255,255,.8), transparent 50%),
+      radial-gradient(1px 1px at 28% 56%, rgba(255,255,255,.6), transparent 50%),
+      radial-gradient(1.5px 1.5px at 44% 18%, rgba(230,210,170,.9), transparent 50%),
+      radial-gradient(1px 1px at 60% 72%, rgba(255,255,255,.7), transparent 50%),
+      radial-gradient(1px 1px at 72% 36%, rgba(255,255,255,.5), transparent 50%),
+      radial-gradient(1.5px 1.5px at 85% 62%, rgba(220,200,160,.85), transparent 50%),
+      radial-gradient(1px 1px at 92% 14%, rgba(255,255,255,.6), transparent 50%),
+      radial-gradient(1px 1px at 8% 82%, rgba(255,255,255,.55), transparent 50%),
+      radial-gradient(2px 2px at 52% 28%, rgba(255,230,180,.95), transparent 50%),
+      radial-gradient(1px 1px at 35% 88%, rgba(255,255,255,.5), transparent 50%);
+    background-size:100% 100%;
+    animation:starTwinkle 8s ease-in-out infinite alternate;
+  }
+  @keyframes starTwinkle{0%{opacity:.75;}100%{opacity:1;}}
+  a{color:var(--gold);text-decoration:none;transition:color .2s,text-shadow .2s;}
+  a:hover{color:var(--gold-bright);text-shadow:0 0 8px rgba(212,176,121,.5);}
+  h1,h2,h3,h4{font-family:var(--font-serif);font-weight:700;color:var(--ink);letter-spacing:1px;}
+  h2{font-size:26px;letter-spacing:4px;margin-bottom:20px;color:var(--gold-bright);}
+  ::selection{background:var(--zhu);color:#fff;}
+  ::-webkit-scrollbar{width:8px;height:8px;}
+  ::-webkit-scrollbar-track{background:var(--space-deep);}
+  ::-webkit-scrollbar-thumb{background:rgba(212,176,121,.25);border-radius:4px;}
+  ::-webkit-scrollbar-thumb:hover{background:rgba(212,176,121,.45);}
+
+  /* ===== 顶部导航 ===== */
+  .topbar{
+    position:sticky;top:0;z-index:1000;height:64px;
+    background:linear-gradient(180deg, rgba(10,22,40,.95) 0%, rgba(10,22,40,.82) 100%);
+    border-bottom:1px solid var(--line); box-shadow:0 2px 20px rgba(0,0,0,.5);
+    display:flex;align-items:center;justify-content:space-between;
+    padding:0 28px; backdrop-filter:blur(12px);
+  }
+  .logo{display:flex;align-items:center;gap:12px;color:var(--ink);font-weight:700;font-size:20px;letter-spacing:6px;}
+  .logo .taiji{font-size:26px;line-height:1;color:var(--gold);text-shadow:0 0 12px rgba(212,176,121,.6);}
+  .logo .en{font-size:10px;color:var(--ink-3);font-weight:400;letter-spacing:2px;margin-left:6px;font-family:var(--font-sans);}
+  .nav-links{display:flex;gap:2px;align-items:center;flex-wrap:wrap;}
+  .nav-links a{color:var(--ink-2);font-size:14px;padding:6px 12px;border-radius:4px;letter-spacing:1px;transition:all .2s;white-space:nowrap;}
+  .nav-links a:hover{background:rgba(212,176,121,.12);color:var(--gold-bright);text-shadow:0 0 8px rgba(212,176,121,.4);}
+  .nav-links a.active{color:var(--gold-bright);background:rgba(212,176,121,.14);font-weight:600;position:relative;}
+  .nav-links a.active::after{content:"";position:absolute;left:12px;right:12px;bottom:2px;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);}
+
+  /* ===== Hero 区 ===== */
+  .hero{
+    position:relative;overflow:hidden;z-index:1;text-align:center;
+    padding:48px 20px 32px;margin-bottom:24px;
+    background:
+      radial-gradient(ellipse 800px 400px at 50% 40%, rgba(40,70,130,.25) 0%, transparent 70%),
+      linear-gradient(180deg, rgba(8,16,32,.4) 0%, transparent 100%);
+    border-bottom:1px solid var(--line);
+  }
+  .hero h1{margin:0 0 6px;font-size:34px;letter-spacing:8px;}
+  .hero .subtitle{margin-bottom:14px;color:var(--ink-3);font-size:15px;letter-spacing:3px;}
+  .stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;max-width:900px;width:100%;margin:0 auto;}
+  .stat-card{
+    background:rgba(255,255,255,.04);border:1px solid rgba(212,176,121,.18);
+    border-radius:var(--radius-lg);padding:16px 10px;text-align:center;
+    backdrop-filter:blur(4px);transition:all .3s;
+  }
+  .stat-card:hover{background:rgba(212,176,121,.12);border-color:var(--gold);transform:translateY(-3px);}
+  .stat-card .stat-num{font-size:28px;color:var(--gold-bright);font-weight:700;letter-spacing:2px;font-family:var(--font-serif);text-shadow:0 0 16px rgba(212,176,121,.3);}
+  .stat-card .stat-label{color:var(--ink);font-size:14px;letter-spacing:3px;margin-top:6px;font-weight:600;}
+  .stat-card .stat-sub{color:var(--ink-3);font-size:11px;letter-spacing:2px;margin-top:2px;}
+
+  /* ===== 内容区 ===== */
+  .content{max-width:1200px;margin:0 auto;padding:24px var(--gutter) 60px;}
+
+  /* ===== 工具栏 ===== */
+  .toolbar{
+    background:var(--space-card);border:1px solid var(--line);
+    border-radius:var(--radius-lg);padding:18px 22px;margin-bottom:20px;
+    backdrop-filter:blur(6px); box-shadow:var(--shadow);
+  }
+  .toolbar-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:12px;}
+  .toolbar-row:last-child{margin-bottom:0;}
+  .toolbar-label{color:var(--ink-3);font-size:12px;letter-spacing:2px;font-family:var(--font-sans);white-space:nowrap;}
+  .search{display:flex;align-items:center;gap:6px;flex:1;min-width:220px;}
+  .search input{background:var(--space);border:1px solid var(--line-strong);border-radius:var(--radius);color:var(--ink);padding:8px 12px;font-size:14px;outline:none;width:100%;font-family:var(--font-sans);transition:border-color .2s;}
+  .search input:focus{border-color:var(--gold);}
+  .chip{display:inline-block;padding:5px 14px;border-radius:16px;border:1px solid var(--line-strong);cursor:pointer;font-size:13px;letter-spacing:1px;color:var(--ink-2);background:rgba(255,255,255,.02);transition:all .2s;font-family:var(--font-sans);}
+  .chip:hover{border-color:var(--gold);color:var(--gold-bright);background:rgba(212,176,121,.08);}
+  .chip.on{border-color:var(--gold);color:var(--gold-bright);background:rgba(212,176,121,.16);font-weight:600;}
+  .result-count{color:var(--ink-3);font-size:12px;letter-spacing:1px;font-family:var(--font-sans);}
+
+  /* ===== 索引列表 ===== */
+  .book-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;}
+  .book-card{
+    background:rgba(255,255,255,.03);border:1px solid var(--line);
+    border-radius:var(--radius);padding:12px 16px;cursor:pointer;
+    transition:all .25s;position:relative;
+  }
+  .book-card:hover{border-color:var(--gold);background:rgba(212,176,121,.08);transform:translateY(-2px);box-shadow:var(--shadow);}
+  .book-card .bname{font-size:15px;color:var(--ink);letter-spacing:1px;font-weight:600;margin-bottom:4px;}
+  .book-card:hover .bname{color:var(--gold-bright);}
+  .book-card .binfo{font-size:11px;color:var(--ink-3);font-family:var(--font-sans);display:flex;gap:8px;flex-wrap:wrap;}
+  .book-card .binfo .bclass{color:var(--ice);}
+  .book-card .binfo .bbian{color:var(--violet);}
+  .book-card .bicon{position:absolute;right:12px;top:12px;color:var(--ink-dim);font-size:13px;transition:all .2s;}
+  .book-card:hover .bicon{color:var(--gold-bright);}
+  .load-more{text-align:center;margin-top:20px;color:var(--ink-3);font-size:13px;letter-spacing:2px;font-family:var(--font-sans);}
+
+  /* ===== 原文阅读抽屉 ===== */
+  .reader{
+    position:fixed;right:24px;top:76px;width:540px;max-width:calc(100vw - 48px);
+    height:calc(100vh - 110px);background:var(--space-card-solid);
+    border:1px solid rgba(212,176,121,.28);border-radius:var(--radius-lg);
+    z-index:720;display:none;flex-direction:column;box-shadow:var(--shadow-lg);
+  }
+  .reader-head{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;border-bottom:1px solid var(--line);flex-shrink:0;}
+  .reader-head span{color:var(--gold-bright);font-size:16px;letter-spacing:2px;font-weight:700;}
+  .reader-head .rmeta{color:var(--ink-3);font-size:11px;font-family:var(--font-sans);margin-left:10px;letter-spacing:1px;}
+  .reader-head .rclose{cursor:pointer;color:var(--ink-3);font-size:20px;background:none;border:none;line-height:1;transition:color .2s;}
+  .reader-head .rclose:hover{color:var(--zhu);}
+  .reader-body{flex:1;overflow:auto;padding:14px 16px;font-family:var(--font-serif);font-size:14px;line-height:2;color:var(--ink-2);}
+  pre.reader-full{white-space:pre-wrap;word-break:break-word;font-family:var(--font-serif);font-size:14px;line-height:2;color:var(--ink-2);margin:0;}
+  .reader-full mark{background:rgba(217,74,74,.35);color:#fff;padding:0 2px;border-radius:2px;}
+  .reader-search{display:flex;gap:6px;padding:8px 16px;border-bottom:1px solid var(--line);flex-shrink:0;}
+  .reader-search input{flex:1;background:var(--space);border:1px solid var(--line-strong);border-radius:var(--radius);color:var(--ink);padding:6px 10px;font-size:13px;outline:none;font-family:var(--font-sans);transition:border-color .2s;}
+  .reader-search input:focus{border-color:var(--gold);}
+  .reader-search .btn{display:inline-block;padding:6px 14px;border-radius:4px;font-size:12px;letter-spacing:1px;cursor:pointer;border:1px solid var(--line-strong);background:transparent;color:var(--gold);transition:all .2s;font-family:var(--font-serif);}
+  .reader-search .btn:hover{background:rgba(212,176,121,.12);color:var(--gold-bright);border-color:var(--gold);}
+
+  /* ===== 页脚 ===== */
+  .footer{border-top:1px solid var(--line);padding:20px 40px;text-align:center;color:var(--ink-3);font-size:12px;letter-spacing:2px;font-family:var(--font-sans);}
+
+  /* ===== 响应式 ===== */
+  @media (max-width:900px){
+    .book-grid{grid-template-columns:repeat(2,1fr);}
+    .hero{padding:36px 14px 26px;}
+  }
+  @media (max-width:640px){
+    body{font-size:15px;}
+    .book-grid{grid-template-columns:1fr;}
+    .stats-grid{grid-template-columns:repeat(2,1fr);gap:8px;}
+    .logo .en{display:none;}
+    .content{padding:16px 16px 48px;}
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <a class="logo" href="../index.html"><span class="taiji">☯</span>医书索引<span class="en">788 MEDICAL BOOKS · L4</span></a>
+  <nav class="nav-links">
+    <a href="../index.html">首页</a>
+    <a href="yizang_tree.html">七层树</a>
+    <a href="yizang_kg.html">知识元图谱</a>
+    <a href="yizang_graph.html">概念图谱</a>
+    <a href="yizang_index.html" class="active">医书索引</a>
+    <a href="../docs/ontology_spec.md">实现蓝图</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>788 部医书完整索引</h1>
+  <div class="subtitle">《中华医藏》四编二十八类 · 殆知阁医藏文本 · 点击书名嵌入阅读原文</div>
+  <div class="stats-grid" id="statsGrid"></div>
+</section>
+
+<main class="content">
+  <div class="toolbar">
+    <div class="toolbar-row">
+      <span class="toolbar-label">检 索</span>
+      <div class="search"><input type="text" id="searchInput" placeholder="输入书名、类目关键词检索…" autocomplete="off"></div>
+      <span class="result-count" id="resultCount"></span>
+    </div>
+    <div class="toolbar-row" id="bianFilter">
+      <span class="toolbar-label">编 次</span>
+      <span class="chip on" data-bian="">全部</span>
+      <span class="chip" data-bian="第一编">第一编 · 医经</span>
+      <span class="chip" data-bian="第二编">第二编 · 本草方书</span>
+      <span class="chip" data-bian="第三编">第三编 · 临床各科</span>
+    </div>
+    <div class="toolbar-row" id="leiFilter">
+      <span class="toolbar-label">类 目</span>
+      <span class="chip on" data-lei="">全部</span>
+    </div>
+  </div>
+
+  <div class="book-grid" id="bookGrid"></div>
+  <div class="load-more" id="loadMore"></div>
+</main>
+
+<footer class="footer">
+  参照佛学本体论 / 易经本体论范式 · 殆知阁医藏文本 · 中华医藏七层知识本体 · 构建日期 2026-11-12
+</footer>
+
+<!-- 原文阅读抽屉 -->
+<div class="reader" id="reader">
+  <div class="reader-head">
+    <div><span id="readerTitle"></span><span class="rmeta" id="readerMeta"></span></div>
+    <button class="rclose" onclick="hideReader()">✕</button>
+  </div>
+  <div class="reader-search">
+    <input type="text" id="readerSearch" placeholder="在原文中检索关键词…" autocomplete="off">
+    <button class="btn" id="readerSearchBtn" onclick="doReaderSearch()">检 索</button>
+  </div>
+  <div class="reader-body" id="readerBody"></div>
+</div>
+
+<script>
+// ---- 数据外置加载 ----
+const INDEX_URL = 'index.json';
+const CAT_URL = 'categories.json';
+let books = [];       // 合并 index + categories 的行
+let curBian = '';
+let curLei = '';
+let curQuery = '';
+let curPath = null;   // 当前打开原文路径
+let curTxt = null;    // 当前原文全文
+const PAGE = 120;     // 每批渲染数
+
+function loadData() {
+  return Promise.all([fetch(INDEX_URL).then(r => r.json()), fetch(CAT_URL).then(r => r.json())])
+    .then(([idx, cat]) => {
+      const catMap = {};
+      cat.forEach(c => { catMap[c.name] = c; });
+      books = idx.map(b => {
+        const c = catMap[b.name] || {};
+        return {
+          name: b.name, file: b.file,
+          bian: c.bian || '', lei: c.lei || '',
+          confidence: c.confidence || '',
+          size_bytes: b.size_bytes, chars: b.chars, hanzi: b.hanzi
+        };
+      });
+      buildStats();
+      buildLeiFilter();
+      render();
+    });
+}
+
+function buildStats() {
+  const total = books.length;
+  const bianCount = {};
+  const leiCount = {};
+  const hanziTotal = books.reduce((s, b) => s + (b.hanzi || 0), 0);
+  books.forEach(b => {
+    bianCount[b.bian] = (bianCount[b.bian] || 0) + 1;
+    leiCount[b.lei] = (leiCount[b.lei] || 0) + 1;
+  });
+  const biany = Object.keys(bianCount).filter(k => k).length;
+  const leiy = Object.keys(leiCount).filter(k => k).length;
+  const items = [
+    { num: total, label: '医书总数', sub: '殆知阁藏本' },
+    { num: biany, label: '编次', sub: '四编' },
+    { num: leiy, label: '类目', sub: '二十八类' },
+    { num: (hanziTotal/10000).toFixed(1) + '万', label: '汉字总量', sub: '正文汉字' }
+  ];
+  document.getElementById('statsGrid').innerHTML = items.map(it =>
+    `<div class="stat-card"><div class="stat-num">${it.num}</div><div class="stat-label">${it.label}</div><div class="stat-sub">${it.sub}</div></div>`
+  ).join('');
+}
+
+function buildLeiFilter() {
+  const leiCount = {};
+  books.forEach(b => { if (b.lei) leiCount[b.lei] = (leiCount[b.lei] || 0) + 1; });
+  const leis = Object.keys(leiCount).sort((a, b) => leiCount[b] - leiCount[a]);
+  const el = document.getElementById('leiFilter');
+  let html = '<span class="toolbar-label">类 目</span><span class="chip on" data-lei="">全部</span>';
+  leis.forEach(l => { html += `<span class="chip" data-lei="${l}">${l} <small>${leiCount[l]}</small></span>`; });
+  el.innerHTML = html;
+  el.querySelectorAll('.chip').forEach(ch => {
+    ch.onclick = () => { curLei = ch.dataset.lei; setChips(el, curLei, 'lei'); render(); };
+  });
+  // 编次筛选器
+  const be = document.getElementById('bianFilter');
+  be.querySelectorAll('.chip').forEach(ch => {
+    ch.onclick = () => { curBian = ch.dataset.bian; setChips(be, curBian, 'bian'); render(); };
+  });
+}
+
+function setChips(container, active, key) {
+  container.querySelectorAll('.chip').forEach(ch => {
+    ch.classList.toggle('on', ch.dataset[key] === active);
+  });
+}
+
+function filtered() {
+  return books.filter(b => {
+    if (curBian && b.bian !== curBian) return false;
+    if (curLei && b.lei !== curLei) return false;
+    if (curQuery) {
+      const q = curQuery.toLowerCase();
+      const hay = (b.name + ' ' + b.lei + ' ' + b.bian).toLowerCase();
+      if (hay.indexOf(q) === -1) return false;
+    }
+    return true;
+  });
+}
+
+let renderedCount = 0;
+let shownList = [];
+function render(reset) {
+  if (reset !== false) renderedCount = 0;
+  shownList = filtered();
+  const grid = document.getElementById('bookGrid');
+  if (renderedCount === 0) grid.innerHTML = '';
+  const slice = shownList.slice(renderedCount, renderedCount + PAGE);
+  slice.forEach(b => {
+    const card = document.createElement('div');
+    card.className = 'book-card';
+    card.innerHTML = `<div class="bname">${b.name}</div>
+      <div class="binfo"><span class="bbian">${b.bian || ''}</span><span class="bclass">${b.lei || ''}</span><span>${b.hanzi ? (b.hanzi/10000).toFixed(2) + '万字' : ''}</span></div>
+      <span class="bicon">📖</span>`;
+    card.onclick = () => openReader(b.name, b.file, b.lei);
+    grid.appendChild(card);
+  });
+  renderedCount += slice.length;
+  const more = document.getElementById('loadMore');
+  if (renderedCount < shownList.length) {
+    more.textContent = `已显示 ${renderedCount} / ${shownList.length} 部 · 点击加载更多（${PAGE}/批）`;
+    more.style.cursor = 'pointer';
+    more.onclick = () => render(false);
+  } else {
+    more.textContent = shownList.length ? `共 ${shownList.length} 部医书` : '无匹配结果';
+    more.style.cursor = 'default';
+    more.onclick = null;
+  }
+  document.getElementById('resultCount').textContent = `匹配 ${shownList.length} 部 / 共 ${books.length} 部`;
+}
+
+// ---- 原文阅读抽屉（参照 Buddhist 原文库，按需 fetch）----
+const readerEl = document.getElementById('reader');
+function openReader(bookName, file, lei) {
+  curPath = file; curTxt = null;
+  const titleEl = document.getElementById('readerTitle');
+  const metaEl = document.getElementById('readerMeta');
+  const bodyEl = document.getElementById('readerBody');
+  titleEl.textContent = bookName;
+  metaEl.textContent = lei ? ` · ${lei}` : '';
+  bodyEl.innerHTML = '<div style="color:var(--ink-3);font-size:13px;">正在加载原文…</div>';
+  readerEl.style.display = 'flex';
+  fetch(file).then(r => r.text()).then(txt => {
+    curTxt = txt;
+    const html = txt.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    bodyEl.innerHTML = `<pre class="reader-full">${html}</pre>`;
+  }).catch(err => { bodyEl.innerHTML = `<div style="color:var(--ink-3);font-size:13px;">原文加载失败：${err.message}</div>`; });
+}
+function hideReader() { readerEl.style.display = 'none'; curTxt = null; }
+
+// 原文内检索：高亮命中关键词（indexOf 逐次替换，最多 200 处）
+function doReaderSearch() {
+  const q = document.getElementById('readerSearch').value.trim();
+  if (!q || !curTxt) return;
+  let html = curTxt.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  let remaining = html, acc = '';
+  let lower = remaining.toLowerCase();
+  const needle = q.toLowerCase();
+  let idx = lower.indexOf(needle);
+  let guard = 0; let found = false;
+  while (idx !== -1 && guard < 200) {
+    acc += remaining.slice(0, idx) + '<mark>' + remaining.slice(idx, idx + q.length) + '</mark>';
+    remaining = remaining.slice(idx + q.length);
+    lower = remaining.toLowerCase();
+    idx = lower.indexOf(needle);
+    guard++; found = true;
+  }
+  acc += remaining;
+  const bodyEl = document.getElementById('readerBody');
+  bodyEl.innerHTML = `<pre class="reader-full">${acc}</pre>`;
+  if (!found) bodyEl.innerHTML += `<div style="color:var(--ink-3);font-size:13px;margin-top:10px;">原文中未检索到「${q}」。</div>`;
+  const mark = bodyEl.querySelector('mark');
+  if (mark && typeof mark.scrollIntoView === 'function') { mark.scrollIntoView({ block: 'center' }); }
+}
+
+// 搜索防抖
+let searchTimer = null;
+document.getElementById('searchInput').addEventListener('input', function () {
+  clearTimeout(searchTimer);
+  const v = this.value.trim();
+  searchTimer = setTimeout(() => { curQuery = v; render(true); }, 250);
+});
+// 回车搜索
+document.getElementById('searchInput').addEventListener('keydown', function (e) {
+  if (e.key === 'Enter') { clearTimeout(searchTimer); curQuery = this.value.trim(); render(true); }
+});
+// 原文检索框回车
+document.getElementById('readerSearch').addEventListener('keydown', function (e) {
+  if (e.key === 'Enter') doReaderSearch();
+});
+
+loadData();
+</script>
+</body>
+</html>
