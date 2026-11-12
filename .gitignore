@@ -8,6 +8,8 @@ __pycache__/
 .screenshots/
 download.log
 .trae/
+# Trae HTML 分享打包产物（工具生成，非源码）
+.trae-html-share-packages/
 # 抓取原始 HTML 中间产物（原文已提取为 texts/*.txt，不入库）
 data/yizang/raw/
 

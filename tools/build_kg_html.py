@@ -171,9 +171,14 @@ TEMPLATE = """<!DOCTYPE html>
   .btn:hover{background:rgba(212,176,121,.12);color:var(--gold-bright);border-color:var(--gold);text-shadow:0 0 8px rgba(212,176,121,.4);}
 
   /* ===== 图谱容器 ===== */
-  #graphBox{width:100%;height:min(72vh,760px);background:var(--space-card-solid);border:1px solid var(--line-soft);border-radius:var(--radius-lg);overflow:hidden;}
+  #graphBox{width:100%;height:min(72vh,760px);background:var(--space-card-solid);border:1px solid var(--line-soft);border-radius:var(--radius-lg);overflow:hidden;position:relative;}
   #graphBox.expanded{position:fixed;inset:76px 24px 24px;height:auto;z-index:600;background:var(--space-2);}
   .graph-hint{margin-top:12px;color:var(--ink-3);font-size:12px;letter-spacing:1px;text-align:center;font-family:var(--font-sans);}
+  .load-overlay{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;background:var(--space-card-solid);z-index:5;transition:opacity .4s;}
+  .load-overlay.hide{opacity:0;pointer-events:none;}
+  .load-msg{color:var(--ink-2);font-size:14px;letter-spacing:2px;font-family:var(--font-sans);}
+  .load-bar{width:260px;height:4px;background:var(--line);border-radius:2px;overflow:hidden;}
+  .load-bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--gold-deep),var(--gold-bright));transition:width .2s;}
 
   /* ===== 详情面板 ===== */
   .panel{
@@ -188,6 +193,21 @@ TEMPLATE = """<!DOCTYPE html>
   .panel .row b{color:var(--gold);font-weight:400;margin-right:6px;}
   .panel .close{position:absolute;right:12px;top:12px;cursor:pointer;color:var(--ink-3);font-size:18px;background:none;border:none;line-height:1;}
   .panel .close:hover{color:var(--zhu);}
+
+  /* ===== 原文阅读抽屉（参照 Buddhist 原文库，按需 fetch）===== */
+  .reader{
+    position:fixed;right:24px;top:88px;width:520px;max-width:calc(100vw - 48px);
+    height:calc(100vh - 140px);background:var(--space-card-solid);
+    border:1px solid rgba(212,176,121,.28);border-radius:var(--radius-lg);
+    z-index:720;display:none;flex-direction:column;box-shadow:var(--shadow-lg);
+  }
+  .reader-head{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;border-bottom:1px solid var(--line);flex-shrink:0;}
+  .reader-head span{color:var(--gold-bright);font-size:16px;letter-spacing:2px;font-weight:700;}
+  .reader-body{flex:1;overflow:auto;padding:14px 16px;font-family:var(--font-serif);font-size:14px;line-height:2;color:var(--ink-2);}
+  pre.reader-full{white-space:pre-wrap;word-break:break-word;font-family:var(--font-serif);font-size:14px;line-height:2;color:var(--ink-2);margin:0;}
+  .reader-full mark{background:rgba(217,74,74,.35);color:#fff;padding:0 2px;border-radius:2px;}
+  .book-link{color:var(--ice);border-bottom:1px dashed var(--ice);cursor:pointer;}
+  .book-link:hover{color:var(--gold-bright);border-bottom-color:var(--gold);}
 
   /* ===== 页脚 ===== */
   .footer{border-top:1px solid var(--line);padding:20px 40px;text-align:center;color:var(--ink-3);font-size:12px;letter-spacing:2px;font-family:var(--font-sans);}
@@ -262,8 +282,13 @@ TEMPLATE = """<!DOCTYPE html>
           <button class="btn" id="fullBtn">全屏</button>
         </div>
       </div>
-      <div id="graphBox"></div>
-      <div class="graph-hint">拖拽节点 · 滚轮缩放 · 点击节点查看详情 · 回车搜索定位高亮</div>
+      <div id="graphBox">
+        <div class="load-overlay" id="loadOverlay">
+          <div class="load-msg" id="loadMsg">正在加载图谱数据…</div>
+          <div class="load-bar"><i id="loadBar"></i></div>
+        </div>
+      </div>
+      <div class="graph-hint">拖拽节点 · 滚轮缩放 · 点击节点查看详情 · 回车搜索定位高亮 · 点击出处典籍阅读原文</div>
     </section>
 
     <div class="footer">医藏本体论 · 参照《易经》本体论范式 · 殆知阁医藏文本 · 力导向图谱</div>
@@ -277,9 +302,23 @@ TEMPLATE = """<!DOCTYPE html>
   <div id="pBody"></div>
 </div>
 
+<div class="reader" id="reader">
+  <div class="reader-head">
+    <span id="readerTitle">典籍原文</span>
+    <button class="btn" style="padding:4px 10px;font-size:12px;" onclick="hideReader()">关闭</button>
+  </div>
+  <div class="reader-body" id="readerBody"></div>
+</div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.5.0/echarts.min.js"></script>
 <script>
-const DATA = __KG_JSON__;
+/* ===== 内联元数据（首屏立即渲染统计卡，不阻塞）===== */
+const META = __META_JSON__;
+/* ===== 书名 → 原文 txt 路径映射（轻量，内联）===== */
+const BOOK_INDEX = __BOOK_INDEX_JSON__;
+const DATA_URL = 'yizang_kg.json';   // 图谱数据外置，避免一次性内联 7MB
+
+const USE_EXTERNAL = true;   // true=外置 fetch 增量加载（更流畅）；false=内联一次性
 
 const CLS_COLOR = {
   herb:     '#7bbfa6',   /* 玉青 */
@@ -307,6 +346,7 @@ const EDGE_COLOR = {
 
 const graphBox = document.getElementById('graphBox');
 const chart = echarts.init(graphBox);
+const BATCH = 2000;   // 每批注入节点数，分块让出主线程
 
 function nodeToData(n) {
   const size = CLS_SIZE[n.class] || 10;
@@ -327,52 +367,116 @@ function nodeToData(n) {
   };
 }
 
-const series = [{
-  type: 'graph',
-  layout: 'force',
-  data: DATA.nodes.map(nodeToData),
-  links: DATA.links.map(l => ({
+function buildSeriesData(nodes) {
+  return nodes.map(nodeToData);
+}
+function buildLinks(links) {
+  return links.map(l => ({
     source: l.source, target: l.target,
     lineStyle: { color: EDGE_COLOR[l.type] || '#6a778e', width: 1, curveness: 0.1, opacity: 0.6 },
     tooltip: { formatter: () => `<b>${l.label || l.type}</b>` }
-  })),
-  categories: Object.keys(CLS_COLOR).map(k => ({ name: k, itemStyle: { color: CLS_COLOR[k] } })),
-  force: { repulsion: 260, edgeLength: [40, 130], gravity: 0.1, friction: 0.6 },
-  roam: true,
-  draggable: true,
-  emphasis: { focus: 'adjacency', lineStyle: { width: 2 } },
-  scaleLimit: { min: 0.2, max: 5 }
-}];
+  }));
+}
+
+function baseSeriesOption() {
+  return [{
+    type: 'graph', layout: 'force',
+    data: [], links: [],
+    categories: Object.keys(CLS_COLOR).map(k => ({ name: k, itemStyle: { color: CLS_COLOR[k] } })),
+    force: { repulsion: 260, edgeLength: [40, 130], gravity: 0.1, friction: 0.6 },
+    roam: true, draggable: true,
+    emphasis: { focus: 'adjacency', lineStyle: { width: 2 } },
+    scaleLimit: { min: 0.2, max: 5 }
+  }];
+}
 
 chart.setOption({
-  tooltip: {
-    show: true,
-    backgroundColor: '#132544', borderColor: 'rgba(200,215,240,.35)',
-    textStyle: { color: '#e8edf5' }
-  },
-  series: series
+  tooltip: { show: true, backgroundColor: '#132544', borderColor: 'rgba(200,215,240,.35)', textStyle: { color: '#e8edf5' } },
+  series: baseSeriesOption()
 });
 
-// ---- 统计卡 ----
-(function() {
-  const counts = {};
-  DATA.nodes.forEach(n => counts[n.class] = (counts[n.class] || 0) + 1);
-  const edgeCounts = {};
-  DATA.links.forEach(l => edgeCounts[l.type] = (edgeCounts[l.type] || 0) + 1);
+/* ===== 分块增量加载：外置 fetch + 分批注入 ===== */
+let DATA = { nodes: [], links: [] };   // 全量数据（加载完成后持有）
+let loadedNodes = 0, loadedLinks = 0;
+
+function updateLoadProgress(done, total, msg) {
+  const bar = document.getElementById('loadBar');
+  const label = document.getElementById('loadMsg');
+  if (bar) bar.style.width = Math.round(done / total * 100) + '%';
+  if (label) label.textContent = msg;
+}
+
+function injectBatch(nodes, links, cb) {
+  // 分批：每次注入 BATCH 节点（含其边），让出主线程
+  let i = 0;
+  function step() {
+    const end = Math.min(i + BATCH, nodes.length);
+    const slice = nodes.slice(i, end);
+    chart.setOption({ series: [{ data: buildSeriesData(slice), links: buildLinks(links.slice(0, end)) }] });
+    i = end; loadedNodes = end;
+    if (i < nodes.length) {
+      updateLoadProgress(i, nodes.length, `图谱加载中 ${i.toLocaleString()} / ${nodes.length.toLocaleString()} 节点…`);
+      setTimeout(step, 0);   // 让出主线程，避免一次性卡顿
+    } else if (cb) cb();
+  }
+  step();
+}
+
+function loadGraph() {
+  const overlay = document.getElementById('loadOverlay');
+  updateLoadProgress(0, 1, '正在加载图谱数据…');
+  fetch(DATA_URL)
+    .then(r => r.json())
+    .then(d => {
+      DATA = d;
+      updateLoadProgress(0, d.nodes.length, `已加载 ${d.nodes.length.toLocaleString()} 节点，注入中…`);
+      injectBatch(d.nodes, d.links, () => {
+        updateLoadProgress(1, 1, `图谱加载完成 · ${d.nodes.length.toLocaleString()} 节点 / ${d.links.length.toLocaleString()} 边`);
+        setTimeout(() => overlay.classList.add('hide'), 500);
+        setTimeout(() => overlay.remove(), 1200);
+        document.getElementById('statsGrid').innerHTML = buildStatsHTML(d);
+      });
+    })
+    .catch(err => {
+      updateLoadProgress(0, 1, '图谱数据加载失败：' + err.message);
+    });
+}
+
+/* ===== 统计卡 ===== */
+function buildStatsHTML(data) {
+  // 支持两种形态：完整数据 {nodes:[],links:[]} 或 META {nodes:n,links:n,by_class:{},by_edge:{}}
+  let total, totalLinks, counts, edgeCounts;
+  if (Array.isArray(data.nodes)) {
+    total = data.nodes.length; totalLinks = data.links.length;
+    counts = {};
+    data.nodes.forEach(n => counts[n.class] = (counts[n.class] || 0) + 1);
+    edgeCounts = {};
+    data.links.forEach(l => edgeCounts[l.type] = (edgeCounts[l.type] || 0) + 1);
+  } else {
+    total = data.nodes; totalLinks = data.links;
+    counts = data.by_class || {}; edgeCounts = data.by_edge || {};
+  }
   const items = [
-    { num: DATA.nodes.length, label: '节点总数', sub: '知识元' },
+    { num: total, label: '节点总数', sub: '知识元' },
     { num: counts.herb || 0, label: '中药', sub: 'herb' },
     { num: counts.formula || 0, label: '方剂', sub: 'formula' },
     { num: counts.syndrome || 0, label: '证候', sub: 'syndrome' },
-    { num: DATA.links.length, label: '关系边', sub: 'links' },
+    { num: totalLinks, label: '关系边', sub: 'links' },
     { num: edgeCounts.compose || 0, label: '组成边', sub: '方-药' }
   ];
-  const grid = document.getElementById('statsGrid');
-  grid.innerHTML = items.map(it =>
+  return items.map(it =>
     `<div class="stat-card"><div class="stat-num">${it.num.toLocaleString()}</div>` +
     `<div class="stat-label">${it.label}</div><div class="stat-sub">${it.sub}</div></div>`
   ).join('');
+}
+
+/* 首屏：用 META 立即渲染统计卡，避免等待 fetch */
+(function() {
+  document.getElementById('statsGrid').innerHTML = buildStatsHTML(META);
 })();
+
+/* 启动：外置增量加载 */
+loadGraph();
 
 // ---- 图例筛选（徽章）----
 const legendEl = document.getElementById('legend');
@@ -385,9 +489,8 @@ Object.keys(CLS_COLOR).forEach(k => {
   div.onclick = () => {
     toggles[k] = !toggles[k];
     div.classList.toggle('off', !toggles[k]);
-    chart.setOption({ series: [{ data: DATA.nodes
-      .filter(n => toggles[n.class] !== false)
-      .map(nodeToData) }] });
+    const vis = DATA.nodes.filter(n => toggles[n.class] !== false);
+    chart.setOption({ series: [{ data: buildSeriesData(vis), links: buildLinks(DATA.links) }] });
   };
   legendEl.appendChild(div);
 });
@@ -411,7 +514,51 @@ document.getElementById('fullBtn').addEventListener('click', function() {
   setTimeout(() => chart.resize(), 30);
 });
 
-// ---- 点击详情 ----
+// ---- 原文阅读抽屉（参照 Buddhist 原文库，按需 fetch）----
+const readerEl = document.getElementById('reader');
+function openReader(bookName, term) {
+  const path = BOOK_INDEX[bookName];
+  const titleEl = document.getElementById('readerTitle');
+  const bodyEl = document.getElementById('readerBody');
+  if (!path) { titleEl.textContent = bookName; bodyEl.innerHTML = '<div class="row">未找到该典籍的原文文件。</div>'; readerEl.style.display = 'flex'; return; }
+  titleEl.textContent = bookName;
+  bodyEl.innerHTML = '<div class="row">正在加载原文…</div>';
+  readerEl.style.display = 'flex';
+  fetch(path)
+    .then(r => r.text())
+    .then(txt => {
+      let html = txt.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      let found = false;
+      if (term) {
+        // 用 indexOf 逐次替换高亮，规避正则转义问题，对中文安全，最多 100 处
+        let remaining = html, acc = '';
+        let lower = remaining.toLowerCase();
+        const needle = term.toLowerCase();
+        let idx = lower.indexOf(needle);
+        let guard = 0;
+        while (idx !== -1 && guard < 100) {
+          acc += remaining.slice(0, idx) + '<mark>' + remaining.slice(idx, idx + term.length) + '</mark>';
+          remaining = remaining.slice(idx + term.length);
+          lower = remaining.toLowerCase();
+          idx = lower.indexOf(needle);
+          guard++; found = true;
+        }
+        acc += remaining;
+        html = acc;
+      }
+      bodyEl.innerHTML = `<pre class="reader-full">${html}</pre>`;
+      if (term && !found) {
+        bodyEl.innerHTML += `<div class="row" style="color:var(--ink-3);margin-top:10px;">原文中未检索到「${term}」。</div>`;
+      }
+      // 自动滚动到首个高亮（防御 jsdom 等无 scrollIntoView 环境）
+      const mark = bodyEl.querySelector('mark');
+      if (mark && typeof mark.scrollIntoView === 'function') { mark.scrollIntoView({ block: 'center' }); }
+    })
+    .catch(err => { bodyEl.innerHTML = `<div class="row">原文加载失败：${err.message}</div>`; });
+}
+function hideReader() { readerEl.style.display = 'none'; }
+
+// ---- 点击详情（含出处典籍 → 原文联动）----
 chart.on('click', function(params) {
   if (params.dataType !== 'node') return;
   const n = params.data.value;
@@ -428,7 +575,13 @@ chart.on('click', function(params) {
   if (n.meridians && n.meridians.length) body += `<div class="row"><b>归经</b>${n.meridians.join('、')}</div>`;
   if (n.zhi) body += `<div class="row"><b>主治</b>${n.zhi}</div>`;
   if (n.desc) body += `<div class="row"><b>条文</b>${n.desc}</div>`;
-  if (n.books && n.books.length) body += `<div class="row"><b>出处</b>${n.books.join('、')}</div>`;
+  if (n.books && n.books.length) {
+    const links = n.books.map(b => {
+      const has = BOOK_INDEX[b] ? '1' : '0';
+      return `<span class="book-link" data-book="${b}" data-has="${has}" onclick="openReader(this.dataset.book,'${n.name}')">${b}</span>`;
+    }).join('、');
+    body += `<div class="row"><b>出处</b>${links}</div>`;
+  }
   document.getElementById('pBody').innerHTML = body || '<div class="row">知识元节点</div>';
   el.style.display = 'block';
 });
@@ -445,10 +598,41 @@ window.addEventListener('resize', () => chart.resize());
 def main():
     with open(GRAPH, encoding="utf-8") as f:
         graph = json.load(f)
-    html = TEMPLATE.replace("__KG_JSON__", json.dumps(graph, ensure_ascii=False))
+
+    # 元数据概览（内联到 HTML，首屏立即渲染统计卡）
+    meta = {
+        "nodes": len(graph["nodes"]),
+        "links": len(graph["links"]),
+        "by_class": {},
+        "by_edge": {}
+    }
+    for n in graph["nodes"]:
+        meta["by_class"][n["class"]] = meta["by_class"].get(n["class"], 0) + 1
+    for l in graph["links"]:
+        meta["by_edge"][l["type"]] = meta["by_edge"].get(l["type"], 0) + 1
+
+    # 书名 → txt 路径映射（内联到 HTML，供出处典籍原文联动）
+    # index.json 的 file 字段相对 data/yizang/，而 HTML 位于 data/ontology/，
+    # 故需前缀 ../yizang/ 使 fetch 相对 HTML 目录解析正确
+    index_path = os.path.join(ROOT, "data", "yizang", "index.json")
+    with open(index_path, encoding="utf-8") as f:
+        index = json.load(f)
+    book_index = {}
+    for e in index:
+        f = e["file"]
+        # 统一为正斜杠，且相对 HTML 目录（data/ontology/）为 ../yizang/<file>
+        rel = f.replace("\\", "/")
+        if not rel.startswith("../"):
+            rel = "../yizang/" + rel
+        book_index[e["name"]] = rel
+
+    html = TEMPLATE.replace("__META_JSON__", json.dumps(meta, ensure_ascii=False)) \
+                   .replace("__BOOK_INDEX_JSON__", json.dumps(book_index, ensure_ascii=False))
+
     with open(OUT, "w", encoding="utf-8") as f:
         f.write(html)
-    print(f"生成 {OUT}  ({os.path.getsize(OUT)/1024:.1f} KB)")
+    print(f"生成 {OUT}  ({os.path.getsize(OUT)/1024:.1f} KB，图谱数据外置)")
+    print(f"  内联元数据：节点 {meta['nodes']} · 边 {meta['links']} · 典籍映射 {len(book_index)} 部")
 
 
 if __name__ == "__main__":
