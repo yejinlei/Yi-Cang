@@ -5,64 +5,276 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>医藏本体论 · 中华医藏七层知识本体</title>
 <style>
-  body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;margin:0;background:#0d1117;color:#e6edf3;line-height:1.7}
-  .wrap{max-width:900px;margin:0 auto;padding:60px 24px}
-  h1{font-size:2.4em;margin:0 0 8px;background:linear-gradient(90deg,#4ade80,#38bdf8);-webkit-background-clip:text;background-clip:text;color:transparent}
-  .sub{color:#8b949e;margin-bottom:40px;font-size:1.05em}
-  .card{background:#161b22;border:1px solid #30363d;border-radius:12px;padding:24px;margin-bottom:20px;transition:border-color .2s}
-  .card:hover{border-color:#4ade80}
-  .card a{color:#e6edf3;text-decoration:none}
-  .card h2{margin:0 0 8px;font-size:1.3em;color:#4ade80}
-  .card p{margin:0;color:#8b949e}
-  .tag{display:inline-block;background:rgba(74,222,128,.12);color:#4ade80;border:1px solid rgba(74,222,128,.3);border-radius:20px;padding:2px 12px;font-size:.85em;margin:0 6px 6px 0}
-  .meta{color:#6e7681;font-size:.9em;margin-top:40px;border-top:1px solid #30363d;padding-top:16px}
+  /* ===== 设计系统：深空蓝 + 星象金（参照 yejinlei.github.io 站内项目 · The Book of Changes 本体论）===== */
+  :root{
+    --gutter:40px;
+    --space:#060f1f; --space-2:#0a1628; --space-3:#0f1f3a;
+    --space-card:rgba(18,34,64,.78); --space-card-solid:#132544; --space-deep:#050b18;
+    --line:rgba(180,200,230,.18); --line-strong:rgba(200,215,240,.35); --line-soft:rgba(150,175,210,.1);
+    --shadow:0 4px 24px rgba(0,0,0,.45); --shadow-lg:0 12px 48px rgba(0,0,0,.6);
+    --ink:#e8edf5; --ink-2:#c8d3e5; --ink-3:#8a97ae; --ink-dim:#6a778e;
+    --zhu:#d94a4a; --zhu-deep:#b53232; --zhu-soft:#e87b72;
+    --gold:#d4b079; --gold-bright:#efd5a4; --gold-deep:#a88648;
+    --silver:#c8d0dd; --jade:#7bbfa6; --ice:#7aa8d4; --violet:#a888c8; --amber:#e0a060;
+    --radius:6px; --radius-lg:10px;
+    --font-serif:'Songti SC','STSong','SimSun','Noto Serif CJK SC','Source Han Serif SC','Noto Serif SC',serif;
+    --font-sans:'PingFang SC','Microsoft YaHei','Hiragino Sans GB','Noto Sans CJK SC',sans-serif;
+    --font-kai:'STKaiti','KaiTi','Kaiti SC',serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{
+    font-family:var(--font-serif);
+    background:var(--space-2); color:var(--ink);
+    line-height:1.9; font-size:16px; -webkit-font-smoothing:antialiased;
+    color-scheme:dark; position:relative; overflow-x:hidden;
+  }
+  /* 星空罗盘背景 */
+  body::before{
+    content:"";position:fixed;inset:0;z-index:-2;pointer-events:none;
+    background:
+      radial-gradient(ellipse 1200px 800px at 75% 35%, rgba(60,90,150,.35) 0%, transparent 55%),
+      radial-gradient(ellipse 900px 700px at 20% 75%, rgba(120,60,100,.18) 0%, transparent 55%),
+      radial-gradient(circle at 50% 50%, #0a1628 0%, #060f1f 100%);
+  }
+  body::after{
+    content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+    background-image:
+      radial-gradient(1px 1px at 13% 22%, rgba(255,255,255,.8), transparent 50%),
+      radial-gradient(1px 1px at 28% 56%, rgba(255,255,255,.6), transparent 50%),
+      radial-gradient(1.5px 1.5px at 44% 18%, rgba(230,210,170,.9), transparent 50%),
+      radial-gradient(1px 1px at 60% 72%, rgba(255,255,255,.7), transparent 50%),
+      radial-gradient(1px 1px at 72% 36%, rgba(255,255,255,.5), transparent 50%),
+      radial-gradient(1.5px 1.5px at 85% 62%, rgba(220,200,160,.85), transparent 50%),
+      radial-gradient(1px 1px at 92% 14%, rgba(255,255,255,.6), transparent 50%),
+      radial-gradient(1px 1px at 8% 82%, rgba(255,255,255,.55), transparent 50%),
+      radial-gradient(2px 2px at 52% 28%, rgba(255,230,180,.95), transparent 50%),
+      radial-gradient(1px 1px at 35% 88%, rgba(255,255,255,.5), transparent 50%);
+    background-size:100% 100%;
+    animation:starTwinkle 8s ease-in-out infinite alternate;
+  }
+  @keyframes starTwinkle{0%{opacity:.75;}100%{opacity:1;}}
+  a{color:var(--gold);text-decoration:none;transition:color .2s,text-shadow .2s;}
+  a:hover{color:var(--gold-bright);text-shadow:0 0 8px rgba(212,176,121,.5);}
+  h1,h2,h3,h4{font-family:var(--font-serif);font-weight:700;color:var(--ink);letter-spacing:1px;}
+  h2{font-size:26px;letter-spacing:4px;margin-bottom:20px;color:var(--gold-bright);}
+  ::selection{background:var(--zhu);color:#fff;}
+  ::-webkit-scrollbar{width:8px;height:8px;}
+  ::-webkit-scrollbar-track{background:var(--space-deep);}
+  ::-webkit-scrollbar-thumb{background:rgba(212,176,121,.25);border-radius:4px;}
+  ::-webkit-scrollbar-thumb:hover{background:rgba(212,176,121,.45);}
+
+  /* ===== 顶部导航 ===== */
+  .topbar{
+    position:sticky;top:0;z-index:1000;height:64px;
+    background:linear-gradient(180deg, rgba(10,22,40,.95) 0%, rgba(10,22,40,.82) 100%);
+    border-bottom:1px solid var(--line); box-shadow:0 2px 20px rgba(0,0,0,.5);
+    display:flex;align-items:center;justify-content:space-between;
+    padding:0 28px; backdrop-filter:blur(12px);
+  }
+  .logo{display:flex;align-items:center;gap:12px;color:var(--ink);font-weight:700;font-size:20px;letter-spacing:6px;}
+  .logo .taiji{font-size:26px;line-height:1;color:var(--gold);text-shadow:0 0 12px rgba(212,176,121,.6);}
+  .logo .en{font-size:10px;color:var(--ink-3);font-weight:400;letter-spacing:2px;margin-left:6px;font-family:var(--font-sans);}
+  .nav-links{display:flex;gap:2px;align-items:center;flex-wrap:wrap;}
+  .nav-links a{color:var(--ink-2);font-size:14px;padding:6px 12px;border-radius:4px;letter-spacing:1px;transition:all .2s;white-space:nowrap;}
+  .nav-links a:hover{background:rgba(212,176,121,.12);color:var(--gold-bright);text-shadow:0 0 8px rgba(212,176,121,.4);}
+  .nav-links a.active{color:var(--gold-bright);background:rgba(212,176,121,.14);font-weight:600;position:relative;}
+  .nav-links a.active::after{content:"";position:absolute;left:12px;right:12px;bottom:2px;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);}
+
+  /* ===== Hero 区 ===== */
+  .hero{
+    position:relative;overflow:hidden;z-index:1;text-align:center;
+    padding:60px 20px 40px;margin-bottom:24px;
+    background:
+      radial-gradient(ellipse 800px 400px at 50% 40%, rgba(40,70,130,.25) 0%, transparent 70%),
+      linear-gradient(180deg, rgba(8,16,32,.4) 0%, transparent 100%);
+    border-bottom:1px solid var(--line);
+  }
+  .hero-taiji{font-size:64px;color:var(--zhu);margin-bottom:8px;display:inline-block;animation:spin 60s linear infinite;text-shadow:0 0 24px rgba(217,74,74,.4);}
+  @keyframes spin{to{transform:rotate(360deg);}}
+  .hero h1{margin:0 0 6px;font-size:38px;letter-spacing:8px;}
+  .hero .subtitle{margin-bottom:14px;color:var(--ink-3);font-size:15px;letter-spacing:3px;}
+  .quote{
+    background:linear-gradient(135deg, rgba(217,74,74,.08), rgba(212,176,121,.05));
+    border-left:3px solid var(--zhu); border-right:1px solid var(--line);
+    border-top:1px solid var(--line); border-bottom:1px solid var(--line);
+    padding:14px 22px;margin:0 auto 20px;max-width:760px;
+    border-radius:0 var(--radius) var(--radius) 0;
+    font-family:var(--font-kai); font-size:17px;color:var(--ink);
+  }
+  .stats-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;max-width:1100px;width:100%;margin:0 auto;}
+  .stat-card{
+    background:rgba(255,255,255,.04);border:1px solid rgba(212,176,121,.18);
+    border-radius:var(--radius-lg);padding:18px 10px;text-align:center;
+    backdrop-filter:blur(4px);transition:all .3s;
+  }
+  .stat-card:hover{background:rgba(212,176,121,.12);border-color:var(--gold);transform:translateY(-3px);}
+  .stat-card .stat-num{font-size:30px;color:var(--gold-bright);font-weight:700;letter-spacing:2px;font-family:var(--font-serif);text-shadow:0 0 16px rgba(212,176,121,.3);}
+  .stat-card .stat-label{color:var(--ink);font-size:14px;letter-spacing:3px;margin-top:6px;font-weight:600;}
+  .stat-card .stat-sub{color:var(--ink-3);font-size:11px;letter-spacing:2px;margin-top:2px;}
+
+  /* ===== 内容区 ===== */
+  .content{max-width:1080px;margin:0 auto;padding:32px var(--gutter) 60px;}
+
+  /* ===== 区块卡片 ===== */
+  .section{
+    background:var(--space-card);border:1px solid var(--line);
+    border-radius:var(--radius-lg);padding:28px 32px;margin-bottom:24px;
+    backdrop-filter:blur(6px); box-shadow:var(--shadow);
+  }
+  .section-title{
+    font-size:22px;color:var(--gold-bright);letter-spacing:4px;
+    margin-bottom:18px;padding-bottom:10px;border-bottom:1px solid var(--line);
+    display:flex;align-items:center;gap:10px;
+  }
+  .section-title .icon{color:var(--zhu);font-size:20px;}
+
+  /* ===== 入口卡片 ===== */
+  .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;}
+  .card{
+    background:rgba(255,255,255,.03);border:1px solid var(--line);
+    border-radius:var(--radius-lg);padding:22px 24px;display:block;
+    transition:all .3s;position:relative;overflow:hidden;
+  }
+  .card::before{
+    content:"";position:absolute;left:0;top:0;bottom:0;width:3px;
+    background:linear-gradient(180deg,var(--gold),transparent);opacity:0;transition:opacity .3s;
+  }
+  .card:hover{border-color:var(--gold);background:rgba(212,176,121,.07);transform:translateY(-4px);box-shadow:var(--shadow-lg);}
+  .card:hover::before{opacity:1;}
+  .card:hover h3{color:var(--gold-bright);text-shadow:0 0 10px rgba(212,176,121,.3);}
+  .card .card-icon{font-size:26px;color:var(--gold);margin-bottom:10px;display:inline-block;}
+  .card h3{margin:0 0 8px;font-size:18px;letter-spacing:2px;color:var(--ink);transition:all .2s;}
+  .card p{margin:0 0 12px;color:var(--ink-3);font-size:14px;line-height:1.8;font-family:var(--font-sans);}
+  .card .tags{display:flex;gap:6px;flex-wrap:wrap;}
+  .card .tag{display:inline-block;background:rgba(212,176,121,.1);color:var(--gold);border:1px solid rgba(212,176,121,.25);border-radius:20px;padding:2px 12px;font-size:12px;letter-spacing:1px;font-family:var(--font-sans);}
+  .card .arrow{position:absolute;right:18px;top:20px;color:var(--ink-dim);font-size:16px;transition:all .3s;}
+  .card:hover .arrow{color:var(--gold-bright);transform:translateX(4px);}
+
+  /* ===== 页脚 ===== */
+  .footer{border-top:1px solid var(--line);padding:20px 40px;text-align:center;color:var(--ink-3);font-size:12px;letter-spacing:2px;font-family:var(--font-sans);}
+
+  /* ===== 响应式 ===== */
+  @media (max-width:900px){
+    .stats-grid{grid-template-columns:repeat(3,1fr);}
+    .hero{padding:40px 14px 30px;}
+    .cards{grid-template-columns:1fr;}
+  }
+  @media (max-width:640px){
+    body{font-size:15px;}
+    .stats-grid{grid-template-columns:repeat(2,1fr);gap:8px;}
+    .stat-card{padding:12px 6px;}
+    .stat-card .stat-num{font-size:22px;}
+    .logo .en{display:none;}
+    .logo{font-size:16px;letter-spacing:3px;}
+    .nav-links a{padding:6px 8px;font-size:12px;}
+    .content{padding:20px 16px 48px;}
+    .section{padding:20px 18px;}
+  }
 </style>
 </head>
 <body>
-<div class="wrap">
+
+<!-- 顶部导航 -->
+<header class="topbar">
+  <a class="logo" href="index.html">
+    <span class="taiji">☯</span>医藏本体论<span class="en">THE ONTOLOGY OF YI-CANG</span>
+  </a>
+  <nav class="nav-links">
+    <a href="index.html" class="active">首页</a>
+    <a href="data/ontology/yizang_tree.html">七层树</a>
+    <a href="data/ontology/yizang_kg.html">知识元图谱</a>
+    <a href="data/ontology/yizang_graph.html">概念图谱</a>
+    <a href="data/yizang/categories.json">分类标注</a>
+    <a href="data/yizang/index.json">医书索引</a>
+    <a href="docs/ontology_spec.md">实现蓝图</a>
+  </nav>
+</header>
+
+<!-- Hero 区 -->
+<section class="hero">
+  <span class="hero-taiji">☯</span>
   <h1>医藏本体论</h1>
-  <div class="sub">对齐《中华医藏》四编二十八类 · 兼容 W3C OWL 2 DL · 七层嵌套金字塔知识本体</div>
+  <div class="subtitle">对齐《中华医藏》四编二十八类 · 兼容 W3C OWL 2 DL · 七层嵌套金字塔知识本体</div>
+  <div class="quote">「凡诸草木昆虫，产之有地；根叶花实，采之有时。失其地则性味少异，失其时则气味不全。」——《本草纲目》</div>
+  <div class="stats-grid">
+    <div class="stat-card"><div class="stat-num">788</div><div class="stat-label">医书</div><div class="stat-sub">殆知阁藏本</div></div>
+    <div class="stat-card"><div class="stat-num">28</div><div class="stat-label">类目</div><div class="stat-sub">四编二十八类</div></div>
+    <div class="stat-card"><div class="stat-num">20227</div><div class="stat-label">知识元</div><div class="stat-sub">病证方药</div></div>
+    <div class="stat-card"><div class="stat-num">42541</div><div class="stat-label">关系边</div><div class="stat-sub">组成·用方</div></div>
+    <div class="stat-card"><div class="stat-num">7</div><div class="stat-label">层级</div><div class="stat-sub">金字塔本体</div></div>
+    <div class="stat-card"><div class="stat-num">OWL</div><div class="stat-label">标准</div><div class="stat-sub">2 DL 兼容</div></div>
+  </div>
+</section>
 
-  <div class="card"><a href="data/ontology/yizang_tree.html">
-    <h2>七层嵌套金字塔 · 交互原型</h2>
-    <p>D3.js 分层树：BFO → 四大根类 → 四编二十八类 → 788 部医书 → 篇章 → 知识元 → 条文异文，点击下钻、面包屑导航、右侧详情。</p>
-  </a></div>
+<!-- 内容入口 -->
+<main class="content">
 
-  <div class="card"><a href="data/ontology/yizang_kg.html">
-    <h2>知识图谱 · 内容层知识元（病-证-方-药）</h2>
-    <p>ECharts 力导向图：20227 节点（5929 中药 / 12221 方剂 / 2077 证候）× 42541 边（方剂-药物组成 / 证候-用方），可拖拽、缩放、点击详情、图例筛选、搜索定位。</p>
-  </a></div>
-
-  <div class="card"><a href="data/ontology/yizang_graph.html">
-    <h2>知识图谱 · 概念结构（书籍-分类）</h2>
-    <p>ECharts 力导向图：839 节点（概念类/五行/类目/四编/788 典籍）× 848 边（归类/概念/五行生克/学术传承），可拖拽、缩放、点击详情。</p>
-  </a></div>
-
-  <div class="card"><a href="data/yizang/categories.json">
-    <h2>四编二十八类分类标注（L3）</h2>
-    <p>788 部殆知阁医书全部归入 28 类，0 部兜底，含归类置信度与匹配规则。</p>
-  </a></div>
-
-  <div class="card"><a href="data/yizang/index.json">
-    <h2>788 部医书完整索引（L4）</h2>
-    <p>每部书名、文件路径、字节数、字符数、汉字数，附《中华医藏》2289 种官方书目框架。</p>
-  </a></div>
-
-  <div class="card"><a href="data/ontology/yizang_meta_ontology.jsonld">
-    <h2>L1/L2 OWL 元类定义（JSON-LD）</h2>
-    <p>BFO 持续/瞬时实体 + 四大根类 + 理论/诊疗/资源细分，15 对象属性 + 16 数据属性，owl:imports BFO。</p>
-  </a></div>
-
-  <div class="card"><a href="docs/ontology_spec.md">
-    <h2>最终实现蓝图（Spec）</h2>
-    <p>整体层级总图、对象/数据属性全展开表、七层约束红线、落地映射。</p>
-  </a></div>
-
-  <div>
-    <span class="tag">四编</span><span class="tag">二十八类</span><span class="tag">788 部原文</span><span class="tag">OWL 2 DL</span><span class="tag">JSON-LD</span><span class="tag">七层金字塔</span>
+  <div class="section">
+    <div class="section-title"><span class="icon">◈</span>可视化探索</div>
+    <div class="cards">
+      <a class="card" href="data/ontology/yizang_tree.html">
+        <span class="card-icon">❖</span><span class="arrow">→</span>
+        <h3>七层嵌套金字塔 · 交互原型</h3>
+        <p>D3.js 分层树：BFO → 四大根类 → 四编二十八类 → 788 部医书 → 篇章 → 知识元 → 条文异文，点击下钻、面包屑导航、右侧详情。</p>
+        <div class="tags"><span class="tag">D3.js</span><span class="tag">分层树</span><span class="tag">下钻</span></div>
+      </a>
+      <a class="card" href="data/ontology/yizang_kg.html">
+        <span class="card-icon">✦</span><span class="arrow">→</span>
+        <h3>知识图谱 · 内容层知识元（病-证-方-药）</h3>
+        <p>ECharts 力导向图：20227 节点（5929 中药 / 12221 方剂 / 2077 证候）× 42541 边（方剂-药物组成 / 证候-用方），拖拽、缩放、详情、图例筛选、搜索定位。</p>
+        <div class="tags"><span class="tag">ECharts</span><span class="tag">力导向</span><span class="tag">原文阅读</span></div>
+      </a>
+      <a class="card" href="data/ontology/yizang_graph.html">
+        <span class="card-icon">✵</span><span class="arrow">→</span>
+        <h3>知识图谱 · 概念结构（书籍-分类）</h3>
+        <p>ECharts 力导向图：839 节点（概念类/五行/类目/四编/788 典籍）× 848 边（归类/概念/五行生克/学术传承），拖拽、缩放、详情。</p>
+        <div class="tags"><span class="tag">ECharts</span><span class="tag">概念结构</span><span class="tag">五行</span></div>
+      </a>
+      <a class="card" href="data/yizang/categories.json">
+        <span class="card-icon">☰</span><span class="arrow">→</span>
+        <h3>四编二十八类分类标注（L3）</h3>
+        <p>788 部殆知阁医书全部归入 28 类，0 部兜底，含归类置信度与匹配规则。</p>
+        <div class="tags"><span class="tag">JSON</span><span class="tag">L3</span><span class="tag">28 类</span></div>
+      </a>
+      <a class="card" href="data/yizang/index.json">
+        <span class="card-icon">▤</span><span class="arrow">→</span>
+        <h3>788 部医书完整索引（L4）</h3>
+        <p>每部书名、文件路径、字节数、字符数、汉字数，附《中华医藏》2289 种官方书目框架。</p>
+        <div class="tags"><span class="tag">JSON</span><span class="tag">L4</span><span class="tag">788 部</span></div>
+      </a>
+      <a class="card" href="data/ontology/yizang_meta_ontology.jsonld">
+        <span class="card-icon">◉</span><span class="arrow">→</span>
+        <h3>L1/L2 OWL 元类定义（JSON-LD）</h3>
+        <p>BFO 持续/瞬时实体 + 四大根类 + 理论/诊疗/资源细分，15 对象属性 + 16 数据属性，owl:imports BFO。</p>
+        <div class="tags"><span class="tag">JSON-LD</span><span class="tag">OWL</span><span class="tag">BFO</span></div>
+      </a>
+    </div>
   </div>
 
-  <div class="meta">参照佛学本体论 / 易经本体论范式 · 殆知阁医藏文本 · 构建日期 2026-11-12</div>
-</div>
+  <div class="section">
+    <div class="section-title"><span class="icon">◈</span>规范与文档</div>
+    <div class="cards">
+      <a class="card" href="docs/ontology_spec.md">
+        <span class="card-icon">▦</span><span class="arrow">→</span>
+        <h3>最终实现蓝图（Spec）</h3>
+        <p>整体层级总图、对象/数据属性全展开表、七层约束红线、落地映射。</p>
+        <div class="tags"><span class="tag">Spec</span><span class="tag">七层</span></div>
+      </a>
+      <a class="card" href="docs/ontology_spec.md">
+        <span class="card-icon">✧</span><span class="arrow">→</span>
+        <h3>设计规范 · 深空蓝 + 星象金</h3>
+        <p>参照《易经》本体论范式统一视觉系统：星象金、朱砂、冰蓝、翠玉、紫晶五色体系，衬线主排。</p>
+        <div class="tags"><span class="tag">Design</span><span class="tag">系统</span><span class="tag">深空蓝</span></div>
+      </a>
+    </div>
+  </div>
+
+</main>
+
+<!-- 页脚 -->
+<footer class="footer">
+  参照佛学本体论 / 易经本体论范式 · 殆知阁医藏文本 · 中华医藏七层知识本体 · 构建日期 2026-11-12
+</footer>
+
 </body>
 </html>
