@@ -163,6 +163,35 @@
   .reader-search .btn:disabled{opacity:.4;cursor:default;background:transparent;color:var(--ink-3);border-color:var(--line);}
   .reader-search .rnav{display:flex;gap:6px;align-items:center;}
   .reader-search .rcount{color:var(--ink-3);font-size:11px;font-family:var(--font-sans);letter-spacing:1px;white-space:nowrap;}
+  .reader-search .rmode{color:var(--amber);font-size:11px;font-family:var(--font-sans);letter-spacing:1px;}
+
+  /* ===== 跨书全文检索面板 ===== */
+  .toolbar .search .btn{cursor:pointer;border:1px solid var(--line-strong);background:transparent;color:var(--gold);padding:8px 14px;border-radius:var(--radius);font-size:13px;letter-spacing:1px;font-family:var(--font-serif);transition:all .2s;white-space:nowrap;}
+  .toolbar .search .btn:hover{background:rgba(212,176,121,.12);color:var(--gold-bright);border-color:var(--gold);}
+  .cross-mask{position:fixed;inset:0;z-index:900;background:rgba(5,11,24,.7);backdrop-filter:blur(4px);display:none;align-items:center;justify-content:center;}
+  .cross-panel{width:640px;max-width:calc(100vw - 40px);max-height:80vh;background:var(--space-card-solid);border:1px solid rgba(212,176,121,.28);border-radius:var(--radius-lg);box-shadow:var(--shadow-lg);display:flex;flex-direction:column;}
+  .cross-head{display:flex;align-items:center;justify-content:space-between;padding:14px 18px;border-bottom:1px solid var(--line);}
+  .cross-head span{color:var(--gold-bright);font-size:16px;letter-spacing:2px;font-weight:700;}
+  .cross-head button{background:none;border:none;color:var(--ink-3);font-size:20px;cursor:pointer;line-height:1;}
+  .cross-head button:hover{color:var(--zhu);}
+  .cross-body{padding:16px 18px;overflow:auto;}
+  .cross-info{color:var(--ink-3);font-size:13px;line-height:1.9;margin-bottom:12px;font-family:var(--font-sans);}
+  .cross-input{display:flex;gap:8px;margin-bottom:12px;}
+  .cross-input input{flex:1;background:var(--space);border:1px solid var(--line-strong);border-radius:var(--radius);color:var(--ink);padding:8px 12px;font-size:14px;outline:none;font-family:var(--font-sans);}
+  .cross-input input:focus{border-color:var(--gold);}
+  .cross-input button{cursor:pointer;border:1px solid var(--gold);background:rgba(212,176,121,.14);color:var(--gold-bright);padding:8px 18px;border-radius:var(--radius);font-size:13px;letter-spacing:2px;font-family:var(--font-serif);}
+  .cross-input button:hover{background:rgba(212,176,121,.24);}
+  .cross-progress{display:none;align-items:center;gap:10px;margin-bottom:12px;}
+  .cross-bar{flex:1;height:6px;background:var(--space);border:1px solid var(--line);border-radius:3px;overflow:hidden;}
+  .cross-bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--gold-deep),var(--gold-bright));transition:width .15s;}
+  .cross-progress span{color:var(--ink-3);font-size:12px;font-family:var(--font-sans);white-space:nowrap;}
+  .cross-results .cross-tip{color:var(--gold);font-size:13px;margin-bottom:8px;letter-spacing:1px;}
+  .cross-results .cross-empty{color:var(--ink-3);font-size:13px;}
+  .cross-hit{display:flex;align-items:center;gap:10px;padding:8px 12px;border:1px solid var(--line);border-radius:var(--radius);margin-bottom:6px;cursor:pointer;transition:all .2s;background:rgba(255,255,255,.02);}
+  .cross-hit:hover{border-color:var(--gold);background:rgba(212,176,121,.08);}
+  .cross-hit .cn{color:var(--ink);font-size:14px;font-weight:600;flex:1;}
+  .cross-hit .cn2{color:var(--ice);font-size:12px;font-family:var(--font-sans);}
+  .cross-hit .cn3{color:var(--gold);font-size:12px;font-family:var(--font-sans);white-space:nowrap;}
 
   /* ===== 页脚 ===== */
   .footer{border-top:1px solid var(--line);padding:20px 40px;text-align:center;color:var(--ink-3);font-size:12px;letter-spacing:2px;font-family:var(--font-sans);}
@@ -205,7 +234,7 @@
   <div class="toolbar">
     <div class="toolbar-row">
       <span class="toolbar-label">检 索</span>
-      <div class="search"><input type="text" id="searchInput" placeholder="输入书名、类目关键词检索…" autocomplete="off"></div>
+      <div class="search"><input type="text" id="searchInput" placeholder="输入书名、类目关键词检索…" autocomplete="off"><button class="btn" onclick="openCross()">跨书全文检索</button></div>
       <span class="result-count" id="resultCount"></span>
     </div>
     <div class="toolbar-row" id="bianFilter">
@@ -229,6 +258,31 @@
   参照佛学本体论 / 易经本体论范式 · 殆知阁医藏文本 · 中华医藏七层知识本体 · 构建日期 2026-11-12
 </footer>
 
+<!-- 跨书全文检索面板 -->
+<div class="cross-mask" id="crossMask">
+  <div class="cross-panel">
+    <div class="cross-head">
+      <span>跨书全文检索</span>
+      <button onclick="closeCross()">✕</button>
+    </div>
+    <div class="cross-body">
+      <div class="cross-info">
+        在当前<strong>筛选范围</strong>（编次/类目）内的全部医书中检索关键词，逐部 fetch 原文统计命中数。<br>
+        支持 <code>/正则/</code> 语法。并发受限以防阻塞；命中数越多的书越靠前。
+      </div>
+      <div class="cross-input">
+        <input type="text" id="crossInput" placeholder="输入要全文检索的关键词，如：桂枝 / 温病 / 阴阳…" autocomplete="off">
+        <button onclick="startCross()">检 索</button>
+      </div>
+      <div class="cross-progress" id="crossProgress">
+        <div class="cross-bar"><i id="crossBar"></i></div>
+        <span id="crossPct">0%</span>
+      </div>
+      <div class="cross-results" id="crossResults"></div>
+    </div>
+  </div>
+</div>
+
 <!-- 原文阅读抽屉 -->
 <div class="reader" id="reader">
   <div class="reader-head">
@@ -236,7 +290,8 @@
     <button class="rclose" onclick="hideReader()">✕</button>
   </div>
   <div class="reader-search">
-    <input type="text" id="readerSearch" placeholder="在原文中检索关键词…" autocomplete="off">
+    <input type="text" id="readerSearch" placeholder="在原文中检索关键词…支持 /正则/" autocomplete="off" list="readerHist">
+    <datalist id="readerHist"></datalist>
     <div class="rnav">
       <button class="btn" id="readerSearchBtn" onclick="doReaderSearch()">检 索</button>
       <button class="btn" id="readerPrevBtn" onclick="readerNav(-1)" title="上一处命中" disabled>▲</button>
@@ -277,7 +332,24 @@ function loadData() {
       buildStats();
       buildLeiFilter();
       render();
+      bindReaderKeys();
     });
+}
+
+// 键盘快捷键：抽屉内 Ctrl/Cmd+F 聚焦检索、Enter 下一处、Shift+Enter 上一处、Esc 关闭
+function bindReaderKeys() {
+  const rSearch = document.getElementById('readerSearch');
+  if (rSearch) {
+    rSearch.addEventListener('keydown', e => {
+      if (e.key === 'Enter') { e.preventDefault(); if (e.shiftKey) readerNav(-1); else readerNav(1); }
+      if (e.key === 'Escape') { hideReader(); }
+    });
+  }
+  document.addEventListener('keydown', e => {
+    if ((e.ctrlKey || e.metaKey) && (e.key === 'f' || e.key === 'F')) {
+      if (readerEl.style.display === 'flex') { e.preventDefault(); rSearch && rSearch.focus(); }
+    }
+  });
 }
 
 function buildStats() {
@@ -404,27 +476,66 @@ function openReader(bookName, file, lei) {
 }
 function hideReader() { readerEl.style.display = 'none'; curTxt = null; resetReaderSearchUI(); }
 
-// 原文内检索：indexOf 逐次替换高亮（最多 2000 处，保护性能），支持命中计数 + 跨命中导航
+// 原文内检索：支持 /正则/ 与纯文本两种模式，indexOf 逐次替换高亮（最多 2000 处，保护性能），支持命中计数 + 跨命中导航
 const MAX_HITS = 2000;
+let readerHistList = [];   // 检索历史（本次会话）
+function parseReaderQuery(q) {
+  // /正则/ 语法 → 返回 {type:'re', re, src}; 否则纯文本 {type:'text', needle}
+  const m = q.match(/^\/(.+)\/([gimuy]*)$/);
+  if (m) {
+    try { return { type: 're', re: new RegExp(m[1], m[2].replace('g', '') + 'g') }; }
+    catch (e) { return { type: 'bad', err: e.message }; }
+  }
+  return { type: 'text', needle: q };
+}
+function pushReaderHist(q) {
+  if (!q) return;
+  readerHistList = readerHistList.filter(x => x !== q);
+  readerHistList.unshift(q);
+  if (readerHistList.length > 20) readerHistList = readerHistList.slice(0, 20);
+  const dl = document.getElementById('readerHist');
+  if (dl) dl.innerHTML = readerHistList.map(x => `<option value="${x.replace(/"/g, '&quot;')}"></option>`).join('');
+}
 function doReaderSearch() {
   const q = document.getElementById('readerSearch').value.trim();
   const bodyEl = document.getElementById('readerBody');
   if (!q) return;
   if (!curTxt) { bodyEl.innerHTML = '<div style="color:var(--ink-3);font-size:13px;">原文尚未加载完成，请稍候。</div>'; return; }
-  let html = curTxt.replace(/</g, '&lt;').replace(/>/g, '&gt;');
-  let remaining = html, acc = '';
-  let lower = remaining.toLowerCase();
-  const needle = q.toLowerCase();
-  let idx = lower.indexOf(needle);
-  let guard = 0; let found = false;
-  while (idx !== -1 && guard < MAX_HITS) {
-    acc += remaining.slice(0, idx) + '<mark>' + remaining.slice(idx, idx + q.length) + '</mark>';
-    remaining = remaining.slice(idx + q.length);
-    lower = remaining.toLowerCase();
-    idx = lower.indexOf(needle);
-    guard++; found = true;
+  const parsed = parseReaderQuery(q);
+  if (parsed.type === 'bad') {
+    bodyEl.innerHTML = `<pre class="reader-full">${curTxt.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre><div style="color:var(--zhu);font-size:13px;margin-top:10px;">正则语法错误：${parsed.err}</div>`;
+    resetReaderSearchUI();
+    return;
   }
-  acc += remaining;
+  pushReaderHist(q);
+  const safeHtml = curTxt.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  let acc = '', found = false, guard = 0, remaining = safeHtml;
+  if (parsed.type === 're') {
+    // 正则模式：用 exec 逐个匹配，拼接高亮
+    const re = parsed.re; re.lastIndex = 0;
+    let last = 0; let m;
+    while ((m = re.exec(safeHtml)) !== null) {
+      if (guard >= MAX_HITS) { break; }
+      acc += safeHtml.slice(last, m.index) + '<mark>' + m[0] + '</mark>';
+      last = m.index + m[0].length;
+      found = true; guard++;
+      if (m[0].length === 0) re.lastIndex++; // 防零宽死循环
+    }
+    acc += safeHtml.slice(last);
+  } else {
+    // 纯文本模式：indexOf 逐次替换
+    const needle = parsed.needle.toLowerCase();
+    let lower = remaining.toLowerCase();
+    let idx = lower.indexOf(needle);
+    while (idx !== -1 && guard < MAX_HITS) {
+      acc += remaining.slice(0, idx) + '<mark>' + remaining.slice(idx, idx + parsed.needle.length) + '</mark>';
+      remaining = remaining.slice(idx + parsed.needle.length);
+      lower = remaining.toLowerCase();
+      idx = lower.indexOf(needle);
+      guard++; found = true;
+    }
+    acc += remaining;
+  }
   bodyEl.innerHTML = `<pre class="reader-full">${acc}</pre>`;
   if (!found) {
     bodyEl.innerHTML += `<div style="color:var(--ink-3);font-size:13px;margin-top:10px;">原文中未检索到「${q}」。</div>`;
@@ -483,10 +594,100 @@ document.getElementById('searchInput').addEventListener('input', function () {
 document.getElementById('searchInput').addEventListener('keydown', function (e) {
   if (e.key === 'Enter') { clearTimeout(searchTimer); curQuery = this.value.trim(); render(true); }
 });
-// 原文检索框回车
-document.getElementById('readerSearch').addEventListener('keydown', function (e) {
-  if (e.key === 'Enter') doReaderSearch();
+// 跨书检索框回车 + Esc 关闭
+document.getElementById('crossInput').addEventListener('keydown', function (e) {
+  if (e.key === 'Enter') { e.preventDefault(); startCross(); }
+  if (e.key === 'Escape') { closeCross(); }
 });
+// 跨书面板点击遮罩关闭
+document.getElementById('crossMask').addEventListener('click', function (e) {
+  if (e.target === this) closeCross();
+});
+
+// ---- 跨书全文检索：当前筛选范围内逐部 fetch，并发受限，命中数排序 ----
+const CROSS_CONCURRENCY = 6;
+let crossAbort = false;
+function escapeHtml(s) { return s.replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+function openCross() {
+  document.getElementById('crossMask').style.display = 'flex';
+  const input = document.getElementById('crossInput');
+  input.value = '';
+  document.getElementById('crossResults').innerHTML = '';
+  document.getElementById('crossProgress').style.display = 'none';
+  document.getElementById('crossBar').style.width = '0';
+  document.getElementById('crossPct').textContent = '0%';
+  setTimeout(() => input.focus(), 50);
+}
+function closeCross() {
+  crossAbort = true;
+  document.getElementById('crossMask').style.display = 'none';
+}
+function startCross() {
+  const q = document.getElementById('crossInput').value.trim();
+  if (!q) return;
+  const parsed = parseReaderQuery(q);
+  if (parsed.type === 'bad') {
+    document.getElementById('crossResults').innerHTML = `<div class="cross-empty">正则语法错误：${parsed.err}</div>`;
+    return;
+  }
+  crossAbort = false;
+  const targets = filtered();   // 当前筛选范围内的书
+  const resultsEl = document.getElementById('crossResults');
+  const progEl = document.getElementById('crossProgress');
+  const barEl = document.getElementById('crossBar');
+  const pctEl = document.getElementById('crossPct');
+  progEl.style.display = 'flex';
+  resultsEl.innerHTML = `<div class="cross-empty">开始检索「${q}」，共 ${targets.length} 部…</div>`;
+  barEl.style.width = '0';
+  pctEl.textContent = '0%';
+  const results = [];
+  let done = 0;
+  const needle = parsed.type === 'text' ? parsed.needle.toLowerCase() : null;
+  const re = parsed.type === 're' ? new RegExp(parsed.re.source, parsed.re.flags) : null;
+  function processItem(book) {
+    if (crossAbort) return Promise.resolve();
+    return fetch(book.file).then(r => r.text()).then(txt => {
+      let count = 0;
+      if (needle) {
+        const low = txt.toLowerCase(); let idx = low.indexOf(needle);
+        while (idx !== -1) { count++; idx = low.indexOf(needle, idx + needle.length); }
+      } else if (re) {
+        const rr = new RegExp(re.source, re.flags.replace('g', '') + 'g'); let m;
+        while ((m = rr.exec(txt)) !== null) { count++; if (m[0].length === 0) rr.lastIndex++; }
+      }
+      if (count > 0) results.push({ name: book.name, file: book.file, lei: book.lei, count: count });
+    }).catch(() => { /* 单本失败忽略 */ });
+  }
+  async function run() {
+    // 并发受限批次
+    let i = 0;
+    while (i < targets.length && !crossAbort) {
+      const batch = targets.slice(i, i + CROSS_CONCURRENCY);
+      await Promise.all(batch.map(processItem));
+      i += CROSS_CONCURRENCY;
+      done = Math.min(i, targets.length);
+      const pct = Math.round(done / targets.length * 100);
+      barEl.style.width = pct + '%';
+      pctEl.textContent = pct + '%';
+    }
+    if (crossAbort) return;
+    results.sort((a, b) => b.count - a.count);
+    if (!results.length) {
+      resultsEl.innerHTML = `<div class="cross-empty">「${q}」在 ${targets.length} 部中均未检索到命中。</div>`;
+    } else {
+      const top = results.slice(0, 60);
+      resultsEl.innerHTML = `<div class="cross-tip">命中 ${results.length} 部（共 ${targets.length} 部）· 按命中数降序，展示前 ${top.length} 部：</div>` +
+        top.map(r => `<div class="cross-hit" data-file="${escapeHtml(r.file)}" data-name="${escapeHtml(r.name)}" data-lei="${escapeHtml(r.lei)}"><span class="cn">${r.name}</span><span class="cn2">${r.lei || ''}</span><span class="cn3">${r.count} 处</span></div>`).join('');
+      resultsEl.querySelectorAll('.cross-hit').forEach(hit => {
+        hit.onclick = () => {
+          closeCross();
+          openReader(hit.dataset.name, hit.dataset.file, hit.dataset.lei);
+        };
+      });
+    }
+  }
+  run();
+}
 
 loadData();
 </script>
